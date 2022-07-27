@@ -93,6 +93,38 @@ fig
 Row {data-height=450}
 -----------------------------------------------------------------------
 
+### R Translation Teams | <small> Contact Details </small>
+
+```{r}
+trans_team_data %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      Language = colDef(
+        name = "Translation Language",
+        filterable = TRUE,
+      ),
+      Members = colDef(
+        name = "Members",
+        filterable = TRUE,
+      ),
+      Contact = colDef(
+        name = "Email Contacts",
+        filterable = TRUE,
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
 ### Count of Translated Messages | <small> Across Packages </small>
 
 ```{r}
@@ -190,7 +222,7 @@ complete_untrans_df %>%
 Row {data-height=450}
 -----------------------------------------------------------------------
 
-### COunt of All Messages | <small> Across Packages </small>
+### Count of All Messages | <small> Across Packages </small>
 
 ```{r}
 final_df %>%

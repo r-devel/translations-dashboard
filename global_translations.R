@@ -38,3 +38,34 @@ complete_trans_df <- subset(final_df, untranslated_count == 0, select = -c(fuzzy
 
 # Untranslated Packages with respective languages associated
 complete_untrans_df <- subset(final_df, translated_count == 0, select = -c(fuzzy_count))
+
+# R Language Translation Team Contact details
+library(rvest)
+library(xml2)
+library(stringr)
+
+trans_team_wbpg <- read_html("https://developer.r-project.org/TranslationTeams.html")
+
+lang <- trans_team_wbpg %>%
+  html_nodes("td:nth-child(1)") %>%
+  html_text() %>%
+  str_trim(., side = "left")
+
+lang_members <- trans_team_wbpg %>%
+  html_nodes("td+ td") %>%
+  html_text() %>%
+  str_trim(., side = "both") %>% gsub("\n", "", .)
+
+members_contact <- gsub(".*<", "", lang_members) %>%
+  gsub(">", "", .) %>%
+  gsub(",.*", "", .) %>% str_trim(., side = "right")
+
+lang_members <- str_extract(lang_members, ".*(?=\\<)") %>%
+  str_trim(., side = "right")
+lang_members[16] = members_contact[16]
+members_contact[16] = NA
+
+trans_team_data <- data.frame(Language = lang, Members = lang_members, 
+                              Contact = members_contact)
+trans_team_data$Members <- trans_team_data$Members %>% as.character() %>% 
+  replace_na('No current maintainer')
