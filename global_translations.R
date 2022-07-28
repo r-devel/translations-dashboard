@@ -41,31 +41,24 @@ complete_untrans_df <- subset(final_df, translated_count == 0, select = -c(fuzzy
 
 # R Language Translation Team Contact details
 library(rvest)
-library(xml2)
 library(stringr)
 
-trans_team_wbpg <- read_html("https://developer.r-project.org/TranslationTeams.html")
+translation_teams <- read_html("https://developer.r-project.org/TranslationTeams.html") |>
+  html_node("table") |>
+  html_table()
 
-lang <- trans_team_wbpg %>%
-  html_nodes("td:nth-child(1)") %>%
-  html_text() %>%
-  str_trim(., side = "left")
+members_contact <- translation_teams$Contact |>
+  gsub(pattern = ".*<", replacement = "") |>
+  gsub(pattern = ">", replacement = "") |>
+  gsub(pattern = ",.*", replacement = "") |> 
+  str_trim(side = "right")
 
-lang_members <- trans_team_wbpg %>%
-  html_nodes("td+ td") %>%
-  html_text() %>%
-  str_trim(., side = "both") %>% gsub("\n", "", .)
+lang_members <- translation_teams$Contact |>
+  gsub(pattern = "\n", replacement = "") |>
+  str_extract(pattern = ".*(?=\\<)") |>
+  str_trim(side = "right") |>
+  replace_na(replace = "No current maintainer")
 
-members_contact <- gsub(".*<", "", lang_members) %>%
-  gsub(">", "", .) %>%
-  gsub(",.*", "", .) %>% str_trim(., side = "right")
-
-lang_members <- str_extract(lang_members, ".*(?=\\<)") %>%
-  str_trim(., side = "right")
-lang_members[16] = members_contact[16]
-members_contact[16] = NA
-
-trans_team_data <- data.frame(Language = lang, Members = lang_members, 
-                              Contact = members_contact)
-trans_team_data$Members <- trans_team_data$Members %>% as.character() %>% 
-  replace_na('No current maintainer')
+translation_teams$Members <- lang_members
+translation_teams$Contact <- members_contact
+translation_teams <- translation_teams[, c("Language", "Members", "Contact")]

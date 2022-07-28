@@ -96,7 +96,7 @@ Row {data-height=450}
 ### R Translation Teams | <small> Contact Details </small>
 
 ```{r}
-trans_team_data %>%
+translation_teams %>%
   reactable(
     .,
     pagination = TRUE,
@@ -105,11 +105,11 @@ trans_team_data %>%
     defaultColDef = colDef(headerClass = "header", align = "left"),
     columns = list(
       Language = colDef(
-        name = "Translation Language",
+        name = "Translation Languages",
         filterable = TRUE,
       ),
       Members = colDef(
-        name = "Members",
+        name = "R-Core Lead Maintainers",
         filterable = TRUE,
       ),
       Contact = colDef(
