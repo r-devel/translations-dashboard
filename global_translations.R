@@ -44,21 +44,14 @@ library(rvest)
 library(stringr)
 
 translation_teams <- read_html("https://developer.r-project.org/TranslationTeams.html") |>
-  html_node("table") |>
+  html_node("table , th") |>
   html_table()
 
-members_contact <- translation_teams$Contact |>
-  gsub(pattern = ".*<", replacement = "") |>
-  gsub(pattern = ">", replacement = "") |>
-  gsub(pattern = ",.*", replacement = "") |> 
+translation_teams$Members <- translation_teams$Contact |>
+  gsub(pattern = "(.*)<.*", replacement = "\\1") |>
   str_trim(side = "right")
 
-lang_members <- translation_teams$Contact |>
-  gsub(pattern = "\n", replacement = "") |>
-  str_extract(pattern = ".*(?=\\<)") |>
-  str_trim(side = "right") |>
-  replace_na(replace = "No current maintainer")
+translation_teams$Contact <- translation_teams$Contact |>
+  gsub(pattern = ".*<([^>]+)>.*", replacement = "\\1")
 
-translation_teams$Members <- lang_members
-translation_teams$Contact <- members_contact
 translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
