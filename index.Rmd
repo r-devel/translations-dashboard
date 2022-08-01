@@ -86,40 +86,9 @@ Row {data-height=450}
 ```{r}
 fig <- plot_ly(df, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
 fig <- fig %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
+fig <- fig %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
 fig <- fig %>% layout(yaxis = list(title = 'Message Count'), xaxis = list(title = "Packages"), barmode = 'group')
 fig
-```
-
-Row {data-height=450}
------------------------------------------------------------------------
-
-### R Translation Teams | <small> Contact Details </small>
-
-```{r}
-translation_teams %>%
-  reactable(
-    .,
-    pagination = TRUE,
-    showPageSizeOptions = TRUE,
-    highlight = TRUE,
-    defaultColDef = colDef(headerClass = "header", align = "left"),
-    columns = list(
-      Language = colDef(
-        name = "Translation Languages",
-        filterable = TRUE,
-      ),
-      Members = colDef(
-        name = "R-Core Lead Maintainers",
-        filterable = TRUE,
-      ),
-      Contact = colDef(
-        name = "Email Contacts",
-        filterable = TRUE,
-      )),
-    compact = TRUE,
-    bordered = TRUE,
-    class = "categories-tbl"
-  )
 ```
 
 Row {data-height=450}
@@ -222,7 +191,7 @@ complete_untrans_df %>%
 Row {data-height=450}
 -----------------------------------------------------------------------
 
-### Count of All Messages | <small> Across Packages </small>
+### Percentage Distribution of Message Translation | <small> Across Packages </small>
 
 ```{r}
 final_df %>%
@@ -245,43 +214,49 @@ final_df %>%
         filterable = TRUE,
       ),
       translated_count = colDef(
-        name = "Translated Message Count",
-        cell = function(value) {
-          width <- paste0(value * 100 / max(final_df$translated_count), "%")
-          value <- format(value, big.mark = ",")
-          value <- format(value, width = 9, justify = "right")
-          bar <- div(
-            class = "bar-chart",
-            style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = width, backgroundColor = "#fc5185"))
-          )
-          div(class = "bar-cell", span(class = "number", value), bar)
-        }
+        show = FALSE
       ),
       untranslated_count = colDef(
-        name = "Untranslated Message Count",
+        show = FALSE
+      ),
+      fuzzy_count = colDef(
+        show = FALSE
+      ),
+      pc_trans_count = colDef(
+        name = "Translated Message",
         cell = function(value) {
-          width <- paste0(value * 100 / max(final_df$untranslated_count), "%")
-          value <- format(value, big.mark = ",")
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
           value <- format(value, width = 9, justify = "right")
           bar <- div(
             class = "bar-chart",
             style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = width, backgroundColor = "#3fc1c9"))
+            div(class = "bar", style = list(width = value, backgroundColor = "#fc5185"))
           )
           div(class = "bar-cell", span(class = "number", value), bar)
         }
       ),
-      fuzzy_count = colDef(
-        name = "Fuzzy Message Count",
+      pc_untrans_count = colDef(
+        name = "Untranslated Message",
         cell = function(value) {
-          width <- paste0(value * 100 / max(final_df$fuzzy_count), "%")
-          value <- format(value, big.mark = ",")
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
           value <- format(value, width = 9, justify = "right")
           bar <- div(
             class = "bar-chart",
             style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = width, backgroundColor = "#241327"))
+            div(class = "bar", style = list(width = value, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_fuzzy_count = colDef(
+        name = "Fuzzy Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#241327"))
           )
           div(class = "bar-cell", span(class = "number", value), bar)
         }

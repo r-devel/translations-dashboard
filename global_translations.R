@@ -32,26 +32,11 @@ final_df <- final_df %>%
   mutate(translated_count = coalesce(translated_count, 0), untranslated_count = coalesce(untranslated_count, 0) ,
          fuzzy_count = coalesce(fuzzy_count, 0))
 final_df <- subset(final_df, select = -c(translated.x, translated.y, fuzzy))
+final_df[,6:8]<-final_df[,3:5]/rowSums(final_df[,3:5])
+final_df <- rename(final_df, pc_trans_count = translated_count.1, pc_untrans_count = untranslated_count.1, pc_fuzzy_count = fuzzy_count.1)
 
 # Fully Translated Packages with respective languages associated
-complete_trans_df <- subset(final_df, untranslated_count == 0, select = -c(fuzzy_count))
+complete_trans_df <- subset(final_df, untranslated_count == 0, select = -c(fuzzy_count, pc_trans_count, pc_untrans_count, pc_fuzzy_count))
 
 # Untranslated Packages with respective languages associated
-complete_untrans_df <- subset(final_df, translated_count == 0, select = -c(fuzzy_count))
-
-# R Language Translation Team Contact details
-library(rvest)
-library(stringr)
-
-translation_teams <- read_html("https://developer.r-project.org/TranslationTeams.html") |>
-  html_node("table , th") |>
-  html_table()
-
-translation_teams$Members <- translation_teams$Contact |>
-  gsub(pattern = "(.*)<.*", replacement = "\\1") |>
-  str_trim(side = "right")
-
-translation_teams$Contact <- translation_teams$Contact |>
-  gsub(pattern = ".*<([^>]+)>.*", replacement = "\\1")
-
-translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
+complete_untrans_df <- subset(final_df, translated_count == 0, select = -c(fuzzy_count, pc_trans_count, pc_untrans_count, pc_fuzzy_count))
