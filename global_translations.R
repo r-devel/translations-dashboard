@@ -40,3 +40,20 @@ complete_trans_df <- subset(final_df, untranslated_count == 0, select = -c(fuzzy
 
 # Untranslated Packages with respective languages associated
 complete_untrans_df <- subset(final_df, translated_count == 0, select = -c(fuzzy_count, pc_trans_count, pc_untrans_count, pc_fuzzy_count))
+
+# R Language Translation Team Contact details
+library(rvest)
+library(stringr)
+
+translation_teams <- read_html("https://developer.r-project.org/TranslationTeams.html") |>
+  html_node("table , th") |>
+  html_table()
+
+translation_teams$Members <- translation_teams$Contact |>
+  gsub(pattern = "(.*)<.*", replacement = "\\1") |>
+  str_trim(side = "right")
+
+translation_teams$Contact <- translation_teams$Contact |>
+  gsub(pattern = ".*<([^>]+)>.*", replacement = "\\1")
+
+translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
