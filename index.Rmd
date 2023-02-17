@@ -1,5 +1,5 @@
 ---
-title: "R Translations Status Dashbaord"
+title: "R Translations Status Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
