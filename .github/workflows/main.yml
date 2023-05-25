@@ -14,9 +14,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         ref: 'main'
+
     - name: Install packages
       run: |
-          Rscript -e 'install.packages("rmarkdown", ErrorAction="Continue")'
+        Rscript -e 'install.packages("rmarkdown", repos = "http://cran.rstudio.com/", ErrorAction="Continue")'
+
     - name: Render Rmarkdown
       run: |
         Rscript ./R/render_dashboard.R "shrish-shete20" "sheteshrish1203@gmail.com"
