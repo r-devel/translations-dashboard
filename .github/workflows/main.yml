@@ -1,0 +1,19 @@
+name: Dashboard Refresh
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  push:
+    branches:
+      - main
+jobs:
+  refresh-the-dashboard:
+    runs-on: windows-latest
+    steps:
+    - name: checkout_repo
+      uses: actions/checkout@v2
+      with:
+        ref: 'main'
+    - name: Render Rmarkdown
+      run: |
+        Rscript ./R/render_dashboard.R "shrish-shete20" "sheteshrish1203@gmail.com"
