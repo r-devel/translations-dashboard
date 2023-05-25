@@ -16,7 +16,7 @@ jobs:
         ref: 'main'
     - name: Install packages
       run: |
-        R -e 'install.packages("rmarkdown", e = "Continue")'
+          R -e 'install.packages("rmarkdown", ErrorAction="Continue")'
     - name: Render Rmarkdown
       run: |
         Rscript ./R/render_dashboard.R "shrish-shete20" "sheteshrish1203@gmail.com"
