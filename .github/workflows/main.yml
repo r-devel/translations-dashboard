@@ -1,0 +1,16 @@
+
+name: Dashboard Refresh
+
+on: 
+  schedule:  
+    - cron:  '0 */12 * * *'
+jobs:
+  refresh-the-dashboard:
+    runs-on: ubuntu-20.04  
+    steps:
+    - name: checkout_repo
+      uses: actions/checkout@v2
+      with: 
+        ref: 'main'
+    - name: Render Rmarkdown
+      run: bash ./bash/render_dashboard.sh "shrish-shete20" "sheteshrish1203@gmail.com"
