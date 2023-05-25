@@ -19,5 +19,5 @@ jobs:
     - name: Install rmarkdown
       run: Rscript -e 'install.packages("rmarkdown")'
     - name: Render my document to all types
-      run: Rscript -e 'rmarkdown::render("docs/my-document.Rmd", output_format = "all")'
+      run: Rscript -e 'rmarkdown::render("index.Rmd", output_format = "html_document")'
    
