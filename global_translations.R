@@ -2,8 +2,8 @@
 library(tidyverse)
 
 # Reading "message_status.csv" and "metadata.csv"
-msg_status_df <- read.csv("message_status.csv")
-meta_data_df <- read.csv("metadata.csv")
+msg_status_df <- read.csv("https://raw.githubusercontent.com/shrish-shete20/rcontribution-messages/main/collaboration_campfires/translations/message_status.csv")
+meta_data_df <- read.csv("https://raw.githubusercontent.com/shrish-shete20/rcontribution-messages/main/collaboration_campfires/translations/metadata.csv")
 
 # Value Boxes
 total_lang <- length(unique(msg_status_df$language))
@@ -57,3 +57,4 @@ translation_teams$Contact <- translation_teams$Contact |>
   gsub(pattern = ".*<([^>]+)>.*", replacement = "\\1")
 
 translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
+
