@@ -19,5 +19,5 @@ jobs:
       uses: lc5415/rmarkdown-action@v1
       with:
         input_file: index.Rmd
-	      run-name: html_document
+	output_format: html_document
    
