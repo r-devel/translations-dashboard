@@ -19,13 +19,9 @@ jobs:
     - uses: r-lib/actions/setup-r-dependencies@v2
     - name: Install rmarkdown
       run: |
-        Rscript -e 'install.packages("rmarkdown")'
-        
         Rscript -e 'install.packages("flexdashboard")'
         Rscript -e 'install.packages("crosstalk")'
-        Rscript -e 'install.packages("tidyverse")'
         Rscript -e 'install.packages("htmltools")'
-        Rscript -e 'install.packages("plotly")'
         Rscript -e 'install.packages("reactable")'
         
     - name: Render my document to all types
