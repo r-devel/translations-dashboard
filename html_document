@@ -1,0 +1,379 @@
+---
+title: "R Translations Status Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+    self_contained: false
+    favicon:
+    includes:
+      in_header: "fragments/ganalytics.html"
+      after_body: "fragments/afterInit.html"
+    css: ["fragments/custom.css", "css/custom.css"]
+---
+
+
+
+Sidebar {.sidebar data-width=200}
+=====================================
+
+<!--html_preserve--><div class="sidebar-pages">
+<a class="navlink" href="#home" aria-expanded="false"><i class="fa fa-home"></i> Home</a>
+<a class="navlink" href="#r-translation-teams" aria-expanded="false"><i class="fa fa-users"></i> Translation Teams</a>
+</div><!--/html_preserve-->
+
+Home
+=====================================
+
+
+Row
+-------------------------------------
+
+### Total Languages
+
+
+```r
+valueBox(total_lang, icon = "fa-language", color = "white")
+```
+
+<!--html_preserve--><span class="value-output" data-icon="fa-language" data-color="#FFFFFF" data-color-text="#1a1a1a" data-color-icon="#fff">24</span><!--/html_preserve-->
+
+### Translated Messages
+
+
+```r
+valueBox(total_trans_msg, icon = "fa-comment", color = "white")
+```
+
+<!--html_preserve--><span class="value-output" data-icon="fa-comment" data-color="#FFFFFF" data-color-text="#1a1a1a" data-color-icon="#fff">71264</span><!--/html_preserve-->
+
+### Untranslated Messages
+
+
+```r
+valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
+```
+
+<!--html_preserve--><span class="value-output" data-icon="fa-comment-slash" data-color="#FFFFFF" data-color-text="#1a1a1a" data-color-icon="#fff">66566</span><!--/html_preserve-->
+
+### Fuzzy Messages
+
+
+```r
+valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
+```
+
+<!--html_preserve--><span class="value-output" data-icon="fa-puzzle-piece" data-color="#FFFFFF" data-color-text="#1a1a1a" data-color-icon="#fff">4753</span><!--/html_preserve-->
+
+Row {data-height=70}
+-----------------------------------------------------------------------
+
+
+```r
+trans_stats <- SharedData$new(final_df)
+```
+
+
+```r
+# Filter Select Input - Language
+filter_select(id = "language", 
+              label = "Select Translation Language",
+              sharedData = trans_stats, 
+              group = ~language)
+```
+
+<!--html_preserve--><div id="language" class="form-group crosstalk-input-select crosstalk-input">
+<label class="control-label" for="language">Select Translation Language</label>
+<div>
+<select multiple></select>
+<script type="application/json" data-for="language">{
+  "items": {
+    "value": ["Albanian", "Bengali", "Chinese_CN", "Chinese_TW", "Danish", "English", "English_GB", "French", "German", "Hindi", "Indonesian", "Italian", "Japanese", "Korean", "Lithuanian", "Nepali", "Norwegian Nynorsk", "Persian", "Polish", "Portuguese_BR", "Russian", "Spanish", "Turkish", "Urdu"],
+    "label": ["Albanian", "Bengali", "Chinese_CN", "Chinese_TW", "Danish", "English", "English_GB", "French", "German", "Hindi", "Indonesian", "Italian", "Japanese", "Korean", "Lithuanian", "Nepali", "Norwegian Nynorsk", "Persian", "Polish", "Portuguese_BR", "Russian", "Spanish", "Turkish", "Urdu"]
+  },
+  "map": {
+    "Albanian": ["1", "25", "49", "73", "97", "121", "145", "169", "193", "217", "241", "265", "289"],
+    "Bengali": ["2", "26", "50", "74", "98", "122", "146", "170", "194", "218", "242", "266", "290"],
+    "Chinese_CN": ["3", "27", "51", "75", "99", "123", "147", "171", "195", "219", "243", "267", "291"],
+    "Chinese_TW": ["4", "28", "52", "76", "100", "124", "148", "172", "196", "220", "244", "268", "292"],
+    "Danish": ["5", "29", "53", "77", "101", "125", "149", "173", "197", "221", "245", "269", "293"],
+    "English": ["6", "30", "54", "78", "102", "126", "150", "174", "198", "222", "246", "270", "294"],
+    "English_GB": ["7", "31", "55", "79", "103", "127", "151", "175", "199", "223", "247", "271", "295"],
+    "French": ["8", "32", "56", "80", "104", "128", "152", "176", "200", "224", "248", "272", "296"],
+    "German": ["9", "33", "57", "81", "105", "129", "153", "177", "201", "225", "249", "273", "297"],
+    "Hindi": ["10", "34", "58", "82", "106", "130", "154", "178", "202", "226", "250", "274", "298"],
+    "Indonesian": ["11", "35", "59", "83", "107", "131", "155", "179", "203", "227", "251", "275", "299"],
+    "Italian": ["12", "36", "60", "84", "108", "132", "156", "180", "204", "228", "252", "276", "300"],
+    "Japanese": ["13", "37", "61", "85", "109", "133", "157", "181", "205", "229", "253", "277", "301"],
+    "Korean": ["14", "38", "62", "86", "110", "134", "158", "182", "206", "230", "254", "278", "302"],
+    "Lithuanian": ["15", "39", "63", "87", "111", "135", "159", "183", "207", "231", "255", "279", "303"],
+    "Nepali": ["16", "40", "64", "88", "112", "136", "160", "184", "208", "232", "256", "280", "304"],
+    "Norwegian Nynorsk": ["17", "41", "65", "89", "113", "137", "161", "185", "209", "233", "257", "281", "305"],
+    "Persian": ["18", "42", "66", "90", "114", "138", "162", "186", "210", "234", "258", "282", "306"],
+    "Polish": ["19", "43", "67", "91", "115", "139", "163", "187", "211", "235", "259", "283", "307"],
+    "Portuguese_BR": ["20", "44", "68", "92", "116", "140", "164", "188", "212", "236", "260", "284", "308"],
+    "Russian": ["21", "45", "69", "93", "117", "141", "165", "189", "213", "237", "261", "285", "309"],
+    "Spanish": ["22", "46", "70", "94", "118", "142", "166", "190", "214", "238", "262", "286", "310"],
+    "Turkish": ["23", "47", "71", "95", "119", "143", "167", "191", "215", "239", "263", "287", "311"],
+    "Urdu": ["24", "48", "72", "96", "120", "144", "168", "192", "216", "240", "264", "288", "312"]
+  },
+  "group": ["SharedDatae2baad48"]
+}</script>
+</div>
+</div><!--/html_preserve-->
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
+
+
+```r
+trans_stats <- plot_ly(trans_stats, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
+trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xaxis = list(title = "Packages"), barmode = 'group')
+trans_stats
+```
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Count of Translated Messages | <small> Across Packages </small>
+
+
+```r
+complete_trans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "translated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      translated_count = colDef(
+        name = "Translated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_trans_df$translated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
+
+### Count of Untranslated Messages | <small> Across Packages </small>
+
+
+```r
+complete_untrans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "untranslated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        name = "Untranslated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_untrans_df$untranslated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Percentage Distribution of Message Translation | <small> Across Packages </small>
+
+
+```r
+final_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      fuzzy_count = colDef(
+        show = FALSE
+      ),
+      pc_trans_count = colDef(
+        name = "Translated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_untrans_count = colDef(
+        name = "Untranslated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_fuzzy_count = colDef(
+        name = "Fuzzy Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#241327"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
+
+
+R Translation Teams
+=====================================
+
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### R Translation Teams | <small> Contact Details </small>
+
+
+```r
+translation_teams %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      Language = colDef(
+        name = "Translation Languages",
+        filterable = TRUE,
+      ),
+      Members = colDef(
+        name = "R-Core Lead Maintainers",
+        filterable = TRUE,
+      ),
+      Contact = colDef(
+        name = "Email Contacts",
+        filterable = TRUE,
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
+
+
+```js
+
+```
