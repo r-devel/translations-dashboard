@@ -19,9 +19,6 @@ jobs:
     - uses: r-lib/actions/setup-r-dependencies@v2
       with:
         cache-version: 2
-        extra-packages: |
-          any::tidyverse
-          any::plotly
     - name: Install rmarkdown
       run: |
         Rscript -e 'install.packages("rmarkdown")'
