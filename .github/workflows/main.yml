@@ -26,4 +26,9 @@ jobs:
         
     - name: Render my document to all types
       run: Rscript -e 'rmarkdown::render("index.Rmd", output_format = "html_document")'
+    - name: Commit and Push Changes
+      run: |
+        git add .
+        git commit -m "CSS updated"
+        git push
 
