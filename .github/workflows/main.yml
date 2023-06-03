@@ -26,6 +26,10 @@ jobs:
         
     - name: Render my document to all types
       run: Rscript -e 'rmarkdown::render("index.Rmd", output_format = "html_document")'
+    - name: Configure 
+      run: |
+        git config --global user.name "shrish-shete20"
+        git config --global user.email "sheteshrish1203@gmail.com"
     - name: Commit and Push Changes
       run: |
         git add .
