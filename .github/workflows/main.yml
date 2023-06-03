@@ -26,4 +26,6 @@ jobs:
         
     - name: Render my document to all types
       run: Rscript -e 'rmarkdown::render("index.Rmd", output_format = "html_document")'
-   
+    - name: Copy output file
+      run: cp index.html .
+
