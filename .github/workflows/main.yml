@@ -25,7 +25,7 @@ jobs:
         Rscript -e 'install.packages("reactable")'
         
     - name: Render my document to all types
-      run: Rscript -e 'rmarkdown::render("index.Rmd", output_format = "html_document")'
+      run: Rscript -e 'rmarkdown::render("index.Rmd")'
     - name: Configure 
       run: |
         git config --global user.name "shrish-shete20"
