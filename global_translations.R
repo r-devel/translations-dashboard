@@ -2,8 +2,8 @@
 library(tidyverse)
 
 # Reading "message_status.csv" and "metadata.csv"
-msg_status_df <- read.csv("https://raw.githubusercontent.com/shrish-shete20/rcontribution-messages/main/collaboration_campfires/translations/message_status.csv")
-meta_data_df <- read.csv("https://raw.githubusercontent.com/shrish-shete20/rcontribution-messages/main/collaboration_campfires/translations/metadata.csv")
+msg_status_df <- read.csv("message_status.csv")
+meta_data_df <- read.csv("metadata.csv")
 
 # Value Boxes
 total_lang <- length(unique(msg_status_df$language))
