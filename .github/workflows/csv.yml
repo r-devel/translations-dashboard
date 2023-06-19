@@ -1,14 +1,17 @@
 # Hourly scraping
-name: nifty50scraped
+name: Creation of CSV 
 
 # Controls when the action will run.
 on:
   push:
     branches: main
+  schedule:
+    - cron: '0 0 * * *'
+
 
 
 jobs: 
-  autoscrape:
+  Messages:
     # The type of runner that the job will run on
     runs-on: macos-latest
 
@@ -21,7 +24,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/checkout@v3
       with: 
-        repository: shrish-shete20/r-svn
+        repository: r-devel/r-svn
         path: r-svn
     - uses: r-lib/actions/setup-r@v2
     - name: Install packages
@@ -33,6 +36,22 @@ jobs:
         R -e 'install.packages("tidyr")'
         R -e 'install.packages("utf8")'
         R -e 'install.packages("withr")'
+        R -e 'install.packages("stringr")'
     # Run R script
     - name: Scrape
-      run: Rscript collaboration_campfires/translations/translation_status.R
+      run: Rscript translation_status.R
+    - name: Configure Git
+      run: |
+        git config --global user.name "shrish-shete20"
+        git config --global user.email "sheteshrish1203@gmail.com"
+        
+    - name: Fetch and Merge Changes
+      run: |
+        git fetch
+        git merge origin/main
+
+    - name: Commit and Push Changes
+      run: |
+        git add *.csv
+        git commit -m "Added csv in the repository"
+        git push
