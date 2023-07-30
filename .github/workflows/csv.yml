@@ -52,6 +52,7 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
+        git pull origin main
         git add *.csv
         git commit -m "Added csv in the repository"
         git push
