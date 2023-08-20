@@ -57,3 +57,4 @@ translation_teams$Contact <- translation_teams$Contact |>
   gsub(pattern = ".*<([^>]+)>.*", replacement = "\\1")
 
 translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
+
