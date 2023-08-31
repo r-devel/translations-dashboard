@@ -19,7 +19,8 @@ library(tidyverse)
 library(htmltools)
 library(plotly)
 library(reactable)
-source("global_translations.R")
+library(glue)
+source("R/global_translations.R")
 ```
 
 Sidebar {.sidebar data-width=200}
@@ -265,6 +266,19 @@ final_df %>%
     class = "categories-tbl"
   )
 ```
+
+Row {data-height=100}
+-----------------------------------------------------------------------
+
+### Dashboard Updates
+
+```{r}
+ gh_endpoint <- "https://api.github.com/repos/r-devel/translations/commits?path=message_status.csv&page=1&per_page=1"
+ last_update_date <- get_last_data_update(gh_endpoint)
+ glue::glue("This page was last updated on: ", {last_update_date})
+```
+
+
 
 
 R Translation Teams
