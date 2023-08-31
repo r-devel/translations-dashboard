@@ -42,8 +42,8 @@ jobs:
       run: Rscript translation_status.R
     - name: Configure Git
       run: |
-        git config --global user.name "shrish-shete20"
-        git config --global user.email "sheteshrish1203@gmail.com"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         
     - name: Fetch and Merge Changes
       run: |
