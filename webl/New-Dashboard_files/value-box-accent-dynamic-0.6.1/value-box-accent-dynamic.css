@@ -1,0 +1,125 @@
+.value-box.value-box-default {
+  background-color: rgba(55, 58, 60, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-default .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-default.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(55, 58, 60, 0.3);
+}
+
+.value-box.value-box-primary {
+  background-color: rgba(39, 128, 227, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-primary .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-primary.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(39, 128, 227, 0.3);
+}
+
+.value-box.value-box-secondary {
+  background-color: rgba(55, 58, 60, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-secondary .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-secondary.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(55, 58, 60, 0.3);
+}
+
+.value-box.value-box-success {
+  background-color: rgba(63, 182, 24, 0.7);
+  color: #000;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.value-box.value-box-success .icon i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.value-box.value-box-success.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(63, 182, 24, 0.3);
+}
+
+.value-box.value-box-info {
+  background-color: rgba(153, 84, 187, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-info .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-info.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(153, 84, 187, 0.3);
+}
+
+.value-box.value-box-warning {
+  background-color: rgba(255, 117, 24, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-warning .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-warning.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(255, 117, 24, 0.3);
+}
+
+.value-box.value-box-danger {
+  background-color: rgba(255, 0, 57, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-danger .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-danger.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(255, 0, 57, 0.3);
+}
+
+.value-box.value-box-light {
+  background-color: rgba(248, 249, 250, 0.7);
+  color: #000;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.value-box.value-box-light .icon i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.value-box.value-box-light.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(248, 249, 250, 0.3);
+}
+
+.value-box.value-box-dark {
+  background-color: rgba(55, 58, 60, 0.7);
+  color: white;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.value-box.value-box-dark .icon i {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.value-box.value-box-dark.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(55, 58, 60, 0.3);
+}
