@@ -13,7 +13,7 @@ output:
     vertical_layout: scroll
     source_code: embed
     navbar:
-      - { title: "Github", href: "https://github.com/shrish-shete20/weblate", align: right, icon: fa-github}
+      - { title: "Github", href: "https://github.com/r-devel/translations/weblate", align: right, icon: fa-github}
     css: ["fragments/custom.css"]
     skin:
       header_bg: "#ffffff"
@@ -405,8 +405,8 @@ function renderMovie(cellInfo) {
   color: hsl(350, 45%, 30%);
 }
 .movie-poster {
-  width: 45px;
-  height: 68px;
+  width: 60px;
+  height: 60px;
   box-shadow: 0 0 0 1px hsl(0, 0%, 95%);
 }
 
