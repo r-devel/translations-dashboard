@@ -1,0 +1,43 @@
+name: Languages Statistics Refresh
+
+on: 
+  schedule:  
+    - cron:  '10 12 * * *'
+  push:
+    branches:
+      - main
+jobs:
+  Running_R_scripts:
+    runs-on: ubuntu-20.04 
+    defaults:
+      run:
+        working-directory: Language Statisitics
+    steps:
+    - name: checkout_repo
+      uses: actions/checkout@v2
+    - uses: r-lib/actions/setup-r@v2
+    - uses: r-lib/actions/setup-pandoc@v2
+    - uses: r-lib/actions/setup-tinytex@v2
+    - name: Print working directory
+      run: pwd
+    - uses: r-lib/actions/setup-r-dependencies@v2
+    - name: Install Packages
+      run: |
+        Rscript -e 'install.packages("jsonlite")'
+        Rscript -e 'install.packages("data.table")'
+        Rscript -e 'install.packages("utils")'
+        
+    - name: Run R scripts
+      run: | 
+        Rscript Languages_Statistics.R
+      
+    - name: Configure 
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    - name: Commit and Push Changes
+      run: |
+        git pull origin main
+        git add .
+        git commit -m "Updated language Csv"
+        git push
