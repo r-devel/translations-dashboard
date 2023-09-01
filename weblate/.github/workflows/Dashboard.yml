@@ -1,0 +1,47 @@
+name: Dashboard Refresh
+
+on: 
+  schedule:  
+    - cron:  '0 */12 * * *'
+  push:
+    branches:
+      - main
+jobs:
+  refresh-the-dashboard:
+    runs-on: ubuntu-20.04  
+    steps:
+    - name: checkout_repo
+      uses: actions/checkout@v2
+    - uses: r-lib/actions/setup-r@v2
+    - uses: r-lib/actions/setup-pandoc@v2
+    - uses: r-lib/actions/setup-tinytex@v2
+    - uses: r-lib/actions/setup-r-dependencies@v2
+    - name: Install rmarkdown
+      run: |
+        Rscript -e 'install.packages("flexdashboard")'
+        Rscript -e 'install.packages("dplyr")'
+        Rscript -e 'install.packages("fontawesome")'
+        Rscript -e 'install.packages("DT")'
+        Rscript -e 'install.packages("plotly")'
+        Rscript -e 'install.packages("reshape2")'
+        Rscript -e 'install.packages("formattable")'
+        Rscript -e 'install.packages("htmlwidgets")'
+        Rscript -e 'install.packages("curl")'
+        Rscript -e 'install.packages("lubridate")'
+        Rscript -e 'install.packages("jsonlite")'
+        Rscript -e 'install.packages("crosstalk")'
+        Rscript -e 'install.packages("htmltools")'
+        Rscript -e 'install.packages("reactable")'
+        
+    - name: Render my document to all types
+      run: Rscript -e 'rmarkdown::render("New-Dashboard.Rmd")'
+    - name: Configure 
+      run: |
+        git config --global user.name "shrish-shete20"
+        git config --global user.email "sheteshrish1203@gmail.com"
+    - name: Commit and Push Changes
+      run: |
+        git pull origin main
+        git add .
+        git commit -m "CSS updated"
+        git push
