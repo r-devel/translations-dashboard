@@ -223,7 +223,7 @@ Leaderboard
 Row {data-height=450}
 -----------------------------------------------------------------------
 
-### Weblate Leaderboard
+### Weblate Leaderboard <span style="float: right;"><small>*Active Users : Users who are active within 6 months.</small></span>
 
 ```{r table, echo=FALSE, message=FALSE}
 
