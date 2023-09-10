@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: Language Statisitics
+        working-directory: weblate/Language Statisitics
     steps:
     - name: checkout_repo
       uses: actions/checkout@v2

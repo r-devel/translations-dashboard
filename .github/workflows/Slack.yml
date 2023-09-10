@@ -1,8 +1,8 @@
-name: Library Statistics Refresh
+name: Slack refresh
 
 on: 
   schedule:  
-    - cron:  '0 12 * * *'
+    - cron:  '40 12 * * *'
   push:
     branches:
       - main
@@ -11,34 +11,26 @@ jobs:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: Library Language Statistics
+        working-directory: weblate/Slack
     steps:
     - name: checkout_repo
       uses: actions/checkout@v2
     - uses: r-lib/actions/setup-r@v2
     - uses: r-lib/actions/setup-pandoc@v2
-    - uses: r-lib/actions/setup-tinytex@v2
     - name: Print working directory
       run: pwd
     - uses: r-lib/actions/setup-r-dependencies@v2
     - name: Install Packages
       run: |
         Rscript -e 'install.packages("jsonlite")'
-        Rscript -e 'install.packages("data.table")'
-        Rscript -e 'install.packages("tibble")'
-        Rscript -e 'install.packages("utils")'
-        
+        Rscript -e 'install.packages("slackr")'
+        Rscript -e 'install.packages("stringr")'
+        Rscript -e 'install.packages("readr")'
     - name: Run R scripts
       run: | 
-        Rscript "Library Language Statistics.R"
+        Rscript "Weblate_Slack.R"
       
     - name: Configure 
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-    - name: Commit and Push Changes
-      run: |
-        git pull origin main
-        git add .
-        git commit -m "Updated Library Csv"
-        git push

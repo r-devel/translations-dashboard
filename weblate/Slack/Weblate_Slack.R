@@ -3,7 +3,7 @@ library(httr)
 library(jsonlite)
 library(stringr)
 library(readr)
-Statistics <- read_csv("/home/runner/work/weblate/weblate/User Statistics/Statistics.csv")
+Statistics <- read_csv("/home/runner/work/translations/translations/weblate/User Statistics/Statistics.csv")
 api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
 slackr_setup(config_file = "translationswithr")
 #### making of file

@@ -8,7 +8,10 @@ on:
       - main
 jobs:
   refresh-the-dashboard:
-    runs-on: ubuntu-20.04  
+    runs-on: ubuntu-20.04 
+    defaults:
+      run:
+        working-directory: weblate 
     steps:
     - name: checkout_repo
       uses: actions/checkout@v2

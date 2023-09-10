@@ -1,8 +1,8 @@
-name: Recent Changes refresh
+name: Library Statistics Refresh
 
 on: 
   schedule:  
-    - cron:  '20 12 * * *'
+    - cron:  '0 12 * * *'
   push:
     branches:
       - main
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: Recent Changes
+        working-directory: weblate/Library Language Statistics
     steps:
     - name: checkout_repo
       uses: actions/checkout@v2
@@ -24,15 +24,13 @@ jobs:
     - name: Install Packages
       run: |
         Rscript -e 'install.packages("jsonlite")'
-        Rscript -e 'install.packages("stringr")'
-        Rscript -e 'install.packages("readr")' 
-        Rscript -e 'install.packages("curl")' 
-        Rscript -e 'install.packages("lubridate")' 
-        
+        Rscript -e 'install.packages("data.table")'
+        Rscript -e 'install.packages("tibble")'
+        Rscript -e 'install.packages("utils")'
         
     - name: Run R scripts
       run: | 
-        Rscript "Recent changes.R"
+        Rscript "Library Language Statistics.R"
       
     - name: Configure 
       run: |
@@ -42,5 +40,5 @@ jobs:
       run: |
         git pull origin main
         git add .
-        git commit -m "Updated changes Csv"
+        git commit -m "Updated Library Csv"
         git push
