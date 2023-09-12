@@ -210,7 +210,7 @@
 "209",18,"graphics (R files)","R","Nepali",155,0,155,0
 "210",19,"graphics (R files)","R","Turkish",155,0,155,0
 "211",20,"graphics (R files)","R","Hungarian",155,2,153,0
-"212",21,"graphics (R files)","R","Catalan",155,2,153,0
+"212",21,"graphics (R files)","R","Catalan",155,10,145,0
 "213",1,"grid (C files)","C","English",42,42,0,0
 "214",2,"grid (C files)","C","Danish",42,5,22,15
 "215",3,"grid (C files)","C","German",42,38,4,0
@@ -419,7 +419,7 @@
 "418",18,"stats (R files)","R","Hindi",818,2,816,0
 "419",19,"stats (R files)","R","Nepali",818,0,818,0
 "420",20,"stats (R files)","R","Hungarian",818,6,809,3
-"421",21,"stats (R files)","R","Catalan",818,9,809,0
+"421",21,"stats (R files)","R","Catalan",818,10,808,0
 "422",1,"stats4 (R files)","R","English",8,8,0,0
 "423",2,"stats4 (R files)","R","Danish",8,3,4,1
 "424",3,"stats4 (R files)","R","German",8,8,0,0
