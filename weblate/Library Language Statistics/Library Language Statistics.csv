@@ -65,7 +65,7 @@
 "64",12,"base (R files)","R","Portuguese (Brazil)",591,573,9,9
 "65",13,"base (R files)","R","Russian",591,553,29,9
 "66",14,"base (R files)","R","Turkish",591,4,569,18
-"67",15,"base (R files)","R","Chinese (Simplified)",591,469,46,76
+"67",15,"base (R files)","R","Chinese (Simplified)",591,478,46,67
 "68",16,"base (R files)","R","Chinese (Traditional)",591,509,44,38
 "69",17,"base (R files)","R","Hungarian",573,337,228,8
 "70",18,"base (R files)","R","Arabic",573,17,555,1
@@ -558,7 +558,7 @@
 "557",11,"utils (R files)","R","Portuguese (Brazil)",420,416,3,1
 "558",12,"utils (R files)","R","Russian",420,400,7,13
 "559",13,"utils (R files)","R","Turkish",420,7,410,3
-"560",14,"utils (R files)","R","Chinese (Simplified)",420,312,59,49
+"560",14,"utils (R files)","R","Chinese (Simplified)",420,312,58,50
 "561",15,"utils (R files)","R","Chinese (Traditional)",420,360,32,28
 "562",16,"utils (R files)","R","Arabic",401,2,399,0
 "563",17,"utils (R files)","R","Spanish",420,25,393,2
