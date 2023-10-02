@@ -145,7 +145,7 @@
 "144",19,"grDevices (C files)","C","Nepali",215,0,215,0
 "145",20,"grDevices (C files)","C","Turkish",215,0,215,0
 "146",21,"grDevices (C files)","C","Hungarian",215,3,212,0
-"147",22,"grDevices (C files)","C","Catalan",215,5,210,0
+"147",22,"grDevices (C files)","C","Catalan",215,6,209,0
 "148",1,"grDevices (R files)","R","English",168,168,0,0
 "149",2,"grDevices (R files)","R","Danish",168,92,37,39
 "150",3,"grDevices (R files)","R","German",168,139,17,12
@@ -167,7 +167,7 @@
 "166",19,"grDevices (R files)","R","Nepali",168,0,168,0
 "167",20,"grDevices (R files)","R","Turkish",168,0,168,0
 "168",21,"grDevices (R files)","R","Hungarian",168,0,168,0
-"169",22,"grDevices (R files)","R","Catalan",168,1,167,0
+"169",22,"grDevices (R files)","R","Catalan",168,2,166,0
 "170",1,"graphics (C files)","C","English",130,130,0,0
 "171",2,"graphics (C files)","C","Danish",130,2,127,1
 "172",3,"graphics (C files)","C","German",130,129,0,1
@@ -210,7 +210,7 @@
 "209",18,"graphics (R files)","R","Nepali",155,0,155,0
 "210",19,"graphics (R files)","R","Turkish",155,0,155,0
 "211",20,"graphics (R files)","R","Hungarian",155,2,153,0
-"212",21,"graphics (R files)","R","Catalan",155,12,142,1
+"212",21,"graphics (R files)","R","Catalan",155,13,141,1
 "213",1,"grid (C files)","C","English",42,42,0,0
 "214",2,"grid (C files)","C","Danish",42,5,22,15
 "215",3,"grid (C files)","C","German",42,38,4,0
@@ -231,7 +231,7 @@
 "230",18,"grid (C files)","C","Nepali",42,0,42,0
 "231",19,"grid (C files)","C","Turkish",42,0,42,0
 "232",20,"grid (C files)","C","Hungarian",42,4,37,1
-"233",21,"grid (C files)","C","Catalan",42,2,39,1
+"233",21,"grid (C files)","C","Catalan",42,3,38,1
 "234",1,"grid (R files)","R","English",190,190,0,0
 "235",2,"grid (R files)","R","Danish",190,7,113,70
 "236",3,"grid (R files)","R","German",190,172,7,11
@@ -294,7 +294,7 @@
 "293",18,"methods (R files)","R","Nepali",406,0,406,0
 "294",19,"methods (R files)","R","Turkish",406,0,406,0
 "295",20,"methods (R files)","R","Hungarian",406,0,406,0
-"296",21,"methods (R files)","R","Catalan",406,0,406,0
+"296",21,"methods (R files)","R","Catalan",406,1,405,0
 "297",1,"parallel (C files)","C","English",22,22,0,0
 "298",2,"parallel (C files)","C","Danish",22,11,5,6
 "299",3,"parallel (C files)","C","German",22,22,0,0
@@ -462,7 +462,7 @@
 "461",19,"tcltk (C files)","C","Nepali",10,0,10,0
 "462",20,"tcltk (C files)","C","Turkish",10,0,10,0
 "463",21,"tcltk (C files)","C","Hungarian",10,9,1,0
-"464",22,"tcltk (C files)","C","Catalan",10,0,10,0
+"464",22,"tcltk (C files)","C","Catalan",10,1,9,0
 "465",1,"tcltk (R files)","R","English",30,30,0,0
 "466",2,"tcltk (R files)","R","Danish",30,28,1,1
 "467",3,"tcltk (R files)","R","German",30,30,0,0
@@ -483,7 +483,7 @@
 "482",18,"tcltk (R files)","R","Nepali",30,0,30,0
 "483",19,"tcltk (R files)","R","Turkish",30,0,30,0
 "484",20,"tcltk (R files)","R","Hungarian",30,28,2,0
-"485",21,"tcltk (R files)","R","Catalan",30,0,30,0
+"485",21,"tcltk (R files)","R","Catalan",30,1,29,0
 "486",1,"tools (C files)","C","English",37,37,0,0
 "487",2,"tools (C files)","C","Danish",37,6,28,3
 "488",3,"tools (C files)","C","German",37,37,0,0
