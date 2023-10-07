@@ -81,7 +81,7 @@
 "80",1,"base (C files)","C","English",2332,2332,0,0
 "81",2,"base (C files)","C","Danish",1682,482,1078,122
 "82",3,"base (C files)","C","German",1682,1579,34,69
-"83",4,"base (C files)","C","Spanish",1696,1201,93,402
+"83",4,"base (C files)","C","Spanish",1696,1220,93,383
 "84",5,"base (C files)","C","Persian",1682,3,1679,0
 "85",6,"base (C files)","C","French",1642,1609,17,16
 "86",7,"base (C files)","C","Italian",1682,1648,7,27
@@ -573,7 +573,7 @@
 "572",4,"Mac GUI","English","Italian",505,503,2,0
 "573",5,"Mac GUI","English","Japanese",505,503,2,0
 "574",6,"Mac GUI","English","Dutch",505,503,2,0
-"575",7,"Mac GUI","English","Spanish",505,504,1,0
+"575",7,"Mac GUI","English","Spanish",505,505,0,0
 "576",8,"Mac GUI","English","Arabic",505,85,416,4
 "577",9,"Mac GUI","English","Hindi",505,0,505,0
 "578",10,"Mac GUI","English","Nepali",505,4,501,0
