@@ -23,10 +23,10 @@
 "22",22,"base (R GUI)","R","Catalan",264,264,0,0
 "23",23,"base (R GUI)","R","Dutch",264,0,264,0
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
-"25",1,"The R Project for Statistical Computing","English","English",123,123,0,0
+"25",1,"The R Project for Statistical Computing","English","English",155,155,0,0
 "26",2,"The R Project for Statistical Computing","English","Danish",7,0,7,0
 "27",3,"The R Project for Statistical Computing","English","German",7,4,3,0
-"28",4,"The R Project for Statistical Computing","English","Spanish",50,50,0,0
+"28",4,"The R Project for Statistical Computing","English","Spanish",83,83,0,0
 "29",5,"The R Project for Statistical Computing","English","Persian",7,0,7,0
 "30",6,"The R Project for Statistical Computing","English","French",7,3,4,0
 "31",7,"The R Project for Statistical Computing","English","Italian",7,3,4,0
@@ -167,7 +167,7 @@
 "166",19,"grDevices (R files)","R","Nepali",168,0,168,0
 "167",20,"grDevices (R files)","R","Turkish",168,0,168,0
 "168",21,"grDevices (R files)","R","Hungarian",168,0,168,0
-"169",22,"grDevices (R files)","R","Catalan",168,2,166,0
+"169",22,"grDevices (R files)","R","Catalan",168,2,162,4
 "170",1,"graphics (C files)","C","English",130,130,0,0
 "171",2,"graphics (C files)","C","Danish",130,2,127,1
 "172",3,"graphics (C files)","C","German",130,129,0,1
@@ -210,7 +210,7 @@
 "209",18,"graphics (R files)","R","Nepali",155,0,155,0
 "210",19,"graphics (R files)","R","Turkish",155,0,155,0
 "211",20,"graphics (R files)","R","Hungarian",155,2,153,0
-"212",21,"graphics (R files)","R","Catalan",155,13,141,1
+"212",21,"graphics (R files)","R","Catalan",155,14,0,141
 "213",1,"grid (C files)","C","English",42,42,0,0
 "214",2,"grid (C files)","C","Danish",42,5,22,15
 "215",3,"grid (C files)","C","German",42,38,4,0
@@ -419,7 +419,7 @@
 "418",18,"stats (R files)","R","Hindi",818,2,816,0
 "419",19,"stats (R files)","R","Nepali",818,0,818,0
 "420",20,"stats (R files)","R","Hungarian",818,6,809,3
-"421",21,"stats (R files)","R","Catalan",818,22,796,0
+"421",21,"stats (R files)","R","Catalan",818,22,790,6
 "422",1,"stats4 (R files)","R","English",8,8,0,0
 "423",2,"stats4 (R files)","R","Danish",8,3,4,1
 "424",3,"stats4 (R files)","R","German",8,8,0,0
