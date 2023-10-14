@@ -13,7 +13,7 @@ output:
     vertical_layout: scroll
     source_code: embed
     navbar:
-      - { title: "Github", href: "https://github.com/r-devel/translations/weblate", align: right, icon: fa-github}
+      - { title: "Github", href: "https://github.com/r-devel/translations-dashboard/weblate", align: right, icon: fa-github}
     css: ["fragments/custom.css"]
     skin:
       header_bg: "#ffffff"
