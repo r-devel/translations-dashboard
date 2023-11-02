@@ -62,7 +62,7 @@
 "61",9,"base (R files)","R","Lithuanian",591,545,29,17
 "62",10,"base (R files)","R","Norwegian Nynorsk",591,362,76,153
 "63",11,"base (R files)","R","Polish",591,509,44,38
-"64",12,"base (R files)","R","Portuguese (Brazil)",591,573,9,9
+"64",12,"base (R files)","R","Portuguese (Brazil)",591,575,9,7
 "65",13,"base (R files)","R","Russian",591,553,29,9
 "66",14,"base (R files)","R","Turkish",591,4,569,18
 "67",15,"base (R files)","R","Chinese (Simplified)",591,478,46,67
@@ -345,7 +345,7 @@
 "344",7,"splines (C files)","C","Korean",3,3,0,0
 "345",8,"splines (C files)","C","Lithuanian",3,3,0,0
 "346",9,"splines (C files)","C","Polish",3,3,0,0
-"347",10,"splines (C files)","C","Portuguese (Brazil)",3,1,2,0
+"347",10,"splines (C files)","C","Portuguese (Brazil)",3,3,0,0
 "348",11,"splines (C files)","C","Russian",3,3,0,0
 "349",12,"splines (C files)","C","Chinese (Simplified)",3,1,2,0
 "350",13,"splines (C files)","C","Chinese (Traditional)",3,3,0,0
