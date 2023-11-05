@@ -28,7 +28,7 @@
 "27",3,"The R Project for Statistical Computing","English","German",7,4,3,0
 "28",4,"The R Project for Statistical Computing","English","Spanish",84,84,0,0
 "29",5,"The R Project for Statistical Computing","English","Persian",7,0,7,0
-"30",6,"The R Project for Statistical Computing","English","French",7,3,4,0
+"30",6,"The R Project for Statistical Computing","English","French",7,4,3,0
 "31",7,"The R Project for Statistical Computing","English","Italian",7,3,4,0
 "32",8,"The R Project for Statistical Computing","English","Japanese",7,0,7,0
 "33",9,"The R Project for Statistical Computing","English","Korean",7,3,4,0
@@ -65,7 +65,7 @@
 "64",12,"base (R files)","R","Portuguese (Brazil)",591,575,9,7
 "65",13,"base (R files)","R","Russian",591,553,29,9
 "66",14,"base (R files)","R","Turkish",591,4,569,18
-"67",15,"base (R files)","R","Chinese (Simplified)",591,478,46,67
+"67",15,"base (R files)","R","Chinese (Simplified)",591,502,46,43
 "68",16,"base (R files)","R","Chinese (Traditional)",591,509,44,38
 "69",17,"base (R files)","R","Hungarian",573,337,228,8
 "70",18,"base (R files)","R","Arabic",573,17,555,1
@@ -93,7 +93,7 @@
 "92",13,"base (C files)","C","Portuguese (Brazil)",1682,1309,118,255
 "93",14,"base (C files)","C","Russian",1682,1575,36,71
 "94",15,"base (C files)","C","Turkish",1682,1095,174,413
-"95",16,"base (C files)","C","Chinese (Simplified)",1681,1404,98,179
+"95",16,"base (C files)","C","Chinese (Simplified)",1681,1414,93,174
 "96",17,"base (C files)","C","Chinese (Traditional)",1682,1455,82,145
 "97",18,"base (C files)","C","Arabic",583,17,565,1
 "98",19,"base (C files)","C","Albanian",1682,0,1587,95
@@ -558,7 +558,7 @@
 "557",11,"utils (R files)","R","Portuguese (Brazil)",420,416,3,1
 "558",12,"utils (R files)","R","Russian",420,400,7,13
 "559",13,"utils (R files)","R","Turkish",420,7,410,3
-"560",14,"utils (R files)","R","Chinese (Simplified)",420,312,58,50
+"560",14,"utils (R files)","R","Chinese (Simplified)",420,313,58,49
 "561",15,"utils (R files)","R","Chinese (Traditional)",420,360,32,28
 "562",16,"utils (R files)","R","Arabic",401,2,399,0
 "563",17,"utils (R files)","R","Spanish",420,26,393,1
