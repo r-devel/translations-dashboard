@@ -61,7 +61,7 @@ translation_teams <- translation_teams[, c("Language", "Members", "Contact")]
 
 
 # Function to get the last date of update for any dataset on GitHub
-# E.g of an endpoint: "https://api.github.com/repos/r-devel/translations/commits?path=message_status.csv&page=1&per_page=1"
+# E.g of an endpoint: "https://api.github.com/repos/r-devel/translations-dashboard/commits?path=message_status.csv&page=1&per_page=1"
 get_last_data_update <- function(endpoint) {
   last_data_update <- curl::curl_fetch_memory(endpoint)$modified
   format(last_data_update, format= "%d %B %Y")
