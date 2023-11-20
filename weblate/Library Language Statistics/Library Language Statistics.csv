@@ -189,7 +189,7 @@
 "188",19,"graphics (C files)","C","Hindi",130,4,126,0
 "189",20,"graphics (C files)","C","Nepali",130,0,130,0
 "190",21,"graphics (C files)","C","Hungarian",130,2,128,0
-"191",22,"graphics (C files)","C","Catalan",130,116,0,14
+"191",22,"graphics (C files)","C","Catalan",130,130,0,0
 "192",1,"graphics (R files)","R","English",155,155,0,0
 "193",2,"graphics (R files)","R","Danish",155,10,141,4
 "194",3,"graphics (R files)","R","German",155,153,1,1
@@ -210,7 +210,7 @@
 "209",18,"graphics (R files)","R","Nepali",155,0,155,0
 "210",19,"graphics (R files)","R","Turkish",155,0,155,0
 "211",20,"graphics (R files)","R","Hungarian",155,2,153,0
-"212",21,"graphics (R files)","R","Catalan",155,16,0,139
+"212",21,"graphics (R files)","R","Catalan",155,17,0,138
 "213",1,"grid (C files)","C","English",42,42,0,0
 "214",2,"grid (C files)","C","Danish",42,5,22,15
 "215",3,"grid (C files)","C","German",42,38,4,0
@@ -231,7 +231,7 @@
 "230",18,"grid (C files)","C","Nepali",42,0,42,0
 "231",19,"grid (C files)","C","Turkish",42,0,42,0
 "232",20,"grid (C files)","C","Hungarian",42,4,37,1
-"233",21,"grid (C files)","C","Catalan",42,3,0,39
+"233",21,"grid (C files)","C","Catalan",42,4,0,38
 "234",1,"grid (R files)","R","English",190,190,0,0
 "235",2,"grid (R files)","R","Danish",190,7,113,70
 "236",3,"grid (R files)","R","German",190,172,7,11
