@@ -5,7 +5,13 @@ library(stringr)
 library(readr)
 Statistics <- read_csv("/home/runner/work/translations/translations/weblate/User Statistics/Statistics.csv")
 api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
-slackr_setup(config_file = "translationswithr")
+SLACK_TOKEN <- Sys.getenv("SLAKC_TOKEN")
+SLACK_WEBHOOK_URL <- Sys.getenv("SLACK_WEBHOOK_URL")
+slackr_setup(channel="#gsoc-translations",
+             username="shrishs21",
+             token=SLACK_TOKEN,
+             incoming_webhook_url=SLACK_WEBHOOK_URL
+            )
 #### making of file
 date<-Sys.Date()
 time<-Sys.time()
