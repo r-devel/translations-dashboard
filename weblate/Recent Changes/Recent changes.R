@@ -72,7 +72,7 @@ for (i in 1:pages) {
   j<-c()
   for(k in 1:length(component))
   {
-    if(component[k]=="r18r")
+    if(component[k]!="r-project")
     {
       
       j<-c(j,k)
@@ -108,6 +108,7 @@ for (i in 1:pages) {
   {
     index<-which(s==slugs)
     extracted_lib[k]<-name_of_libraries[index]
+    print(k)
     k=k+1
   }
   users <- c(users, extracted_users)
@@ -278,7 +279,7 @@ for(i in 1:changed_pages)
   j<-c()
   for(k in 1:length(ch_component))
   {
-    if(ch_component[k]=="r18r")
+    if(ch_component[k]!="r-project")
     {
       
       j<-c(j,k)
