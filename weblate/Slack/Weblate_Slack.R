@@ -3,7 +3,7 @@ library(httr)
 library(jsonlite)
 library(stringr)
 library(readr)
-Statistics <- read_csv("/home/runner/work/translations/translations/weblate/User Statistics/Statistics.csv")
+Statistics <- read_csv("./../User Statistics/Statistics.csv")
 api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
 SLACK_TOKEN <- Sys.getenv("SLAKC_TOKEN")
 SLACK_WEBHOOK_URL <- Sys.getenv("SLACK_WEBHOOK_URL")
