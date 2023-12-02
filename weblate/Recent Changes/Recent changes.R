@@ -5,7 +5,7 @@ library(stringr)
 library(readr)
 library(curl)
 library(lubridate)
-Language_Statistics <- read_csv("/home/runner/work/translations/translations/weblate/Language Statisitics/Language_Statistics_new.csv")
+Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
 api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
 
 changes_url<-"https://translate.rx.studio/api/changes/?action=5"
