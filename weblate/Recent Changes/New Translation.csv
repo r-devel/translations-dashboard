@@ -962,7 +962,6 @@ msquiroga,Spanish,stats (C files),126615,19280,17:52:37
 msquiroga,Spanish,stats (C files),126616,19280,17:52:44
 msquiroga,Spanish,stats (C files),126617,19280,17:53:57
 msquiroga,Spanish,stats (C files),126618,19280,17:54:13
-msquiroga,Spanish,stats (C files),126620,19280,17:55:04
 msquiroga,Spanish,stats (C files),126623,19280,21:37:38
 msquiroga,Spanish,stats (C files),126624,19280,21:37:54
 msquiroga,Spanish,stats (C files),126626,19280,21:39:02
@@ -1807,9 +1806,7 @@ PaoCorrales,Spanish,tcltk (C files),133579,19576,23:42:05
 PaoCorrales,Spanish,tcltk (C files),133580,19576,23:42:14
 PaoCorrales,Spanish,tcltk (C files),133581,19576,23:42:26
 PaoCorrales,Spanish,stats (C files),126621,19576,23:51:46
-jmaspons,Catalan,The R Project for Statistical Computing,137809,19585,13:01:59
 jmaspons,Catalan,The R Project for Statistical Computing,137783,19585,13:02:08
-jmaspons,Catalan,The R Project for Statistical Computing,137861,19585,13:02:21
 jmaspons,Catalan,The R Project for Statistical Computing,137835,19585,13:03:01
 DeBARtha,Bengali,The R Project for Statistical Computing,138151,19599,08:45:36
 DeBARtha,Bengali,The R Project for Statistical Computing,138179,19599,08:46:12
@@ -2098,7 +2095,6 @@ lente,Portuguese (Brazil),base (C files),161913,19600,12:55:04
 geraldinegomez,Spanish,The R Project for Statistical Computing,138130,19600,12:55:06
 rmhirota,Portuguese (Brazil),stats (R files),100683,19600,12:55:20
 lente,Portuguese (Brazil),base (C files),161915,19600,12:55:24
-geraldinegomez,Spanish,The R Project for Statistical Computing,138158,19600,12:55:27
 rmhirota,Portuguese (Brazil),stats (R files),100684,19600,12:57:02
 lente,Portuguese (Brazil),base (C files),161919,19600,12:57:14
 lente,Portuguese (Brazil),base (C files),161920,19600,12:57:31
@@ -2633,6 +2629,125 @@ rcastelo,Catalan,graphics (R files),221369,19612,09:02:24
 jmaspons,Catalan,splines (C files),222459,19613,23:56:00
 jmaspons,Catalan,splines (C files),222460,19613,23:59:15
 jmaspons,Catalan,splines (C files),222461,19613,23:59:56
+rcastelo,Catalan,stats (R files),222470,19617,18:01:54
+rcastelo,Catalan,stats (R files),222471,19617,18:03:51
+rcastelo,Catalan,stats (R files),222473,19617,18:04:42
+rcastelo,Catalan,stats (R files),222474,19617,18:05:14
+rcastelo,Catalan,stats (R files),222476,19617,18:09:24
+rcastelo,Catalan,stats (R files),222477,19617,18:11:38
+rcastelo,Catalan,graphics (R files),221377,19617,18:11:50
+rcastelo,Catalan,stats (R files),222478,19617,18:11:50
+rcastelo,Catalan,stats (R files),222479,19617,18:12:16
+rcastelo,Catalan,stats (R files),222480,19617,18:13:59
+rcastelo,Catalan,stats (R files),222481,19617,18:15:11
+jospueyo,Catalan,grDevices (R files),221112,19631,13:48:09
+jospueyo,Catalan,tcltk (C files),221307,19631,13:52:46
+jospueyo,Catalan,methods (R files),221472,19631,13:53:55
+jospueyo,Catalan,grDevices (C files),221953,19631,13:54:28
+jospueyo,Catalan,tcltk (R files),222298,19631,13:55:14
+jospueyo,Catalan,grid (C files),222365,19631,13:55:50
+PaoCorrales,Spanish,Mac GUI,183384,19636,23:36:34
+PaoCorrales,Spanish,base (C files),145144,19650,14:08:55
+PaoCorrales,Spanish,base (C files),145158,19650,14:09:26
+Nestor.Montano,Spanish,stats (R files),177341,19650,14:14:56
+Nestor.Montano,Spanish,stats (R files),177342,19650,14:16:32
+Nestor.Montano,Spanish,stats (R files),177343,19650,14:17:51
+Nestor.Montano,Spanish,stats (R files),177344,19650,14:21:42
+Nestor.Montano,Spanish,stats (R files),177345,19650,14:22:33
+Nestor.Montano,Spanish,stats (R files),177346,19650,14:23:17
+riva-quiroga,Spanish,The R Project for Statistical Computing,225756,19650,14:26:13
+Nestor.Montano,Spanish,stats (R files),177347,19650,14:26:39
+riva-quiroga,Spanish,base (C files),146092,19650,14:28:10
+Jformoso,Spanish,base (R files),138726,19650,14:29:46
+jansf,Spanish,parallel (C files),175081,19650,14:30:31
+jansf,Spanish,parallel (C files),175082,19650,14:31:02
+jansf,Spanish,parallel (C files),175083,19650,14:31:25
+jansf,Spanish,tools (C files),173926,19650,14:31:41
+jansf,Spanish,grDevices (C files),174578,19650,14:31:41
+jansf,Spanish,utils (C files),175888,19650,14:31:41
+jansf,Spanish,parallel (C files),175084,19650,14:31:43
+jansf,Spanish,parallel (C files),175085,19650,14:32:21
+jansf,Spanish,parallel (C files),175086,19650,14:32:39
+jansf,Spanish,parallel (C files),175087,19650,14:33:13
+jansf,Spanish,parallel (C files),175088,19650,14:33:35
+jansf,Spanish,parallel (C files),175089,19650,14:33:52
+luisdverde,Spanish,base (C files),145221,19650,14:33:58
+jansf,Spanish,parallel (C files),175091,19650,14:34:33
+Jformoso,Spanish,base (R files),124879,19650,14:34:51
+jansf,Spanish,parallel (C files),175092,19650,14:34:54
+jansf,Spanish,parallel (C files),175093,19650,14:35:14
+jansf,Spanish,parallel (C files),175094,19650,14:35:22
+jansf,Spanish,parallel (C files),175095,19650,14:36:05
+jansf,Spanish,parallel (C files),175096,19650,14:36:14
+luisdverde,Spanish,base (C files),145222,19650,14:36:26
+jansf,Spanish,parallel (C files),175097,19650,14:36:31
+jansf,Spanish,parallel (C files),175098,19650,14:36:48
+jansf,Spanish,parallel (C files),175099,19650,14:37:12
+jansf,Spanish,parallel (C files),175100,19650,14:37:21
+jansf,Spanish,parallel (C files),175101,19650,14:38:07
+jansf,Spanish,parallel (C files),175102,19650,14:39:14
+ImoPupato,Spanish,base (C files),145220,19650,14:39:48
+Nestor.Montano,Spanish,graphics (R files),173507,19650,14:40:07
+Nestor.Montano,Spanish,stats (R files),177348,19650,14:40:07
+jansf,Spanish,stats (R files),177349,19650,14:40:22
+jansf,Spanish,stats (R files),177350,19650,14:40:33
+jansf,Spanish,stats (R files),177351,19650,14:41:07
+jansf,Spanish,stats (R files),177352,19650,14:41:26
+jansf,Spanish,stats (R files),177353,19650,14:42:49
+jansf,Spanish,stats (R files),177354,19650,14:43:53
+jansf,Spanish,graphics (R files),173506,19650,14:44:07
+jansf,Spanish,stats (R files),177355,19650,14:44:08
+jansf,Spanish,stats (R files),177356,19650,14:44:39
+jansf,Spanish,stats (R files),177358,19650,14:47:02
+jansf,Spanish,stats (R files),177359,19650,14:47:18
+Jformoso,Spanish,stats (R files),177357,19650,14:54:08
+Jformoso,Spanish,stats (R files),177360,19650,14:55:11
+Jformoso,Spanish,stats (R files),177361,19650,14:55:34
+Jformoso,Spanish,stats (R files),177363,19650,15:01:01
+Jformoso,Spanish,stats (R files),177364,19650,15:01:35
+Jformoso,Spanish,stats (R files),177369,19650,15:06:36
+Jformoso,Spanish,stats (R files),177372,19650,15:07:54
+Jformoso,Spanish,stats (R files),177373,19650,15:11:55
+PatriLoto,Spanish,stats (R files),177362,19650,15:12:14
+PatriLoto,Spanish,stats (R files),177370,19650,15:14:00
+Jformoso,Spanish,stats (R files),177374,19650,15:16:50
+Jformoso,Spanish,stats (R files),177375,19650,15:21:59
+Jformoso,Spanish,stats (R files),177377,19650,15:25:49
+Jformoso,Spanish,stats (R files),177378,19650,15:26:47
+Jformoso,Spanish,stats (R files),177380,19650,15:29:18
+PatriLoto,Spanish,tools (C files),173901,19650,15:30:48
+PatriLoto,Spanish,tools (C files),173902,19650,15:32:07
+Jformoso,Spanish,base (R files),125217,19650,15:32:46
+Jformoso,Spanish,stats (R files),177385,19650,15:32:46
+PatriLoto,Spanish,tools (C files),173903,19650,15:38:21
+PatriLoto,Spanish,tools (C files),173905,19650,15:44:15
+spereyra,Spanish,base (R files),124893,19650,18:50:44
+natilab,Spanish,base (C files),145214,19651,01:40:15
+natilab,Spanish,base (C files),145637,19651,01:58:24
+natilab,Spanish,base (C files),145639,19651,01:58:43
+natilab,Spanish,base (C files),145640,19651,01:59:23
+natilab,Spanish,base (C files),145641,19651,01:59:37
+natilab,Spanish,base (C files),145642,19651,02:00:17
+natilab,Spanish,base (C files),145694,19651,02:00:32
+natilab,Spanish,base (R files),124896,19651,02:18:47
+rffontenelle,Portuguese (Brazil),splines (C files),90009,19661,18:26:57
+rffontenelle,Portuguese (Brazil),splines (C files),90010,19661,18:27:09
+ShunWang,Chinese (Simplified),base (C files),166844,19666,03:06:52
+luisdverde,Spanish,base (R files),138728,19669,02:54:49
+luisdverde,Spanish,base (R files),124940,19669,02:55:12
+luisdverde,Spanish,base (R files),124941,19669,02:55:42
+luisdverde,Spanish,base (R files),124942,19669,02:56:00
+ramansh,Nepali,Mac GUI,186449,19678,12:05:52
+ramansh,Nepali,Mac GUI,186700,19678,12:06:38
+ramansh,Nepali,Mac GUI,186450,19678,12:06:46
+ramansh,Nepali,Mac GUI,186702,19678,12:06:54
+ramansh,Nepali,Mac GUI,186451,19678,12:07:24
+ramansh,Nepali,Mac GUI,186757,19678,12:07:29
+ramansh,Nepali,Mac GUI,186703,19678,12:07:35
+ramansh,Nepali,Mac GUI,186759,19678,12:07:45
+Mara,Spanish,tools (R files),125711,19685,14:41:27
+Mara,Spanish,tools (R files),125713,19685,14:42:26
+Mara,Spanish,tools (R files),125714,19685,14:42:54
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
 kryekuzhinieri,Albanian,base (R files),124088,19234,16:26:08
@@ -2741,6 +2856,7 @@ Gabs,Spanish,base (R files),124735,19280,14:28:42
 julilaurino,Spanish,base (R files),124746,19280,14:35:02
 Gabs,Spanish,base (R files),124758,19280,14:44:30
 msquiroga,Spanish,stats (C files),126593,19280,17:42:35
+jansf,Spanish,stats (C files),126620,19650,14:31:41
 DeBARtha,Bengali,The R Project for Statistical Computing,130813,19599,08:41:07
 DeBARtha,Bengali,The R Project for Statistical Computing,130790,19599,08:44:25
 Saranjeet,Hindi,base (R GUI),128583,19392,08:29:27
@@ -2795,6 +2911,8 @@ bjungbogati,Nepali,base (R GUI),132456,19426,12:49:46
 msquiroga,Spanish,base (R files),124964,19464,23:40:55
 msquiroga,Spanish,base (R files),124982,19465,00:00:04
 ShunWang,Chinese (Simplified),methods (C files),83996,19549,08:11:08
+rcastelo,Catalan,The R Project for Statistical Computing,137809,19681,10:28:21
+jmaspons,Catalan,The R Project for Statistical Computing,137861,19653,21:25:54
 villegar,Spanish,Mac GUI,171685,19600,13:02:10
 villegar,Spanish,Mac GUI,171688,19599,14:02:48
 villegar,Spanish,Mac GUI,171689,19600,13:03:04
@@ -2949,3 +3067,14 @@ bjungbogati,Nepali,base (C files),156802,19601,08:27:17
 ImanAlhasani,Arabic,Mac GUI,172842,19601,10:25:46
 alswajiab,Arabic,Mac GUI,172855,19601,14:52:24
 rcastelo,Catalan,graphics (R files),221361,19612,08:45:24
+rcastelo,Catalan,stats (R files),222472,19620,13:48:54
+rcastelo,Catalan,stats (R files),222475,19620,13:49:30
+jmaspons,Catalan,graphics (R files),221317,19641,06:56:21
+Jformoso,Spanish,stats (R files),177340,19650,14:16:47
+ImoPupato,Spanish,base (C files),145216,19650,14:36:48
+Jformoso,Spanish,stats (R files),177379,19650,15:27:31
+Jformoso,Spanish,stats (R files),177383,19650,15:31:08
+PatriLoto,Spanish,tools (C files),173904,19650,15:41:30
+mayeul_kauffmann,French,The R Project for Statistical Computing,138132,19665,17:06:23
+Mara,Spanish,tools (R files),125715,19685,14:44:25
+Mara,Spanish,tools (R files),125716,19685,14:45:01
