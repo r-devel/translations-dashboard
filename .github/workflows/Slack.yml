@@ -27,6 +27,9 @@ jobs:
         Rscript -e 'install.packages("stringr")'
         Rscript -e 'install.packages("readr")'
     - name: Run R scripts
+      env: 
+        slack_token: ${{ secrets.SLACK_TOKEN }}
+        slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: | 
         Rscript "Weblate_Slack.R"
       
