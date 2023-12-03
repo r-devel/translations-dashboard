@@ -41,7 +41,7 @@ for(slug in slugs)
 {
   library_url<-"https://translate.rx.studio/api/components/r-project/"
   endpoint_library<-paste0(library_url,slug,"/statistics/")
-  response_lib <- GET(url = endpoint_library, headers = headers, authenticate("shrishs21","kvell@2003"))
+  response_lib <- GET(url = endpoint_library, headers = headers)
   lib_lang <- content(response_lib, "text", encoding = "UTF-8")
   lib_lang <- fromJSON(lib_lang)
   lang_count[i]<-lib_lang$count

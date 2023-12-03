@@ -14,7 +14,7 @@ endpoint <- changes_url
 h <- new_handle()
 handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
 handle_setopt(h, customrequest = "GET")
-handle_setopt(h, httpheader = c("Authorization: Token wlu_U8k6Kk12pyhXuBeXOP6imHRFiPrUMwHgHari"))
+handle_setopt(h, httpheader = c(paste0("Authorization: Token ", api_token)))
 
 response <- curl_fetch_memory(endpoint, handle = h)
 

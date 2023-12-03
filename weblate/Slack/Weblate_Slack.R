@@ -18,7 +18,7 @@ time<-Sys.time()
 url<-"https://translate.rx.studio/api/changes/"
 endpoint <- url
 headers <- add_headers(Authorization = paste("Token"," ",api_token))
-response <- GET(url = endpoint, headers = headers, authenticate("shrishs21","kvell@2003"))
+response <- GET(url = endpoint, headers = headers)
 changes <- content(response, "text", encoding = "UTF-8")
 changes <- fromJSON(changes)
 count<-changes$count
@@ -43,7 +43,7 @@ new_timestamp<-c()
 for(i in pages:1)
 {
   changes_url<-paste0(url,"?page=",i)
-  page_response <- GET(url = changes_url, headers = headers, authenticate("shrishs21","kvell@2003"))
+  page_response <- GET(url = changes_url, headers = headers)
   page_changes <- content(page_response, "text", encoding = "UTF-8")
   page_changes <- fromJSON(page_changes)
   k<-length(page_changes$results$action)
