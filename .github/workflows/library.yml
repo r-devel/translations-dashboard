@@ -30,7 +30,7 @@ jobs:
         
     - name: Run R scripts
       env: 
-        API_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
         Rscript "Library Language Statistics.R"
       
