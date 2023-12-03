@@ -4,7 +4,7 @@ library(jsonlite)
 library(tibble)
 library(tidyverse)
 library(utils)
-api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
+api_token <- Sys.getenv("WEBLATE_TOKEN")
 
 libraries_url<-"https://translate.rx.studio/api/projects/r-project/components/"
 endpoint <- libraries_url
