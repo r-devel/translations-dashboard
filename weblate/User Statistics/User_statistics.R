@@ -11,6 +11,7 @@ library(lubridate)
 Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
 # Weblate API configuration
 API_TOKEN<-Sys.getenv("WEBLATE_TOKEN")
+print(API_TOKEN)
 api_url <- "https://translate.rx.studio/api/"
 
 # API request: Fetch all languages
