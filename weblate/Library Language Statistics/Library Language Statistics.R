@@ -4,11 +4,11 @@ library(jsonlite)
 library(tibble)
 library(tidyverse)
 library(utils)
-api_token <- Sys.getenv("WEBLATE_TOKEN")
+API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
 libraries_url<-"https://translate.rx.studio/api/projects/r-project/components/"
 endpoint <- libraries_url
-headers <- add_headers(Authorization = paste("Token"," ",api_token))
+headers <- add_headers(Authorization = paste("Token"," ",API_TOKEN))
 response <- GET(url = endpoint, headers = headers)
 libraries <- content(response, "text", encoding = "UTF-8")
 libraries <- fromJSON(libraries)

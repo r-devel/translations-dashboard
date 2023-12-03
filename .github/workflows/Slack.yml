@@ -27,7 +27,8 @@ jobs:
         Rscript -e 'install.packages("stringr")'
         Rscript -e 'install.packages("readr")'
     - name: Run R scripts
-      env: 
+      env: |
+        API_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: | 

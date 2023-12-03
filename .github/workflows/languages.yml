@@ -28,6 +28,8 @@ jobs:
         Rscript -e 'install.packages("utils")'
         
     - name: Run R scripts
+      env: 
+        TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
         Rscript Languages_Statistics.R
       

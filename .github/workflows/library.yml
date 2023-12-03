@@ -29,6 +29,8 @@ jobs:
         Rscript -e 'install.packages("utils")'
         
     - name: Run R scripts
+      env: 
+        API_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
         Rscript "Library Language Statistics.R"
       

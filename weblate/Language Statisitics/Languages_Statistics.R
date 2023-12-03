@@ -4,9 +4,9 @@ library(data.table)
 library(utils)
 
 url <- "https://translate.rx.studio/api/"
-token <- Sys.getenv("WEBLATE_TOKEN")
+TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
-headers <- add_headers(Authorization = paste0("Token ", token))
+headers <- add_headers(Authorization = paste0("Token ", TOKEN))
 response <- GET(paste0(url, "languages/"), headers = headers)
 lang_all <- content(response, "parsed")
 lang <- lang_all$results

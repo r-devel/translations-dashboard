@@ -10,7 +10,7 @@ library(curl)
 library(lubridate)
 Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
 # Weblate API configuration
-api_token<-Sys.getenv("WEBLATE_TOKEN")
+API_TOKEN<-Sys.getenv("WEBLATE_TOKEN")
 api_url <- "https://translate.rx.studio/api/"
 
 # API request: Fetch all languages
@@ -18,7 +18,7 @@ endpoint <- paste0(api_url, "users/")
 h <- new_handle()
 handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
 handle_setopt(h, customrequest = "GET")
-handle_setopt(h, httpheader = c(paste0("Authorization: Token ", api_token)))
+handle_setopt(h, httpheader = c(paste0("Authorization: Token ", API_TOKEN)))
 
 response<-curl_fetch_memory(endpoint, handle = h)
 users<-rawToChar(response$content)

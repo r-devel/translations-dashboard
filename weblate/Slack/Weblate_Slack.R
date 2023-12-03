@@ -4,7 +4,7 @@ library(jsonlite)
 library(stringr)
 library(readr)
 Statistics <- read_csv("./../User Statistics/Statistics.csv")
-api_token <- Sys.getenv("WEBLATE_TOKEN")
+API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 SLACK_TOKEN <- Sys.getenv("SLAKC_TOKEN")
 SLACK_WEBHOOK_URL <- Sys.getenv("SLACK_WEBHOOK_URL")
 slackr_setup(channel="#gsoc-translations",
@@ -17,7 +17,7 @@ date<-Sys.Date()
 time<-Sys.time()
 url<-"https://translate.rx.studio/api/changes/"
 endpoint <- url
-headers <- add_headers(Authorization = paste("Token"," ",api_token))
+headers <- add_headers(Authorization = paste("Token"," ",API_TOKEN))
 response <- GET(url = endpoint, headers = headers)
 changes <- content(response, "text", encoding = "UTF-8")
 changes <- fromJSON(changes)
