@@ -4,7 +4,7 @@ library(jsonlite)
 library(stringr)
 library(readr)
 Statistics <- read_csv("./../User Statistics/Statistics.csv")
-api_token <- "wlu_s7fqhH2f9VgCCvIU2FQFlFMIZ27IH9GJwCg0"
+api_token <- Sys.getenv("WEBLATE_TOKEN")
 SLACK_TOKEN <- Sys.getenv("SLAKC_TOKEN")
 SLACK_WEBHOOK_URL <- Sys.getenv("SLACK_WEBHOOK_URL")
 slackr_setup(channel="#gsoc-translations",
