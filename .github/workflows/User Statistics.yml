@@ -31,7 +31,7 @@ jobs:
         Rscript -e 'install.packages("lubridate")'   
     - name: Run R scripts
       env: 
-        API_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
         Rscript "User_statistics.R"
       
