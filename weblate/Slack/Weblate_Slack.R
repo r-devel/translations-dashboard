@@ -5,7 +5,7 @@ library(stringr)
 library(readr)
 Statistics <- read_csv("./../User Statistics/Statistics.csv")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
-SLACK_TOKEN <- Sys.getenv("SLAKC_TOKEN")
+SLACK_TOKEN <- Sys.getenv("SLACK_TOKEN")
 SLACK_WEBHOOK_URL <- Sys.getenv("SLACK_WEBHOOK_URL")
 slackr_setup(channel="#gsoc-translations",
              username="shrishs21",
