@@ -9,7 +9,7 @@ api_token <- Sys.getenv("WEBLATE_TOKEN")
 libraries_url<-"https://translate.rx.studio/api/projects/r-project/components/"
 endpoint <- libraries_url
 headers <- add_headers(Authorization = paste("Token"," ",api_token))
-response <- GET(url = endpoint, headers = headers, authenticate("shrishs21","kvell@2003"))
+response <- GET(url = endpoint, headers = headers)
 libraries <- content(response, "text", encoding = "UTF-8")
 libraries <- fromJSON(libraries)
 libraries_count<-libraries$count
