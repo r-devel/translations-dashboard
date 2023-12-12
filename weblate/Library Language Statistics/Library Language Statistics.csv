@@ -40,7 +40,7 @@
 "39",15,"The R Project for Statistical Computing","English","Turkish",7,0,7,0
 "40",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",7,0,7,0
 "41",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",7,0,7,0
-"42",18,"The R Project for Statistical Computing","English","English (United Kingdom)",7,4,3,0
+"42",18,"The R Project for Statistical Computing","English","English (United Kingdom)",7,7,0,0
 "43",19,"The R Project for Statistical Computing","English","Hungarian",7,1,6,0
 "44",20,"The R Project for Statistical Computing","English","Arabic",8,2,6,0
 "45",21,"The R Project for Statistical Computing","English","Albanian",7,0,7,0
@@ -97,7 +97,7 @@
 "96",17,"base (C files)","C","Chinese (Traditional)",1682,1455,82,145
 "97",18,"base (C files)","C","Arabic",583,17,565,1
 "98",19,"base (C files)","C","Albanian",1682,0,1587,95
-"99",20,"base (C files)","C","English (United Kingdom)",1682,45,1632,5
+"99",20,"base (C files)","C","English (United Kingdom)",1682,1682,0,0
 "100",21,"base (C files)","C","Hindi",1684,55,1438,191
 "101",22,"base (C files)","C","Nepali",1686,7,1666,13
 "102",23,"base (C files)","C","Catalan",591,591,0,0
