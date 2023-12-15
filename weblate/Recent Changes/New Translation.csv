@@ -145,20 +145,9 @@ lente,Portuguese (Brazil),The R Project for Statistical Computing,118566,19235,2
 lente,Portuguese (Brazil),tools (R files),109082,19236,19:09:26
 lente,Portuguese (Brazil),tools (R files),109083,19236,19:09:42
 lente,Portuguese (Brazil),tools (R files),109110,19236,19:16:11
-lente,Portuguese (Brazil),tools (R files),109112,19236,19:18:23
 lente,Portuguese (Brazil),tools (R files),109113,19236,19:19:13
-lente,Portuguese (Brazil),tools (R files),109114,19236,19:19:33
-lente,Portuguese (Brazil),tools (R files),109116,19236,19:20:55
-lente,Portuguese (Brazil),tools (R files),109117,19236,19:21:53
-lente,Portuguese (Brazil),tools (R files),109118,19236,19:22:49
-lente,Portuguese (Brazil),tools (R files),109119,19236,19:23:15
-lente,Portuguese (Brazil),tools (R files),109120,19236,19:23:34
-lente,Portuguese (Brazil),tools (R files),109121,19236,19:24:03
-lente,Portuguese (Brazil),tools (R files),109123,19236,19:24:36
 lente,Portuguese (Brazil),tools (R files),109126,19236,19:25:29
 lente,Portuguese (Brazil),tools (R files),109128,19236,19:27:00
-lente,Portuguese (Brazil),tools (R files),109129,19236,19:27:08
-lente,Portuguese (Brazil),tools (R files),109130,19236,19:27:26
 lente,Portuguese (Brazil),tools (R files),109131,19236,19:27:33
 lente,Portuguese (Brazil),tools (R files),109133,19236,19:28:02
 lente,Portuguese (Brazil),tools (R files),109135,19236,19:29:07
@@ -232,7 +221,6 @@ lente,Portuguese (Brazil),tools (R files),109233,19236,20:21:03
 lente,Portuguese (Brazil),tools (R files),109234,19236,20:21:38
 lente,Portuguese (Brazil),tools (R files),109235,19236,20:21:50
 lente,Portuguese (Brazil),tools (R files),109236,19236,20:22:28
-lente,Portuguese (Brazil),tools (R files),109243,19236,20:29:40
 lente,Portuguese (Brazil),tools (R files),109245,19236,20:30:24
 lente,Portuguese (Brazil),tools (R files),109246,19236,20:32:08
 lente,Portuguese (Brazil),tools (R files),109248,19236,20:32:49
@@ -504,7 +492,6 @@ lente,Portuguese (Brazil),utils (R files),115905,19237,17:21:24
 lente,Portuguese (Brazil),utils (R files),115906,19237,17:22:50
 lente,Portuguese (Brazil),utils (R files),115907,19237,17:23:00
 lente,Portuguese (Brazil),utils (R files),115912,19237,17:25:59
-lente,Portuguese (Brazil),utils (R files),115913,19237,17:26:15
 lente,Portuguese (Brazil),utils (R files),115915,19237,17:26:39
 lente,Portuguese (Brazil),utils (R files),115916,19237,17:26:52
 lente,Portuguese (Brazil),utils (R files),115917,19237,17:27:05
@@ -708,7 +695,6 @@ lente,Portuguese (Brazil),utils (R files),116150,19237,18:55:58
 lente,Portuguese (Brazil),utils (R files),116151,19237,18:56:14
 lente,Portuguese (Brazil),utils (R files),116152,19237,18:56:32
 lente,Portuguese (Brazil),utils (R files),116153,19237,18:56:49
-lente,Portuguese (Brazil),utils (R files),116154,19237,18:57:02
 lente,Portuguese (Brazil),utils (R files),116155,19237,18:57:09
 tidyverse,Korean,The R Project for Statistical Computing,118540,19263,02:06:44
 tidyverse,Korean,The R Project for Statistical Computing,118520,19263,02:06:55
@@ -732,7 +718,6 @@ beatrizmilz,Portuguese (Brazil),utils (R files),115901,19280,13:50:07
 PatriLoto,Spanish,graphics (C files),77299,19280,13:50:11
 julilaurino,Spanish,base (R files),124718,19280,13:50:28
 julilaurino,Spanish,base (R files),124719,19280,13:50:43
-msquiroga,Spanish,stats (C files),126538,19280,13:50:50
 msquiroga,Spanish,stats (C files),126539,19280,13:51:11
 msquiroga,Spanish,stats (C files),126541,19280,13:52:28
 msquiroga,Spanish,stats (C files),126542,19280,13:52:52
@@ -823,11 +808,7 @@ julilaurino,Spanish,base (R files),124740,19280,14:32:36
 hturner,English (United Kingdom),grDevices (C files),72748,19280,14:33:05
 hturner,English (United Kingdom),grDevices (C files),72749,19280,14:33:10
 beatrizmilz,Portuguese (Brazil),utils (R files),116199,19280,14:33:13
-hturner,English (United Kingdom),grDevices (C files),72750,19280,14:33:16
 hturner,English (United Kingdom),grDevices (C files),72751,19280,14:33:21
-hturner,English (United Kingdom),grDevices (C files),72752,19280,14:33:26
-hturner,English (United Kingdom),grDevices (C files),72753,19280,14:33:31
-hturner,English (United Kingdom),grDevices (C files),72754,19280,14:33:36
 hturner,English (United Kingdom),grDevices (C files),72755,19280,14:33:42
 hturner,English (United Kingdom),grDevices (C files),72756,19280,14:33:46
 hturner,English (United Kingdom),grDevices (C files),72757,19280,14:33:51
@@ -940,7 +921,6 @@ julilaurino,Spanish,base (R files),124798,19280,15:11:10
 julilaurino,Spanish,base (R files),124799,19280,15:11:34
 msquiroga,Spanish,stats (C files),126594,19280,17:42:48
 msquiroga,Spanish,stats (C files),126595,19280,17:43:00
-msquiroga,Spanish,stats (C files),126596,19280,17:43:14
 msquiroga,Spanish,stats (C files),126597,19280,17:43:23
 msquiroga,Spanish,stats (C files),126599,19280,17:45:03
 msquiroga,Spanish,stats (C files),126600,19280,17:45:17
@@ -1072,7 +1052,6 @@ lente,Portuguese (Brazil),utils (C files),126799,19376,17:50:30
 lente,Portuguese (Brazil),utils (C files),126800,19376,17:50:56
 lente,Portuguese (Brazil),utils (C files),126801,19376,17:51:06
 lente,Portuguese (Brazil),utils (C files),126802,19376,17:52:03
-lente,Portuguese (Brazil),utils (C files),126803,19376,18:00:11
 lente,Portuguese (Brazil),utils (C files),126804,19376,18:00:35
 lente,Portuguese (Brazil),utils (C files),126805,19376,18:02:11
 lente,Portuguese (Brazil),utils (C files),126806,19376,18:02:22
@@ -2049,7 +2028,6 @@ lente,Portuguese (Brazil),utils (R files),116258,19600,10:46:32
 lente,Portuguese (Brazil),utils (R files),116259,19600,10:47:05
 lente,Portuguese (Brazil),utils (R files),116260,19600,10:47:22
 lente,Portuguese (Brazil),base (C files),161812,19600,10:54:48
-lente,Portuguese (Brazil),base (C files),161843,19600,10:58:02
 ImanAlhasani,Arabic,Mac GUI,183856,19600,11:06:27
 lente,Portuguese (Brazil),base (C files),161896,19600,11:13:38
 lente,Portuguese (Brazil),base (C files),161898,19600,11:14:38
@@ -2192,7 +2170,6 @@ rmhirota,Portuguese (Brazil),stats (R files),100861,19600,13:53:50
 rmhirota,Portuguese (Brazil),stats (R files),100862,19600,13:54:08
 rmhirota,Portuguese (Brazil),stats (R files),100863,19600,13:54:25
 rmhirota,Portuguese (Brazil),stats (R files),100864,19600,13:54:39
-lente,Portuguese (Brazil),base (C files),162041,19600,13:55:21
 geraldinegomez,Spanish,grid (R files),172488,19600,13:59:11
 rmhirota,Portuguese (Brazil),stats (R files),100865,19600,13:59:49
 geraldinegomez,Spanish,grid (R files),172489,19600,14:00:49
@@ -2266,7 +2243,6 @@ rmhirota,Portuguese (Brazil),stats (R files),100925,19600,14:41:12
 rmhirota,Portuguese (Brazil),stats (R files),100926,19600,14:41:19
 rmhirota,Portuguese (Brazil),stats (R files),100927,19600,14:41:43
 rmhirota,Portuguese (Brazil),stats (R files),100928,19600,14:41:53
-rmhirota,Portuguese (Brazil),stats (R files),100930,19600,14:42:15
 rmhirota,Portuguese (Brazil),stats (R files),100931,19600,14:42:21
 AyushBipinPatel,Hindi,utils (C files),181804,19600,14:45:34
 geraldinegomez,Spanish,grid (R files),172507,19600,14:51:00
@@ -2301,7 +2277,6 @@ rmhirota,Portuguese (Brazil),stats (R files),100966,19600,15:09:13
 geraldinegomez,Spanish,grid (R files),172516,19600,15:09:32
 rmhirota,Portuguese (Brazil),stats (R files),100967,19600,15:09:42
 rmhirota,Portuguese (Brazil),stats (R files),100968,19600,15:10:05
-lente,Portuguese (Brazil),base (C files),162255,19600,15:10:14
 lente,Portuguese (Brazil),base (C files),162264,19600,15:10:29
 geraldinegomez,Spanish,grid (R files),172517,19600,15:10:33
 rmhirota,Portuguese (Brazil),stats (R files),100971,19600,15:10:49
@@ -2490,17 +2465,11 @@ llrs,Catalan,The R Project for Statistical Computing,190839,19601,11:02:58
 rokamoto,Japanese,parallel (C files),175105,19601,11:22:28
 alswajiab,Arabic,splines (C files),123181,19601,12:27:55
 alswajiab,Arabic,splines (C files),123182,19601,12:31:14
-alswajiab,Arabic,base (C files),195038,19601,12:32:44
 alswajiab,Arabic,base (R files),119215,19601,12:32:45
-alswajiab,Arabic,base (C files),195040,19601,12:33:03
 alswajiab,Arabic,base (R files),119216,19601,12:33:03
-alswajiab,Arabic,base (C files),195042,19601,12:34:01
 alswajiab,Arabic,base (R files),119217,19601,12:34:01
-alswajiab,Arabic,base (C files),195044,19601,12:34:25
 alswajiab,Arabic,base (R files),119218,19601,12:34:25
-alswajiab,Arabic,base (C files),195048,19601,12:35:31
 alswajiab,Arabic,base (R files),119220,19601,12:35:31
-alswajiab,Arabic,base (C files),195050,19601,12:36:12
 alswajiab,Arabic,base (R files),119221,19601,12:36:12
 rmhirota,Portuguese (Brazil),stats (R files),101047,19601,12:46:12
 rmhirota,Portuguese (Brazil),stats (R files),101048,19601,12:46:29
@@ -2517,25 +2486,15 @@ rmhirota,Portuguese (Brazil),stats (R files),101058,19601,12:53:04
 rmhirota,Portuguese (Brazil),stats (R files),101059,19601,12:53:24
 rokamoto,Japanese,parallel (C files),175108,19601,12:55:34
 rokamoto,Japanese,parallel (C files),175109,19601,12:57:20
-alswajiab,Arabic,base (C files),195052,19601,13:18:10
 alswajiab,Arabic,base (R files),119222,19601,13:18:10
-alswajiab,Arabic,base (C files),195056,19601,13:21:13
 alswajiab,Arabic,base (R files),119224,19601,13:21:13
-alswajiab,Arabic,base (C files),195058,19601,13:22:36
 alswajiab,Arabic,base (R files),119225,19601,13:22:37
-alswajiab,Arabic,base (C files),195062,19601,13:23:26
 alswajiab,Arabic,base (R files),119227,19601,13:23:26
-alswajiab,Arabic,base (C files),195064,19601,13:23:40
 alswajiab,Arabic,base (R files),119228,19601,13:23:40
-alswajiab,Arabic,base (C files),195066,19601,13:24:43
 alswajiab,Arabic,base (R files),119229,19601,13:24:43
-alswajiab,Arabic,base (C files),195068,19601,13:25:00
 alswajiab,Arabic,base (R files),119230,19601,13:25:00
-alswajiab,Arabic,base (C files),195070,19601,13:25:57
 alswajiab,Arabic,base (R files),119231,19601,13:25:57
-alswajiab,Arabic,base (C files),195072,19601,13:27:09
 alswajiab,Arabic,base (R files),119232,19601,13:27:09
-alswajiab,Arabic,base (C files),195074,19601,13:27:19
 alswajiab,Arabic,base (R files),119233,19601,13:27:19
 alswajiab,Arabic,The R Project for Statistical Computing,190818,19601,13:28:57
 alswajiab,Arabic,tcltk (R files),123183,19601,13:33:36
@@ -2647,7 +2606,6 @@ jospueyo,Catalan,grDevices (C files),221953,19631,13:54:28
 jospueyo,Catalan,tcltk (R files),222298,19631,13:55:14
 jospueyo,Catalan,grid (C files),222365,19631,13:55:50
 PaoCorrales,Spanish,Mac GUI,183384,19636,23:36:34
-PaoCorrales,Spanish,base (C files),145144,19650,14:08:55
 PaoCorrales,Spanish,base (C files),145158,19650,14:09:26
 Nestor.Montano,Spanish,stats (R files),177341,19650,14:14:56
 Nestor.Montano,Spanish,stats (R files),177342,19650,14:16:32
@@ -2732,7 +2690,6 @@ natilab,Spanish,base (C files),145694,19651,02:00:32
 natilab,Spanish,base (R files),124896,19651,02:18:47
 rffontenelle,Portuguese (Brazil),splines (C files),90009,19661,18:26:57
 rffontenelle,Portuguese (Brazil),splines (C files),90010,19661,18:27:09
-ShunWang,Chinese (Simplified),base (C files),166844,19666,03:06:52
 luisdverde,Spanish,base (R files),138728,19669,02:54:49
 luisdverde,Spanish,base (R files),124940,19669,02:55:12
 luisdverde,Spanish,base (R files),124941,19669,02:55:42
@@ -2761,7 +2718,6 @@ lente,Portuguese (Brazil),base (R files),38967,19235,19:21:17
 lente,Portuguese (Brazil),base (R files),38969,19235,19:21:23
 lente,Portuguese (Brazil),base (R files),38999,19235,20:14:05
 lente,Portuguese (Brazil),base (R files),39017,19235,19:37:08
-lente,Portuguese (Brazil),tools (R files),109109,19236,19:18:53
 lente,Portuguese (Brazil),tools (R files),109152,19236,19:37:41
 lente,Portuguese (Brazil),tools (R files),109160,19236,19:40:56
 lente,Portuguese (Brazil),tools (R files),109165,19236,19:43:36
@@ -2782,7 +2738,6 @@ lente,Portuguese (Brazil),tools (R files),109238,19236,20:23:09
 lente,Portuguese (Brazil),tools (R files),109239,19236,20:27:57
 lente,Portuguese (Brazil),tools (R files),109240,19236,20:29:03
 lente,Portuguese (Brazil),tools (R files),109242,19236,20:29:08
-lente,Portuguese (Brazil),tools (R files),109244,19236,20:30:14
 lente,Portuguese (Brazil),tools (R files),109247,19236,20:32:21
 lente,Portuguese (Brazil),tools (R files),109259,19236,20:36:30
 lente,Portuguese (Brazil),tools (R files),109271,19236,20:38:59
