@@ -1,6 +1,6 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
-1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2023-12-18T03:00:10.693343Z,Active
-2,Gergely Daroczi,daroczig,19,1,Hungarian,2022-05-26T10:44:35.658195Z,2023-12-14T14:12:47.368792Z,Active
+1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2023-12-18T22:56:28.928447Z,Active
+2,Gergely Daroczi,daroczig,19,1,Hungarian,2022-05-26T10:44:35.658195Z,2023-12-19T11:48:48.785064Z,Active
 3,G,daroczig2test,0,0,character(0),N/A,N/A,Unbegun
 4,d g,dgtest,0,0,character(0),N/A,N/A,Unbegun
 5,Angela Sanzo,angelasanzo,107,1,Spanish,2022-07-26T11:46:55.491580Z,2022-10-15T13:48:33.161586Z,Inactive
@@ -8,14 +8,14 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 7,Marcel Ramos,mr148,93,3,"c(""Italian"", ""Spanish"", ""French"")",2022-08-30T14:34:46.552491Z,2022-08-30T16:37:10.190218Z,Inactive
 8,Krye Kuzhinieri,kryekuzhinieri,80,1,Albanian,2022-08-30T16:16:50.482141Z,2022-08-30T16:41:51.718526Z,Inactive
 9,Caio Lente,lente,1887,1,Portuguese (Brazil),2022-08-30T18:03:18.487743Z,2023-09-01T11:13:50.813264Z,Active
-10,Lluís,llrs,222,1,Spanish,2022-08-31T19:02:49.185580Z,2023-09-01T11:02:58.649996Z,Active
+10,Lluís,llrs,298,1,Spanish,2022-08-31T19:02:49.185580Z,2023-12-18T23:30:09.211863Z,Active
 11,Beatriz Milz,beatrizmilz,94,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
 13,Shun Wang,ShunWang,2091,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2023-11-05T03:21:58.810092Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T03:28:33.524393Z,2022-09-29T04:55:07.852687Z,Inactive
 16,Macarena Quiroga,msquiroga,321,1,Spanish,2022-10-14T13:18:07.512475Z,2023-07-24T21:27:34.073617Z,Active
-17,Heather Turner,hturner,3443,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2023-12-18T07:54:51.792056Z,Active
+17,Heather Turner,hturner,3764,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2023-12-18T20:50:19.967886Z,Active
 18,Patricia loto,PatriLoto,64,1,Spanish,2022-10-15T13:39:10.341490Z,2023-10-20T15:44:15.589887Z,Active
 19,Gabriel Tormin,Gtormin,25,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
 20,Julieta Laurino,julilaurino,61,1,Spanish,2022-10-15T13:46:13.327172Z,2022-10-15T15:11:34.486152Z,Inactive
