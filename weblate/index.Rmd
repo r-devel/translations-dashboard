@@ -922,6 +922,18 @@ htmltools::div(
   )
 )
 ```
+Row
+---------------------------------------------------------------------------------
+
+### New Translation Per Month
+```{r}
+date_counts2 <- table(year_month)
+
+# display the result
+date_counts2<-as.data.frame(date_counts2)
+fig1 <- plot_ly(date_counts2, y = ~Freq, x = ~year_month, name = 'New_Translation', type = 'bar',color = "orange")
+fig1
+```
 
 Information
 =====================================
