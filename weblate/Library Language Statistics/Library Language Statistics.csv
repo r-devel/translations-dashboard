@@ -80,7 +80,7 @@
 "79",26,"base (R files)","R","Nepali",590,0,590,0
 "80",27,"base (R files)","R","Catalan",590,590,0,0
 "81",28,"base (R files)","R","English (United Kingdom)",596,596,0,0
-"82",1,"base (C files)","C","English",1708,1708,0,0
+"82",1,"base (C files)","C","English",2269,2269,0,0
 "83",2,"base (C files)","C","Danish",1692,478,1073,141
 "84",3,"base (C files)","C","German",1692,1551,39,102
 "85",4,"base (C files)","C","Spanish",1692,1095,119,478
@@ -92,12 +92,12 @@
 "91",10,"base (C files)","C","Lithuanian",1692,1502,63,127
 "92",11,"base (C files)","C","Norwegian Nynorsk",1692,1083,169,440
 "93",12,"base (C files)","C","Polish",1692,1434,76,182
-"94",13,"base (C files)","C","Portuguese (Brazil)",1694,1289,123,282
+"94",13,"base (C files)","C","Portuguese (Brazil)",1694,1288,123,283
 "95",14,"base (C files)","C","Russian",1692,1547,41,104
 "96",15,"base (C files)","C","Turkish",1692,1074,179,439
 "97",16,"base (C files)","C","Chinese (Simplified)",1692,1390,98,204
 "98",17,"base (C files)","C","Chinese (Traditional)",1692,1429,87,176
-"99",18,"base (C files)","C","Arabic",16,0,16,0
+"99",18,"base (C files)","C","Arabic",583,17,565,1
 "100",19,"base (C files)","C","Albanian",1692,0,1594,98
 "101",20,"base (C files)","C","English (United Kingdom)",1647,1647,0,0
 "102",21,"base (C files)","C","Hindi",1694,55,1439,200
