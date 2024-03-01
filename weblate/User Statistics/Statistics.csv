@@ -7,11 +7,11 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 6,Taha Nawfal Alobaidy,tahanawfal,0,1,Arabic,N/A,N/A,Unbegun
 7,Marcel Ramos,mr148,93,3,"c(""Italian"", ""Spanish"", ""French"")",2022-08-30T14:34:46.552491Z,2022-08-30T16:37:10.190218Z,Inactive
 8,Krye Kuzhinieri,kryekuzhinieri,80,1,Albanian,2022-08-30T16:16:50.482141Z,2022-08-30T16:41:51.718526Z,Inactive
-9,Caio Lente,lente,1887,1,Portuguese (Brazil),2022-08-30T18:03:18.487743Z,2023-09-01T11:13:50.813264Z,Active
+9,Caio Lente,lente,1887,1,Portuguese (Brazil),2022-08-30T18:03:18.487743Z,2023-09-01T11:13:50.813264Z,Inactive
 10,Lluís,llrs,298,1,Spanish,2022-08-31T19:02:49.185580Z,2023-12-18T23:30:09.211863Z,Active
 11,Beatriz Milz,beatrizmilz,94,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
-13,Shun Wang,ShunWang,2125,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-02-18T01:50:41.239308Z,Active
+13,Shun Wang,ShunWang,2132,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-03-01T07:57:41.304713Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T03:28:33.524393Z,2022-09-29T04:55:07.852687Z,Inactive
 16,Macarena Quiroga,msquiroga,321,1,Spanish,2022-10-14T13:18:07.512475Z,2023-07-24T21:27:34.073617Z,Inactive
@@ -29,12 +29,12 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 28,Detlef Steuer,dsteuer,20,1,German,2023-01-27T20:54:18.133641Z,2023-01-27T21:10:08.585138Z,Inactive
 29,Robert Castelo,rcastelo,241,2,"c(""Spanish"", ""Catalan"")",2023-09-12T08:45:01.272247Z,2024-02-18T19:34:47.425745Z,Active
 30,Philip Khor,philip-khor,0,2,"c(""Chinese (Simplified)"", ""Indonesian"")",N/A,N/A,Unbegun
-31,Debartha Paul,DeBARtha,44,1,Bengali,2023-02-02T15:53:09.927118Z,2023-08-31T15:12:28.490942Z,Active
+31,Debartha Paul,DeBARtha,44,1,Bengali,2023-02-02T15:53:09.927118Z,2023-08-31T15:12:28.490942Z,Inactive
 32,Saranjeet Kaur Bhogal,Saranjeet,349,1,Hindi,2023-02-04T07:54:04.351957Z,2023-02-09T16:41:06.240799Z,Inactive
 33,Sumit Ghosh,Sumit,7,2,"c(""Bengali"", ""Hindi"")",2023-02-21T03:26:01.412146Z,2023-02-21T12:12:58.961890Z,Inactive
 34,Martin Mächler,maechlerETH,15,2,"c(""German"", ""English"")",2023-02-21T16:40:56.000606Z,2023-02-21T16:58:46.396504Z,Inactive
-35,Roberto Villegas-Diaz,villegar,700,1,Spanish,2023-08-30T10:49:38.775592Z,2023-08-31T15:22:26.601377Z,Active
-36,Binod Jung Bogati,bjungbogati,307,1,Nepali,2023-03-10T11:24:03.847929Z,2023-09-01T08:40:20.019723Z,Active
+35,Roberto Villegas-Diaz,villegar,700,1,Spanish,2023-08-30T10:49:38.775592Z,2023-08-31T15:22:26.601377Z,Inactive
+36,Binod Jung Bogati,bjungbogati,307,1,Nepali,2023-03-10T11:24:03.847929Z,2023-09-01T08:40:20.019723Z,Inactive
 37,Shrish Shete,shrishs21,2,2,"c(""English (United Kingdom)"", ""Hindi"")",N/A,N/A,Active
 38,Om Shivam Verma,omsv135,0,0,character(0),N/A,N/A,Unbegun
 39,Sovan Karmakar,Sovan,7,3,"c(""Bengali"", ""English (United Kingdom)"", ""English"")",2023-04-05T06:19:12.199744Z,2023-04-05T06:30:03.843731Z,Inactive
@@ -45,14 +45,14 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 44,Shriharsh,shriharsh,3,2,"c(""Hindi"", ""English"")",N/A,N/A,Active
 45,Joan Maspons,jmaspons,5207,1,Catalan,2023-08-16T12:59:29.808589Z,2023-12-13T22:30:27.264505Z,Active
 46,Renata Hirota,rmhirota,499,1,Portuguese (Brazil),2023-08-30T11:12:07.994061Z,2023-10-19T18:17:41.271735Z,Active
-47,Abdulrahman Alswaji,alswajiab,191,1,Arabic,2023-08-30T10:57:47.629737Z,2023-09-01T14:55:12.622316Z,Active
-48,Reiko Okamoto,rokamoto,62,1,Japanese,2023-08-30T13:27:03.773313Z,2023-09-01T14:19:49.368879Z,Active
-49,Geraldine Gomez Millan,geraldinegomez,129,1,Spanish,2023-08-30T16:05:32.062522Z,2023-08-31T16:08:45.127531Z,Active
-50,Ayush Bipin Patel,AyushBipinPatel,127,1,Hindi,2023-08-30T11:14:44.448132Z,2023-09-01T10:08:40.841737Z,Active
-51,Iman Al Hasani,ImanAlhasani,43,1,Arabic,2023-08-30T12:53:59.659478Z,2023-09-01T11:26:41.526191Z,Active
-52,Diego Hernangomez Herrero,dieghernan,0,1,Spanish,2023-08-31T06:21:28.545454Z,2023-08-31T06:21:28.589189Z,Active
-53,James Balamuta,coatless,42,1,Turkish,2023-08-31T21:52:13.547334Z,2023-08-31T23:21:32.243267Z,Active
-54,Norbert Solymosi,solymosi.norbert@gmail.com,665,0,character(0),2023-09-01T09:26:52.697126Z,2023-09-01T11:01:43.054793Z,Active
+47,Abdulrahman Alswaji,alswajiab,191,1,Arabic,2023-08-30T10:57:47.629737Z,2023-09-01T14:55:12.622316Z,Inactive
+48,Reiko Okamoto,rokamoto,62,1,Japanese,2023-08-30T13:27:03.773313Z,2023-09-01T14:19:49.368879Z,Inactive
+49,Geraldine Gomez Millan,geraldinegomez,129,1,Spanish,2023-08-30T16:05:32.062522Z,2023-08-31T16:08:45.127531Z,Inactive
+50,Ayush Bipin Patel,AyushBipinPatel,127,1,Hindi,2023-08-30T11:14:44.448132Z,2023-09-01T10:08:40.841737Z,Inactive
+51,Iman Al Hasani,ImanAlhasani,43,1,Arabic,2023-08-30T12:53:59.659478Z,2023-09-01T11:26:41.526191Z,Inactive
+52,Diego Hernangomez Herrero,dieghernan,0,1,Spanish,2023-08-31T06:21:28.545454Z,2023-08-31T06:21:28.589189Z,Unbegun
+53,James Balamuta,coatless,42,1,Turkish,2023-08-31T21:52:13.547334Z,2023-08-31T23:21:32.243267Z,Inactive
+54,Norbert Solymosi,solymosi.norbert@gmail.com,665,0,character(0),2023-09-01T09:26:52.697126Z,2023-09-01T11:01:43.054793Z,Inactive
 55,Jordi Mas,jmas,0,1,Catalan,N/A,N/A,Unbegun
 56,Josep Pueyo-Ros,jospueyo,7,1,Catalan,2023-10-01T13:48:09.236391Z,2023-10-01T13:55:50.524301Z,Active
 57,Toni Hermoso Pulido,toniher,0,1,Catalan,N/A,N/A,Unbegun
