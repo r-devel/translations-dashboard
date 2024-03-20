@@ -8,7 +8,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 7,Marcel Ramos,mr148,93,3,"c(""Italian"", ""Spanish"", ""French"")",2022-08-30T14:34:46.552491Z,2022-08-30T16:37:10.190218Z,Inactive
 8,Krye Kuzhinieri,kryekuzhinieri,80,1,Albanian,2022-08-30T16:16:50.482141Z,2022-08-30T16:41:51.718526Z,Inactive
 9,Caio Lente,lente,1887,1,Portuguese (Brazil),2022-08-30T18:03:18.487743Z,2023-09-01T11:13:50.813264Z,Inactive
-10,Lluís,llrs,298,1,Spanish,2022-08-31T19:02:49.185580Z,2023-12-18T23:30:09.211863Z,Active
+10,Lluís,llrs,305,1,Spanish,2022-08-31T19:02:49.185580Z,2024-03-19T22:26:29.484895Z,Active
 11,Beatriz Milz,beatrizmilz,94,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
 13,Shun Wang,ShunWang,2132,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-03-01T07:57:41.304713Z,Active
@@ -27,7 +27,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 26,Michael Chirico,michaelchirico,1212,1,Japanese,2023-01-30T16:48:31.203351Z,2024-03-19T04:51:44.261395Z,Active
 27,Elio,eliocamp,7,1,Spanish,2023-01-28T13:50:36.554909Z,2023-01-28T13:50:36.554909Z,Inactive
 28,Detlef Steuer,dsteuer,20,1,German,2023-01-27T20:54:18.133641Z,2023-01-27T21:10:08.585138Z,Inactive
-29,Robert Castelo,rcastelo,2152,2,"c(""Spanish"", ""Catalan"")",2023-09-12T08:45:01.272247Z,2024-03-18T23:47:20.050115Z,Active
+29,Robert Castelo,rcastelo,2225,2,"c(""Spanish"", ""Catalan"")",2023-09-12T08:45:01.272247Z,2024-03-19T19:45:52.956176Z,Active
 30,Philip Khor,philip-khor,0,2,"c(""Chinese (Simplified)"", ""Indonesian"")",N/A,N/A,Unbegun
 31,Debartha Paul,DeBARtha,44,1,Bengali,2023-02-02T15:53:09.927118Z,2023-08-31T15:12:28.490942Z,Inactive
 32,Saranjeet Kaur Bhogal,Saranjeet,349,1,Hindi,2023-02-04T07:54:04.351957Z,2023-02-09T16:41:06.240799Z,Inactive
@@ -43,7 +43,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 42,Hugo Gruson,hgruson,17,1,French,2023-04-13T09:31:55.858098Z,2023-04-13T09:36:34.017717Z,Inactive
 43,Paola Corrales,PaoCorrales,191,1,Spanish,2023-05-16T14:10:27.470268Z,2023-10-20T14:09:32.615734Z,Active
 44,Shriharsh,shriharsh,3,2,"c(""Hindi"", ""English"")",N/A,N/A,Active
-45,Joan Maspons,jmaspons,5216,1,Catalan,2023-08-16T12:59:29.808589Z,2024-03-19T12:38:19.412868Z,Active
+45,Joan Maspons,jmaspons,5297,1,Catalan,2023-08-16T12:59:29.808589Z,2024-03-19T16:19:01.819717Z,Active
 46,Renata Hirota,rmhirota,499,1,Portuguese (Brazil),2023-08-30T11:12:07.994061Z,2023-10-19T18:17:41.271735Z,Active
 47,Abdulrahman Alswaji,alswajiab,191,1,Arabic,2023-08-30T10:57:47.629737Z,2023-09-01T14:55:12.622316Z,Inactive
 48,Reiko Okamoto,rokamoto,62,1,Japanese,2023-08-30T13:27:03.773313Z,2023-09-01T14:19:49.368879Z,Inactive
@@ -59,7 +59,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 58,Riva Quiroga,rivaquiroga,0,0,character(0),N/A,N/A,Unbegun
 59,Aylén Avila,ImoPupato,11,1,Spanish,2023-10-20T14:18:11.698576Z,2023-10-20T14:39:48.381609Z,Active
 60,Jesica Formoso,Jformoso,34,1,Spanish,2023-10-20T14:16:47.126949Z,2023-10-20T15:45:55.584893Z,Active
-61,Luis D. Verde Arregoitia,luisdverde,15,1,Spanish,2023-10-20T14:31:03.078902Z,2024-03-06T15:30:49.478867Z,Active
+61,Luis D. Verde Arregoitia,luisdverde,20,1,Spanish,2023-10-20T14:31:03.078902Z,2024-03-19T19:31:46.978583Z,Active
 62,Néstor Montaño,Nestor.Montano,10,1,Spanish,2023-10-20T14:10:36.781007Z,2023-10-20T14:40:07.668072Z,Active
 63,Mara Geraldina Destefanis,Mara,44,1,Spanish,2023-11-24T14:41:27.408887Z,2023-12-07T13:28:07.359548Z,Active
 64,Toby Dylan Hocking,tdhock,0,0,character(0),N/A,N/A,Unbegun
