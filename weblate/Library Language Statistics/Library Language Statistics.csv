@@ -382,7 +382,7 @@
 "381",11,"splines (R files)","R","Russian",27,23,4,0
 "382",12,"splines (R files)","R","Chinese (Simplified)",27,19,6,2
 "383",13,"splines (R files)","R","Chinese (Traditional)",27,23,4,0
-"384",14,"splines (R files)","R","Arabic",23,0,23,0
+"384",14,"splines (R files)","R","Arabic",23,23,0,0
 "385",15,"splines (R files)","R","Spanish",27,0,27,0
 "386",16,"splines (R files)","R","Dutch",27,0,27,0
 "387",17,"splines (R files)","R","Hindi",27,0,27,0
@@ -427,7 +427,7 @@
 "426",12,"stats (R files)","R","Turkish",818,341,351,126
 "427",13,"stats (R files)","R","Chinese (Simplified)",818,712,42,64
 "428",14,"stats (R files)","R","Chinese (Traditional)",818,760,23,35
-"429",15,"stats (R files)","R","Arabic",787,6,781,0
+"429",15,"stats (R files)","R","Arabic",787,7,780,0
 "430",16,"stats (R files)","R","Spanish",817,39,773,5
 "431",17,"stats (R files)","R","Dutch",817,0,817,0
 "432",18,"stats (R files)","R","Hindi",817,2,815,0
@@ -601,5 +601,5 @@
 "600",10,"Mac GUI","English","Nepali",505,12,493,0
 "601",11,"Mac GUI","English","Turkish",505,35,470,0
 "602",12,"Mac GUI","English","Hungarian",505,0,505,0
-"603",13,"Mac GUI","English","Catalan",505,389,116,0
+"603",13,"Mac GUI","English","Catalan",505,505,0,0
 "604",14,"Mac GUI","English","English (United Kingdom)",505,0,505,0
