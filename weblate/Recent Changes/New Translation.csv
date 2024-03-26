@@ -3047,7 +3047,6 @@ rcastelo,Catalan,Mac GUI,224929,19805,17:55:44
 rcastelo,Catalan,Mac GUI,224930,19805,17:56:01
 rcastelo,Catalan,Mac GUI,224931,19805,17:56:14
 Worood,Arabic,splines (R files),119839,19806,07:21:15
-Worood,Arabic,splines (R files),119841,19806,07:27:46
 Worood,Arabic,splines (R files),119843,19806,07:28:52
 Worood,Arabic,splines (R files),119846,19806,07:54:41
 Worood,Arabic,splines (R files),119847,19806,07:54:53
@@ -3378,6 +3377,7 @@ rmhirota,Portuguese (Brazil),stats (R files),101021,19601,08:23:42
 rmhirota,Portuguese (Brazil),stats (R files),101030,19601,08:26:16
 bjungbogati,Nepali,base (C files),156802,19601,08:27:17
 ImanAlhasani,Arabic,Mac GUI,172842,19601,10:25:46
+michaelchirico,Arabic,Mac GUI,172843,19808,04:43:33
 alswajiab,Arabic,Mac GUI,172855,19601,14:52:24
 rcastelo,Catalan,graphics (R files),221361,19612,08:45:24
 rcastelo,Catalan,stats (R files),222472,19620,13:48:54
@@ -3395,4 +3395,5 @@ rcastelo,Catalan,Mac GUI,224524,19803,15:01:25
 rcastelo,Catalan,Mac GUI,224630,19804,14:16:11
 rcastelo,Catalan,Mac GUI,224640,19804,14:21:13
 rcastelo,Catalan,Mac GUI,224786,19804,17:49:21
+michaelchirico,Arabic,splines (R files),119841,19808,04:47:30
 Worood,Arabic,methods (C files),119807,19806,18:39:41
