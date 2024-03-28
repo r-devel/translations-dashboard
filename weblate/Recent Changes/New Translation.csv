@@ -701,7 +701,6 @@ tidyverse,Korean,The R Project for Statistical Computing,118520,19263,02:06:55
 tidyverse,Korean,The R Project for Statistical Computing,118562,19263,02:07:02
 tidyverse,Korean,compiler,71873,19264,03:22:32
 tidyverse,Korean,compiler,71876,19264,03:22:54
-joygram,Korean,compiler,71874,19264,03:28:33
 joygram,Korean,compiler,71880,19264,03:31:15
 Gtormin,Portuguese (Brazil),parallel (R files),126746,19280,13:34:49
 Gtormin,Portuguese (Brazil),grDevices (C files),74254,19280,13:38:38
@@ -1416,7 +1415,6 @@ RichDeto,Spanish,base (R files),124842,19414,12:52:24
 RichDeto,Spanish,base (R files),124843,19414,12:52:49
 RichDeto,Spanish,base (R files),124844,19414,12:53:44
 RichDeto,Spanish,base (R files),124845,19414,12:54:08
-RichDeto,Spanish,base (R files),124846,19414,12:56:58
 RichDeto,Spanish,base (R files),124847,19414,12:57:58
 RichDeto,Spanish,base (R files),124848,19414,13:00:18
 RichDeto,Spanish,base (R files),124849,19414,13:01:06
@@ -1703,7 +1701,6 @@ RichDeto,Spanish,methods (R files),126131,19451,19:31:07
 RichDeto,Spanish,tools (R files),125709,19451,19:32:51
 RichDeto,Spanish,methods (R files),126132,19451,19:36:00
 RichDeto,Spanish,tools (R files),125710,19451,19:41:38
-RichDeto,Spanish,methods (R files),126133,19451,19:54:37
 Sovan,Bengali,tcltk (C files),131542,19452,06:19:12
 Sovan,Bengali,base (R GUI),132578,19452,06:21:38
 Sovan,Bengali,base (R GUI),132579,19452,06:23:46
@@ -3059,6 +3056,7 @@ Worood,Arabic,splines (R files),119855,19806,11:26:05
 Worood,Arabic,splines (R files),119858,19806,11:27:12
 Worood,Arabic,splines (R files),119836,19806,11:29:15
 Worood,Arabic,methods (C files),119809,19806,18:41:55
+michaelchirico,Japanese,base (R files),36237,19810,04:57:33
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
 kryekuzhinieri,Albanian,base (R files),124088,19234,16:26:08
@@ -3155,6 +3153,7 @@ lente,Portuguese (Brazil),utils (R files),116120,19237,18:48:52
 lente,Portuguese (Brazil),utils (R files),116127,19601,11:03:12
 lente,Portuguese (Brazil),utils (R files),116135,19237,18:52:34
 tidyverse,Korean,compiler,71872,19264,03:22:14
+michaelchirico,Korean,compiler,71874,19810,04:46:43
 tidyverse,Korean,grid (C files),81136,19266,01:52:11
 angelasanzo,Spanish,utils (R files),125297,19280,13:48:33
 beatrizmilz,Portuguese (Brazil),utils (R files),115982,19280,13:53:06
@@ -3209,6 +3208,7 @@ mshmandal,Bengali,base (R files),130196,19733,20:13:34
 Sumit,Bengali,base (R files),130198,19409,12:09:00
 RichDeto,Spanish,base (R files),124790,19414,09:54:48
 RichDeto,Spanish,base (R files),124816,19414,09:29:09
+michaelchirico,Spanish,base (R files),124846,19810,04:38:35
 RichDeto,Spanish,base (R files),124856,19414,13:07:57
 DeBARtha,Bengali,base (R files),130203,19417,17:42:50
 bjungbogati,Nepali,base (R GUI),132317,19426,12:03:47
@@ -3219,6 +3219,7 @@ bjungbogati,Nepali,base (R GUI),132371,19426,14:33:27
 bjungbogati,Nepali,base (R GUI),132379,19426,12:24:12
 bjungbogati,Nepali,base (R GUI),132440,19426,12:42:35
 bjungbogati,Nepali,base (R GUI),132456,19426,12:49:46
+michaelchirico,Spanish,methods (R files),126133,19810,04:36:06
 msquiroga,Spanish,base (R files),124964,19464,23:40:55
 msquiroga,Spanish,base (R files),124982,19465,00:00:04
 ShunWang,Chinese (Simplified),methods (C files),83996,19549,08:11:08
