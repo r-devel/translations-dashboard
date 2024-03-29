@@ -114,6 +114,7 @@ lente,Portuguese (Brazil),base (R files),38979,19235,19:24:51
 lente,Portuguese (Brazil),base (R files),38984,19235,19:25:20
 lente,Portuguese (Brazil),base (R files),38985,19235,19:25:33
 lente,Portuguese (Brazil),base (R files),38986,19235,19:25:42
+lente,Portuguese (Brazil),base (R files),38999,19235,19:32:04
 lente,Portuguese (Brazil),base (R files),39011,19235,19:35:21
 lente,Portuguese (Brazil),base (R files),39012,19235,19:36:12
 lente,Portuguese (Brazil),base (R files),39021,19235,19:38:55
@@ -3057,6 +3058,13 @@ Worood,Arabic,splines (R files),119858,19806,11:27:12
 Worood,Arabic,splines (R files),119836,19806,11:29:15
 Worood,Arabic,methods (C files),119809,19806,18:41:55
 michaelchirico,Japanese,base (R files),36237,19810,04:57:33
+michaelchirico,Nepali,base (R files),186619,19811,01:41:35
+michaelchirico,Nepali,base (C files),227468,19811,01:41:36
+michaelchirico,Chinese (Traditional),base (R files),41484,19811,04:26:29
+michaelchirico,Chinese (Traditional),grid (C files),139377,19811,04:27:19
+michaelchirico,Japanese,compiler,71856,19811,04:30:30
+michaelchirico,Japanese,grid (C files),139353,19811,04:30:53
+michaelchirico,Japanese,grDevices (R files),138315,19811,04:34:51
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
 kryekuzhinieri,Albanian,base (R files),124088,19234,16:26:08
@@ -3068,7 +3076,6 @@ lente,Portuguese (Brazil),base (R files),38804,19235,15:55:29
 lente,Portuguese (Brazil),base (R files),38961,19235,19:21:10
 lente,Portuguese (Brazil),base (R files),38967,19235,19:21:17
 lente,Portuguese (Brazil),base (R files),38969,19235,19:21:23
-lente,Portuguese (Brazil),base (R files),38999,19235,20:14:05
 lente,Portuguese (Brazil),base (R files),39017,19235,19:37:08
 lente,Portuguese (Brazil),tools (R files),109152,19236,19:37:41
 lente,Portuguese (Brazil),tools (R files),109160,19236,19:40:56
