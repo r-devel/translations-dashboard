@@ -141,14 +141,14 @@
 "140",12,"grDevices (C files)","C","Russian",218,218,0,0
 "141",13,"grDevices (C files)","C","Chinese (Simplified)",218,156,43,19
 "142",14,"grDevices (C files)","C","Chinese (Traditional)",218,158,43,17
-"143",15,"grDevices (C files)","C","Arabic",194,2,192,0
-"144",16,"grDevices (C files)","C","Spanish",215,1,214,0
-"145",17,"grDevices (C files)","C","Dutch",211,0,211,0
-"146",18,"grDevices (C files)","C","Hindi",215,2,213,0
-"147",19,"grDevices (C files)","C","Nepali",211,0,211,0
-"148",20,"grDevices (C files)","C","Turkish",211,0,211,0
-"149",21,"grDevices (C files)","C","Hungarian",215,3,212,0
-"150",22,"grDevices (C files)","C","Catalan",215,7,0,208
+"143",15,"grDevices (C files)","C","Arabic",218,2,215,1
+"144",16,"grDevices (C files)","C","Spanish",218,1,216,1
+"145",17,"grDevices (C files)","C","Dutch",218,0,218,0
+"146",18,"grDevices (C files)","C","Hindi",218,2,215,1
+"147",19,"grDevices (C files)","C","Nepali",218,0,218,0
+"148",20,"grDevices (C files)","C","Turkish",218,0,218,0
+"149",21,"grDevices (C files)","C","Hungarian",218,3,215,0
+"150",22,"grDevices (C files)","C","Catalan",218,7,1,210
 "151",1,"grDevices (R files)","R","English",170,170,0,0
 "152",2,"grDevices (R files)","R","Danish",170,92,39,39
 "153",3,"grDevices (R files)","R","German",170,139,19,12
@@ -163,14 +163,14 @@
 "162",12,"grDevices (R files)","R","Russian",170,170,0,0
 "163",13,"grDevices (R files)","R","Chinese (Simplified)",170,112,39,19
 "164",14,"grDevices (R files)","R","Chinese (Traditional)",170,122,33,15
-"165",15,"grDevices (R files)","R","Arabic",139,0,139,0
-"166",16,"grDevices (R files)","R","Spanish",168,4,164,0
-"167",17,"grDevices (R files)","R","Dutch",168,0,168,0
-"168",18,"grDevices (R files)","R","Hindi",168,1,167,0
-"169",19,"grDevices (R files)","R","Nepali",168,0,168,0
-"170",20,"grDevices (R files)","R","Turkish",168,0,168,0
-"171",21,"grDevices (R files)","R","Hungarian",168,0,168,0
-"172",22,"grDevices (R files)","R","Catalan",168,9,0,159
+"165",15,"grDevices (R files)","R","Arabic",170,0,170,0
+"166",16,"grDevices (R files)","R","Spanish",170,4,166,0
+"167",17,"grDevices (R files)","R","Dutch",170,0,170,0
+"168",18,"grDevices (R files)","R","Hindi",170,1,169,0
+"169",19,"grDevices (R files)","R","Nepali",170,0,170,0
+"170",20,"grDevices (R files)","R","Turkish",170,0,170,0
+"171",21,"grDevices (R files)","R","Hungarian",170,0,170,0
+"172",22,"grDevices (R files)","R","Catalan",170,9,2,159
 "173",1,"graphics (C files)","C","English",130,130,0,0
 "174",2,"graphics (C files)","C","Danish",130,2,127,1
 "175",3,"graphics (C files)","C","German",130,129,0,1
@@ -187,7 +187,7 @@
 "186",14,"graphics (C files)","C","Turkish",130,102,7,21
 "187",15,"graphics (C files)","C","Chinese (Simplified)",130,129,0,1
 "188",16,"graphics (C files)","C","Chinese (Traditional)",130,124,3,3
-"189",17,"graphics (C files)","C","Arabic",129,1,128,0
+"189",17,"graphics (C files)","C","Arabic",130,1,129,0
 "190",18,"graphics (C files)","C","Dutch",130,0,130,0
 "191",19,"graphics (C files)","C","Hindi",130,4,126,0
 "192",20,"graphics (C files)","C","Nepali",130,0,130,0
@@ -199,7 +199,7 @@
 "198",3,"graphics (R files)","R","German",156,153,1,2
 "199",4,"graphics (R files)","R","French",156,153,1,2
 "200",5,"graphics (R files)","R","Italian",156,154,1,1
-"201",6,"graphics (R files)","R","Japanese",155,143,7,5
+"201",6,"graphics (R files)","R","Japanese",156,143,7,6
 "202",7,"graphics (R files)","R","Korean",156,131,20,5
 "203",8,"graphics (R files)","R","Lithuanian",156,150,2,4
 "204",9,"graphics (R files)","R","Polish",156,146,3,7
@@ -207,15 +207,15 @@
 "206",11,"graphics (R files)","R","Russian",156,155,0,1
 "207",12,"graphics (R files)","R","Chinese (Simplified)",156,138,8,10
 "208",13,"graphics (R files)","R","Chinese (Traditional)",156,146,4,6
-"209",14,"graphics (R files)","R","Arabic",153,0,153,0
-"210",15,"graphics (R files)","R","Spanish",155,2,153,0
-"211",16,"graphics (R files)","R","Dutch",155,0,155,0
-"212",17,"graphics (R files)","R","Hindi",155,5,150,0
-"213",18,"graphics (R files)","R","Nepali",155,0,155,0
-"214",19,"graphics (R files)","R","Turkish",155,0,155,0
-"215",20,"graphics (R files)","R","Hungarian",155,2,153,0
-"216",21,"graphics (R files)","R","Catalan",155,155,0,0
-"217",22,"graphics (R files)","R","English (United Kingdom)",155,155,0,0
+"209",14,"graphics (R files)","R","Arabic",156,0,156,0
+"210",15,"graphics (R files)","R","Spanish",156,2,154,0
+"211",16,"graphics (R files)","R","Dutch",156,0,156,0
+"212",17,"graphics (R files)","R","Hindi",156,5,151,0
+"213",18,"graphics (R files)","R","Nepali",156,0,156,0
+"214",19,"graphics (R files)","R","Turkish",156,0,156,0
+"215",20,"graphics (R files)","R","Hungarian",156,2,154,0
+"216",21,"graphics (R files)","R","Catalan",156,155,0,1
+"217",22,"graphics (R files)","R","English (United Kingdom)",156,155,0,1
 "218",1,"grid (C files)","C","English",43,43,0,0
 "219",2,"grid (C files)","C","Danish",43,5,23,15
 "220",3,"grid (C files)","C","German",43,38,5,0
@@ -229,14 +229,14 @@
 "228",11,"grid (C files)","C","Russian",43,43,0,0
 "229",12,"grid (C files)","C","Chinese (Simplified)",43,22,21,0
 "230",13,"grid (C files)","C","Chinese (Traditional)",43,24,19,0
-"231",14,"grid (C files)","C","Arabic",38,0,38,0
-"232",15,"grid (C files)","C","Spanish",42,0,42,0
-"233",16,"grid (C files)","C","Dutch",42,0,42,0
-"234",17,"grid (C files)","C","Hindi",42,0,42,0
-"235",18,"grid (C files)","C","Nepali",42,0,42,0
-"236",19,"grid (C files)","C","Turkish",42,0,42,0
-"237",20,"grid (C files)","C","Hungarian",42,4,37,1
-"238",21,"grid (C files)","C","Catalan",42,6,0,36
+"231",14,"grid (C files)","C","Arabic",43,0,43,0
+"232",15,"grid (C files)","C","Spanish",43,0,43,0
+"233",16,"grid (C files)","C","Dutch",43,0,43,0
+"234",17,"grid (C files)","C","Hindi",43,0,43,0
+"235",18,"grid (C files)","C","Nepali",43,0,43,0
+"236",19,"grid (C files)","C","Turkish",43,0,43,0
+"237",20,"grid (C files)","C","Hungarian",43,4,38,1
+"238",21,"grid (C files)","C","Catalan",43,6,1,36
 "239",22,"grid (C files)","C","English (United Kingdom)",43,43,0,0
 "240",1,"grid (R files)","R","English",190,190,0,0
 "241",2,"grid (R files)","R","Danish",190,7,113,70
@@ -251,7 +251,7 @@
 "250",11,"grid (R files)","R","Russian",190,190,0,0
 "251",12,"grid (R files)","R","Chinese (Simplified)",190,139,21,30
 "252",13,"grid (R files)","R","Chinese (Traditional)",190,148,18,24
-"253",14,"grid (R files)","R","Arabic",172,0,172,0
+"253",14,"grid (R files)","R","Arabic",190,0,190,0
 "254",15,"grid (R files)","R","Spanish",190,111,78,1
 "255",16,"grid (R files)","R","Dutch",190,0,190,0
 "256",17,"grid (R files)","R","Hindi",190,0,190,0
@@ -382,7 +382,7 @@
 "381",11,"splines (R files)","R","Russian",27,27,0,0
 "382",12,"splines (R files)","R","Chinese (Simplified)",27,19,6,2
 "383",13,"splines (R files)","R","Chinese (Traditional)",27,23,4,0
-"384",14,"splines (R files)","R","Arabic",23,23,0,0
+"384",14,"splines (R files)","R","Arabic",27,23,4,0
 "385",15,"splines (R files)","R","Spanish",27,0,27,0
 "386",16,"splines (R files)","R","Dutch",27,0,27,0
 "387",17,"splines (R files)","R","Hindi",27,0,27,0
@@ -404,37 +404,37 @@
 "403",11,"stats (C files)","C","Russian",211,211,0,0
 "404",12,"stats (C files)","C","Chinese (Simplified)",211,177,29,5
 "405",13,"stats (C files)","C","Chinese (Traditional)",211,192,16,3
-"406",14,"stats (C files)","C","Arabic",209,1,208,0
-"407",15,"stats (C files)","C","Spanish",211,147,61,3
-"408",16,"stats (C files)","C","Dutch",207,0,207,0
-"409",17,"stats (C files)","C","Hindi",210,2,208,0
-"410",18,"stats (C files)","C","Nepali",207,0,207,0
-"411",19,"stats (C files)","C","Turkish",207,0,207,0
-"412",20,"stats (C files)","C","Hungarian",210,1,209,0
-"413",21,"stats (C files)","C","Catalan",210,7,0,203
+"406",14,"stats (C files)","C","Arabic",211,1,210,0
+"407",15,"stats (C files)","C","Spanish",211,146,61,4
+"408",16,"stats (C files)","C","Dutch",211,0,211,0
+"409",17,"stats (C files)","C","Hindi",211,2,209,0
+"410",18,"stats (C files)","C","Nepali",211,0,211,0
+"411",19,"stats (C files)","C","Turkish",211,0,211,0
+"412",20,"stats (C files)","C","Hungarian",211,1,210,0
+"413",21,"stats (C files)","C","Catalan",211,7,1,203
 "414",22,"stats (C files)","C","English (United Kingdom)",211,211,0,0
 "415",1,"stats (R files)","R","English",828,828,0,0
 "416",2,"stats (R files)","R","Danish",819,41,752,26
 "417",3,"stats (R files)","R","German",819,785,17,17
 "418",4,"stats (R files)","R","French",819,784,17,18
 "419",5,"stats (R files)","R","Italian",819,801,11,7
-"420",6,"stats (R files)","R","Japanese",818,737,33,48
+"420",6,"stats (R files)","R","Japanese",819,736,34,49
 "421",7,"stats (R files)","R","Korean",819,608,179,32
 "422",8,"stats (R files)","R","Lithuanian",819,780,21,18
 "423",9,"stats (R files)","R","Polish",819,758,24,37
-"424",10,"stats (R files)","R","Portuguese (Brazil)",819,786,25,8
+"424",10,"stats (R files)","R","Portuguese (Brazil)",819,784,26,9
 "425",11,"stats (R files)","R","Russian",819,813,6,0
 "426",12,"stats (R files)","R","Turkish",819,340,352,127
 "427",13,"stats (R files)","R","Chinese (Simplified)",819,711,43,65
 "428",14,"stats (R files)","R","Chinese (Traditional)",819,758,24,37
-"429",15,"stats (R files)","R","Arabic",794,7,787,0
-"430",16,"stats (R files)","R","Spanish",818,39,774,5
-"431",17,"stats (R files)","R","Dutch",815,0,815,0
-"432",18,"stats (R files)","R","Hindi",818,2,816,0
-"433",19,"stats (R files)","R","Nepali",815,0,815,0
-"434",20,"stats (R files)","R","Hungarian",818,6,809,3
-"435",21,"stats (R files)","R","Catalan",818,197,0,621
-"436",22,"stats (R files)","R","English (United Kingdom)",818,818,0,0
+"429",15,"stats (R files)","R","Arabic",819,7,811,1
+"430",16,"stats (R files)","R","Spanish",819,39,775,5
+"431",17,"stats (R files)","R","Dutch",819,0,819,0
+"432",18,"stats (R files)","R","Hindi",819,2,817,0
+"433",19,"stats (R files)","R","Nepali",819,0,819,0
+"434",20,"stats (R files)","R","Hungarian",819,6,810,3
+"435",21,"stats (R files)","R","Catalan",819,197,1,621
+"436",22,"stats (R files)","R","English (United Kingdom)",819,816,1,2
 "437",1,"stats4 (R files)","R","English",8,8,0,0
 "438",2,"stats4 (R files)","R","Danish",8,3,4,1
 "439",3,"stats4 (R files)","R","German",8,8,0,0
@@ -507,7 +507,7 @@
 "506",3,"tools (C files)","C","German",38,37,1,0
 "507",4,"tools (C files)","C","French",38,37,1,0
 "508",5,"tools (C files)","C","Italian",38,37,1,0
-"509",6,"tools (C files)","C","Japanese",37,32,3,2
+"509",6,"tools (C files)","C","Japanese",38,32,4,2
 "510",7,"tools (C files)","C","Korean",38,30,6,2
 "511",8,"tools (C files)","C","Lithuanian",38,36,2,0
 "512",9,"tools (C files)","C","Polish",38,32,4,2
@@ -515,37 +515,37 @@
 "514",11,"tools (C files)","C","Russian",38,38,0,0
 "515",12,"tools (C files)","C","Chinese (Simplified)",38,34,4,0
 "516",13,"tools (C files)","C","Chinese (Traditional)",38,32,4,2
-"517",14,"tools (C files)","C","Arabic",37,1,36,0
-"518",15,"tools (C files)","C","Spanish",37,6,31,0
-"519",16,"tools (C files)","C","Dutch",37,0,37,0
-"520",17,"tools (C files)","C","Hindi",37,2,35,0
-"521",18,"tools (C files)","C","Nepali",37,0,37,0
-"522",19,"tools (C files)","C","Turkish",37,0,37,0
-"523",20,"tools (C files)","C","Hungarian",37,6,31,0
-"524",21,"tools (C files)","C","Catalan",37,24,0,13
-"525",22,"tools (C files)","C","English (United Kingdom)",37,37,0,0
+"517",14,"tools (C files)","C","Arabic",38,1,37,0
+"518",15,"tools (C files)","C","Spanish",38,6,32,0
+"519",16,"tools (C files)","C","Dutch",38,0,38,0
+"520",17,"tools (C files)","C","Hindi",38,2,36,0
+"521",18,"tools (C files)","C","Nepali",38,0,38,0
+"522",19,"tools (C files)","C","Turkish",38,0,38,0
+"523",20,"tools (C files)","C","Hungarian",38,6,32,0
+"524",21,"tools (C files)","C","Catalan",38,24,1,13
+"525",22,"tools (C files)","C","English (United Kingdom)",38,37,1,0
 "526",1,"tools (R files)","R","English",489,489,0,0
 "527",2,"tools (R files)","R","Danish",461,42,388,31
 "528",3,"tools (R files)","R","German",461,398,31,32
 "529",4,"tools (R files)","R","French",461,398,31,32
 "530",5,"tools (R files)","R","Italian",461,432,4,25
-"531",6,"tools (R files)","R","Japanese",462,331,78,53
+"531",6,"tools (R files)","R","Japanese",461,331,78,52
 "532",7,"tools (R files)","R","Korean",461,288,132,41
 "533",8,"tools (R files)","R","Lithuanian",461,395,35,31
 "534",9,"tools (R files)","R","Polish",461,342,74,45
 "535",10,"tools (R files)","R","Portuguese (Brazil)",461,391,37,33
 "536",11,"tools (R files)","R","Russian",461,441,20,0
 "537",12,"tools (R files)","R","Turkish",461,2,459,0
-"538",13,"tools (R files)","R","Chinese (Simplified)",463,257,114,92
+"538",13,"tools (R files)","R","Chinese (Simplified)",461,255,114,92
 "539",14,"tools (R files)","R","Chinese (Traditional)",461,342,74,45
-"540",15,"tools (R files)","R","Arabic",423,1,422,0
+"540",15,"tools (R files)","R","Arabic",461,1,460,0
 "541",16,"tools (R files)","R","Spanish",461,11,450,0
-"542",17,"tools (R files)","R","Dutch",437,0,437,0
-"543",18,"tools (R files)","R","Hindi",457,1,456,0
-"544",19,"tools (R files)","R","Nepali",437,0,437,0
-"545",20,"tools (R files)","R","Hungarian",457,6,451,0
-"546",21,"tools (R files)","R","Catalan",457,106,0,351
-"547",22,"tools (R files)","R","English (United Kingdom)",462,462,0,0
+"542",17,"tools (R files)","R","Dutch",461,0,461,0
+"543",18,"tools (R files)","R","Hindi",461,1,460,0
+"544",19,"tools (R files)","R","Nepali",461,0,461,0
+"545",20,"tools (R files)","R","Hungarian",461,6,455,0
+"546",21,"tools (R files)","R","Catalan",461,103,3,355
+"547",22,"tools (R files)","R","English (United Kingdom)",461,461,0,0
 "548",1,"utils (C files)","C","English",60,60,0,0
 "549",2,"utils (C files)","C","German",59,36,0,23
 "550",3,"utils (C files)","C","French",59,56,0,3
@@ -558,13 +558,13 @@
 "557",10,"utils (C files)","C","Arabic",59,1,58,0
 "558",11,"utils (C files)","C","Portuguese (Brazil)",59,53,5,1
 "559",12,"utils (C files)","C","Spanish",59,1,58,0
-"560",13,"utils (C files)","C","Japanese",58,0,58,0
-"561",14,"utils (C files)","C","Dutch",58,0,58,0
+"560",13,"utils (C files)","C","Japanese",59,0,59,0
+"561",14,"utils (C files)","C","Dutch",59,0,59,0
 "562",15,"utils (C files)","C","Hindi",59,5,54,0
-"563",16,"utils (C files)","C","Nepali",58,0,58,0
-"564",17,"utils (C files)","C","Turkish",58,0,58,0
+"563",16,"utils (C files)","C","Nepali",59,0,59,0
+"564",17,"utils (C files)","C","Turkish",59,0,59,0
 "565",18,"utils (C files)","C","Hungarian",59,1,58,0
-"566",19,"utils (C files)","C","Catalan",59,48,0,11
+"566",19,"utils (C files)","C","Catalan",59,47,0,12
 "567",20,"utils (C files)","C","English (United Kingdom)",59,59,0,0
 "568",1,"utils (R files)","R","English",434,434,0,0
 "569",2,"utils (R files)","R","Danish",420,36,348,36
@@ -572,7 +572,7 @@
 "571",4,"utils (R files)","R","Persian",420,6,413,1
 "572",5,"utils (R files)","R","French",420,399,6,15
 "573",6,"utils (R files)","R","Italian",420,413,3,4
-"574",7,"utils (R files)","R","Japanese",419,340,49,30
+"574",7,"utils (R files)","R","Japanese",420,340,50,30
 "575",8,"utils (R files)","R","Korean",420,309,85,26
 "576",9,"utils (R files)","R","Lithuanian",420,394,9,17
 "577",10,"utils (R files)","R","Polish",420,361,32,27
@@ -581,14 +581,14 @@
 "580",13,"utils (R files)","R","Turkish",420,7,410,3
 "581",14,"utils (R files)","R","Chinese (Simplified)",420,313,59,48
 "582",15,"utils (R files)","R","Chinese (Traditional)",420,360,33,27
-"583",16,"utils (R files)","R","Arabic",413,2,411,0
+"583",16,"utils (R files)","R","Arabic",420,2,418,0
 "584",17,"utils (R files)","R","Spanish",420,27,393,0
-"585",18,"utils (R files)","R","Dutch",418,0,418,0
+"585",18,"utils (R files)","R","Dutch",420,0,420,0
 "586",19,"utils (R files)","R","Hindi",420,1,419,0
-"587",20,"utils (R files)","R","Nepali",418,0,418,0
+"587",20,"utils (R files)","R","Nepali",420,0,420,0
 "588",21,"utils (R files)","R","Hungarian",420,7,413,0
-"589",22,"utils (R files)","R","Catalan",420,14,0,406
-"590",23,"utils (R files)","R","English (United Kingdom)",419,419,0,0
+"589",22,"utils (R files)","R","Catalan",420,14,1,405
+"590",23,"utils (R files)","R","English (United Kingdom)",420,419,1,0
 "591",1,"Mac GUI","English","English",505,505,0,0
 "592",2,"Mac GUI","English","German",505,503,2,0
 "593",3,"Mac GUI","English","French",505,497,8,0
