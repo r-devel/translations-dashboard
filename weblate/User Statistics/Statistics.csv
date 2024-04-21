@@ -43,7 +43,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 42,Hugo Gruson,hgruson,17,1,French,2023-04-13T09:31:55.858098Z,2023-04-13T09:36:34.017717Z,Inactive
 43,Paola Corrales,PaoCorrales,191,1,Spanish,2023-05-16T14:10:27.470268Z,2023-10-20T14:09:32.615734Z,Inactive
 44,Shriharsh,shriharsh,3,2,"c(""Hindi"", ""English"")",N/A,N/A,Active
-45,Joan Maspons,jmaspons,5310,1,Catalan,2023-08-16T12:59:29.808589Z,2024-04-17T09:44:53.460317Z,Active
+45,Joan Maspons,jmaspons,5315,1,Catalan,2023-08-16T12:59:29.808589Z,2024-04-21T11:58:22.129411Z,Active
 46,Renata Hirota,rmhirota,499,1,Portuguese (Brazil),2023-08-30T11:12:07.994061Z,2023-10-19T18:17:41.271735Z,Inactive
 47,Abdulrahman Alswaji,alswajiab,201,1,Arabic,2023-08-30T10:57:47.629737Z,2024-03-22T19:14:05.037435Z,Active
 48,Reiko Okamoto,rokamoto,62,1,Japanese,2023-08-30T13:27:03.773313Z,2023-09-01T14:19:49.368879Z,Inactive
@@ -63,10 +63,10 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 62,Néstor Montaño,Nestor.Montano,10,1,Spanish,2023-10-20T14:10:36.781007Z,2023-10-20T14:40:07.668072Z,Inactive
 63,Mara Geraldina Destefanis,Mara,44,1,Spanish,2023-11-24T14:41:27.408887Z,2023-12-07T13:28:07.359548Z,Active
 64,Toby Dylan Hocking,tdhock,0,0,character(0),N/A,N/A,Unbegun
-65,Natalia Labadie,natilab,47,1,Spanish,2023-10-21T01:39:41.324921Z,2023-10-21T02:19:05.666035Z,Active
+65,Natalia Labadie,natilab,47,1,Spanish,2023-10-21T01:39:41.324921Z,2023-10-21T02:19:05.666035Z,Inactive
 66,Jan Strappa,jansf,38,1,Spanish,2023-10-20T14:30:31.175547Z,2023-10-20T14:47:18.061102Z,Inactive
 67,Riva Quiroga,riva-quiroga,8,1,Spanish,2023-10-20T14:26:13.045839Z,2023-10-20T15:43:49.938958Z,Inactive
-68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:45:05.762564Z,2023-10-20T18:54:42.593639Z,Active
+68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:45:05.762564Z,2023-10-20T18:54:42.593639Z,Inactive
 69,Rafael Fontenelle,rffontenelle,8,1,Portuguese (Brazil),2023-10-31T18:24:54.537614Z,2023-10-31T18:28:57.555580Z,Active
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T16:55:02.499619Z,2023-11-04T17:49:59.393796Z,Active
 71,Raman Shah,ramansh,9,1,Nepali,2023-11-17T12:05:52.719532Z,2024-04-07T17:55:30.974935Z,Active
@@ -75,3 +75,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Active
 75,Ivan Krylov,ikrylov,0,1,Russian,N/A,N/A,Unbegun
 76,Temuri Doghonadze,NorwayFun,8,1,Georgian,2024-04-16T02:05:17.450143Z,2024-04-16T10:52:27.307766Z,Active
+77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
