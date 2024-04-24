@@ -37,7 +37,7 @@
 "36",11,"The R Project for Statistical Computing","English","Norwegian Nynorsk",7,0,7,0
 "37",12,"The R Project for Statistical Computing","English","Polish",7,0,7,0
 "38",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",57,50,7,0
-"39",14,"The R Project for Statistical Computing","English","Russian",7,0,7,0
+"39",14,"The R Project for Statistical Computing","English","Russian",7,7,0,0
 "40",15,"The R Project for Statistical Computing","English","Turkish",7,0,7,0
 "41",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",7,0,7,0
 "42",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",7,0,7,0
@@ -93,7 +93,7 @@
 "92",11,"base (C files)","C","Norwegian Nynorsk",1695,1101,173,421
 "93",12,"base (C files)","C","Polish",1695,1433,78,184
 "94",13,"base (C files)","C","Portuguese (Brazil)",1695,1287,127,281
-"95",14,"base (C files)","C","Russian",1695,1694,1,0
+"95",14,"base (C files)","C","Russian",1695,1695,0,0
 "96",15,"base (C files)","C","Turkish",1695,1099,183,413
 "97",16,"base (C files)","C","Chinese (Simplified)",1695,1396,103,196
 "98",17,"base (C files)","C","Chinese (Traditional)",1695,1428,89,178
@@ -204,7 +204,7 @@
 "203",8,"graphics (R files)","R","Lithuanian",156,150,2,4
 "204",9,"graphics (R files)","R","Polish",156,146,3,7
 "205",10,"graphics (R files)","R","Portuguese (Brazil)",156,118,16,22
-"206",11,"graphics (R files)","R","Russian",156,155,0,1
+"206",11,"graphics (R files)","R","Russian",156,156,0,0
 "207",12,"graphics (R files)","R","Chinese (Simplified)",156,138,8,10
 "208",13,"graphics (R files)","R","Chinese (Traditional)",156,146,4,6
 "209",14,"graphics (R files)","R","Arabic",156,0,156,0
@@ -423,7 +423,7 @@
 "422",8,"stats (R files)","R","Lithuanian",819,780,21,18
 "423",9,"stats (R files)","R","Polish",819,758,24,37
 "424",10,"stats (R files)","R","Portuguese (Brazil)",819,784,26,9
-"425",11,"stats (R files)","R","Russian",819,813,6,0
+"425",11,"stats (R files)","R","Russian",819,814,5,0
 "426",12,"stats (R files)","R","Turkish",819,340,352,127
 "427",13,"stats (R files)","R","Chinese (Simplified)",819,711,43,65
 "428",14,"stats (R files)","R","Chinese (Traditional)",819,758,24,37
