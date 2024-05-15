@@ -114,7 +114,6 @@ lente,Portuguese (Brazil),base (R files),38979,19235,19:24:51
 lente,Portuguese (Brazil),base (R files),38984,19235,19:25:20
 lente,Portuguese (Brazil),base (R files),38985,19235,19:25:33
 lente,Portuguese (Brazil),base (R files),38986,19235,19:25:42
-lente,Portuguese (Brazil),base (R files),38999,19235,19:32:04
 lente,Portuguese (Brazil),base (R files),39011,19235,19:35:21
 lente,Portuguese (Brazil),base (R files),39012,19235,19:36:12
 lente,Portuguese (Brazil),base (R files),39021,19235,19:38:55
@@ -772,7 +771,6 @@ msquiroga,Spanish,stats (C files),126572,19280,14:20:12
 msquiroga,Spanish,stats (C files),126575,19280,14:21:15
 Gabs,Spanish,base (R files),124736,19280,14:21:48
 beatrizmilz,Portuguese (Brazil),utils (R files),116181,19280,14:22:51
-Gabs,Spanish,base (R files),124738,19280,14:22:55
 msquiroga,Spanish,stats (C files),126583,19280,14:25:34
 msquiroga,Spanish,stats (C files),126584,19280,14:25:49
 Gabs,Spanish,base (R files),124741,19280,14:25:54
@@ -804,7 +802,6 @@ Gabs,Spanish,tools (R files),125900,19280,14:31:36
 Gabs,Spanish,base (R files),124748,19280,14:31:36
 Gabs,Spanish,base (R files),124749,19280,14:32:01
 Gtormin,Portuguese (Brazil),stats4 (R files),99830,19280,14:32:21
-julilaurino,Spanish,base (R files),124740,19280,14:32:36
 hturner,English (United Kingdom),grDevices (C files),72748,19280,14:33:05
 hturner,English (United Kingdom),grDevices (C files),72749,19280,14:33:10
 beatrizmilz,Portuguese (Brazil),utils (R files),116199,19280,14:33:13
@@ -984,7 +981,6 @@ msquiroga,Spanish,stats (C files),126676,19280,22:06:54
 msquiroga,Spanish,stats (C files),126622,19280,22:23:57
 msquiroga,Spanish,stats (C files),126677,19280,22:24:12
 msquiroga,Spanish,stats (C files),126678,19280,22:24:36
-msquiroga,Spanish,stats (C files),126679,19280,22:25:27
 msquiroga,Spanish,stats (C files),126680,19280,22:25:51
 msquiroga,Spanish,stats (C files),126681,19280,22:26:33
 msquiroga,Spanish,stats (C files),126682,19280,22:27:07
@@ -1359,7 +1355,6 @@ maechlerETH,German,utils (C files),109580,19409,16:55:05
 maechlerETH,German,utils (C files),109583,19409,16:55:36
 DeBARtha,Bengali,base (R files),130200,19410,17:54:22
 RichDeto,Spanish,base (R files),124734,19414,08:26:14
-RichDeto,Spanish,base (R files),124739,19414,08:27:57
 RichDeto,Spanish,base (R files),124743,19414,08:29:24
 RichDeto,Spanish,base (R files),124744,19414,08:29:57
 RichDeto,Spanish,base (R files),124747,19414,08:32:30
@@ -2601,7 +2596,6 @@ jospueyo,Catalan,grDevices (C files),221953,19631,13:54:28
 jospueyo,Catalan,tcltk (R files),222298,19631,13:55:14
 jospueyo,Catalan,grid (C files),222365,19631,13:55:50
 PaoCorrales,Spanish,Mac GUI,183384,19636,23:36:34
-PaoCorrales,Spanish,base (C files),145158,19650,14:09:26
 Nestor.Montano,Spanish,stats (R files),177341,19650,14:14:56
 Nestor.Montano,Spanish,stats (R files),177342,19650,14:16:32
 Nestor.Montano,Spanish,stats (R files),177343,19650,14:17:51
@@ -2675,13 +2669,11 @@ Jformoso,Spanish,stats (R files),177385,19650,15:32:46
 PatriLoto,Spanish,tools (C files),173903,19650,15:38:21
 PatriLoto,Spanish,tools (C files),173905,19650,15:44:15
 spereyra,Spanish,base (R files),124893,19650,18:50:44
-natilab,Spanish,base (C files),145214,19651,01:40:15
 natilab,Spanish,base (C files),145637,19651,01:58:24
 natilab,Spanish,base (C files),145639,19651,01:58:43
 natilab,Spanish,base (C files),145640,19651,01:59:23
 natilab,Spanish,base (C files),145641,19651,01:59:37
 natilab,Spanish,base (C files),145642,19651,02:00:17
-natilab,Spanish,base (C files),145694,19651,02:00:32
 natilab,Spanish,base (R files),124896,19651,02:18:47
 rffontenelle,Portuguese (Brazil),splines (C files),90009,19661,18:26:57
 rffontenelle,Portuguese (Brazil),splines (C files),90010,19661,18:27:09
@@ -3090,6 +3082,52 @@ ikrylov,Russian,base (C files),238981,19836,15:46:54
 ikrylov,Russian,stats (R files),239329,19836,15:59:26
 luisdverde,Spanish,base (R files),125050,19838,18:59:19
 luisdverde,Spanish,base (R files),125068,19838,19:20:27
+Rikivillalba,Spanish,base (C files),226966,19857,21:40:00
+Rikivillalba,Spanish,base (C files),145158,19857,21:40:13
+Rikivillalba,Spanish,base (C files),145214,19857,22:16:49
+Rikivillalba,Spanish,base (C files),145694,19857,23:09:29
+Rikivillalba,Spanish,base (R files),124881,19858,00:15:34
+Rikivillalba,Spanish,stats (R files),177459,19858,01:16:43
+Rikivillalba,Spanish,base (R files),226697,19858,01:17:53
+Rikivillalba,Spanish,base (R files),226700,19858,01:23:29
+Rikivillalba,Spanish,base (R files),124971,19858,01:27:59
+Rikivillalba,Spanish,base (R files),125041,19858,01:29:05
+Rikivillalba,Spanish,base (R files),125043,19858,01:29:50
+Rikivillalba,Spanish,base (R files),125046,19858,01:31:48
+Rikivillalba,Spanish,base (R files),125049,19858,01:33:19
+Rikivillalba,Spanish,base (R files),125065,19858,01:35:33
+Rikivillalba,Spanish,base (R files),125067,19858,01:36:31
+Rikivillalba,Spanish,splines (C files),175148,19858,02:50:19
+Rikivillalba,Spanish,splines (C files),175149,19858,02:50:45
+Rikivillalba,Spanish,splines (R files),173758,19858,03:06:17
+Rikivillalba,Spanish,splines (R files),173759,19858,03:06:40
+Rikivillalba,Spanish,splines (R files),173760,19858,03:07:02
+Rikivillalba,Spanish,splines (R files),173761,19858,03:07:17
+Rikivillalba,Spanish,stats (R files),177520,19858,03:07:50
+Rikivillalba,Spanish,splines (R files),173763,19858,03:07:50
+Rikivillalba,Spanish,splines (R files),173766,19858,03:08:16
+Rikivillalba,Spanish,splines (R files),173770,19858,03:09:10
+Rikivillalba,Spanish,splines (R files),173771,19858,03:09:24
+Rikivillalba,Spanish,splines (R files),173772,19858,03:09:37
+Rikivillalba,Spanish,splines (R files),173776,19858,03:10:33
+Rikivillalba,Spanish,splines (R files),173777,19858,03:10:41
+Rikivillalba,Spanish,splines (R files),173778,19858,03:11:07
+Rikivillalba,Spanish,splines (R files),173779,19858,03:11:20
+Rikivillalba,Spanish,splines (R files),173780,19858,03:11:42
+Rikivillalba,Spanish,splines (R files),173781,19858,03:11:52
+Rikivillalba,Spanish,splines (R files),173782,19858,03:13:02
+Rikivillalba,Spanish,splines (R files),173783,19858,03:13:35
+Rikivillalba,Spanish,tools (C files),173899,19858,03:14:28
+Rikivillalba,Spanish,tools (C files),173908,19858,03:18:41
+Rikivillalba,Spanish,tools (C files),173910,19858,03:19:11
+Rikivillalba,Spanish,tools (C files),173911,19858,03:19:36
+Rikivillalba,Spanish,parallel (R files),173015,19858,03:27:21
+Rikivillalba,Spanish,parallel (R files),173019,19858,03:28:34
+Rikivillalba,Spanish,parallel (R files),173026,19858,03:31:06
+Rikivillalba,Spanish,parallel (R files),173027,19858,03:31:14
+Rikivillalba,Spanish,parallel (R files),173030,19858,03:37:05
+Rikivillalba,Spanish,parallel (R files),173031,19858,03:40:34
+Rikivillalba,Spanish,parallel (R files),173033,19858,03:43:22
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
 kryekuzhinieri,Albanian,base (R files),124088,19234,16:26:08
@@ -3101,6 +3139,7 @@ lente,Portuguese (Brazil),base (R files),38804,19235,15:55:29
 lente,Portuguese (Brazil),base (R files),38961,19235,19:21:10
 lente,Portuguese (Brazil),base (R files),38967,19235,19:21:17
 lente,Portuguese (Brazil),base (R files),38969,19235,19:21:23
+lente,Portuguese (Brazil),base (R files),38999,19235,20:14:05
 lente,Portuguese (Brazil),base (R files),39017,19235,19:37:08
 lente,Portuguese (Brazil),tools (R files),109152,19236,19:37:41
 lente,Portuguese (Brazil),tools (R files),109160,19236,19:40:56
@@ -3417,7 +3456,6 @@ rcastelo,Catalan,stats (R files),222472,19620,13:48:54
 rcastelo,Catalan,stats (R files),222475,19620,13:49:30
 jmaspons,Catalan,graphics (R files),221317,19641,06:56:21
 Jformoso,Spanish,stats (R files),177340,19650,14:16:47
-ImoPupato,Spanish,base (C files),145216,19650,14:36:48
 Jformoso,Spanish,stats (R files),177379,19650,15:27:31
 Jformoso,Spanish,stats (R files),177383,19650,15:31:08
 PatriLoto,Spanish,tools (C files),173904,19650,15:41:30
@@ -3431,3 +3469,6 @@ rcastelo,Catalan,Mac GUI,224786,19804,17:49:21
 michaelchirico,Arabic,splines (R files),119841,19808,04:47:30
 Worood,Arabic,methods (C files),119807,19806,18:39:41
 luisdverde,Spanish,base (R files),125044,19832,16:55:39
+natilab,Spanish,base (C files),145213,19651,01:41:27
+Rikivillalba,Spanish,base (C files),145216,19857,22:55:01
+Rikivillalba,Spanish,parallel (R files),173029,19858,03:36:55
