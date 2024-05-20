@@ -43,10 +43,10 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 42,Hugo Gruson,hgruson,17,1,French,2023-04-13T09:31:55.858098Z,2023-04-13T09:36:34.017717Z,Inactive
 43,Paola Corrales,PaoCorrales,191,1,Spanish,2023-05-16T14:10:27.470268Z,2023-10-20T14:09:32.615734Z,Inactive
 44,Shriharsh,shriharsh,3,2,"c(""Hindi"", ""English"")",N/A,N/A,Active
-45,Joan Maspons,jmaspons,5368,1,Catalan,2023-08-16T12:59:29.808589Z,2024-05-15T22:32:43.919250Z,Active
+45,Joan Maspons,jmaspons,5369,1,Catalan,2023-08-16T12:59:29.808589Z,2024-05-20T11:55:09.957520Z,Active
 46,Renata Hirota,rmhirota,499,1,Portuguese (Brazil),2023-08-30T11:12:07.994061Z,2023-10-19T18:17:41.271735Z,Inactive
 47,Abdulrahman Alswaji,alswajiab,201,1,Arabic,2023-08-30T10:57:47.629737Z,2024-03-22T19:14:05.037435Z,Active
-48,Reiko Okamoto,rokamoto,62,1,Japanese,2023-08-30T13:27:03.773313Z,2023-09-01T14:19:49.368879Z,Inactive
+48,Reiko Okamoto,rokamoto,73,1,Japanese,2023-08-30T13:27:03.773313Z,2024-05-20T03:00:58.537683Z,Active
 49,Geraldine Gomez Millan,geraldinegomez,129,1,Spanish,2023-08-30T16:05:32.062522Z,2023-08-31T16:08:45.127531Z,Inactive
 50,Ayush Bipin Patel,AyushBipinPatel,127,1,Hindi,2023-08-30T11:14:44.448132Z,2023-09-01T10:08:40.841737Z,Inactive
 51,Iman Al Hasani,ImanAlhasani,43,1,Arabic,2023-08-30T12:53:59.659478Z,2023-09-01T11:26:41.526191Z,Inactive
@@ -78,6 +78,6 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
 79,Lorena Abad,loreabad6,3,1,Spanish,2024-05-02T13:47:29.825563Z,2024-05-02T13:52:05.835515Z,Active
-80,Ricardo Villalba,Rikivillalba,444,1,Spanish,2024-05-14T21:36:47.834961Z,2024-05-17T19:48:23.744728Z,Active
+80,Ricardo Villalba,Rikivillalba,611,1,Spanish,2024-05-14T21:36:47.834961Z,2024-05-20T01:12:42.685242Z,Active
 81,Aghiles MALOUM,Madghis,0,1,English (United Kingdom),N/A,N/A,Unbegun
-82,Nichole Haines,Meeko28,291,3,"c(""German"", ""Russian"", ""Spanish"")",2024-05-18T20:03:25.513711Z,2024-05-19T00:39:17.082104Z,Active
+82,Nichole Haines,Meeko28,906,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-05-20T12:52:45.069412Z,Active
