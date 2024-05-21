@@ -38,7 +38,7 @@
 "37",11,"The R Project for Statistical Computing","English","Norwegian Nynorsk",8,0,8,0
 "38",12,"The R Project for Statistical Computing","English","Polish",8,0,8,0
 "39",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",58,50,8,0
-"40",14,"The R Project for Statistical Computing","English","Russian",8,7,1,0
+"40",14,"The R Project for Statistical Computing","English","Russian",8,8,0,0
 "41",15,"The R Project for Statistical Computing","English","Turkish",8,0,8,0
 "42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",8,0,8,0
 "43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",8,0,8,0
@@ -58,7 +58,7 @@
 "57",2,"base (R files)","R","Danish",596,466,61,69
 "58",3,"base (R files)","R","German",596,573,11,12
 "59",4,"base (R files)","R","Persian",596,1,595,0
-"60",5,"base (R files)","R","French",596,570,11,15
+"60",5,"base (R files)","R","French",596,581,0,15
 "61",6,"base (R files)","R","Italian",596,581,8,7
 "62",7,"base (R files)","R","Japanese",596,479,59,58
 "63",8,"base (R files)","R","Korean",596,391,169,36
@@ -66,7 +66,7 @@
 "65",10,"base (R files)","R","Norwegian Nynorsk",596,361,78,157
 "66",11,"base (R files)","R","Polish",596,508,47,41
 "67",12,"base (R files)","R","Portuguese (Brazil)",596,575,11,10
-"68",13,"base (R files)","R","Russian",596,595,1,0
+"68",13,"base (R files)","R","Russian",596,596,0,0
 "69",14,"base (R files)","R","Turkish",596,4,573,19
 "70",15,"base (R files)","R","Chinese (Simplified)",596,501,48,47
 "71",16,"base (R files)","R","Chinese (Traditional)",596,509,46,41
@@ -250,7 +250,7 @@
 "249",23,"grid (C files)","C","Pangasinan",43,0,43,0
 "250",1,"grid (R files)","R","English",190,190,0,0
 "251",2,"grid (R files)","R","Danish",190,7,113,70
-"252",3,"grid (R files)","R","German",190,188,0,2
+"252",3,"grid (R files)","R","German",190,190,0,0
 "253",4,"grid (R files)","R","French",190,167,7,16
 "254",5,"grid (R files)","R","Italian",190,182,4,4
 "255",6,"grid (R files)","R","Japanese",190,148,19,23
@@ -557,7 +557,7 @@
 "556",8,"tools (R files)","R","Lithuanian",461,395,35,31
 "557",9,"tools (R files)","R","Polish",461,342,74,45
 "558",10,"tools (R files)","R","Portuguese (Brazil)",461,391,37,33
-"559",11,"tools (R files)","R","Russian",461,441,20,0
+"559",11,"tools (R files)","R","Russian",461,461,0,0
 "560",12,"tools (R files)","R","Turkish",461,2,459,0
 "561",13,"tools (R files)","R","Chinese (Simplified)",461,255,114,92
 "562",14,"tools (R files)","R","Chinese (Traditional)",461,342,74,45
@@ -595,7 +595,7 @@
 "594",2,"utils (R files)","R","Danish",420,36,348,36
 "595",3,"utils (R files)","R","German",420,401,6,13
 "596",4,"utils (R files)","R","Persian",420,6,413,1
-"597",5,"utils (R files)","R","French",420,399,6,15
+"597",5,"utils (R files)","R","French",420,405,0,15
 "598",6,"utils (R files)","R","Italian",420,413,3,4
 "599",7,"utils (R files)","R","Japanese",420,340,50,30
 "600",8,"utils (R files)","R","Korean",420,309,85,26
@@ -617,7 +617,7 @@
 "616",24,"utils (R files)","R","Pangasinan",420,0,420,0
 "617",1,"Mac GUI","English","English",505,505,0,0
 "618",2,"Mac GUI","English","German",505,505,0,0
-"619",3,"Mac GUI","English","French",505,497,8,0
+"619",3,"Mac GUI","English","French",505,502,2,1
 "620",4,"Mac GUI","English","Italian",505,503,2,0
 "621",5,"Mac GUI","English","Japanese",505,505,0,0
 "622",6,"Mac GUI","English","Dutch",505,503,2,0
@@ -629,5 +629,5 @@
 "628",12,"Mac GUI","English","Hungarian",505,0,505,0
 "629",13,"Mac GUI","English","Catalan",505,505,0,0
 "630",14,"Mac GUI","English","English (United Kingdom)",505,0,505,0
-"631",15,"Mac GUI","English","Russian",505,193,307,5
+"631",15,"Mac GUI","English","Russian",505,322,175,8
 "632",16,"Mac GUI","English","Pangasinan",505,0,505,0
