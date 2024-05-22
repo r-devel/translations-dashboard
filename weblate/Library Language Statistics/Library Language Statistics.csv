@@ -239,7 +239,7 @@
 "238",12,"grid (C files)","C","Chinese (Simplified)",43,22,21,0
 "239",13,"grid (C files)","C","Chinese (Traditional)",43,24,19,0
 "240",14,"grid (C files)","C","Arabic",43,0,43,0
-"241",15,"grid (C files)","C","Spanish",43,36,0,7
+"241",15,"grid (C files)","C","Spanish",43,43,0,0
 "242",16,"grid (C files)","C","Dutch",43,0,43,0
 "243",17,"grid (C files)","C","Hindi",43,0,43,0
 "244",18,"grid (C files)","C","Nepali",43,0,43,0
@@ -562,7 +562,7 @@
 "561",13,"tools (R files)","R","Chinese (Simplified)",461,255,114,92
 "562",14,"tools (R files)","R","Chinese (Traditional)",461,342,74,45
 "563",15,"tools (R files)","R","Arabic",461,1,460,0
-"564",16,"tools (R files)","R","Spanish",461,13,447,1
+"564",16,"tools (R files)","R","Spanish",461,37,422,2
 "565",17,"tools (R files)","R","Dutch",461,0,461,0
 "566",18,"tools (R files)","R","Hindi",461,1,460,0
 "567",19,"tools (R files)","R","Nepali",461,0,461,0
@@ -617,7 +617,7 @@
 "616",24,"utils (R files)","R","Pangasinan",420,0,420,0
 "617",1,"Mac GUI","English","English",505,505,0,0
 "618",2,"Mac GUI","English","German",505,505,0,0
-"619",3,"Mac GUI","English","French",505,502,2,1
+"619",3,"Mac GUI","English","French",505,505,0,0
 "620",4,"Mac GUI","English","Italian",505,503,2,0
 "621",5,"Mac GUI","English","Japanese",505,505,0,0
 "622",6,"Mac GUI","English","Dutch",505,503,2,0
