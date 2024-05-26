@@ -30,7 +30,7 @@
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
 "30",4,"The R Project for Statistical Computing","English","Spanish",115,115,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
-"32",6,"The R Project for Statistical Computing","English","French",8,4,4,0
+"32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
 "34",8,"The R Project for Statistical Computing","English","Japanese",8,0,8,0
 "35",9,"The R Project for Statistical Computing","English","Korean",8,3,5,0
@@ -159,7 +159,7 @@
 "158",2,"grDevices (R files)","R","Danish",170,92,39,39
 "159",3,"grDevices (R files)","R","German",170,140,18,12
 "160",4,"grDevices (R files)","R","English (United Kingdom)",170,170,0,0
-"161",5,"grDevices (R files)","R","French",170,138,19,13
+"161",5,"grDevices (R files)","R","French",170,165,0,5
 "162",6,"grDevices (R files)","R","Italian",170,143,18,9
 "163",7,"grDevices (R files)","R","Japanese",170,122,33,15
 "164",8,"grDevices (R files)","R","Korean",170,113,43,14
@@ -251,7 +251,7 @@
 "250",1,"grid (R files)","R","English",190,190,0,0
 "251",2,"grid (R files)","R","Danish",190,7,113,70
 "252",3,"grid (R files)","R","German",190,190,0,0
-"253",4,"grid (R files)","R","French",190,167,7,16
+"253",4,"grid (R files)","R","French",190,168,7,15
 "254",5,"grid (R files)","R","Italian",190,182,4,4
 "255",6,"grid (R files)","R","Japanese",190,148,19,23
 "256",7,"grid (R files)","R","Korean",190,125,44,21
@@ -595,7 +595,7 @@
 "594",2,"utils (R files)","R","Danish",420,36,348,36
 "595",3,"utils (R files)","R","German",420,401,6,13
 "596",4,"utils (R files)","R","Persian",420,6,413,1
-"597",5,"utils (R files)","R","French",420,405,0,15
+"597",5,"utils (R files)","R","French",420,406,0,14
 "598",6,"utils (R files)","R","Italian",420,413,3,4
 "599",7,"utils (R files)","R","Japanese",420,340,50,30
 "600",8,"utils (R files)","R","Korean",420,309,85,26
