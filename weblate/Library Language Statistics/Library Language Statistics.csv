@@ -25,10 +25,10 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",190,190,0,0
+"27",1,"The R Project for Statistical Computing","English","English",195,195,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",115,115,0,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",121,121,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
 "32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
@@ -86,7 +86,7 @@
 "85",1,"base (C files)","C","English",1695,1695,0,0
 "86",2,"base (C files)","C","Danish",1695,482,1074,139
 "87",3,"base (C files)","C","German",1695,1649,0,46
-"88",4,"base (C files)","C","Spanish",1695,1173,73,449
+"88",4,"base (C files)","C","Spanish",1695,1220,0,475
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
 "90",6,"base (C files)","C","French",1695,1517,54,124
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
@@ -170,7 +170,7 @@
 "169",13,"grDevices (R files)","R","Chinese (Simplified)",170,112,39,19
 "170",14,"grDevices (R files)","R","Chinese (Traditional)",170,122,33,15
 "171",15,"grDevices (R files)","R","Arabic",170,0,170,0
-"172",16,"grDevices (R files)","R","Spanish",170,13,157,0
+"172",16,"grDevices (R files)","R","Spanish",170,125,0,45
 "173",17,"grDevices (R files)","R","Dutch",170,0,170,0
 "174",18,"grDevices (R files)","R","Hindi",170,1,169,0
 "175",19,"grDevices (R files)","R","Nepali",170,0,170,0
@@ -262,7 +262,7 @@
 "261",12,"grid (R files)","R","Chinese (Simplified)",190,139,21,30
 "262",13,"grid (R files)","R","Chinese (Traditional)",190,148,18,24
 "263",14,"grid (R files)","R","Arabic",190,0,190,0
-"264",15,"grid (R files)","R","Spanish",190,111,78,1
+"264",15,"grid (R files)","R","Spanish",190,185,0,5
 "265",16,"grid (R files)","R","Dutch",190,0,190,0
 "266",17,"grid (R files)","R","Hindi",190,0,190,0
 "267",18,"grid (R files)","R","Nepali",190,0,190,0
@@ -607,7 +607,7 @@
 "606",14,"utils (R files)","R","Chinese (Simplified)",420,313,59,48
 "607",15,"utils (R files)","R","Chinese (Traditional)",420,360,33,27
 "608",16,"utils (R files)","R","Arabic",420,2,418,0
-"609",17,"utils (R files)","R","Spanish",420,27,390,3
+"609",17,"utils (R files)","R","Spanish",420,27,389,4
 "610",18,"utils (R files)","R","Dutch",420,0,420,0
 "611",19,"utils (R files)","R","Hindi",420,1,419,0
 "612",20,"utils (R files)","R","Nepali",420,0,420,0
