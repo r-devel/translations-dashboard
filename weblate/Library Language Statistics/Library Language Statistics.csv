@@ -25,10 +25,10 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",195,195,0,0
+"27",1,"The R Project for Statistical Computing","English","English",198,198,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",121,121,0,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",124,124,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
 "32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
@@ -86,7 +86,7 @@
 "85",1,"base (C files)","C","English",1695,1695,0,0
 "86",2,"base (C files)","C","Danish",1695,482,1074,139
 "87",3,"base (C files)","C","German",1695,1649,0,46
-"88",4,"base (C files)","C","Spanish",1695,1220,0,475
+"88",4,"base (C files)","C","Spanish",1695,1349,0,346
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
 "90",6,"base (C files)","C","French",1695,1517,54,124
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
