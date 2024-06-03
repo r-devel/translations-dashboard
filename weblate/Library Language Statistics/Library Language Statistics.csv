@@ -25,10 +25,10 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",198,198,0,0
+"27",1,"The R Project for Statistical Computing","English","English",199,199,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",124,124,0,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",125,125,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
 "32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
@@ -73,7 +73,7 @@
 "72",17,"base (R files)","R","Hungarian",596,336,244,16
 "73",18,"base (R files)","R","Arabic",596,17,577,2
 "74",19,"base (R files)","R","Albanian",596,33,562,1
-"75",20,"base (R files)","R","Spanish",596,341,181,74
+"75",20,"base (R files)","R","Spanish",596,363,149,84
 "76",21,"base (R files)","R","Indonesian",596,1,595,0
 "77",22,"base (R files)","R","Bengali",596,27,568,1
 "78",23,"base (R files)","R","Urdu",596,1,595,0
@@ -86,9 +86,9 @@
 "85",1,"base (C files)","C","English",1695,1695,0,0
 "86",2,"base (C files)","C","Danish",1695,482,1074,139
 "87",3,"base (C files)","C","German",1695,1649,0,46
-"88",4,"base (C files)","C","Spanish",1695,1579,0,116
+"88",4,"base (C files)","C","Spanish",1695,1695,0,0
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
-"90",6,"base (C files)","C","French",1695,1517,54,124
+"90",6,"base (C files)","C","French",1695,1518,54,123
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
 "92",8,"base (C files)","C","Japanese",1695,1369,115,211
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
@@ -105,7 +105,7 @@
 "104",20,"base (C files)","C","English (United Kingdom)",1695,1639,23,33
 "105",21,"base (C files)","C","Hindi",1695,53,1448,194
 "106",22,"base (C files)","C","Nepali",1695,6,1675,14
-"107",23,"base (C files)","C","Catalan",1695,227,5,1463
+"107",23,"base (C files)","C","Catalan",1695,257,5,1433
 "108",24,"base (C files)","C","Dutch",1695,0,1695,0
 "109",25,"base (C files)","C","Hungarian",1695,14,1679,2
 "110",26,"base (C files)","C","Pangasinan",1695,0,1695,0
@@ -118,7 +118,7 @@
 "117",7,"compiler","English","Korean",38,21,17,0
 "118",8,"compiler","English","Lithuanian",38,38,0,0
 "119",9,"compiler","English","Polish",38,38,0,0
-"120",10,"compiler","English","Portuguese (Brazil)",38,30,5,3
+"120",10,"compiler","English","Portuguese (Brazil)",38,33,3,2
 "121",11,"compiler","English","Russian",38,38,0,0
 "122",12,"compiler","English","Chinese (Simplified)",38,30,6,2
 "123",13,"compiler","English","Chinese (Traditional)",38,38,0,0
@@ -352,7 +352,7 @@
 "351",11,"parallel (R files)","R","Chinese (Traditional)",37,31,5,1
 "352",12,"parallel (R files)","R","Arabic",37,1,36,0
 "353",13,"parallel (R files)","R","Portuguese (Brazil)",37,18,16,3
-"354",14,"parallel (R files)","R","Spanish",37,16,0,21
+"354",14,"parallel (R files)","R","Spanish",37,17,0,20
 "355",15,"parallel (R files)","R","Japanese",37,37,0,0
 "356",16,"parallel (R files)","R","Dutch",37,0,37,0
 "357",17,"parallel (R files)","R","Hindi",37,24,13,0
@@ -446,7 +446,7 @@
 "445",13,"stats (R files)","R","Chinese (Simplified)",819,711,43,65
 "446",14,"stats (R files)","R","Chinese (Traditional)",819,758,24,37
 "447",15,"stats (R files)","R","Arabic",819,7,811,1
-"448",16,"stats (R files)","R","Spanish",819,48,765,6
+"448",16,"stats (R files)","R","Spanish",819,48,764,7
 "449",17,"stats (R files)","R","Dutch",819,0,819,0
 "450",18,"stats (R files)","R","Hindi",819,2,817,0
 "451",19,"stats (R files)","R","Nepali",819,0,819,0
