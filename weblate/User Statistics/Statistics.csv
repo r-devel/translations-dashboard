@@ -18,7 +18,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 17,Heather Turner,hturner,12003,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2024-01-29T14:41:27.217201Z,Active
 18,Patricia loto,PatriLoto,64,1,Spanish,2022-10-15T13:39:10.341490Z,2023-10-20T15:44:15.589887Z,Inactive
 19,Gabriel Tormin,Gtormin,25,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
-20,Julieta Laurino,julilaurino,61,1,Spanish,2022-10-15T13:46:13.327172Z,2022-10-15T15:11:34.486152Z,Inactive
+20,Julieta Laurino,julilaurino,62,1,Spanish,2022-10-15T13:46:13.327172Z,2022-10-15T15:11:34.486152Z,Inactive
 21,Yheni Farfan,Yheni,0,1,Spanish,N/A,N/A,Unbegun
 22,Gaby Sandoval,Gabs,16,1,Spanish,2022-10-15T14:21:22.704160Z,2022-10-15T14:49:49.456997Z,Inactive
 23,Richard Detomasi,RichDeto,117,1,Spanish,2022-10-17T03:06:43.307770Z,2023-04-04T19:54:37.257614Z,Inactive
@@ -63,7 +63,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 62,Néstor Montaño,Nestor.Montano,10,1,Spanish,2023-10-20T14:10:36.781007Z,2023-10-20T14:40:07.668072Z,Inactive
 63,Mara Geraldina Destefanis,Mara,44,1,Spanish,2023-11-24T14:41:27.408887Z,2023-12-07T13:28:07.359548Z,Active
 64,Toby Dylan Hocking,tdhock,0,0,character(0),N/A,N/A,Unbegun
-65,Natalia Labadie,natilab,48,1,Spanish,2023-10-21T01:39:41.324921Z,2023-10-21T02:19:05.666035Z,Inactive
+65,Natalia Labadie,natilab,49,1,Spanish,2023-10-21T01:39:41.324921Z,2023-10-21T02:19:05.666035Z,Inactive
 66,Jan Strappa,jansf,38,1,Spanish,2023-10-20T14:30:31.175547Z,2023-10-20T14:47:18.061102Z,Inactive
 67,Riva Quiroga,riva-quiroga,8,1,Spanish,2023-10-20T14:26:13.045839Z,2023-10-20T15:43:49.938958Z,Inactive
 68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:45:05.762564Z,2023-10-20T18:54:42.593639Z,Inactive
@@ -78,6 +78,6 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
 79,Lorena Abad,loreabad6,3,1,Spanish,2024-05-02T13:47:29.825563Z,2024-05-02T13:52:05.835515Z,Active
-80,Ricardo Villalba,Rikivillalba,1552,1,Spanish,2024-05-14T21:36:47.834961Z,2024-06-02T23:52:28.874137Z,Active
+80,Ricardo Villalba,Rikivillalba,1965,1,Spanish,2024-05-14T21:36:47.834961Z,2024-06-03T22:17:59.741307Z,Active
 81,Aghiles MALOUM,Madghis,0,1,English (United Kingdom),N/A,N/A,Unbegun
 82,Nichole Haines,Meeko28,1317,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-06-02T17:25:34.628865Z,Active
