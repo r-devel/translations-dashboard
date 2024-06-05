@@ -25,10 +25,10 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",201,201,0,0
+"27",1,"The R Project for Statistical Computing","English","English",202,202,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",127,127,0,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",128,128,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
 "32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
@@ -105,7 +105,7 @@
 "104",20,"base (C files)","C","English (United Kingdom)",1695,1639,23,33
 "105",21,"base (C files)","C","Hindi",1695,53,1448,194
 "106",22,"base (C files)","C","Nepali",1695,6,1675,14
-"107",23,"base (C files)","C","Catalan",1695,257,5,1433
+"107",23,"base (C files)","C","Catalan",1695,260,5,1430
 "108",24,"base (C files)","C","Dutch",1695,0,1695,0
 "109",25,"base (C files)","C","Hungarian",1695,14,1679,2
 "110",26,"base (C files)","C","Pangasinan",1695,0,1695,0
@@ -262,7 +262,7 @@
 "261",12,"grid (R files)","R","Chinese (Simplified)",190,139,21,30
 "262",13,"grid (R files)","R","Chinese (Traditional)",190,148,18,24
 "263",14,"grid (R files)","R","Arabic",190,0,190,0
-"264",15,"grid (R files)","R","Spanish",190,185,0,5
+"264",15,"grid (R files)","R","Spanish",190,190,0,0
 "265",16,"grid (R files)","R","Dutch",190,0,190,0
 "266",17,"grid (R files)","R","Hindi",190,0,190,0
 "267",18,"grid (R files)","R","Nepali",190,0,190,0
@@ -285,7 +285,7 @@
 "284",12,"methods (C files)","C","Chinese (Simplified)",30,30,0,0
 "285",13,"methods (C files)","C","Chinese (Traditional)",30,26,4,0
 "286",14,"methods (C files)","C","Arabic",30,2,28,0
-"287",15,"methods (C files)","C","Spanish",30,20,0,10
+"287",15,"methods (C files)","C","Spanish",30,30,0,0
 "288",16,"methods (C files)","C","Dutch",30,0,30,0
 "289",17,"methods (C files)","C","Hindi",30,0,30,0
 "290",18,"methods (C files)","C","Nepali",30,0,30,0
@@ -308,7 +308,7 @@
 "307",12,"methods (R files)","R","Chinese (Simplified)",406,385,9,12
 "308",13,"methods (R files)","R","Chinese (Traditional)",406,391,7,8
 "309",14,"methods (R files)","R","Arabic",406,4,402,0
-"310",15,"methods (R files)","R","Spanish",406,121,271,14
+"310",15,"methods (R files)","R","Spanish",406,406,0,0
 "311",16,"methods (R files)","R","Dutch",406,0,406,0
 "312",17,"methods (R files)","R","Hindi",406,0,406,0
 "313",18,"methods (R files)","R","Nepali",406,0,406,0
@@ -352,7 +352,7 @@
 "351",11,"parallel (R files)","R","Chinese (Traditional)",37,31,5,1
 "352",12,"parallel (R files)","R","Arabic",37,1,36,0
 "353",13,"parallel (R files)","R","Portuguese (Brazil)",37,18,16,3
-"354",14,"parallel (R files)","R","Spanish",37,19,0,18
+"354",14,"parallel (R files)","R","Spanish",37,37,0,0
 "355",15,"parallel (R files)","R","Japanese",37,37,0,0
 "356",16,"parallel (R files)","R","Dutch",37,0,37,0
 "357",17,"parallel (R files)","R","Hindi",37,24,13,0
@@ -399,7 +399,7 @@
 "398",12,"splines (R files)","R","Chinese (Simplified)",27,19,6,2
 "399",13,"splines (R files)","R","Chinese (Traditional)",27,23,4,0
 "400",14,"splines (R files)","R","Arabic",27,23,4,0
-"401",15,"splines (R files)","R","Spanish",27,18,0,9
+"401",15,"splines (R files)","R","Spanish",27,27,0,0
 "402",16,"splines (R files)","R","Dutch",27,0,27,0
 "403",17,"splines (R files)","R","Hindi",27,0,27,0
 "404",18,"splines (R files)","R","Nepali",27,0,27,0
@@ -607,7 +607,7 @@
 "606",14,"utils (R files)","R","Chinese (Simplified)",420,313,59,48
 "607",15,"utils (R files)","R","Chinese (Traditional)",420,360,33,27
 "608",16,"utils (R files)","R","Arabic",420,2,418,0
-"609",17,"utils (R files)","R","Spanish",420,28,389,3
+"609",17,"utils (R files)","R","Spanish",420,29,389,2
 "610",18,"utils (R files)","R","Dutch",420,0,420,0
 "611",19,"utils (R files)","R","Hindi",420,1,419,0
 "612",20,"utils (R files)","R","Nepali",420,0,420,0
