@@ -147,7 +147,7 @@
 "146",13,"grDevices (C files)","C","Chinese (Simplified)",218,156,43,19
 "147",14,"grDevices (C files)","C","Chinese (Traditional)",218,158,43,17
 "148",15,"grDevices (C files)","C","Arabic",218,2,215,1
-"149",16,"grDevices (C files)","C","Spanish",218,13,201,4
+"149",16,"grDevices (C files)","C","Spanish",218,218,0,0
 "150",17,"grDevices (C files)","C","Dutch",218,0,218,0
 "151",18,"grDevices (C files)","C","Hindi",218,2,215,1
 "152",19,"grDevices (C files)","C","Nepali",218,0,218,0
@@ -422,7 +422,7 @@
 "421",12,"stats (C files)","C","Chinese (Simplified)",211,177,29,5
 "422",13,"stats (C files)","C","Chinese (Traditional)",211,192,16,3
 "423",14,"stats (C files)","C","Arabic",211,1,210,0
-"424",15,"stats (C files)","C","Spanish",211,191,0,20
+"424",15,"stats (C files)","C","Spanish",211,192,0,19
 "425",16,"stats (C files)","C","Dutch",211,0,211,0
 "426",17,"stats (C files)","C","Hindi",211,2,209,0
 "427",18,"stats (C files)","C","Nepali",211,0,211,0
@@ -538,7 +538,7 @@
 "537",12,"tools (C files)","C","Chinese (Simplified)",38,34,4,0
 "538",13,"tools (C files)","C","Chinese (Traditional)",38,32,4,2
 "539",14,"tools (C files)","C","Arabic",38,1,37,0
-"540",15,"tools (C files)","C","Spanish",38,23,0,15
+"540",15,"tools (C files)","C","Spanish",38,24,0,14
 "541",16,"tools (C files)","C","Dutch",38,0,38,0
 "542",17,"tools (C files)","C","Hindi",38,2,36,0
 "543",18,"tools (C files)","C","Nepali",38,0,38,0
@@ -581,7 +581,7 @@
 "580",9,"utils (C files)","C","Chinese (Traditional)",59,52,2,5
 "581",10,"utils (C files)","C","Arabic",59,1,58,0
 "582",11,"utils (C files)","C","Portuguese (Brazil)",59,53,5,1
-"583",12,"utils (C files)","C","Spanish",59,21,0,38
+"583",12,"utils (C files)","C","Spanish",59,22,0,37
 "584",13,"utils (C files)","C","Japanese",59,0,59,0
 "585",14,"utils (C files)","C","Dutch",59,0,59,0
 "586",15,"utils (C files)","C","Hindi",59,5,54,0
