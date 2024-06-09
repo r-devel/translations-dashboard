@@ -170,7 +170,7 @@
 "169",13,"grDevices (R files)","R","Chinese (Simplified)",170,112,39,19
 "170",14,"grDevices (R files)","R","Chinese (Traditional)",170,122,33,15
 "171",15,"grDevices (R files)","R","Arabic",170,0,170,0
-"172",16,"grDevices (R files)","R","Spanish",170,125,0,45
+"172",16,"grDevices (R files)","R","Spanish",170,126,0,44
 "173",17,"grDevices (R files)","R","Dutch",170,0,170,0
 "174",18,"grDevices (R files)","R","Hindi",170,1,169,0
 "175",19,"grDevices (R files)","R","Nepali",170,0,170,0
@@ -515,7 +515,7 @@
 "514",12,"tcltk (R files)","R","Chinese (Simplified)",30,30,0,0
 "515",13,"tcltk (R files)","R","Chinese (Traditional)",30,29,1,0
 "516",14,"tcltk (R files)","R","Arabic",30,26,0,4
-"517",15,"tcltk (R files)","R","Spanish",30,13,0,17
+"517",15,"tcltk (R files)","R","Spanish",30,14,0,16
 "518",16,"tcltk (R files)","R","Dutch",30,0,30,0
 "519",17,"tcltk (R files)","R","Hindi",30,0,30,0
 "520",18,"tcltk (R files)","R","Nepali",30,0,30,0
@@ -562,7 +562,7 @@
 "561",13,"tools (R files)","R","Chinese (Simplified)",461,255,114,92
 "562",14,"tools (R files)","R","Chinese (Traditional)",461,342,74,45
 "563",15,"tools (R files)","R","Arabic",461,1,460,0
-"564",16,"tools (R files)","R","Spanish",461,40,420,1
+"564",16,"tools (R files)","R","Spanish",461,461,0,0
 "565",17,"tools (R files)","R","Dutch",461,0,461,0
 "566",18,"tools (R files)","R","Hindi",461,1,460,0
 "567",19,"tools (R files)","R","Nepali",461,0,461,0
@@ -607,7 +607,7 @@
 "606",14,"utils (R files)","R","Chinese (Simplified)",420,313,59,48
 "607",15,"utils (R files)","R","Chinese (Traditional)",420,360,33,27
 "608",16,"utils (R files)","R","Arabic",420,2,418,0
-"609",17,"utils (R files)","R","Spanish",420,32,386,2
+"609",17,"utils (R files)","R","Spanish",420,420,0,0
 "610",18,"utils (R files)","R","Dutch",420,0,420,0
 "611",19,"utils (R files)","R","Hindi",420,1,419,0
 "612",20,"utils (R files)","R","Nepali",420,0,420,0
