@@ -22,7 +22,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 21,Yheni Farfan,Yheni,0,1,Spanish,N/A,N/A,Unbegun
 22,Gaby Sandoval,Gabs,16,1,Spanish,2022-10-15T14:21:22.704160Z,2022-10-15T14:49:49.456997Z,Inactive
 23,Richard Detomasi,RichDeto,117,1,Spanish,2022-10-17T03:06:43.307770Z,2023-04-04T19:54:37.257614Z,Inactive
-24,Ella Kaye,EllaKaye,53,1,English (United Kingdom),2023-02-16T09:15:31.685928Z,2023-12-12T11:21:33.185679Z,Active
+24,Ella Kaye,EllaKaye,53,1,English (United Kingdom),2023-02-16T09:15:31.685928Z,2023-12-12T11:21:33.185679Z,Inactive
 25,Ahmadou Dicko,dickoa,7,1,French,2023-01-20T15:53:59.050941Z,2023-01-20T15:53:59.050941Z,Inactive
 26,Michael Chirico,michaelchirico,1634,1,Japanese,2023-01-30T16:48:31.203351Z,2024-03-29T05:02:34.054232Z,Active
 27,Elio,eliocamp,7,1,Spanish,2023-01-28T13:50:36.554909Z,2023-01-28T13:50:36.554909Z,Inactive
@@ -78,6 +78,6 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
 79,Lorena Abad,loreabad6,3,1,Spanish,2024-05-02T13:47:29.825563Z,2024-05-02T13:52:05.835515Z,Active
-80,Ricardo Villalba,Rikivillalba,4956,1,Spanish,2024-05-14T21:36:47.834961Z,2024-06-10T22:18:17.101776Z,Active
+80,Ricardo Villalba,Rikivillalba,5257,1,Spanish,2024-05-14T21:36:47.834961Z,2024-06-11T19:20:26.686361Z,Active
 81,Aghiles MALOUM,Madghis,0,1,English (United Kingdom),N/A,N/A,Unbegun
 82,Nichole Haines,Meeko28,1506,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-06-09T23:48:09.811321Z,Active
