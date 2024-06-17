@@ -28,7 +28,7 @@
 "27",1,"The R Project for Statistical Computing","English","English",223,223,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
 "29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",148,148,0,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",147,147,0,0
 "31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
 "32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
 "33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
@@ -450,7 +450,7 @@
 "449",17,"stats (R files)","R","Dutch",819,0,819,0
 "450",18,"stats (R files)","R","Hindi",819,2,817,0
 "451",19,"stats (R files)","R","Nepali",819,0,819,0
-"452",20,"stats (R files)","R","Hungarian",819,7,809,3
+"452",20,"stats (R files)","R","Hungarian",819,10,809,0
 "453",21,"stats (R files)","R","Catalan",819,197,1,621
 "454",22,"stats (R files)","R","English (United Kingdom)",819,816,1,2
 "455",23,"stats (R files)","R","Pangasinan",819,0,819,0
@@ -473,7 +473,7 @@
 "472",17,"stats4 (R files)","R","Dutch",8,0,8,0
 "473",18,"stats4 (R files)","R","Hindi",8,0,8,0
 "474",19,"stats4 (R files)","R","Nepali",8,0,8,0
-"475",20,"stats4 (R files)","R","Hungarian",8,0,5,3
+"475",20,"stats4 (R files)","R","Hungarian",8,8,0,0
 "476",21,"stats4 (R files)","R","Catalan",8,7,0,1
 "477",22,"stats4 (R files)","R","English (United Kingdom)",8,8,0,0
 "478",23,"stats4 (R files)","R","Pangasinan",8,0,8,0
