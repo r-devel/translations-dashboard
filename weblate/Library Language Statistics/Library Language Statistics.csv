@@ -43,7 +43,7 @@
 "42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",8,0,8,0
 "43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",8,0,8,0
 "44",18,"The R Project for Statistical Computing","English","English (United Kingdom)",8,7,1,0
-"45",19,"The R Project for Statistical Computing","English","Hungarian",8,1,7,0
+"45",19,"The R Project for Statistical Computing","English","Hungarian",8,4,0,4
 "46",20,"The R Project for Statistical Computing","English","Arabic",9,2,7,0
 "47",21,"The R Project for Statistical Computing","English","Albanian",8,0,8,0
 "48",22,"The R Project for Statistical Computing","English","Hindi",30,26,4,0
@@ -107,7 +107,7 @@
 "106",22,"base (C files)","C","Nepali",1695,6,1675,14
 "107",23,"base (C files)","C","Catalan",1695,260,5,1430
 "108",24,"base (C files)","C","Dutch",1695,0,1695,0
-"109",25,"base (C files)","C","Hungarian",1695,14,1679,2
+"109",25,"base (C files)","C","Hungarian",1695,15,1678,2
 "110",26,"base (C files)","C","Pangasinan",1695,0,1695,0
 "111",1,"compiler","English","English",38,38,0,0
 "112",2,"compiler","English","Danish",38,29,6,3
@@ -128,7 +128,7 @@
 "127",17,"compiler","English","Dutch",38,0,38,0
 "128",18,"compiler","English","Hindi",38,0,38,0
 "129",19,"compiler","English","Turkish",38,0,38,0
-"130",20,"compiler","English","Hungarian",38,0,38,0
+"130",20,"compiler","English","Hungarian",38,15,23,0
 "131",21,"compiler","English","Catalan",38,38,0,0
 "132",22,"compiler","English","English (United Kingdom)",38,38,0,0
 "133",23,"compiler","English","Pangasinan",38,0,38,0
@@ -313,7 +313,7 @@
 "312",17,"methods (R files)","R","Hindi",406,0,406,0
 "313",18,"methods (R files)","R","Nepali",406,0,406,0
 "314",19,"methods (R files)","R","Turkish",406,0,406,0
-"315",20,"methods (R files)","R","Hungarian",406,0,406,0
+"315",20,"methods (R files)","R","Hungarian",406,58,347,1
 "316",21,"methods (R files)","R","Catalan",406,1,0,405
 "317",22,"methods (R files)","R","English (United Kingdom)",406,406,0,0
 "318",23,"methods (R files)","R","Pangasinan",406,0,406,0
@@ -381,7 +381,7 @@
 "380",17,"splines (C files)","C","Hindi",3,0,3,0
 "381",18,"splines (C files)","C","Nepali",3,0,3,0
 "382",19,"splines (C files)","C","Turkish",3,0,3,0
-"383",20,"splines (C files)","C","Hungarian",3,0,3,0
+"383",20,"splines (C files)","C","Hungarian",3,3,0,0
 "384",21,"splines (C files)","C","Catalan",3,3,0,0
 "385",22,"splines (C files)","C","English (United Kingdom)",3,3,0,0
 "386",23,"splines (C files)","C","Pangasinan",3,0,3,0
@@ -611,7 +611,7 @@
 "610",18,"utils (R files)","R","Dutch",420,0,420,0
 "611",19,"utils (R files)","R","Hindi",420,1,419,0
 "612",20,"utils (R files)","R","Nepali",420,0,420,0
-"613",21,"utils (R files)","R","Hungarian",420,7,413,0
+"613",21,"utils (R files)","R","Hungarian",420,8,412,0
 "614",22,"utils (R files)","R","Catalan",420,14,1,405
 "615",23,"utils (R files)","R","English (United Kingdom)",420,419,1,0
 "616",24,"utils (R files)","R","Pangasinan",420,0,420,0
