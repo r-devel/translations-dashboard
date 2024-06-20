@@ -86,7 +86,7 @@
 "85",1,"base (C files)","C","English",1695,1695,0,0
 "86",2,"base (C files)","C","Danish",1695,482,1074,139
 "87",3,"base (C files)","C","German",1695,1648,0,47
-"88",4,"base (C files)","C","Spanish",1695,1694,0,1
+"88",4,"base (C files)","C","Spanish",1695,1675,0,20
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
 "90",6,"base (C files)","C","French",1695,1518,54,123
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
@@ -181,7 +181,7 @@
 "180",1,"graphics (C files)","C","English",130,130,0,0
 "181",2,"graphics (C files)","C","Danish",130,2,127,1
 "182",3,"graphics (C files)","C","German",130,129,0,1
-"183",4,"graphics (C files)","C","Spanish",130,130,0,0
+"183",4,"graphics (C files)","C","Spanish",130,129,0,1
 "184",5,"graphics (C files)","C","French",130,129,0,1
 "185",6,"graphics (C files)","C","Italian",130,130,0,0
 "186",7,"graphics (C files)","C","Japanese",130,123,3,4
