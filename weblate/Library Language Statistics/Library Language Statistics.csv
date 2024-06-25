@@ -105,7 +105,7 @@
 "104",20,"base (C files)","C","English (United Kingdom)",1695,1639,23,33
 "105",21,"base (C files)","C","Hindi",1695,53,1448,194
 "106",22,"base (C files)","C","Nepali",1695,6,1675,14
-"107",23,"base (C files)","C","Catalan",1695,260,5,1430
+"107",23,"base (C files)","C","Catalan",1695,270,5,1420
 "108",24,"base (C files)","C","Dutch",1695,0,1695,0
 "109",25,"base (C files)","C","Hungarian",1695,15,1678,2
 "110",26,"base (C files)","C","Pangasinan",1695,0,1695,0
@@ -153,7 +153,7 @@
 "152",19,"grDevices (C files)","C","Nepali",218,0,218,0
 "153",20,"grDevices (C files)","C","Turkish",218,0,218,0
 "154",21,"grDevices (C files)","C","Hungarian",218,3,215,0
-"155",22,"grDevices (C files)","C","Catalan",218,7,1,210
+"155",22,"grDevices (C files)","C","Catalan",218,8,1,209
 "156",23,"grDevices (C files)","C","Pangasinan",218,0,218,0
 "157",1,"grDevices (R files)","R","English",170,170,0,0
 "158",2,"grDevices (R files)","R","Danish",170,92,39,39
@@ -544,7 +544,7 @@
 "543",18,"tools (C files)","C","Nepali",38,0,38,0
 "544",19,"tools (C files)","C","Turkish",38,0,38,0
 "545",20,"tools (C files)","C","Hungarian",38,6,32,0
-"546",21,"tools (C files)","C","Catalan",38,25,1,12
+"546",21,"tools (C files)","C","Catalan",38,26,1,11
 "547",22,"tools (C files)","C","English (United Kingdom)",38,37,1,0
 "548",23,"tools (C files)","C","Pangasinan",38,0,38,0
 "549",1,"tools (R files)","R","English",489,489,0,0
@@ -588,7 +588,7 @@
 "587",16,"utils (C files)","C","Nepali",59,0,59,0
 "588",17,"utils (C files)","C","Turkish",59,0,59,0
 "589",18,"utils (C files)","C","Hungarian",59,1,58,0
-"590",19,"utils (C files)","C","Catalan",59,47,0,12
+"590",19,"utils (C files)","C","Catalan",59,48,0,11
 "591",20,"utils (C files)","C","English (United Kingdom)",59,59,0,0
 "592",21,"utils (C files)","C","Pangasinan",59,0,59,0
 "593",1,"utils (R files)","R","English",434,434,0,0
@@ -612,7 +612,7 @@
 "611",19,"utils (R files)","R","Hindi",420,1,419,0
 "612",20,"utils (R files)","R","Nepali",420,0,420,0
 "613",21,"utils (R files)","R","Hungarian",420,8,412,0
-"614",22,"utils (R files)","R","Catalan",420,14,1,405
+"614",22,"utils (R files)","R","Catalan",420,15,1,404
 "615",23,"utils (R files)","R","English (United Kingdom)",420,419,1,0
 "616",24,"utils (R files)","R","Pangasinan",420,0,420,0
 "617",1,"Mac GUI","English","English",505,505,0,0
