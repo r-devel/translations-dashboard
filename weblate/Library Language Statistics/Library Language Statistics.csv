@@ -25,35 +25,35 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",223,223,0,0
-"28",2,"The R Project for Statistical Computing","English","Danish",8,0,8,0
-"29",3,"The R Project for Statistical Computing","English","German",8,4,4,0
-"30",4,"The R Project for Statistical Computing","English","Spanish",147,147,0,0
-"31",5,"The R Project for Statistical Computing","English","Persian",8,0,8,0
-"32",6,"The R Project for Statistical Computing","English","French",8,1,4,3
-"33",7,"The R Project for Statistical Computing","English","Italian",8,3,5,0
-"34",8,"The R Project for Statistical Computing","English","Japanese",8,0,8,0
-"35",9,"The R Project for Statistical Computing","English","Korean",8,3,5,0
-"36",10,"The R Project for Statistical Computing","English","Lithuanian",8,0,8,0
-"37",11,"The R Project for Statistical Computing","English","Norwegian Nynorsk",8,0,8,0
-"38",12,"The R Project for Statistical Computing","English","Polish",8,0,8,0
-"39",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",58,50,8,0
-"40",14,"The R Project for Statistical Computing","English","Russian",8,8,0,0
-"41",15,"The R Project for Statistical Computing","English","Turkish",8,0,8,0
-"42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",8,0,8,0
-"43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",8,0,8,0
-"44",18,"The R Project for Statistical Computing","English","English (United Kingdom)",8,7,1,0
-"45",19,"The R Project for Statistical Computing","English","Hungarian",8,4,0,4
-"46",20,"The R Project for Statistical Computing","English","Arabic",9,2,7,0
-"47",21,"The R Project for Statistical Computing","English","Albanian",8,0,8,0
-"48",22,"The R Project for Statistical Computing","English","Hindi",30,26,4,0
-"49",23,"The R Project for Statistical Computing","English","Indonesian",8,0,8,0
-"50",24,"The R Project for Statistical Computing","English","Bengali",8,7,1,0
-"51",25,"The R Project for Statistical Computing","English","Urdu",8,0,8,0
-"52",26,"The R Project for Statistical Computing","English","Nepali",8,2,6,0
-"53",27,"The R Project for Statistical Computing","English","Catalan",14,14,0,0
-"54",28,"The R Project for Statistical Computing","English","Dutch",8,0,8,0
-"55",29,"The R Project for Statistical Computing","English","Pangasinan",8,0,8,0
+"27",1,"The R Project for Statistical Computing","English","English",228,228,0,0
+"28",2,"The R Project for Statistical Computing","English","Danish",10,0,10,0
+"29",3,"The R Project for Statistical Computing","English","German",10,4,6,0
+"30",4,"The R Project for Statistical Computing","English","Spanish",150,148,2,0
+"31",5,"The R Project for Statistical Computing","English","Persian",10,0,10,0
+"32",6,"The R Project for Statistical Computing","English","French",10,1,6,3
+"33",7,"The R Project for Statistical Computing","English","Italian",10,3,7,0
+"34",8,"The R Project for Statistical Computing","English","Japanese",10,0,10,0
+"35",9,"The R Project for Statistical Computing","English","Korean",10,3,7,0
+"36",10,"The R Project for Statistical Computing","English","Lithuanian",10,0,10,0
+"37",11,"The R Project for Statistical Computing","English","Norwegian Nynorsk",10,0,10,0
+"38",12,"The R Project for Statistical Computing","English","Polish",10,0,10,0
+"39",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",64,57,7,0
+"40",14,"The R Project for Statistical Computing","English","Russian",10,8,2,0
+"41",15,"The R Project for Statistical Computing","English","Turkish",10,0,10,0
+"42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",10,0,10,0
+"43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",10,0,10,0
+"44",18,"The R Project for Statistical Computing","English","English (United Kingdom)",10,7,3,0
+"45",19,"The R Project for Statistical Computing","English","Hungarian",10,4,2,4
+"46",20,"The R Project for Statistical Computing","English","Arabic",11,2,9,0
+"47",21,"The R Project for Statistical Computing","English","Albanian",10,0,10,0
+"48",22,"The R Project for Statistical Computing","English","Hindi",32,26,6,0
+"49",23,"The R Project for Statistical Computing","English","Indonesian",10,0,10,0
+"50",24,"The R Project for Statistical Computing","English","Bengali",10,7,3,0
+"51",25,"The R Project for Statistical Computing","English","Urdu",10,0,10,0
+"52",26,"The R Project for Statistical Computing","English","Nepali",10,2,8,0
+"53",27,"The R Project for Statistical Computing","English","Catalan",16,14,2,0
+"54",28,"The R Project for Statistical Computing","English","Dutch",10,0,10,0
+"55",29,"The R Project for Statistical Computing","English","Pangasinan",10,0,10,0
 "56",1,"base (R files)","R","English",596,596,0,0
 "57",2,"base (R files)","R","Danish",596,466,61,69
 "58",3,"base (R files)","R","German",596,573,11,12
@@ -626,7 +626,7 @@
 "625",9,"Mac GUI","English","Hindi",505,0,505,0
 "626",10,"Mac GUI","English","Nepali",505,12,493,0
 "627",11,"Mac GUI","English","Turkish",505,35,470,0
-"628",12,"Mac GUI","English","Hungarian",505,136,369,0
+"628",12,"Mac GUI","English","Hungarian",505,144,361,0
 "629",13,"Mac GUI","English","Catalan",505,505,0,0
 "630",14,"Mac GUI","English","English (United Kingdom)",505,0,505,0
 "631",15,"Mac GUI","English","Russian",505,497,0,8
