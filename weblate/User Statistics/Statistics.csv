@@ -1,6 +1,6 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
 1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2024-06-03T11:06:46.363252Z,Active
-2,Gergely Daroczi,daroczig,19,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-05-15T09:31:07.214888Z,Active
+2,Gergely Daroczi,daroczig,19,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-07-02T19:50:51.521873Z,Active
 3,Deleted User,deleted-3,0,0,character(0),N/A,N/A,Unbegun
 4,Deleted User,deleted-4,0,0,character(0),N/A,N/A,Unbegun
 5,Angela Sanzo,angelasanzo,107,1,Spanish,2022-07-26T11:46:55.491580Z,2022-10-15T13:48:33.161586Z,Inactive
@@ -14,7 +14,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 13,Shun Wang,ShunWang,2142,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-05-19T09:21:17.870356Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T03:28:33.524393Z,2022-09-29T04:55:07.852687Z,Inactive
-16,Macarena Quiroga,msquiroga,321,1,Spanish,2022-10-14T13:18:07.512475Z,2023-07-24T21:27:34.073617Z,Inactive
+16,Macarena Quiroga,msquiroga,322,1,Spanish,2022-10-14T13:18:07.512475Z,2024-07-02T15:50:18.438882Z,Active
 17,Heather Turner,hturner,12003,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2024-01-29T14:41:27.217201Z,Active
 18,Patricia loto,PatriLoto,64,1,Spanish,2022-10-15T13:39:10.341490Z,2023-10-20T15:44:15.589887Z,Inactive
 19,Gabriel Tormin,Gtormin,25,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
@@ -27,7 +27,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 26,Michael Chirico,michaelchirico,1634,1,Japanese,2023-01-30T16:48:31.203351Z,2024-03-29T05:02:34.054232Z,Active
 27,Elio,eliocamp,7,1,Spanish,2023-01-28T13:50:36.554909Z,2023-01-28T13:50:36.554909Z,Inactive
 28,Detlef Steuer,dsteuer,20,1,German,2023-01-27T20:54:18.133641Z,2023-01-27T21:10:08.585138Z,Inactive
-29,Robert Castelo,rcastelo,2931,2,"c(""Spanish"", ""Catalan"")",2023-09-12T08:45:01.272247Z,2024-06-24T18:22:51.118187Z,Active
+29,Robert Castelo,rcastelo,2947,2,"c(""Spanish"", ""Catalan"")",2023-09-12T08:45:01.272247Z,2024-07-02T15:56:23.076192Z,Active
 30,Philip Khor,philip-khor,0,2,"c(""Chinese (Simplified)"", ""Indonesian"")",N/A,N/A,Unbegun
 31,Debartha Paul,DeBARtha,44,1,Bengali,2023-02-02T15:53:09.927118Z,2023-08-31T15:12:28.490942Z,Inactive
 32,Saranjeet Kaur Bhogal,Saranjeet,349,1,Hindi,2023-02-04T07:54:04.351957Z,2023-02-09T16:41:06.240799Z,Inactive
@@ -73,7 +73,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Active
 73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Active
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Active
-75,Ivan Krylov,ikrylov,112,1,Russian,2024-04-23T14:37:00.032627Z,2024-04-23T16:28:24.775605Z,Active
+75,Ivan Krylov,ikrylov,278,1,Russian,2024-04-23T14:37:00.032627Z,2024-07-02T20:38:28.677318Z,Active
 76,Temuri Doghonadze,NorwayFun,8,1,Georgian,2024-04-16T02:05:17.450143Z,2024-04-16T10:52:27.307766Z,Active
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
@@ -82,3 +82,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 81,Aghiles MALOUM,Madghis,0,1,English (United Kingdom),N/A,N/A,Unbegun
 82,Nichole Haines,Meeko28,1612,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-06-25T22:58:24.191229Z,Active
 83,Deleted User,deleted-83,0,1,Hungarian,N/A,N/A,Unbegun
+84,Arjen Deniz,arjendeniz,57,1,Turkish,2024-07-02T15:39:09.796896Z,2024-07-02T17:24:18.339010Z,Active
+85,Sarah Zeller,szeller,23,1,German,2024-07-02T15:36:11.852537Z,2024-07-02T15:52:55.618892Z,Active
+86,Tomasz Żółtak,tzoltak,0,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Active
+87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Active
