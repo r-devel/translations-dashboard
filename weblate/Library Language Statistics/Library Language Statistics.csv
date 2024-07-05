@@ -25,7 +25,7 @@
 "24",24,"base (R GUI)","R","Hungarian",264,235,15,14
 "25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
 "26",26,"base (R GUI)","R","Pangasinan",264,0,264,0
-"27",1,"The R Project for Statistical Computing","English","English",230,230,0,0
+"27",1,"The R Project for Statistical Computing","English","English",231,231,0,0
 "28",2,"The R Project for Statistical Computing","English","Danish",10,0,10,0
 "29",3,"The R Project for Statistical Computing","English","German",10,4,6,0
 "30",4,"The R Project for Statistical Computing","English","Spanish",150,148,2,0
@@ -39,7 +39,7 @@
 "38",12,"The R Project for Statistical Computing","English","Polish",10,0,10,0
 "39",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",66,59,7,0
 "40",14,"The R Project for Statistical Computing","English","Russian",10,10,0,0
-"41",15,"The R Project for Statistical Computing","English","Turkish",11,2,9,0
+"41",15,"The R Project for Statistical Computing","English","Turkish",12,3,9,0
 "42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",10,0,10,0
 "43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",10,0,10,0
 "44",18,"The R Project for Statistical Computing","English","English (United Kingdom)",10,7,3,0
@@ -67,7 +67,7 @@
 "66",11,"base (R files)","R","Polish",596,508,47,41
 "67",12,"base (R files)","R","Portuguese (Brazil)",596,575,11,10
 "68",13,"base (R files)","R","Russian",596,596,0,0
-"69",14,"base (R files)","R","Turkish",596,51,521,24
+"69",14,"base (R files)","R","Turkish",596,62,509,25
 "70",15,"base (R files)","R","Chinese (Simplified)",596,501,48,47
 "71",16,"base (R files)","R","Chinese (Traditional)",596,509,46,41
 "72",17,"base (R files)","R","Hungarian",596,338,242,16
