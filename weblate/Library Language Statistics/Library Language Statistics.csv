@@ -67,7 +67,7 @@
 "66",11,"base (R files)","R","Polish",596,508,47,41
 "67",12,"base (R files)","R","Portuguese (Brazil)",596,575,11,10
 "68",13,"base (R files)","R","Russian",596,596,0,0
-"69",14,"base (R files)","R","Turkish",596,62,509,25
+"69",14,"base (R files)","R","Turkish",596,122,450,24
 "70",15,"base (R files)","R","Chinese (Simplified)",596,501,48,47
 "71",16,"base (R files)","R","Chinese (Traditional)",596,509,46,41
 "72",17,"base (R files)","R","Hungarian",596,338,242,16
@@ -97,7 +97,7 @@
 "96",12,"base (C files)","C","Polish",1695,1433,78,184
 "97",13,"base (C files)","C","Portuguese (Brazil)",1695,1289,127,279
 "98",14,"base (C files)","C","Russian",1695,1695,0,0
-"99",15,"base (C files)","C","Turkish",1695,1099,183,413
+"99",15,"base (C files)","C","Turkish",1695,1101,183,411
 "100",16,"base (C files)","C","Chinese (Simplified)",1695,1403,100,192
 "101",17,"base (C files)","C","Chinese (Traditional)",1695,1428,89,178
 "102",18,"base (C files)","C","Arabic",1695,0,1598,97
