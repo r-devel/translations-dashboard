@@ -1,6 +1,6 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
-1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2024-07-10T16:49:24.101366Z,Active
-2,Gergely Daroczi,daroczig,19,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-07-02T19:50:51.521873Z,Active
+1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2024-07-12T07:52:51.196877Z,Active
+2,Gergely Daroczi,daroczig,22,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-07-12T12:46:09.521089Z,Active
 3,Deleted User,deleted-3,0,0,character(0),N/A,N/A,Unbegun
 4,Deleted User,deleted-4,0,0,character(0),N/A,N/A,Unbegun
 5,Angela Sanzo,angelasanzo,107,1,Spanish,2022-07-26T11:46:55.491580Z,2022-10-15T13:48:33.161586Z,Inactive
@@ -70,7 +70,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 69,Rafael Fontenelle,rffontenelle,304,1,Portuguese (Brazil),2023-10-31T18:24:54.537614Z,2024-07-03T17:23:05.948391Z,Active
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T16:55:02.499619Z,2023-11-04T17:49:59.393796Z,Inactive
 71,Raman Shah,ramansh,9,1,Nepali,2023-11-17T12:05:52.719532Z,2024-04-07T17:55:30.974935Z,Active
-72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Active
+72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Inactive
 73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Active
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Active
 75,Ivan Krylov,ikrylov,278,1,Russian,2024-04-23T14:37:00.032627Z,2024-07-02T20:38:28.677318Z,Active
@@ -78,7 +78,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
 79,Lorena Abad,loreabad6,3,1,Spanish,2024-05-02T13:47:29.825563Z,2024-05-02T13:52:05.835515Z,Active
-80,Ricardo Villalba,Rikivillalba,6966,2,"c(""Spanish"", ""English"")",2024-05-14T21:36:47.834961Z,2024-06-26T04:09:04.447111Z,Active
+80,Ricardo Villalba,Rikivillalba,7090,2,"c(""Spanish"", ""English"")",2024-05-14T21:36:47.834961Z,2024-07-12T02:39:54.996080Z,Active
 81,Aghiles MALOUM,Madghis,0,1,English (United Kingdom),N/A,N/A,Unbegun
 82,Nichole Haines,Meeko28,1612,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-06-25T22:58:24.191229Z,Active
 83,Deleted User,deleted-83,0,1,Hungarian,N/A,N/A,Unbegun
@@ -86,3 +86,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 85,Sarah Zeller,szeller,23,1,German,2024-07-02T15:36:11.852537Z,2024-07-02T15:52:55.618892Z,Active
 86,Tomasz Żółtak,tzoltak,0,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Active
 87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Active
+88,Fernando Corrêa,azeloc,2,1,English,2024-07-12T07:51:14.506188Z,2024-07-12T12:44:50.983992Z,Active
