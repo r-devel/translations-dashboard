@@ -1,6 +1,6 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
 1,Anonymous,anonymous,0,0,character(0),2022-08-30T14:20:03.409262Z,2024-07-12T07:52:51.196877Z,Active
-2,Gergely Daroczi,daroczig,22,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-07-12T12:46:09.521089Z,Active
+2,Gergely Daroczi,daroczig,22,1,Hungarian,2022-05-26T10:44:35.658195Z,2024-07-12T13:50:38.636908Z,Active
 3,Deleted User,deleted-3,0,0,character(0),N/A,N/A,Unbegun
 4,Deleted User,deleted-4,0,0,character(0),N/A,N/A,Unbegun
 5,Angela Sanzo,angelasanzo,107,1,Spanish,2022-07-26T11:46:55.491580Z,2022-10-15T13:48:33.161586Z,Inactive
@@ -34,7 +34,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 33,Sumit Ghosh,Sumit,7,2,"c(""Bengali"", ""Hindi"")",2023-02-21T03:26:01.412146Z,2023-02-21T12:12:58.961890Z,Inactive
 34,Martin Mächler,maechlerETH,15,2,"c(""German"", ""English"")",2023-02-21T16:40:56.000606Z,2023-02-21T16:58:46.396504Z,Inactive
 35,Roberto Villegas-Diaz,villegar,700,1,Spanish,2023-08-30T10:49:38.775592Z,2023-08-31T15:22:26.601377Z,Inactive
-36,Binod Jung Bogati,bjungbogati,307,1,Nepali,2023-03-10T11:24:03.847929Z,2023-09-01T08:40:20.019723Z,Inactive
+36,Binod Jung Bogati,bjungbogati,448,1,Nepali,2023-03-10T11:24:03.847929Z,2024-07-12T15:04:12.078595Z,Active
 37,Shrish Shete,shrishs21,2,2,"c(""English (United Kingdom)"", ""Hindi"")",N/A,N/A,Active
 38,Om Shivam Verma,omsv135,0,0,character(0),N/A,N/A,Unbegun
 39,Sovan Karmakar,Sovan,7,3,"c(""Bengali"", ""English (United Kingdom)"", ""English"")",2023-04-05T06:19:12.199744Z,2023-04-05T06:30:03.843731Z,Inactive
@@ -73,7 +73,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Inactive
 73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Active
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Active
-75,Ivan Krylov,ikrylov,278,1,Russian,2024-04-23T14:37:00.032627Z,2024-07-02T20:38:28.677318Z,Active
+75,Ivan Krylov,ikrylov,503,1,Russian,2024-04-23T14:37:00.032627Z,2024-07-12T16:41:12.574799Z,Active
 76,Temuri Doghonadze,NorwayFun,8,1,Georgian,2024-04-16T02:05:17.450143Z,2024-04-16T10:52:27.307766Z,Active
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
