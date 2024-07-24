@@ -9,7 +9,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 8,Krye Kuzhinieri,kryekuzhinieri,80,1,Albanian,2022-08-30T16:16:50.482141Z,2022-08-30T16:41:51.718526Z,Inactive
 9,Caio Lente,lente,1887,1,Portuguese (Brazil),2022-08-30T18:03:18.487743Z,2023-09-01T11:13:50.813264Z,Inactive
 10,Lluís,llrs,305,1,Spanish,2022-08-31T19:02:49.185580Z,2024-03-19T22:26:29.484895Z,Active
-11,Beatriz Milz,beatrizmilz,94,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
+11,Beatriz Milz,beatrizmilz,95,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
 13,Shun Wang,ShunWang,2151,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-07-07T11:28:07.546412Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
@@ -17,7 +17,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 16,Macarena Quiroga,msquiroga,322,1,Spanish,2022-10-14T13:18:07.512475Z,2024-07-02T15:50:18.438882Z,Active
 17,Heather Turner,hturner,12003,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2024-01-29T14:41:27.217201Z,Active
 18,Patricia loto,PatriLoto,64,1,Spanish,2022-10-15T13:39:10.341490Z,2023-10-20T15:44:15.589887Z,Inactive
-19,Gabriel Tormin,Gtormin,25,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
+19,Gabriel Tormin,Gtormin,27,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
 20,Julieta Laurino,julilaurino,62,1,Spanish,2022-10-15T13:46:13.327172Z,2022-10-15T15:11:34.486152Z,Inactive
 21,Yheni Farfan,Yheni,0,1,Spanish,N/A,N/A,Unbegun
 22,Gaby Sandoval,Gabs,16,1,Spanish,2022-10-15T14:21:22.704160Z,2022-10-15T14:49:49.456997Z,Inactive
@@ -67,7 +67,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 66,Jan Strappa,jansf,38,1,Spanish,2023-10-20T14:30:31.175547Z,2023-10-20T14:47:18.061102Z,Inactive
 67,Riva Quiroga,riva-quiroga,8,1,Spanish,2023-10-20T14:28:10.080390Z,2023-10-20T15:43:49.938958Z,Inactive
 68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:45:05.762564Z,2023-10-20T18:54:42.593639Z,Inactive
-69,Rafael Fontenelle,rffontenelle,304,1,Portuguese (Brazil),2023-10-31T18:24:54.537614Z,2024-07-03T17:23:05.948391Z,Active
+69,Rafael Fontenelle,rffontenelle,347,1,Portuguese (Brazil),2023-10-31T18:24:54.537614Z,2024-07-24T02:57:59.368597Z,Active
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T16:55:02.499619Z,2023-11-04T17:49:59.393796Z,Inactive
 71,Raman Shah,ramansh,9,1,Nepali,2023-11-17T12:05:52.719532Z,2024-04-07T17:55:30.974935Z,Active
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Inactive
