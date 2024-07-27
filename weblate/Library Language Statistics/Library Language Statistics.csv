@@ -105,7 +105,7 @@
 "104",20,"base (C files)","C","English (United Kingdom)",1695,1639,23,33
 "105",21,"base (C files)","C","Hindi",1695,53,1448,194
 "106",22,"base (C files)","C","Nepali",1695,6,1675,14
-"107",23,"base (C files)","C","Catalan",1695,293,5,1397
+"107",23,"base (C files)","C","Catalan",1695,307,5,1383
 "108",24,"base (C files)","C","Dutch",1695,0,1695,0
 "109",25,"base (C files)","C","Hungarian",1695,15,1678,2
 "110",26,"base (C files)","C","Pangasinan",1695,0,1695,0
@@ -589,7 +589,7 @@
 "588",16,"utils (C files)","C","Nepali",59,0,59,0
 "589",17,"utils (C files)","C","Turkish",59,0,59,0
 "590",18,"utils (C files)","C","Hungarian",59,1,58,0
-"591",19,"utils (C files)","C","Catalan",59,48,0,11
+"591",19,"utils (C files)","C","Catalan",59,49,0,10
 "592",20,"utils (C files)","C","English (United Kingdom)",59,59,0,0
 "593",21,"utils (C files)","C","Pangasinan",59,0,59,0
 "594",1,"utils (R files)","R","English",434,434,0,0
