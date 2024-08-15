@@ -71,7 +71,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T16:55:02.499619Z,2023-11-04T17:49:59.393796Z,Inactive
 71,Raman Shah,ramansh,9,1,Nepali,2023-11-17T12:05:52.719532Z,2024-04-07T17:55:30.974935Z,Active
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Inactive
-73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Active
+73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Unbegun
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Active
 75,Ivan Krylov,ikrylov,503,1,Russian,2024-04-23T14:37:00.032627Z,2024-07-12T16:41:12.574799Z,Active
 76,Temuri Doghonadze,NorwayFun,8,1,Georgian,2024-04-16T02:05:17.450143Z,2024-04-16T10:52:27.307766Z,Active
@@ -88,3 +88,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Active
 88,Fernando Corrêa,azeloc,2,1,English,2024-07-12T07:51:14.506188Z,2024-07-12T12:44:50.983992Z,Active
 89,Youcef Mokrane,yOOs,0,1,Arabic,2024-08-12T19:30:38.423322Z,2024-08-12T19:50:54.807236Z,Active
+90,Holly Cui,hollyyfc,0,0,character(0),N/A,N/A,Unbegun
