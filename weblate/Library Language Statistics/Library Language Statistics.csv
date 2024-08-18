@@ -182,7 +182,7 @@
 "181",2,"graphics (C files)","C","Danish",130,2,127,1
 "182",3,"graphics (C files)","C","German",130,129,0,1
 "183",4,"graphics (C files)","C","Spanish",130,129,0,1
-"184",5,"graphics (C files)","C","French",130,129,0,1
+"184",5,"graphics (C files)","C","French",130,130,0,0
 "185",6,"graphics (C files)","C","Italian",130,130,0,0
 "186",7,"graphics (C files)","C","Japanese",130,123,3,4
 "187",8,"graphics (C files)","C","Korean",130,109,18,3
@@ -228,7 +228,7 @@
 "227",1,"grid (C files)","C","English",43,43,0,0
 "228",2,"grid (C files)","C","Danish",43,5,23,15
 "229",3,"grid (C files)","C","German",43,38,5,0
-"230",4,"grid (C files)","C","French",43,38,5,0
+"230",4,"grid (C files)","C","French",43,40,3,0
 "231",5,"grid (C files)","C","Italian",43,42,1,0
 "232",6,"grid (C files)","C","Japanese",43,24,19,0
 "233",7,"grid (C files)","C","Korean",43,23,20,0
@@ -297,7 +297,7 @@
 "296",1,"methods (R files)","R","English",408,408,0,0
 "297",2,"methods (R files)","R","Danish",406,5,379,22
 "298",3,"methods (R files)","R","German",406,402,2,2
-"299",4,"methods (R files)","R","French",406,404,0,2
+"299",4,"methods (R files)","R","French",406,406,0,0
 "300",5,"methods (R files)","R","Italian",406,406,0,0
 "301",6,"methods (R files)","R","Japanese",406,378,12,16
 "302",7,"methods (R files)","R","Korean",406,292,109,5
@@ -389,7 +389,7 @@
 "388",1,"splines (R files)","R","English",27,27,0,0
 "389",2,"splines (R files)","R","Danish",27,15,7,5
 "390",3,"splines (R files)","R","German",27,23,4,0
-"391",4,"splines (R files)","R","French",27,23,4,0
+"391",4,"splines (R files)","R","French",27,26,1,0
 "392",5,"splines (R files)","R","Italian",27,23,4,0
 "393",6,"splines (R files)","R","Japanese",27,19,6,2
 "394",7,"splines (R files)","R","Korean",27,20,7,0
@@ -573,7 +573,7 @@
 "572",23,"tools (R files)","R","Pangasinan",461,0,461,0
 "573",1,"utils (C files)","C","English",60,60,0,0
 "574",2,"utils (C files)","C","German",59,44,0,15
-"575",3,"utils (C files)","C","French",59,56,0,3
+"575",3,"utils (C files)","C","French",59,59,0,0
 "576",4,"utils (C files)","C","Italian",59,58,0,1
 "577",5,"utils (C files)","C","Korean",59,49,7,3
 "578",6,"utils (C files)","C","Lithuanian",59,55,1,3
