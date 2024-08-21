@@ -88,7 +88,7 @@
 "87",3,"base (C files)","C","German",1695,1654,0,41
 "88",4,"base (C files)","C","Spanish",1695,1675,0,20
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
-"90",6,"base (C files)","C","French",1695,1534,51,110
+"90",6,"base (C files)","C","French",1695,1536,51,108
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
 "92",8,"base (C files)","C","Japanese",1695,1369,115,211
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
@@ -205,7 +205,7 @@
 "204",1,"graphics (R files)","R","English",156,156,0,0
 "205",2,"graphics (R files)","R","Danish",156,10,142,4
 "206",3,"graphics (R files)","R","German",156,153,1,2
-"207",4,"graphics (R files)","R","French",156,153,1,2
+"207",4,"graphics (R files)","R","French",156,154,0,2
 "208",5,"graphics (R files)","R","Italian",156,154,1,1
 "209",6,"graphics (R files)","R","Japanese",156,143,7,6
 "210",7,"graphics (R files)","R","Korean",156,131,20,5
@@ -251,7 +251,7 @@
 "250",1,"grid (R files)","R","English",190,190,0,0
 "251",2,"grid (R files)","R","Danish",190,7,113,70
 "252",3,"grid (R files)","R","German",190,190,0,0
-"253",4,"grid (R files)","R","French",190,168,7,15
+"253",4,"grid (R files)","R","French",190,182,5,3
 "254",5,"grid (R files)","R","Italian",190,182,4,4
 "255",6,"grid (R files)","R","Japanese",190,148,19,23
 "256",7,"grid (R files)","R","Korean",190,125,44,21
@@ -596,7 +596,7 @@
 "595",2,"utils (R files)","R","Danish",420,36,348,36
 "596",3,"utils (R files)","R","German",420,401,6,13
 "597",4,"utils (R files)","R","Persian",420,6,413,1
-"598",5,"utils (R files)","R","French",420,406,0,14
+"598",5,"utils (R files)","R","French",420,407,0,13
 "599",6,"utils (R files)","R","Italian",420,413,3,4
 "600",7,"utils (R files)","R","Japanese",420,340,50,30
 "601",8,"utils (R files)","R","Korean",420,309,85,26
