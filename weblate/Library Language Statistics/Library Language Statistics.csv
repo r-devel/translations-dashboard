@@ -64,7 +64,7 @@
 "63",8,"base (R files)","R","Korean",596,391,169,36
 "64",9,"base (R files)","R","Lithuanian",596,544,32,20
 "65",10,"base (R files)","R","Norwegian Nynorsk",596,361,78,157
-"66",11,"base (R files)","R","Polish",596,508,47,41
+"66",11,"base (R files)","R","Polish",596,517,44,35
 "67",12,"base (R files)","R","Portuguese (Brazil)",596,575,11,10
 "68",13,"base (R files)","R","Russian",596,596,0,0
 "69",14,"base (R files)","R","Turkish",596,128,440,28
@@ -88,7 +88,7 @@
 "87",3,"base (C files)","C","German",1695,1654,0,41
 "88",4,"base (C files)","C","Spanish",1695,1675,0,20
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
-"90",6,"base (C files)","C","French",1695,1595,30,70
+"90",6,"base (C files)","C","French",1695,1598,27,70
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
 "92",8,"base (C files)","C","Japanese",1695,1369,115,211
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
@@ -633,3 +633,4 @@
 "632",15,"Mac GUI","English","Russian",505,505,0,0
 "633",16,"Mac GUI","English","Pangasinan",505,0,505,0
 "634",17,"Mac GUI","English","Portuguese (Brazil)",505,0,505,0
+"635",18,"Mac GUI","English","Polish",505,0,505,0
