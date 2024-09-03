@@ -10,7 +10,7 @@
 "9",9,"base (R GUI)","R","Korean",264,259,0,5
 "10",10,"base (R GUI)","R","Lithuanian",264,258,0,6
 "11",11,"base (R GUI)","R","Norwegian Nynorsk",264,256,0,8
-"12",12,"base (R GUI)","R","Polish",264,258,0,6
+"12",12,"base (R GUI)","R","Polish",264,264,0,0
 "13",13,"base (R GUI)","R","Portuguese (Brazil)",264,256,0,8
 "14",14,"base (R GUI)","R","Russian",264,264,0,0
 "15",15,"base (R GUI)","R","Turkish",264,256,0,8
@@ -64,7 +64,7 @@
 "63",8,"base (R files)","R","Korean",596,391,169,36
 "64",9,"base (R files)","R","Lithuanian",596,544,32,20
 "65",10,"base (R files)","R","Norwegian Nynorsk",596,361,78,157
-"66",11,"base (R files)","R","Polish",596,517,44,35
+"66",11,"base (R files)","R","Polish",596,522,44,30
 "67",12,"base (R files)","R","Portuguese (Brazil)",596,575,11,10
 "68",13,"base (R files)","R","Russian",596,596,0,0
 "69",14,"base (R files)","R","Turkish",596,128,440,28
@@ -88,7 +88,7 @@
 "87",3,"base (C files)","C","German",1695,1654,0,41
 "88",4,"base (C files)","C","Spanish",1695,1675,0,20
 "89",5,"base (C files)","C","Persian",1695,3,1692,0
-"90",6,"base (C files)","C","French",1695,1665,13,17
+"90",6,"base (C files)","C","French",1695,1695,0,0
 "91",7,"base (C files)","C","Italian",1695,1611,13,71
 "92",8,"base (C files)","C","Japanese",1695,1369,115,211
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
@@ -228,12 +228,12 @@
 "227",1,"grid (C files)","C","English",43,43,0,0
 "228",2,"grid (C files)","C","Danish",43,5,23,15
 "229",3,"grid (C files)","C","German",43,38,5,0
-"230",4,"grid (C files)","C","French",43,40,3,0
+"230",4,"grid (C files)","C","French",43,43,0,0
 "231",5,"grid (C files)","C","Italian",43,42,1,0
 "232",6,"grid (C files)","C","Japanese",43,24,19,0
 "233",7,"grid (C files)","C","Korean",43,23,20,0
 "234",8,"grid (C files)","C","Lithuanian",43,35,5,3
-"235",9,"grid (C files)","C","Polish",43,23,20,0
+"235",9,"grid (C files)","C","Polish",43,24,19,0
 "236",10,"grid (C files)","C","Portuguese (Brazil)",43,5,23,15
 "237",11,"grid (C files)","C","Russian",43,43,0,0
 "238",12,"grid (C files)","C","Chinese (Simplified)",43,22,21,0
@@ -389,7 +389,7 @@
 "388",1,"splines (R files)","R","English",27,27,0,0
 "389",2,"splines (R files)","R","Danish",27,15,7,5
 "390",3,"splines (R files)","R","German",27,23,4,0
-"391",4,"splines (R files)","R","French",27,26,1,0
+"391",4,"splines (R files)","R","French",27,27,0,0
 "392",5,"splines (R files)","R","Italian",27,23,4,0
 "393",6,"splines (R files)","R","Japanese",27,19,6,2
 "394",7,"splines (R files)","R","Korean",27,20,7,0
@@ -510,7 +510,7 @@
 "509",6,"tcltk (R files)","R","Japanese",30,29,1,0
 "510",7,"tcltk (R files)","R","Korean",30,29,1,0
 "511",8,"tcltk (R files)","R","Lithuanian",30,29,1,0
-"512",9,"tcltk (R files)","R","Polish",30,29,1,0
+"512",9,"tcltk (R files)","R","Polish",30,30,0,0
 "513",10,"tcltk (R files)","R","Portuguese (Brazil)",30,30,0,0
 "514",11,"tcltk (R files)","R","Russian",30,30,0,0
 "515",12,"tcltk (R files)","R","Chinese (Simplified)",30,30,0,0
@@ -551,12 +551,12 @@
 "550",1,"tools (R files)","R","English",489,489,0,0
 "551",2,"tools (R files)","R","Danish",461,42,388,31
 "552",3,"tools (R files)","R","German",461,398,31,32
-"553",4,"tools (R files)","R","French",461,400,31,30
+"553",4,"tools (R files)","R","French",461,421,18,22
 "554",5,"tools (R files)","R","Italian",461,432,4,25
 "555",6,"tools (R files)","R","Japanese",461,331,78,52
 "556",7,"tools (R files)","R","Korean",461,288,132,41
 "557",8,"tools (R files)","R","Lithuanian",461,395,35,31
-"558",9,"tools (R files)","R","Polish",461,342,74,45
+"558",9,"tools (R files)","R","Polish",461,354,72,35
 "559",10,"tools (R files)","R","Portuguese (Brazil)",461,391,37,33
 "560",11,"tools (R files)","R","Russian",461,461,0,0
 "561",12,"tools (R files)","R","Turkish",461,2,459,0
@@ -633,4 +633,4 @@
 "632",15,"Mac GUI","English","Russian",505,505,0,0
 "633",16,"Mac GUI","English","Pangasinan",505,0,505,0
 "634",17,"Mac GUI","English","Portuguese (Brazil)",505,0,505,0
-"635",18,"Mac GUI","English","Polish",505,0,505,0
+"635",18,"Mac GUI","English","Polish",505,34,471,0
