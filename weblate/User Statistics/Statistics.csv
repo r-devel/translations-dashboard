@@ -84,14 +84,17 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 83,Deleted User,deleted-83,0,1,Hungarian,N/A,N/A,Unbegun
 84,Arjen Deniz,arjendeniz,145,1,Turkish,2024-07-02T15:39:09.796896Z,2024-07-06T16:30:43.414636Z,Active
 85,Sarah Zeller,szeller,23,1,German,2024-07-02T15:36:11.852537Z,2024-07-02T15:52:55.618892Z,Active
-86,Tomasz Żółtak,tzoltak,0,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Active
+86,Tomasz Żółtak,tzoltak,20,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Active
 87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Active
 88,Fernando Corrêa,azeloc,2,1,English,2024-07-12T07:51:14.506188Z,2024-07-12T12:44:50.983992Z,Active
 89,Youcef Mokrane,yOOs,0,1,Arabic,2024-08-12T19:30:38.423322Z,2024-08-12T19:50:54.807236Z,Active
 90,Holly Cui,hollyyfc,0,0,character(0),N/A,N/A,Unbegun
-91,Christian Wiat,christianWiat,628,1,French,2024-08-17T16:33:21.893078Z,2024-09-02T21:00:18.878364Z,Active
+91,Christian Wiat,christianWiat,678,1,French,2024-08-17T16:33:21.893078Z,2024-09-05T12:44:55.680900Z,Active
 92,Christophe Regouby,cregouby,0,1,French,N/A,N/A,Unbegun
 93,Jinyu Lu,LJY,6,1,Chinese (Simplified),2024-08-27T11:07:13.354581Z,2024-08-27T11:14:57.879962Z,Active
 94,Jonathan Kitt,jonathan.kitt,0,1,French,2024-08-29T05:57:44.455810Z,2024-08-29T05:58:31.099187Z,Active
-95,Tomasz Gieorgijewski,Tomek,69,1,Polish,2024-08-30T12:30:54.471622Z,2024-09-03T13:48:13.933519Z,Active
-96,Łukasz Daniel,lukaszdaniel,15,1,Polish,2024-09-03T05:38:27.510196Z,2024-09-03T05:47:32.933034Z,Active
+95,Tomasz Gieorgijewski,Tomek,78,1,Polish,2024-08-30T12:30:54.471622Z,2024-09-05T09:14:59.512021Z,Active
+96,Łukasz Daniel,lukaszdaniel,184,1,Polish,2024-09-03T05:38:27.510196Z,2024-09-05T12:50:48.547715Z,Active
+97,Shechang Li,scli109,3,1,Chinese (Simplified),2024-09-05T02:21:53.892766Z,2024-09-05T02:58:40.543859Z,Active
+98,Mahmoud Abdelrazek,razekmh,6,2,"c(""Arabic"", ""English"")",2024-09-05T10:36:33.253727Z,2024-09-05T11:04:15.746113Z,Active
+99,Jyoti Bhogal,jyoti-bhogal,18,1,Hindi,2024-09-05T11:01:43.414499Z,2024-09-05T11:48:47.051925Z,Active
