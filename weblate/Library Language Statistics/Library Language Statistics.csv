@@ -94,7 +94,7 @@
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
 "94",10,"base (C files)","C","Lithuanian",1695,1500,65,130
 "95",11,"base (C files)","C","Norwegian Nynorsk",1695,1102,173,420
-"96",12,"base (C files)","C","Polish",1695,1528,68,99
+"96",12,"base (C files)","C","Polish",1695,1590,28,77
 "97",13,"base (C files)","C","Portuguese (Brazil)",1695,1289,128,278
 "98",14,"base (C files)","C","Russian",1695,1695,0,0
 "99",15,"base (C files)","C","Turkish",1695,1102,183,410
@@ -141,7 +141,7 @@
 "140",7,"grDevices (C files)","C","Japanese",218,154,45,19
 "141",8,"grDevices (C files)","C","Korean",218,145,56,17
 "142",9,"grDevices (C files)","C","Lithuanian",218,161,42,15
-"143",10,"grDevices (C files)","C","Polish",218,186,26,6
+"143",10,"grDevices (C files)","C","Polish",218,217,0,1
 "144",11,"grDevices (C files)","C","Portuguese (Brazil)",218,18,160,40
 "145",12,"grDevices (C files)","C","Russian",218,218,0,0
 "146",13,"grDevices (C files)","C","Chinese (Simplified)",218,158,43,17
@@ -164,7 +164,7 @@
 "163",7,"grDevices (R files)","R","Japanese",170,122,33,15
 "164",8,"grDevices (R files)","R","Korean",170,113,43,14
 "165",9,"grDevices (R files)","R","Lithuanian",170,132,25,13
-"166",10,"grDevices (R files)","R","Polish",170,130,26,14
+"166",10,"grDevices (R files)","R","Polish",170,170,0,0
 "167",11,"grDevices (R files)","R","Portuguese (Brazil)",170,88,44,38
 "168",12,"grDevices (R files)","R","Russian",170,170,0,0
 "169",13,"grDevices (R files)","R","Chinese (Simplified)",170,112,39,19
@@ -256,7 +256,7 @@
 "255",6,"grid (R files)","R","Japanese",190,148,19,23
 "256",7,"grid (R files)","R","Korean",190,125,44,21
 "257",8,"grid (R files)","R","Lithuanian",190,159,13,18
-"258",9,"grid (R files)","R","Polish",190,154,16,20
+"258",9,"grid (R files)","R","Polish",190,190,0,0
 "259",10,"grid (R files)","R","Portuguese (Brazil)",190,43,24,123
 "260",11,"grid (R files)","R","Russian",190,190,0,0
 "261",12,"grid (R files)","R","Chinese (Simplified)",190,139,21,30
@@ -556,7 +556,7 @@
 "555",6,"tools (R files)","R","Japanese",461,331,78,52
 "556",7,"tools (R files)","R","Korean",461,288,132,41
 "557",8,"tools (R files)","R","Lithuanian",461,395,35,31
-"558",9,"tools (R files)","R","Polish",461,357,72,32
+"558",9,"tools (R files)","R","Polish",461,461,0,0
 "559",10,"tools (R files)","R","Portuguese (Brazil)",461,391,37,33
 "560",11,"tools (R files)","R","Russian",461,461,0,0
 "561",12,"tools (R files)","R","Turkish",461,2,459,0
