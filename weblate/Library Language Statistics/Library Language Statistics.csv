@@ -40,7 +40,7 @@
 "39",13,"The R Project for Statistical Computing","English","Portuguese (Brazil)",196,60,136,0
 "40",14,"The R Project for Statistical Computing","English","Russian",178,11,167,0
 "41",15,"The R Project for Statistical Computing","English","Turkish",180,4,176,0
-"42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",178,1,177,0
+"42",16,"The R Project for Statistical Computing","English","Chinese (Simplified)",178,12,166,0
 "43",17,"The R Project for Statistical Computing","English","Chinese (Traditional)",178,1,177,0
 "44",18,"The R Project for Statistical Computing","English","English (United Kingdom)",178,8,170,0
 "45",19,"The R Project for Statistical Computing","English","Hungarian",178,6,169,3
@@ -94,7 +94,7 @@
 "93",9,"base (C files)","C","Korean",1695,1192,341,162
 "94",10,"base (C files)","C","Lithuanian",1695,1500,65,130
 "95",11,"base (C files)","C","Norwegian Nynorsk",1695,1102,173,420
-"96",12,"base (C files)","C","Polish",1695,1590,28,77
+"96",12,"base (C files)","C","Polish",1695,1695,0,0
 "97",13,"base (C files)","C","Portuguese (Brazil)",1695,1289,128,278
 "98",14,"base (C files)","C","Russian",1695,1695,0,0
 "99",15,"base (C files)","C","Turkish",1695,1102,183,410
@@ -141,7 +141,7 @@
 "140",7,"grDevices (C files)","C","Japanese",218,154,45,19
 "141",8,"grDevices (C files)","C","Korean",218,145,56,17
 "142",9,"grDevices (C files)","C","Lithuanian",218,161,42,15
-"143",10,"grDevices (C files)","C","Polish",218,217,0,1
+"143",10,"grDevices (C files)","C","Polish",218,218,0,0
 "144",11,"grDevices (C files)","C","Portuguese (Brazil)",218,18,160,40
 "145",12,"grDevices (C files)","C","Russian",218,218,0,0
 "146",13,"grDevices (C files)","C","Chinese (Simplified)",218,158,43,17
@@ -308,7 +308,7 @@
 "307",12,"methods (R files)","R","Chinese (Simplified)",406,386,9,11
 "308",13,"methods (R files)","R","Chinese (Traditional)",406,391,7,8
 "309",14,"methods (R files)","R","Arabic",406,4,402,0
-"310",15,"methods (R files)","R","Spanish",406,406,0,0
+"310",15,"methods (R files)","R","Spanish",406,405,1,0
 "311",16,"methods (R files)","R","Dutch",406,0,406,0
 "312",17,"methods (R files)","R","Hindi",406,0,406,0
 "313",18,"methods (R files)","R","Nepali",406,0,406,0
@@ -359,7 +359,7 @@
 "358",17,"parallel (R files)","R","Hindi",37,25,12,0
 "359",18,"parallel (R files)","R","Nepali",37,2,35,0
 "360",19,"parallel (R files)","R","Turkish",37,0,37,0
-"361",20,"parallel (R files)","R","Hungarian",37,28,6,3
+"361",20,"parallel (R files)","R","Hungarian",37,29,5,3
 "362",21,"parallel (R files)","R","Catalan",37,5,0,32
 "363",22,"parallel (R files)","R","English (United Kingdom)",37,37,0,0
 "364",23,"parallel (R files)","R","Pangasinan",37,0,37,0
@@ -418,7 +418,7 @@
 "417",7,"stats (C files)","C","Korean",211,169,39,3
 "418",8,"stats (C files)","C","Lithuanian",211,204,3,4
 "419",9,"stats (C files)","C","Polish",211,211,0,0
-"420",10,"stats (C files)","C","Portuguese (Brazil)",211,165,38,8
+"420",10,"stats (C files)","C","Portuguese (Brazil)",211,166,38,7
 "421",11,"stats (C files)","C","Russian",211,211,0,0
 "422",12,"stats (C files)","C","Chinese (Simplified)",211,177,29,5
 "423",13,"stats (C files)","C","Chinese (Traditional)",211,192,16,3
@@ -534,7 +534,7 @@
 "533",7,"tools (C files)","C","Korean",38,30,6,2
 "534",8,"tools (C files)","C","Lithuanian",38,36,2,0
 "535",9,"tools (C files)","C","Polish",38,38,0,0
-"536",10,"tools (C files)","C","Portuguese (Brazil)",38,8,29,1
+"536",10,"tools (C files)","C","Portuguese (Brazil)",38,11,27,0
 "537",11,"tools (C files)","C","Russian",38,38,0,0
 "538",12,"tools (C files)","C","Chinese (Simplified)",38,34,4,0
 "539",13,"tools (C files)","C","Chinese (Traditional)",38,32,4,2
