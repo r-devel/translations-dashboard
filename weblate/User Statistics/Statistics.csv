@@ -43,7 +43,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 42,Hugo Gruson,hgruson,17,1,French,2023-04-13T09:31:55.858098Z,2023-04-13T09:36:34.017717Z,Inactive
 43,Paola Corrales,PaoCorrales,191,1,Spanish,2023-05-16T14:10:27.470268Z,2023-10-20T14:09:32.615734Z,Inactive
 44,Shriharsh,shriharsh,3,2,"c(""Hindi"", ""English"")",N/A,N/A,Active
-45,Joan Maspons,jmaspons,5450,1,Catalan,2023-08-16T12:59:29.808589Z,2024-09-10T12:03:04.995693Z,Active
+45,Joan Maspons,jmaspons,5451,1,Catalan,2023-08-16T12:59:29.808589Z,2024-09-26T09:07:52.075246Z,Active
 46,Renata Hirota,rmhirota,499,1,Portuguese (Brazil),2023-08-30T11:12:07.994061Z,2023-10-19T18:17:41.271735Z,Inactive
 47,Abdulrahman Alswaji,alswajiab,201,1,Arabic,2023-08-30T10:57:47.629737Z,2024-03-22T19:14:05.037435Z,Inactive
 48,Reiko Okamoto,rokamoto,76,1,Japanese,2023-08-30T13:27:03.773313Z,2024-07-24T19:42:20.977212Z,Active
@@ -98,4 +98,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 97,Shechang Li,scli109,28,1,Chinese (Simplified),2024-09-05T02:21:53.892766Z,2024-09-11T06:19:50.973348Z,Active
 98,Mahmoud Abdelrazek,razekmh,6,2,"c(""Arabic"", ""English"")",2024-09-05T10:36:33.253727Z,2024-09-05T11:04:15.746113Z,Active
 99,Jyoti Bhogal,jyoti-bhogal,34,1,Hindi,2024-09-05T11:01:43.414499Z,2024-09-05T13:44:44.504752Z,Active
-100,yes,155138y@,4,1,Chinese (Simplified),2024-09-22T07:52:28.695572Z,2024-09-23T15:30:52.966526Z,Active
+100,yes,155138y@,6,1,Chinese (Simplified),2024-09-22T07:52:28.695572Z,2024-09-26T09:24:47.247151Z,Active
