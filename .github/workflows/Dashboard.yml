@@ -35,11 +35,9 @@ jobs:
         Rscript -e 'install.packages("crosstalk")'
         Rscript -e 'install.packages("htmltools")'
         Rscript -e 'install.packages("reactable")'
-
-    - name: Pull sources locally
-      run: git pull origin main    
+   
     - name: Render my document to all types
-      run: rm -rf index_files && Rscript -e 'rmarkdown::render("index.Rmd")'
+      run: git rm -r index_files && Rscript -e 'rmarkdown::render("index.Rmd")'
     - name: Configure 
       run: |
         git config --local user.email "action@github.com"
