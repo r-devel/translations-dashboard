@@ -32,8 +32,7 @@ jobs:
         git config --local user.name "GitHub Action"
     - name: Commit and Push Changes
       run: |
-        git pull origin main
         git add .
-        git commit -m "CSS updated"
+        git commit -m "Main dashboard updated"
         git push
 
