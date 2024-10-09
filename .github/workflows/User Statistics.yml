@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'weblate/Recent Changes/**'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 
