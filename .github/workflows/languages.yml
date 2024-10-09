@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'weblate/Language Statisitics/**'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 

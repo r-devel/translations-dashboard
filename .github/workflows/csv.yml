@@ -5,6 +5,8 @@ name: Creation of CSV
 on:
   push:
     branches: main
+  paths:
+    - 'translation_status.R'
   schedule:
     - cron: '0 0 * * *'
 
