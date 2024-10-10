@@ -23,14 +23,15 @@ jobs:
         Rscript -e 'install.packages("htmltools")'
         Rscript -e 'install.packages("reactable")'
     
-    - name: Render my document to all types
-      run: git rm -r index_files && Rscript -e 'rmarkdown::render("index.Rmd")'
-    - name: Configure 
+    - name: Configure git
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+    - name: Render my document to all types
+      run: git rm -r index_files --ignore-unmatch && Rscript -e 'rmarkdown::render("index.Rmd")'
     - name: Commit and Push Changes
       run: |
+        git pull origin main
         git add .
         git commit -m "Main dashboard updated"
         git push
