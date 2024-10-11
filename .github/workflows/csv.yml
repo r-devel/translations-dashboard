@@ -10,8 +10,6 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
-
-
 jobs: 
   Messages:
     # The type of runner that the job will run on
@@ -42,21 +40,13 @@ jobs:
     # Run R script
     - name: Scrape
       run: Rscript translation_status.R
-    - name: Configure Git
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-    - name: Fetch and Merge Changes
-      run: |
-        git fetch
-        git merge origin/main
-
     - name: Commit and Push Any Changes
       run: |
-        git pull origin main
+        git pull
         git add *.csv
         if ! git diff-index --quiet HEAD; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git commit -m "Update r-devel message status"
           git push
         fi

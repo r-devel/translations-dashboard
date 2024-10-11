@@ -38,16 +38,14 @@ jobs:
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
         Rscript "Recent changes.R"
-      
-    - name: Configure 
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        
     - name: Commit and Push Any Changes
       run: |
         git pull origin main
         git add *.csv
         if ! git diff-index --quiet HEAD; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git commit -m "Update weblate changes csv"
           git push
         fi
