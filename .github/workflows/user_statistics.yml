@@ -41,9 +41,11 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-    - name: Commit and Push Changes
+    - name: Commit and Push Any Changes
       run: |
         git pull origin main
-        git add .
-        git commit -m "Updated users Csv"
-        git push
+        git add *.csv
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Update weblate users csv"
+          git push
+        fi

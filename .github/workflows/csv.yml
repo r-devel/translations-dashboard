@@ -52,9 +52,11 @@ jobs:
         git fetch
         git merge origin/main
 
-    - name: Commit and Push Changes
+    - name: Commit and Push Any Changes
       run: |
         git pull origin main
         git add *.csv
-        git commit -m "Added csv in the repository"
-        git push
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Update r-devel message status"
+          git push
+        fi
