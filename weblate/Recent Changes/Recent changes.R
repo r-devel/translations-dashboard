@@ -6,7 +6,9 @@ library(readr)
 Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
-changes_url<-"https://translate.rx.studio/api/changes/?action=5"
+# Get new translations (action = 5) for r-project project only
+# (See comments at end of file for actions)
+changes_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=5"
 endpoint <- changes_url
 
 h <- new_handle()
@@ -49,7 +51,7 @@ timestamp<-c()
 dates<-c()
 times<-c()
 for (i in 1:pages) {
-  pages_url <- paste0("https://translate.rx.studio/api/changes/?action=5&page=", i)
+  pages_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=5&page=", i)
   
   pages_response <- curl_fetch_memory(pages_url, handle = h)
   
@@ -67,25 +69,6 @@ for (i in 1:pages) {
   extracted_units<-str_extract(pages_changes$results$unit, "/([^/]+)/$")
   extracted_units<-str_remove_all(extracted_units,"/")
   datetime <- as.POSIXct(pages_changes$results$timestamp, format = "%Y-%m-%dT%H:%M:%OSZ")
-  j<-c()
-  for(k in 1:length(component))
-  {
-    if(component[k]!="r-project")
-    {
-      
-      j<-c(j,k)
-    }
-    
-  }
-  if(length(j)>0)
-  {
-    extracted_users<-extracted_users[-j]
-    extracted_lang<-extracted_lang[-j]
-    extracted_slug<-extracted_slug[-j] 
-    extracted_units<-extracted_units[-j]
-    datetime<-datetime[-j]
-  }
-
   datetime <- strptime(datetime, format = "%Y-%m-%d %H:%M:%S")
 
   date <- as.Date(datetime)
@@ -121,7 +104,7 @@ translated_data<-data.frame(user=users,language=lang,library=lib,units=units,dat
 dd<-duplicated(translated_data$units,fromLast = TRUE)
 translated_data<-translated_data[!dd,]
 ### Marked for edit 
-edit_url<-"https://translate.rx.studio/api/changes/?action=37"
+edit_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=37"
 
 
 edit_response <- curl_fetch_memory(edit_url, handle = h)
@@ -149,7 +132,7 @@ mark_dates<-c()
 mark_times<-c()
 for(i in 1:edit_pages)
 {
-  mark_url <- paste0("https://translate.rx.studio/api/changes/?action=37&page=", i)
+  mark_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=37&page=", i)
   
   
   mark_response <- curl_fetch_memory(mark_url, handle = h)
@@ -169,25 +152,6 @@ for(i in 1:edit_pages)
   mark_extracted_units<-str_extract(mark_changes$results$unit, "/([^/]+)/$")
   mark_extracted_units<-str_remove_all(mark_extracted_units,"/")
   mark_datetime <- as.POSIXct(mark_changes$results$timestamp, format = "%Y-%m-%dT%H:%M:%OSZ")
-  j<-c()
-  for(k in 1:length(mark_component))
-  {
-    if(mark_component[k]=="r18r")
-    {
-      
-      j<-c(j,k)
-    }
-    
-  }
-  if(length(j)>0)
-  {
-    mark_extracted_users<-mark_extracted_users[-j]
-    mark_extracted_lang<-mark_extracted_lang[-j]
-    mark_extracted_slug<-mark_extracted_slug[-j] 
-    mark_extracted_units<-mark_extracted_units[-j]
-    mark_datetime<-mark_datetime[-j]
-  }
-  
   mark_datetime <- strptime(mark_datetime, format = "%Y-%m-%d %H:%M:%S")
   
   mark_date <- as.Date(mark_datetime)
@@ -224,7 +188,7 @@ mark_data<-mark_data[!d_row,]
 editing<-dim(mark_data)[1]
 
 ###Translation changed
-changed_url<-"https://translate.rx.studio/api/changes/?action=2"
+changed_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=2"
 
 
 changes_response <- curl_fetch_memory(changed_url, handle = h)
@@ -253,7 +217,7 @@ changed_times<-c()
 for(i in 1:changed_pages)
 {
   
-  ch_url <- paste0("https://translate.rx.studio/api/changes/?action=2&page=", i)
+  ch_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=2&page=", i)
   
   
   ch_response <- curl_fetch_memory(ch_url, handle = h)
@@ -274,24 +238,6 @@ for(i in 1:changed_pages)
   ch_units<-str_extract(ch_changes$results$unit, "/([^/]+)/$")
   ch_units<-str_remove_all(ch_units,"/")
   ch_datetime <- as.POSIXct(ch_changes$results$timestamp, format = "%Y-%m-%dT%H:%M:%OSZ")
-  j<-c()
-  for(k in 1:length(ch_component))
-  {
-    if(ch_component[k]!="r-project")
-    {
-      
-      j<-c(j,k)
-    }
-    
-  }
-  if(length(j)>0)
-  {
-    ch_users<-ch_users[-j]
-    ch_lang<-ch_lang[-j]
-    ch_slug<-ch_slug[-j] 
-    ch_units<-ch_units[-j]
-    ch_datetime<-ch_datetime[-j]
-  }
   ch_datetime <- strptime(ch_datetime, format = "%Y-%m-%d %H:%M:%S")
   
   ch_date <- as.Date(ch_datetime)
@@ -370,5 +316,47 @@ translated_data<-rbind(translated_data,changed_data[changed_index,])
 write_csv(translated_data,"New Translation.csv")
 write_csv(mark_data,"Marked for Edit.csv")
 
-print(24)
-
+# Weblate action id and action names (can't find documented)
+# # Missing numbers do not appear in r-project project as of 2024-10-11
+# 2 Translation changed 
+# 3 Comment added 
+# 4 Suggestion added 
+# 5 New translation 
+# 6 Automatic translation 
+# 7 Suggestion accepted 
+# 8 Translation reverted 
+# 9 Translation uploaded 
+# 13 New source string 
+# 14 Component locked 
+# 15 Component unlocked 
+# 16 Found duplicated string 
+# 17 Committed changes 
+# 18 Pushed changes 
+# 21 Rebased repository 
+# 22 Failed merge on repository 
+# 23 Failed rebase on repository 
+# 24 Parse error 
+# 26 Suggestion removed 
+# 27 Search and replace 
+# 28 Failed push on repository 
+# 29 Suggestion removed during cleanup 
+# 30 Source string changed 
+# 31 New string added 
+# 34 Added user 
+# 36 Translation approved 
+# 37 Marked for edit 
+# 38 Removed component 
+# 40 Found duplicated language 
+# 42 Renamed component 
+# 44 New strings to translate 
+# 45 New contributor 
+# 47 New alert 
+# 48 Added new language 
+# 50 Created project 
+# 51 Created component
+# 59 String updated in the repository 
+# 60 Add-on installed 
+# 61 Add-on configuration changed 
+# 63 Removed string 
+# 64 Removed comment 
+# 65 Resolved comment 
