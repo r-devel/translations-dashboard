@@ -126,19 +126,18 @@ new_contributor <- New_contributor |>
   arrange(`Full name`, Username)
 
 #####Slack working
-slack_message <- c(paste0("Summary of the updates on Weblate in the last 7 days (date: ", Sys.Date(), ")"), 
+slack_message <- paste(c(paste0(Sys.Date(), ": Summary of the updates on Weblate in the last 7 days"), 
   if (nrow(new_contributor)){
-    c("", "**New Contributors**", "", knitr::kable(new_contributor), "")
+    c("*New Contributors*", "```", knitr::kable(new_contributor), "```")
   } else "",
-  c("**ChangesMessage updates**", ""),
-  knitr::kable(leaderboard), "",
-  knitr::kable(language_updates), "",
-  knitr::kable(component_updates))
+  c("*Message updates*"),
+  "```", knitr::kable(leaderboard), "```",
+  "```", knitr::kable(language_updates), "```",
+  "```", knitr::kable(component_updates), "```"), collapse = "\n")
 
 if (nrow(leaderboard)){
-  slackr_msg(slack_message, channels = "#weblate-updates")
+  slackr_msg(slack_message, channels = "#weblate-updates", mrkdwn = TRUE)
 } else {
-  slackr_msg(paste0("No activity on Weblate in the last 7 days (date: ", Sys.Date(), ")"),
+  slackr_msg(paste0(Sys.Date(), ": No activity on Weblate in the last 7 days"),
     channels = "#weblate-updates")
 }
-  
