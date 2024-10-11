@@ -1,13 +1,15 @@
 name: User refresh
 
-on: 
+on:
+  workflow_dispatch:
   schedule:  
     - cron:  '30 12 * * *'
   push:
     branches:
       - main
     paths:
-      - 'weblate/Recent Changes/**'
+      - 'weblate/User Statistics/**'
+      - '.github/workflows/user_statistics.yml'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 

@@ -3,10 +3,12 @@ name: Creation of CSV
 
 # Controls when the action will run.
 on:
+  workflow_dispatch:
   push:
     branches: main
     paths:
       - 'translation_status.R'
+      - '.github/workflows/csv.yml'
   schedule:
     - cron: '0 0 * * *'
 
