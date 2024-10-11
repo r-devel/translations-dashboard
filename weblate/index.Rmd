@@ -38,8 +38,15 @@ library(jsonlite)
 library(lubridate)
 library(plotly, exclude = "style")
 library(reactable)
+library(readr)
 library(reshape2)
-source("Data_contains.R")
+# Data sets
+Language_Statistics_new <- read_csv("Language Statisitics/Language_Statistics_new.csv")
+Library_Language_Statistics <- read_csv("Library Language Statistics/Library Language Statistics.csv")
+Marked_for_Edit <- read_csv("Recent Changes/Marked for Edit.csv")
+New_Translation <- read_csv("Recent Changes/New Translation.csv")
+Statistics <- read_csv("User Statistics/Statistics.csv")
+# Helper functions
 compute_active <- function() {
   active_count<-nrow(subset(Statistics,Active=="Active"))
   total<-nrow(Statistics)
