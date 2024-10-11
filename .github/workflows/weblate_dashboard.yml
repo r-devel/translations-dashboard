@@ -1,11 +1,15 @@
 name: Weblate Dashboard Refresh
 
-on: 
+on:
+  workflow_dispatch:
   schedule:  
     - cron:  '0 */12 * * *'
   push:
     branches:
       - main
+    paths:
+      - 'weblate/index.Rmd'
+      - '.github/worklows/weblate_dashboard.yml'
 jobs:
   refresh-the-dashboard:
     runs-on: ubuntu-20.04 

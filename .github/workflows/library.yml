@@ -1,6 +1,7 @@
 name: Library Statistics Refresh
 
-on: 
+on:
+  workflow_dispatch:
   schedule:  
     - cron:  '0 12 * * *'
   push:
@@ -8,6 +9,7 @@ on:
       - main
     paths:
       - 'weblate/Library Language Statistics/**'
+      - '.github/workflows/library.yml'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 

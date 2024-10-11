@@ -1,6 +1,7 @@
 name: Recent Changes refresh
 
 on: 
+  workflow_dispatch:
   schedule:  
     - cron:  '20 12 * * *'
   push:
@@ -8,6 +9,7 @@ on:
       - main
     paths:
       - 'weblate/Recent Changes/**'
+      - '.github/workflows/changes.yml'
 
 jobs:
   Running_R_scripts:
