@@ -1,10 +1,7 @@
 # Required libraries
-library(httr)
 library(jsonlite)
 library(rvest)
 library(readr)
-library(tidyverse)
-library(data.table)
 library(dplyr)
 library(curl)
 library(lubridate)

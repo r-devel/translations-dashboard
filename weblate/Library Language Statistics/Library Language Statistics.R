@@ -1,9 +1,6 @@
 # Required libraries
 library(httr)
 library(jsonlite)
-library(tibble)
-library(tidyverse)
-library(utils)
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
 libraries_url<-"https://translate.rx.studio/api/projects/r-project/components/"

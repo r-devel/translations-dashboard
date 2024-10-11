@@ -1,10 +1,8 @@
 # Required libraries
-library(httr)
-library(jsonlite)
-library(stringr)  
-library(readr)
 library(curl)
-library(lubridate)
+library(jsonlite)
+library(stringr)
+library(readr)
 Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 

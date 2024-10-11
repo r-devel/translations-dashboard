@@ -9,7 +9,6 @@ library(dplyr)
 library(purrr)
 library(readr)
 library(tidyr)
-library(utf8)
 library(withr)
 library(stringr)
 # update SVN repo

@@ -1,7 +1,5 @@
 library(httr)
-library(jsonlite)
 library(data.table)
-library(utils)
 
 url <- "https://translate.rx.studio/api/"
 TOKEN <- Sys.getenv("WEBLATE_TOKEN")

@@ -17,26 +17,24 @@ jobs:
 
     # Load repo and install R
     steps:
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 16.x
-    - uses: actions/checkout@v3
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
       with: 
         repository: r-devel/r-svn
         path: r-svn
     - uses: r-lib/actions/setup-r@v2
-    - name: Install packages
-      run: |
-        R -e 'install.packages("ISOcodes")'
-        R -e 'install.packages("dplyr")'
-        R -e 'install.packages("purrr")'
-        R -e 'install.packages("readr")'
-        R -e 'install.packages("tidyr")'
-        R -e 'install.packages("utf8")'
-        R -e 'install.packages("withr")'
-        R -e 'install.packages("stringr")'
+   - name: Install packages
+      uses: r-lib/actions/setup-r-dependencies@v2
+      with:
+        packages: |
+          any::ISOcodes
+          any::dplyr
+          any::purrr
+          any::readr
+          any::tidyr
+          any::withr
+          any::stringr
+
     # Run R script
     - name: Scrape
       run: Rscript translation_status.R
