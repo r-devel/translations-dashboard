@@ -257,7 +257,7 @@
 "256",7,"grid (R files)","R","Korean",190,125,44,21
 "257",8,"grid (R files)","R","Lithuanian",190,159,13,18
 "258",9,"grid (R files)","R","Polish",190,190,0,0
-"259",10,"grid (R files)","R","Portuguese (Brazil)",190,44,24,122
+"259",10,"grid (R files)","R","Portuguese (Brazil)",190,46,22,122
 "260",11,"grid (R files)","R","Russian",190,190,0,0
 "261",12,"grid (R files)","R","Chinese (Simplified)",190,139,21,30
 "262",13,"grid (R files)","R","Chinese (Traditional)",190,148,18,24
@@ -632,5 +632,5 @@
 "631",14,"Mac GUI","English","English (United Kingdom)",505,0,505,0
 "632",15,"Mac GUI","English","Russian",505,505,0,0
 "633",16,"Mac GUI","English","Pangasinan",505,0,505,0
-"634",17,"Mac GUI","English","Portuguese (Brazil)",505,13,0,492
+"634",17,"Mac GUI","English","Portuguese (Brazil)",505,14,0,491
 "635",18,"Mac GUI","English","Polish",505,505,0,0
