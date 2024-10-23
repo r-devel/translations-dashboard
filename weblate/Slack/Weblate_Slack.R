@@ -14,9 +14,12 @@ slackr_setup(channel="#weblate-updates",
              token=SLACK_TOKEN,
              incoming_webhook_url=SLACK_WEBHOOK_URL
             )
-# get changes in past week
-ISO8601date <- format(as.Date(Sys.time()) - 7, "%Y-%m-%dT%H:%M:%SZ")
-url<-paste0("https://translate.rx.studio/api/projects/r-project/changes/?timestamp_after=", ISO8601date)
+# get changes in past week (round down to hour at which action scheduled, i.e. 19:00 UTC)
+datetime <- trunc(Sys.time(), units = "hours")
+ISO8601date_after <- format(datetime - as.difftime(7, unit="days"), "%Y-%m-%dT%H:%M:%SZ")
+ISO8601date_before <- format(datetime, "%Y-%m-%dT%H:%M:%SZ")
+url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?timestamp_after=", ISO8601date_after,
+  "&timestamp_before=", ISO8601date_before)
 endpoint <- url
 headers <- add_headers(Authorization = paste("Token"," ",API_TOKEN))
 response <- GET(url = endpoint, headers = headers)
@@ -99,35 +102,32 @@ for(i in pages:1)
   timestamp<-c(timestamp,extract_timestamp)
   new_timestamp<-c(new_timestamp,extract_new_timestamp)
 }
-updates<-data.frame(Username=username,Library=libraries,Language=languages,Unit=units,Message=message,Timestamp=timestamp)
-fullname<-c()
-for(n in name)
-{
-  index<-which(Statistics$username==n)
-  fullname<-c(fullname,Statistics$name[index])
+
+if (length(username)){  
+  updates <- data.frame(Username=username,Library=libraries,Language=languages,Unit=units,Message=message,Timestamp=timestamp)
+  leaderboard <- updates |>
+    count(Username, Language, name = "Actions") |>
+    arrange(desc(Actions))
+  
+  language_updates <- updates |>
+    count(Language, Action = Message) |>
+    arrange(Language)
+  
+  component_updates <- updates |>
+    count(Library, name = "Actions")
 }
-New_contributor<-data.frame(Message=new_message,FullName=fullname,Username=name,Timestamp=new_timestamp)
-updates<-updates[rev(seq_len(nrow(updates))), ]
-rownames(updates) <- seq_len(nrow(updates))
 
-leaderboard <- updates |>
-  count(Username, Language, name = "Actions") |>
-  arrange(desc(Actions))
+if (length(name)){
+  name <- unique(name)
+  fullname <- Statistics$name[Statistics$username == name]
+  new_contributor <- data.frame(`Full name` = fullname, Username = name, check.names = FALSE) |>
+    arrange(`Full name`, Username)
+}
 
-language_updates <- updates |>
-  count(Language, Action = Message) |>
-  arrange(Language)
-
-component_updates <- updates |>
-  count(Library, name = "Actions")
-
-new_contributor <- New_contributor |>
-  distinct(`Full name` = FullName, Username) |>
-  arrange(`Full name`, Username)
-
-#####Slack working
-slack_message <- paste(c(paste0(Sys.Date(), ": Summary of the updates on Weblate in the last 7 days"), 
-  if (nrow(new_contributor)){
+##### Slack message
+slack_message <- paste(c(paste0(format(datetime, "%Y-%m-%d %H:%M:%S UTC"), 
+  ": Summary of the updates on Weblate in the last 7 days"), 
+  if (length(name)){
     c("*New Contributors*", "```", knitr::kable(new_contributor), "```")
   } else "",
   c("*Message updates*"),
@@ -135,7 +135,7 @@ slack_message <- paste(c(paste0(Sys.Date(), ": Summary of the updates on Weblate
   "```", knitr::kable(language_updates), "```",
   "```", knitr::kable(component_updates), "```"), collapse = "\n")
 
-if (nrow(leaderboard)){
+if (length(username)){
   slackr_msg(slack_message, channels = "#weblate-updates", mrkdwn = TRUE)
 } else {
   slackr_msg(paste0(Sys.Date(), ": No activity on Weblate in the last 7 days"),
