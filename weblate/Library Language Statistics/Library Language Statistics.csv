@@ -88,13 +88,13 @@
 "87",3,"base (C files)","C","German",1701,1644,5,52
 "88",4,"base (C files)","C","Spanish",1704,1087,129,488
 "89",5,"base (C files)","C","Persian",1704,3,1701,0
-"90",6,"base (C files)","C","French",1701,1684,6,11
+"90",6,"base (C files)","C","French",1701,1685,6,10
 "91",7,"base (C files)","C","Italian",1704,1601,19,84
 "92",8,"base (C files)","C","Japanese",1704,1359,121,224
 "93",9,"base (C files)","C","Korean",1704,1182,347,175
 "94",10,"base (C files)","C","Lithuanian",1704,1490,71,143
 "95",11,"base (C files)","C","Norwegian Nynorsk",1704,1095,178,431
-"96",12,"base (C files)","C","Polish",1701,1684,5,12
+"96",12,"base (C files)","C","Polish",1701,1685,5,11
 "97",13,"base (C files)","C","Portuguese (Brazil)",1704,1282,133,289
 "98",14,"base (C files)","C","Russian",1704,1685,6,13
 "99",15,"base (C files)","C","Turkish",1704,1095,187,422
@@ -349,7 +349,7 @@
 "348",7,"parallel (R files)","R","Lithuanian",38,36,1,1
 "349",8,"parallel (R files)","R","Polish",38,36,1,1
 "350",9,"parallel (R files)","R","Russian",38,36,1,1
-"351",10,"parallel (R files)","R","Chinese (Simplified)",36,26,8,2
+"351",10,"parallel (R files)","R","Chinese (Simplified)",38,26,9,3
 "352",11,"parallel (R files)","R","Chinese (Traditional)",38,30,6,2
 "353",12,"parallel (R files)","R","Arabic",38,1,37,0
 "354",13,"parallel (R files)","R","Portuguese (Brazil)",38,35,1,2
