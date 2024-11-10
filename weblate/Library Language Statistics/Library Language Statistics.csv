@@ -66,7 +66,7 @@
 "65",10,"base (R files)","R","Norwegian Nynorsk",597,359,81,157
 "66",11,"base (R files)","R","Polish",599,594,4,1
 "67",12,"base (R files)","R","Portuguese (Brazil)",597,571,4,22
-"68",13,"base (R files)","R","Russian",597,572,22,3
+"68",13,"base (R files)","R","Russian",597,581,16,0
 "69",14,"base (R files)","R","Turkish",597,126,442,29
 "70",15,"base (R files)","R","Chinese (Simplified)",597,494,51,52
 "71",16,"base (R files)","R","Chinese (Traditional)",597,506,49,42
@@ -533,7 +533,7 @@
 "532",6,"tools (C files)","C","Japanese",40,32,4,4
 "533",7,"tools (C files)","C","Korean",40,30,6,4
 "534",8,"tools (C files)","C","Lithuanian",40,36,2,2
-"535",9,"tools (C files)","C","Polish",38,38,0,0
+"535",9,"tools (C files)","C","Polish",40,38,0,2
 "536",10,"tools (C files)","C","Portuguese (Brazil)",40,11,27,2
 "537",11,"tools (C files)","C","Russian",40,38,0,2
 "538",12,"tools (C files)","C","Chinese (Simplified)",40,34,4,2
@@ -558,7 +558,7 @@
 "557",8,"tools (R files)","R","Lithuanian",471,393,40,38
 "558",9,"tools (R files)","R","Polish",471,459,5,7
 "559",10,"tools (R files)","R","Portuguese (Brazil)",471,389,42,40
-"560",11,"tools (R files)","R","Russian",471,439,24,8
+"560",11,"tools (R files)","R","Russian",471,440,24,7
 "561",12,"tools (R files)","R","Turkish",471,2,469,0
 "562",13,"tools (R files)","R","Chinese (Simplified)",471,254,118,99
 "563",14,"tools (R files)","R","Chinese (Traditional)",471,340,79,52
