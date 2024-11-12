@@ -3,13 +3,13 @@ name: Main Dashboard Refresh
 on:
   workflow_dispatch:
   schedule:  
-    - cron:  '0 */12 * * *'
+    - cron:  '10 0 * * *'
   push:
     branches:
       - main
     paths:
       - 'index.Rmd'
-      - '.github/workflows/main.yml'
+      - '.github/workflows/main_dashboard.yml'
 
 jobs:
   refresh-the-dashboard:

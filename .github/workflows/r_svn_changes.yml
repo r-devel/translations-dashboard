@@ -1,5 +1,5 @@
 # Hourly scraping
-name: Creation of CSV 
+name: R SVN Changes 
 
 # Controls when the action will run.
 on:
@@ -8,7 +8,7 @@ on:
     branches: main
     paths:
       - 'translation_status.R'
-      - '.github/workflows/csv.yml'
+      - '.github/workflows/r_svn_changes.yml'
   schedule:
     - cron: '0 0 * * *'
 

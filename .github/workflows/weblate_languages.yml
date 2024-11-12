@@ -1,15 +1,15 @@
-name: Languages Statistics Refresh
+name: Weblate Language Statistics Refresh
 
 on:
   workflow_dispatch:
   schedule:  
-    - cron:  '10 12 * * *'
+    - cron:  '0 12 * * *'
   push:
     branches:
       - main
     paths:
       - 'weblate/Language Statisitics/**'
-      - '.github/workflows/languages.yml'
+      - '.github/workflows/weblate_languages.yml'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 

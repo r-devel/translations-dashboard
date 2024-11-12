@@ -1,22 +1,21 @@
-name: Recent Changes refresh
+name: Weblate User Statistics Refresh
 
-on: 
+on:
   workflow_dispatch:
   schedule:  
-    - cron:  '20 12 * * *'
+    - cron:  '30 12 * * *'
   push:
     branches:
       - main
     paths:
-      - 'weblate/Recent Changes/**'
-      - '.github/workflows/changes.yml'
-
+      - 'weblate/User Statistics/**'
+      - '.github/workflows/weblate_user_statistics.yml'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: weblate/Recent Changes
+        working-directory: weblate/User Statistics
     steps:
     - name: checkout_repo
       uses: actions/checkout@v4
@@ -25,24 +24,25 @@ jobs:
       uses: r-lib/actions/setup-r-dependencies@v2
       with:
         packages: |
-          any::curl
           any::jsonlite
-          any::stringr
-          any::readr        
-        
+          any::rvest
+          any::readr
+          any::dplyr
+          any::curl
+          any::lubridate
     - name: Run R scripts
       env: 
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
-        Rscript "Recent changes.R"
-        
+        Rscript "User_statistics.R"
+
     - name: Commit and Push Any Changes
       run: |
-        git pull origin main
+        git pull
         git add *.csv
         if ! git diff-index --quiet HEAD; then
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Update weblate changes csv"
+          git commit -m "Update weblate users csv"
           git push
         fi
