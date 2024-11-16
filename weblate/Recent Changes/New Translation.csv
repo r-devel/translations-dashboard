@@ -5601,6 +5601,24 @@ ikrylov,Russian,base (R files),39527,20037,08:15:40
 ikrylov,Russian,base (R files),39543,20037,08:16:00
 ikrylov,Russian,base (R files),258451,20037,08:22:32
 ikrylov,Russian,base (R files),258450,20037,08:22:53
+christianWiat,French,base (C files),257634,20042,18:09:38
+christianWiat,French,base (C files),257635,20042,18:10:27
+christianWiat,French,base (C files),257641,20042,18:13:05
+christianWiat,French,base (C files),257642,20042,18:13:20
+christianWiat,French,base (C files),257643,20042,18:13:56
+christianWiat,French,stats (C files),257462,20042,18:27:11
+christianWiat,French,base (R files),258346,20042,18:31:00
+christianWiat,French,base (R files),258348,20042,18:33:06
+christianWiat,French,base (R files),258349,20042,18:35:53
+christianWiat,French,utils (R files),257371,20042,18:43:16
+christianWiat,French,utils (R files),257372,20042,18:44:21
+christianWiat,French,utils (R files),257375,20042,18:45:31
+christianWiat,French,utils (R files),257376,20042,18:47:02
+christianWiat,French,tools (R files),258042,20042,18:51:50
+christianWiat,French,tools (R files),258043,20042,18:52:13
+christianWiat,French,tools (R files),258044,20042,18:53:33
+christianWiat,French,tools (R files),258047,20042,18:53:58
+christianWiat,French,parallel (R files),258247,20042,20:48:04
 Meeko28,French,The R Project for Statistical Computing,118537,19869,01:45:39
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
@@ -6348,3 +6366,5 @@ lukaszdaniel,Polish,grDevices (C files),74067,19974,12:16:16
 lukaszdaniel,Polish,grDevices (C files),74071,19974,12:16:33
 lukaszdaniel,Polish,grDevices (C files),74072,19974,12:15:17
 ikrylov,Russian,base (R files),258452,20037,08:21:36
+christianWiat,French,base (C files),257638,20042,18:11:34
+christianWiat,French,base (R files),258350,20042,18:38:08
