@@ -3313,7 +3313,6 @@ Meeko28,Spanish,methods (R files),126263,19861,23:12:24
 Meeko28,Spanish,methods (R files),126265,19861,23:14:37
 Meeko28,Spanish,methods (R files),126266,19861,23:14:51
 Meeko28,Spanish,methods (R files),126267,19861,23:15:05
-Meeko28,Spanish,base (C files),145839,19861,23:37:26
 Meeko28,Spanish,grDevices (C files),174377,19861,23:42:26
 Meeko28,Spanish,grDevices (C files),174378,19861,23:42:41
 Meeko28,Spanish,grDevices (C files),174379,19861,23:42:54
@@ -4004,25 +4003,6 @@ Meeko28,French,grDevices (R files),138261,19869,01:51:37
 Meeko28,French,grDevices (R files),226090,19869,01:51:48
 Meeko28,French,grDevices (R files),138266,19869,01:51:58
 Meeko28,French,grDevices (R files),226091,19869,01:53:24
-Rikivillalba,Spanish,base (C files),145946,19869,23:19:46
-Rikivillalba,Spanish,base (C files),145951,19869,23:23:13
-Rikivillalba,Spanish,base (C files),145952,19869,23:24:12
-Rikivillalba,Spanish,base (C files),145953,19869,23:26:08
-Rikivillalba,Spanish,base (C files),145956,19869,23:37:00
-Rikivillalba,Spanish,base (C files),145957,19869,23:38:01
-Rikivillalba,Spanish,base (C files),145960,19869,23:39:17
-Rikivillalba,Spanish,base (C files),145978,19869,23:39:54
-Rikivillalba,Spanish,base (C files),145995,19869,23:58:11
-Rikivillalba,Spanish,base (C files),146022,19869,23:58:59
-Rikivillalba,Spanish,base (C files),146044,19869,23:59:52
-Rikivillalba,Spanish,base (C files),226995,19870,00:02:58
-Rikivillalba,Spanish,base (C files),146085,19870,00:03:13
-Rikivillalba,Spanish,base (C files),146087,19870,00:03:28
-Rikivillalba,Spanish,base (C files),146088,19870,00:04:30
-Rikivillalba,Spanish,base (C files),146092,19870,00:04:49
-Rikivillalba,Spanish,base (C files),146147,19870,00:05:11
-Rikivillalba,Spanish,base (C files),146163,19870,00:06:03
-Rikivillalba,Spanish,base (C files),146254,19870,00:07:40
 Rikivillalba,Spanish,grid (R files),172449,19870,00:24:04
 Rikivillalba,Spanish,grid (R files),172450,19870,00:24:51
 Rikivillalba,Spanish,grid (R files),172451,19870,00:25:00
@@ -5625,14 +5605,37 @@ PaoCorrales,Spanish,base (C files),145769,20046,00:29:30
 PaoCorrales,Spanish,base (C files),145777,20046,00:29:49
 PaoCorrales,Spanish,base (C files),145780,20046,00:29:58
 luciorq,Portuguese (Brazil),tools (C files),105120,20046,01:38:50
-focardozom,Spanish,base (C files),145826,20046,03:22:22
 focardozom,Spanish,base (C files),145834,20046,03:23:25
 focardozom,Spanish,base (C files),145842,20046,03:24:07
 focardozom,Spanish,base (C files),145848,20046,03:25:45
 focardozom,Spanish,base (C files),145880,20046,03:27:13
-focardozom,Spanish,base (C files),145881,20046,03:27:38
-focardozom,Spanish,base (C files),145883,20046,03:28:04
 focardozom,Spanish,base (C files),145884,20046,03:28:36
+luisdverde,Spanish,base (C files),145839,20046,16:23:11
+luisdverde,Spanish,base (C files),145946,20046,16:27:28
+luisdverde,Spanish,base (C files),145951,20046,16:29:40
+luisdverde,Spanish,base (C files),145952,20046,16:29:54
+luisdverde,Spanish,base (C files),145953,20046,16:30:23
+luisdverde,Spanish,base (C files),145960,20046,16:34:35
+luisdverde,Spanish,base (C files),145956,20046,17:14:22
+luisdverde,Spanish,base (C files),145957,20046,17:14:35
+luisdverde,Spanish,base (C files),145978,20046,17:16:09
+luisdverde,Spanish,base (C files),145995,20046,17:20:55
+luisdverde,Spanish,base (C files),146022,20046,17:23:18
+luisdverde,Spanish,base (C files),146044,20046,17:24:33
+luisdverde,Spanish,base (C files),226995,20046,17:25:43
+luisdverde,Spanish,base (C files),257598,20046,17:30:52
+luisdverde,Spanish,base (C files),257599,20046,17:31:10
+luisdverde,Spanish,base (C files),146085,20046,17:34:10
+luisdverde,Spanish,base (C files),146087,20046,17:34:44
+luisdverde,Spanish,base (C files),146088,20046,17:34:50
+luisdverde,Spanish,base (C files),146092,20046,17:37:02
+luisdverde,Spanish,base (C files),146147,20046,17:43:25
+luisdverde,Spanish,base (C files),146163,20046,17:44:50
+luisdverde,Spanish,base (C files),257606,20046,17:54:12
+luisdverde,Spanish,base (C files),257607,20046,17:54:25
+luisdverde,Spanish,base (C files),257608,20046,17:54:42
+luisdverde,Spanish,base (C files),146254,20046,17:55:39
+Rikivillalba,Spanish,base (C files),257602,20046,18:05:07
 Meeko28,French,The R Project for Statistical Computing,118537,19869,01:45:39
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
@@ -6159,7 +6162,6 @@ ikrylov,Russian,Mac GUI,240781,19906,20:37:46
 ikrylov,Russian,Mac GUI,240797,19906,20:38:06
 ikrylov,Russian,Mac GUI,240798,19906,20:38:28
 ikrylov,Russian,Mac GUI,240769,19906,15:51:58
-Rikivillalba,Spanish,base (C files),145993,19876,04:48:27
 Rikivillalba,Spanish,grid (R files),172564,19870,00:44:58
 Rikivillalba,Spanish,grid (R files),172565,19870,00:46:11
 Rikivillalba,Spanish,grid (R files),172615,19870,01:00:06
@@ -6403,7 +6405,7 @@ Rikivillalba,Spanish,base (C files),146496,19870,00:11:02
 Rikivillalba,Spanish,base (C files),145627,19893,23:54:48
 Rikivillalba,Spanish,base (C files),145633,19893,23:55:27
 Rikivillalba,Spanish,base (C files),145671,19894,00:01:05
-Rikivillalba,Spanish,base (C files),146671,19876,23:13:12
+PatriLoto,Spanish,base (C files),146671,20046,22:29:57
 Rikivillalba,Spanish,base (C files),146739,19876,23:41:46
 Rikivillalba,Spanish,base (C files),227007,19870,00:21:09
 Rikivillalba,Spanish,base (C files),146746,19876,23:39:44
@@ -6416,5 +6418,24 @@ PaoCorrales,Spanish,base (R files),258333,20046,00:11:03
 Rikivillalba,Spanish,base (C files),145759,19877,22:09:38
 Rikivillalba,Spanish,base (C files),145770,19894,03:14:49
 azeloc,Portuguese (Brazil),base (C files),163127,19916,07:51:14
+PatriLoto,Spanish,base (C files),145826,20046,22:31:26
 Rikivillalba,Spanish,base (C files),145846,19894,04:19:29
+PatriLoto,Spanish,base (C files),145881,20046,22:31:35
+PatriLoto,Spanish,base (C files),145883,20046,22:31:39
 Rikivillalba,Spanish,base (C files),145894,19894,04:30:44
+Rikivillalba,Spanish,base (C files),145955,19876,04:21:08
+Rikivillalba,Spanish,base (C files),145980,19876,04:39:12
+Rikivillalba,Spanish,base (C files),145993,19876,04:48:27
+Rikivillalba,Spanish,base (C files),145999,19876,04:50:24
+Rikivillalba,Spanish,base (C files),226991,19876,04:57:47
+Rikivillalba,Spanish,base (C files),226993,19876,06:07:25
+Rikivillalba,Spanish,base (C files),146105,19876,05:06:56
+Rikivillalba,Spanish,base (C files),146153,19876,05:17:13
+Rikivillalba,Spanish,base (C files),146157,19876,05:18:35
+Rikivillalba,Spanish,base (C files),146158,19870,00:05:55
+Rikivillalba,Spanish,base (C files),146206,19876,05:34:26
+Rikivillalba,Spanish,base (C files),146213,19876,06:08:10
+PatriLoto,Spanish,base (C files),146214,20046,22:28:05
+Rikivillalba,Spanish,base (C files),146218,19876,05:37:50
+Rikivillalba,Spanish,base (C files),146249,19876,05:43:16
+Rikivillalba,Spanish,base (C files),146252,19876,05:44:59
