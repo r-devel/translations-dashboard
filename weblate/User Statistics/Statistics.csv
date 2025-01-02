@@ -14,7 +14,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 13,Shun Wang,ShunWang,2203,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2024-10-28T12:39:14.770440Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T03:28:33.524393Z,2022-09-29T04:55:07.852687Z,Inactive
-16,Macarena Quiroga,msquiroga,322,1,Spanish,2022-10-14T13:18:07.512475Z,2024-07-02T15:50:18.438882Z,Active
+16,Macarena Quiroga,msquiroga,322,1,Spanish,2022-10-14T13:18:07.512475Z,2024-07-02T15:50:18.438882Z,Inactive
 17,Heather Turner,hturner,12003,1,English (United Kingdom),2022-10-15T14:27:41.332173Z,2024-01-29T14:41:27.217201Z,Inactive
 18,Patricia loto,PatriLoto,161,1,Spanish,2022-10-15T13:39:10.341490Z,2024-11-19T22:38:19.275513Z,Active
 19,Gabriel Tormin,Gtormin,27,2,"c(""English (United Kingdom)"", ""English"")",2022-10-15T13:16:32.835564Z,2022-10-15T14:45:41.494345Z,Inactive
@@ -83,9 +83,9 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 82,Nichole Haines,Meeko28,1612,4,"c(""German"", ""Russian"", ""Spanish"", ""French"")",2024-05-18T20:03:25.513711Z,2024-06-25T22:58:24.191229Z,Inactive
 83,Deleted User,deleted-83,0,1,Hungarian,N/A,N/A,Unbegun
 84,Arjen Deniz,arjendeniz,145,1,Turkish,2024-07-02T15:39:09.796896Z,2024-07-06T16:30:43.414636Z,Active
-85,Sarah Zeller,szeller,23,1,German,2024-07-02T15:36:11.852537Z,2024-07-02T15:52:55.618892Z,Active
-86,Tomasz Żółtak,tzoltak,21,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Active
-87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Active
+85,Sarah Zeller,szeller,23,1,German,2024-07-02T15:36:11.852537Z,2024-07-02T15:52:55.618892Z,Inactive
+86,Tomasz Żółtak,tzoltak,21,1,Polish,2024-07-02T15:37:10.562766Z,2024-07-02T16:12:25.077363Z,Inactive
+87,Gergely Daroczi,daroczig-user2024,1,1,Hungarian,2024-07-02T15:37:31.527386Z,2024-07-02T15:37:31.529025Z,Inactive
 88,Fernando Corrêa,azeloc,2,1,English,2024-07-12T07:51:14.506188Z,2024-07-12T12:44:50.983992Z,Active
 89,Youcef Mokrane,yOOs,5,1,Arabic,2024-08-12T19:30:38.423322Z,2024-10-12T10:43:18.704193Z,Active
 90,Holly Cui,hollyyfc,0,0,character(0),N/A,N/A,Unbegun
