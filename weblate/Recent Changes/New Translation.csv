@@ -3010,7 +3010,6 @@ ikrylov,Russian,The R Project for Statistical Computing,138140,19836,15:06:26
 ikrylov,Russian,The R Project for Statistical Computing,138168,19836,15:06:31
 ikrylov,Russian,The R Project for Statistical Computing,118567,19836,15:06:57
 ikrylov,Russian,base (C files),238981,19836,15:46:54
-ikrylov,Russian,stats (R files),239329,19836,15:59:26
 luisdverde,Spanish,base (R files),125050,19838,18:59:19
 luisdverde,Spanish,base (R files),125068,19838,19:20:27
 Rikivillalba,Spanish,base (R files),124881,19858,00:15:34
@@ -3661,25 +3660,6 @@ Meeko28,Russian,Mac GUI,240489,19863,11:43:48
 Meeko28,Russian,Mac GUI,240493,19863,11:44:59
 Meeko28,Russian,Mac GUI,240495,19863,11:45:38
 Meeko28,Russian,Mac GUI,240496,19863,11:45:50
-Meeko28,Russian,methods (R files),88340,19863,11:46:46
-Meeko28,Russian,methods (R files),88341,19863,11:47:16
-Meeko28,Russian,methods (R files),88342,19863,11:47:31
-Meeko28,Russian,methods (R files),88344,19863,11:47:57
-Meeko28,Russian,base (R files),39544,19863,11:57:19
-Meeko28,Russian,base (R files),39545,19863,11:57:27
-Meeko28,Russian,base (R files),39547,19863,11:57:40
-Meeko28,Russian,base (R files),39548,19863,11:58:01
-Meeko28,Russian,base (R files),39549,19863,11:59:23
-Meeko28,Russian,base (R files),39550,19863,12:00:36
-Meeko28,Russian,base (R files),39552,19863,12:02:08
-Meeko28,Russian,base (R files),39554,19863,12:02:18
-Meeko28,Russian,base (R files),39555,19863,12:02:29
-Meeko28,Russian,base (R files),39556,19863,12:02:42
-Meeko28,Russian,base (R files),39562,19863,12:02:51
-Meeko28,Russian,base (R files),39566,19863,12:03:00
-Meeko28,Russian,base (R files),39567,19863,12:03:11
-Meeko28,Russian,base (R files),39568,19863,12:03:18
-Meeko28,Russian,base (R files),39569,19863,12:04:35
 Meeko28,German,grid (R files),138502,19863,12:13:42
 Meeko28,German,grid (R files),138503,19863,12:13:55
 Meeko28,German,grid (R files),138505,19863,12:14:21
@@ -3689,7 +3669,6 @@ Meeko28,German,grid (R files),138511,19863,12:16:53
 Meeko28,German,grid (R files),138513,19863,12:17:44
 Meeko28,German,grid (R files),138514,19863,12:17:58
 Meeko28,Russian,The R Project for Statistical Computing,240237,19863,12:25:04
-Meeko28,Russian,base (R files),39551,19863,12:25:44
 Meeko28,Russian,tools (R files),133715,19863,12:26:17
 Meeko28,Russian,tools (R files),133718,19863,12:28:46
 Meeko28,Russian,tools (R files),133719,19863,12:29:04
@@ -3702,9 +3681,6 @@ Meeko28,Russian,tools (R files),133726,19863,12:30:17
 Meeko28,Russian,tools (R files),133727,19863,12:30:28
 Meeko28,Russian,tools (R files),133728,19863,12:30:37
 Meeko28,Russian,tools (R files),133729,19863,12:30:49
-Meeko28,Russian,tools (R files),133731,19863,12:31:35
-Meeko28,Russian,tools (R files),133732,19863,12:31:48
-Meeko28,Russian,tools (R files),133733,19863,12:31:59
 Meeko28,Russian,Mac GUI,240802,19863,12:34:16
 Meeko28,Russian,Mac GUI,240498,19863,12:35:46
 Meeko28,Russian,Mac GUI,240499,19863,12:36:18
@@ -3803,8 +3779,6 @@ Meeko28,Russian,Mac GUI,240623,19864,01:49:26
 Meeko28,Russian,Mac GUI,240626,19864,01:49:58
 Meeko28,Russian,Mac GUI,240627,19864,01:50:33
 Meeko28,Russian,Mac GUI,240628,19864,01:50:47
-Meeko28,Russian,tools (R files),133730,19864,01:52:04
-Meeko28,Russian,tools (R files),133734,19864,01:52:32
 Meeko28,Russian,tools (R files),133735,19864,01:52:43
 Meeko28,Russian,tools (R files),133736,19864,01:52:55
 Meeko28,French,Mac GUI,183391,19864,01:57:27
@@ -5510,7 +5484,6 @@ lukaszdaniel,Polish,The R Project for Statistical Computing,138138,20027,16:41:0
 lukaszdaniel,Polish,The R Project for Statistical Computing,138166,20027,16:41:15
 lukaszdaniel,Polish,The R Project for Statistical Computing,240235,20027,16:41:25
 ikrylov,Russian,base (R files),39527,20037,08:15:40
-ikrylov,Russian,base (R files),39543,20037,08:16:00
 ikrylov,Russian,base (R files),258451,20037,08:22:32
 ikrylov,Russian,base (R files),258450,20037,08:22:53
 christianWiat,French,base (C files),257634,20042,18:09:38
@@ -6082,6 +6055,47 @@ alswajiab,Arabic,stats (R files),239679,20112,11:49:13
 alswajiab,Arabic,tools (R files),257978,20112,11:49:13
 alswajiab,Arabic,utils (R files),239632,20112,11:49:13
 alswajiab,Arabic,stats (R files),120503,20121,18:43:36
+ikrylov,Russian,methods (R files),88340,20149,13:01:44
+ikrylov,Russian,methods (R files),88342,20149,13:03:28
+ikrylov,Russian,methods (R files),88344,20149,13:04:04
+ikrylov,Russian,base (R files),39569,20149,13:09:29
+ikrylov,Russian,base (R files),39568,20149,13:12:47
+ikrylov,Russian,base (R files),39544,20149,13:18:42
+ikrylov,Russian,base (R files),39545,20149,13:18:51
+ikrylov,Russian,base (R files),39547,20149,13:19:04
+ikrylov,Russian,base (R files),39548,20149,13:19:21
+ikrylov,Russian,base (R files),39549,20149,13:19:44
+ikrylov,Russian,base (R files),39550,20149,13:19:58
+ikrylov,Russian,base (R files),39551,20149,13:20:10
+ikrylov,Russian,base (R files),39552,20149,13:20:23
+ikrylov,Russian,base (R files),39554,20149,13:25:31
+ikrylov,Russian,base (R files),39555,20149,13:26:04
+ikrylov,Russian,base (R files),39556,20149,13:26:39
+ikrylov,Russian,base (R files),39562,20149,13:27:14
+ikrylov,Russian,base (R files),39566,20149,13:27:35
+ikrylov,Russian,base (R files),39567,20149,13:27:54
+ikrylov,Russian,parallel (R files),258271,20149,13:33:43
+ikrylov,Russian,tools (R files),258191,20149,13:39:20
+ikrylov,Russian,tools (R files),258188,20149,13:40:16
+ikrylov,Russian,tools (R files),133734,20149,13:40:38
+ikrylov,Russian,tools (R files),133733,20149,13:41:05
+ikrylov,Russian,tools (R files),133732,20149,13:41:17
+ikrylov,Russian,tools (R files),133731,20149,13:41:42
+ikrylov,Russian,tools (R files),133730,20149,13:41:53
+ikrylov,Russian,tools (R files),258187,20149,13:45:36
+ikrylov,Russian,tools (R files),258186,20149,13:45:43
+ikrylov,Russian,base (C files),257880,20149,13:48:18
+ikrylov,Russian,base (C files),257879,20149,13:48:54
+ikrylov,Russian,base (C files),257878,20149,13:50:11
+ikrylov,Russian,base (C files),257874,20149,13:53:04
+ikrylov,Russian,base (C files),257871,20149,13:54:13
+ikrylov,Russian,base (C files),257870,20149,13:54:31
+ikrylov,Russian,stats (C files),257474,20149,13:58:56
+ikrylov,Russian,utils (R files),257439,20149,14:00:47
+ikrylov,Russian,utils (R files),257438,20149,14:03:01
+ikrylov,Russian,utils (R files),257437,20149,14:04:10
+ikrylov,Russian,utils (R files),257436,20149,14:05:03
+ikrylov,Russian,stats (R files),239329,20149,14:14:03
 Meeko28,French,The R Project for Statistical Computing,118537,19869,01:45:39
 mr148,French,grid (R files),82011,19234,14:41:46
 kryekuzhinieri,Albanian,base (R files),124079,19234,16:19:50
@@ -6832,6 +6846,7 @@ lukaszdaniel,Polish,grDevices (C files),74067,19974,12:16:16
 lukaszdaniel,Polish,grDevices (C files),74071,19974,12:16:33
 lukaszdaniel,Polish,grDevices (C files),74072,19974,12:15:17
 ikrylov,Russian,base (R files),258448,20149,12:04:23
+ikrylov,Russian,base (R files),39543,20149,13:18:21
 ikrylov,Russian,base (R files),258452,20037,08:21:36
 christianWiat,French,base (C files),257638,20042,18:11:34
 christianWiat,French,base (R files),258350,20042,18:38:08
@@ -6895,3 +6910,4 @@ Rikivillalba,Spanish,base (C files),146249,19876,05:43:16
 Rikivillalba,Spanish,base (C files),146252,19876,05:44:59
 luciorq,Portuguese (Brazil),methods (R files),87952,20047,21:32:15
 luciorq,Portuguese (Brazil),methods (R files),87985,20047,21:37:24
+ikrylov,Russian,methods (R files),88341,20149,13:02:54
