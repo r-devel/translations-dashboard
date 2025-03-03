@@ -11,7 +11,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 10,Lluís,llrs,322,1,Spanish,2022-08-31T19:02:49.185580Z,2024-11-23T09:24:48.697057Z,Active
 11,Beatriz Milz,beatrizmilz,95,1,Portuguese (Brazil),2022-10-15T13:47:30.049688Z,2022-10-21T23:53:19.527141Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
-13,Shun Wang,ShunWang,2253,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2025-01-22T07:10:04.233632Z,Active
+13,Shun Wang,ShunWang,2262,1,Chinese (Simplified),2022-09-25T03:54:47.221413Z,2025-03-03T12:38:47.879763Z,Active
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-09-28T02:06:44.906538Z,2022-10-01T01:52:11.092991Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T03:28:33.524393Z,2022-09-29T04:55:07.852687Z,Inactive
 16,Macarena Quiroga,msquiroga,322,1,Spanish,2022-10-14T13:18:07.512475Z,2024-07-02T15:50:18.438882Z,Inactive
@@ -73,7 +73,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:09:30.718917Z,2024-01-11T20:16:50.958962Z,Inactive
 73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Unbegun
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-22T19:33:37.220944Z,2024-03-31T19:42:01.069905Z,Inactive
-75,Ivan Krylov,ikrylov,537,1,Russian,2024-04-23T14:37:00.032627Z,2025-03-02T12:55:20.385324Z,Active
+75,Ivan Krylov,ikrylov,640,1,Russian,2024-04-23T14:37:00.032627Z,2025-03-02T14:15:42.941454Z,Active
 76,Temuri Doghonadze,NorwayFun,8,1,Georgian,2024-04-16T02:05:17.450143Z,2024-04-16T10:52:27.307766Z,Inactive
 77,Chris Longros,chrislongros,0,0,character(0),N/A,N/A,Unbegun
 78,Karim Badr,karimhbadr,0,1,Arabic,N/A,N/A,Unbegun
