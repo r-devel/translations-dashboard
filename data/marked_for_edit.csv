@@ -1,0 +1,176 @@
+user,language,library,units,date,time
+tbaars,Portuguese (Brazil),grid (R files),83000,20343,15:20:41
+tbaars,Portuguese (Brazil),tools (C files),105149,20343,15:18:02
+tbaars,Portuguese (Brazil),grid (R files),82997,20343,15:16:47
+tbaars,Portuguese (Brazil),tools (R files),226480,20343,15:16:34
+tbaars,Portuguese (Brazil),grDevices (C files),226180,20343,15:13:38
+tbaars,Portuguese (Brazil),tools (C files),105142,20343,15:10:07
+tbaars,Portuguese (Brazil),splines (R files),139064,20343,15:07:49
+tbaars,Portuguese (Brazil),grid (R files),82989,20343,15:07:03
+tbaars,Portuguese (Brazil),grDevices (C files),74103,20343,15:06:53
+tbaars,Portuguese (Brazil),splines (R files),139063,20343,15:06:47
+tbaars,Portuguese (Brazil),tools (R files),226474,20343,15:06:04
+tbaars,Portuguese (Brazil),splines (R files),139062,20343,15:05:21
+tbaars,Portuguese (Brazil),splines (R files),139061,20343,15:04:15
+tbaars,Portuguese (Brazil),tools (C files),105137,20343,15:04:05
+tbaars,Portuguese (Brazil),grid (R files),82985,20343,14:58:10
+tbaars,Portuguese (Brazil),tools (C files),105135,20343,14:51:08
+tbaars,Portuguese (Brazil),graphics (C files),78275,20343,14:21:06
+tbaars,Portuguese (Brazil),methods (R files),87780,20343,14:18:49
+tbaars,Portuguese (Brazil),grDevices (R files),138433,20343,14:17:27
+tbaars,Portuguese (Brazil),grid (R files),83034,20343,14:16:00
+tbaars,Portuguese (Brazil),grid (R files),83033,20343,14:14:50
+tbaars,Portuguese (Brazil),grDevices (C files),74146,20343,14:13:45
+tbaars,Portuguese (Brazil),grDevices (C files),74145,20343,14:10:45
+tbaars,Portuguese (Brazil),grDevices (C files),74142,20343,14:05:47
+tbaars,Portuguese (Brazil),stats (C files),226643,20343,13:53:58
+tbaars,Portuguese (Brazil),grDevices (C files),74134,20343,13:37:28
+phalkekp,Japanese,base (R files),36177,20343,13:26:08
+phalkekp,Japanese,base (R files),36175,20343,13:25:54
+tbaars,Portuguese (Brazil),grDevices (C files),74131,20343,13:07:30
+tbaars,Portuguese (Brazil),grDevices (C files),74128,20343,13:02:16
+phalkekp,Japanese,base (R files),35912,20343,12:39:58
+phalkekp,Japanese,base (R files),35858,20343,12:28:11
+tbaars,Portuguese (Brazil),grDevices (C files),74121,20343,12:20:19
+tbaars,Portuguese (Brazil),stats (C files),270591,20343,10:46:51
+phalkekp,Japanese,base (R files),35739,20343,10:37:09
+phalkekp,Japanese,base (R files),35703,20343,10:21:19
+phalkekp,Japanese,base (R GUI),29743,20343,09:56:46
+erikaris,Indonesian,base (C files),277265,20343,09:51:23
+lukaszdaniel,English (United Kingdom),base (C files),237084,20254,09:32:42
+lukaszdaniel,English (United Kingdom),base (C files),257571,20253,09:11:57
+alswajiab,Arabic,stats (R files),120505,20121,18:44:12
+alswajiab,Arabic,Mac GUI,172930,20112,11:11:07
+luciorq,Portuguese (Brazil),methods (R files),87984,20047,21:36:12
+focardozom,Spanish,base (C files),226985,20046,03:31:05
+luciorq,Portuguese (Brazil),base (C files),163131,20046,01:40:59
+luciorq,Portuguese (Brazil),base (C files),163130,20046,01:40:41
+yOOs,Arabic,base (R files),119236,20008,10:43:18
+yOOs,Arabic,base (R files),119234,20008,10:40:10
+GabiLima,Portuguese (Brazil),stats (R files),170371,20005,09:27:50
+GabiLima,Portuguese (Brazil),parallel (R files),126756,20005,08:50:58
+GabiLima,Portuguese (Brazil),graphics (R files),80433,20004,15:14:08
+GabiLima,Portuguese (Brazil),graphics (R files),139024,20004,15:09:24
+GabiLima,Portuguese (Brazil),graphics (R files),80399,20004,15:00:10
+GabiLima,Portuguese (Brazil),graphics (R files),80375,20004,14:37:24
+GabiLima,Portuguese (Brazil),graphics (R files),80364,20004,14:25:52
+155138y@,Chinese (Simplified Han script),base (R files),40358,19992,09:24:47
+155138y@,Chinese (Simplified Han script),base (R files),40360,19989,15:30:52
+155138y@,Chinese (Simplified Han script),grDevices (R files),226106,19989,15:30:52
+155138y@,Chinese (Simplified Han script),base (R files),40355,19988,07:52:28
+lukaszdaniel,Polish,base (C files),161189,19974,13:58:55
+Tomek,Polish,Mac GUI,256617,19972,22:17:48
+lukaszdaniel,Polish,Mac GUI,256791,19972,08:01:55
+lukaszdaniel,Polish,Mac GUI,256755,19972,07:53:48
+jyoti-bhogal,Hindi,base (R files),179034,19971,13:19:05
+jyoti-bhogal,Hindi,base (R files),179033,19971,13:18:17
+arjendeniz,Turkish,base (R files),40150,19910,16:30:13
+arjendeniz,Turkish,base (R files),40156,19910,16:26:54
+arjendeniz,Turkish,base (R files),40159,19910,16:25:22
+arjendeniz,Turkish,base (R files),40161,19910,16:20:40
+arjendeniz,Turkish,base (R files),40164,19910,16:15:58
+arjendeniz,Turkish,base (R files),40233,19909,16:27:11
+arjendeniz,Turkish,base (R files),40255,19908,19:23:50
+arjendeniz,Turkish,base (R files),39818,19906,16:49:07
+arjendeniz,Turkish,base (R files),39811,19906,16:46:43
+arjendeniz,Turkish,base (R files),39810,19906,16:45:22
+szeller,German,base (C files),226943,19906,15:52:55
+szeller,German,base (C files),226941,19906,15:52:26
+szeller,German,base (C files),142631,19906,15:51:46
+szeller,German,base (C files),142621,19906,15:51:00
+szeller,German,base (C files),237070,19906,15:50:23
+szeller,German,base (C files),226936,19906,15:48:13
+szeller,German,base (C files),226935,19906,15:47:35
+szeller,German,base (C files),142112,19906,15:46:40
+arjendeniz,Turkish,base (R files),39783,19906,15:46:33
+szeller,German,base (C files),226933,19906,15:45:57
+arjendeniz,Turkish,base (R files),39777,19906,15:43:31
+arjendeniz,Turkish,base (R files),39773,19906,15:40:05
+Rikivillalba,Spanish,base (C files),146600,19894,06:05:18
+Rikivillalba,Spanish,base (C files),146498,19894,05:58:05
+Rikivillalba,Spanish,base (C files),146494,19894,05:57:38
+Rikivillalba,Spanish,base (C files),146493,19894,05:57:28
+Rikivillalba,Spanish,base (C files),146474,19894,05:54:36
+Rikivillalba,Spanish,graphics (C files),77348,19894,05:39:34
+Rikivillalba,Spanish,base (C files),145930,19894,04:43:10
+Rikivillalba,Spanish,base (C files),145928,19894,04:42:57
+Rikivillalba,Spanish,base (C files),145807,19894,03:21:17
+Rikivillalba,Spanish,base (C files),145249,19893,22:40:57
+Rikivillalba,Spanish,base (C files),145248,19893,22:40:32
+Rikivillalba,Spanish,base (C files),145228,19893,22:35:58
+Rikivillalba,Spanish,base (C files),145167,19893,22:31:46
+Rikivillalba,Spanish,base (C files),145165,19893,22:30:58
+Rikivillalba,Spanish,base (C files),145146,19893,22:28:16
+Rikivillalba,Spanish,base (C files),145145,19893,22:27:55
+Rikivillalba,Spanish,base (C files),145142,19893,22:27:34
+Rikivillalba,Spanish,base (C files),145120,19893,22:24:12
+Rikivillalba,Spanish,base (C files),145117,19893,22:23:40
+Rikivillalba,Spanish,base (C files),145116,19893,22:23:19
+Rikivillalba,Spanish,base (C files),145886,19893,22:19:52
+Meeko28,Hungarian,methods (R files),215341,19891,17:54:37
+Meeko28,Hungarian,The R Project for Statistical Computing,240225,19891,17:25:03
+Meeko28,Hungarian,The R Project for Statistical Computing,126913,19891,17:23:09
+Meeko28,Hungarian,The R Project for Statistical Computing,118530,19891,17:22:38
+Meeko28,Hungarian,The R Project for Statistical Computing,190817,19891,17:22:09
+Rikivillalba,Spanish,base (R files),124761,19887,20:46:02
+Rikivillalba,Spanish,base (C files),145158,19884,04:57:52
+Meeko28,Hungarian,parallel (R files),214837,19883,17:56:50
+Meeko28,Hungarian,parallel (R files),214832,19883,17:55:21
+Meeko28,German,stats (C files),90739,19883,17:48:13
+Rikivillalba,Spanish,methods (R files),126294,19878,19:29:54
+Rikivillalba,Spanish,base (C files),227005,19876,22:53:09
+Rikivillalba,Spanish,grDevices (R files),173209,19870,02:01:19
+Rikivillalba,Spanish,utils (R files),139908,19870,02:01:19
+Meeko28,French,The R Project for Statistical Computing,118559,19869,01:44:05
+Meeko28,French,The R Project for Statistical Computing,138132,19869,01:43:43
+Meeko28,French,The R Project for Statistical Computing,118517,19869,01:43:16
+Meeko28,Russian,Mac GUI,240566,19864,01:33:01
+Meeko28,Russian,Mac GUI,240300,19863,11:03:56
+rokamoto,Japanese,base (C files),151912,19863,02:54:59
+Rikivillalba,Spanish,graphics (R files),173453,19863,00:01:01
+Rikivillalba,Spanish,stats (R files),177483,19863,00:01:00
+Meeko28,German,base (C files),143040,19862,20:19:48
+Meeko28,German,base (C files),143394,19862,20:10:47
+Meeko28,German,base (C files),226962,19862,20:06:23
+Meeko28,German,base (C files),237079,19862,20:05:42
+Meeko28,German,base (C files),226961,19862,20:05:16
+Meeko28,German,base (C files),142641,19862,19:41:47
+Meeko28,Russian,Mac GUI,240346,19862,14:19:44
+Meeko28,Russian,Mac GUI,240345,19862,14:19:18
+Meeko28,Russian,Mac GUI,240337,19862,14:12:49
+Meeko28,Russian,Mac GUI,240336,19862,14:12:25
+ShunWang,Chinese (Simplified Han script),base (C files),239003,19862,09:14:55
+Rikivillalba,Spanish,splines (C files),175147,19858,02:48:56
+michaelchirico,Portuguese (Brazil),methods (R files),87887,19810,18:43:20
+michaelchirico,Turkish,base (C files),166015,19810,18:38:19
+michaelchirico,Turkish,base (C files),166014,19810,18:38:02
+michaelchirico,Korean,base (C files),153668,19810,18:31:27
+ShunWang,Chinese (Simplified Han script),base (C files),227707,19771,01:49:29
+llrs,Catalan,tools (R files),223600,19709,23:13:41
+hturner,English (United Kingdom),base (C files),143734,19702,17:52:35
+Mara,Spanish,base (C files),145608,19698,13:19:23
+jmaspons,Catalan,stats4 (R files),222463,19653,23:04:41
+rcastelo,Catalan,grid (R files),220922,19647,20:36:30
+jmaspons,Catalan,graphics (R files),221318,19641,18:19:49
+alswajiab,Arabic,tcltk (R files),123212,19601,13:50:00
+alswajiab,Arabic,tcltk (R files),123201,19601,13:44:44
+alswajiab,Arabic,tcltk (R files),123200,19601,13:44:38
+alswajiab,Arabic,tcltk (R files),123199,19601,13:44:32
+ImanAlhasani,Arabic,Mac GUI,172843,19601,11:18:18
+ImanAlhasani,Arabic,Mac GUI,183870,19601,11:11:22
+ImanAlhasani,Arabic,Mac GUI,172830,19599,12:59:30
+alswajiab,Arabic,parallel (R files),120456,19599,11:31:45
+alswajiab,Arabic,stats (R files),120646,19599,11:31:44
+alswajiab,Arabic,base (R files),119718,19599,11:31:44
+MCNanton,Spanish,base (R files),124962,19578,23:51:06
+msquiroga,Spanish,base (R files),124877,19562,21:27:34
+Gtormin,Portuguese (Brazil),methods (R files),87805,19280,14:45:41
+Gtormin,Portuguese (Brazil),stats4 (R files),99828,19280,14:24:13
+Gtormin,Portuguese (Brazil),stats4 (R files),99823,19280,14:23:03
+PatriLoto,Spanish,graphics (C files),77231,19280,13:56:32
+lente,Portuguese (Brazil),tools (R files),109489,19237,14:35:38
+lente,Portuguese (Brazil),tools (R files),109394,19236,21:14:42
+lente,Portuguese (Brazil),tools (R files),109290,19236,20:48:48
+lente,Portuguese (Brazil),tools (R files),109239,19236,20:27:31
+mr148,Italian,grid (R files),82209,19234,16:18:43
+mr148,Italian,utils (R files),114026,19234,16:15:41
