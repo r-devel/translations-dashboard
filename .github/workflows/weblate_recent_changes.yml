@@ -13,9 +13,6 @@ on:
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-latest 
-    defaults:
-      run:
-        working-directory: R/
     steps:
     - name: checkout_repo
       uses: actions/checkout@v4
@@ -33,7 +30,7 @@ jobs:
       env: 
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
-        Rscript "recent_changes.R"
+        Rscript "R/recent_changes.R"
         
     - name: Commit and Push Any Changes
       run: |
