@@ -10,7 +10,7 @@ on:
       - '.github/workflows/weblate_user_statistics.yml'
 jobs:
   Running_R_scripts:
-    runs-on: ubuntu-20.04 
+    runs-on: ubuntu-latest 
     defaults:
       run:
         working-directory: R/
