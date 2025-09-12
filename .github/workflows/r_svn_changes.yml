@@ -39,7 +39,7 @@ jobs:
 
     # Run R script
     - name: Scrape
-      run: Rscript translation_status.R
+      run: Rscript R/translation_status.R
     - name: Commit and Push Any Changes
       run: |
         git pull
