@@ -2,11 +2,10 @@ name: Weblate Library Statistics Refresh
 
 on:
   workflow_dispatch:
-  schedule:  
-    - cron:  '10 12 * * *'
+  
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'R/'
       - '.github/workflows/weblate_libraries.yml'

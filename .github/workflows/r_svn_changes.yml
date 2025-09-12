@@ -5,12 +5,12 @@ name: R SVN Changes
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: dev
     paths:
       - 'R/translation_status.R'
       - '.github/workflows/r_svn_changes.yml'
-  schedule:
-    - cron: '0 0 * * *'
+
+  
 
 jobs: 
   Messages:

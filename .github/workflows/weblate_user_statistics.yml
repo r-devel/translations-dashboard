@@ -2,11 +2,9 @@ name: Weblate User Statistics Refresh
 
 on:
   workflow_dispatch:
-  schedule:  
-    - cron:  '30 12 * * *'
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'R/'
       - '.github/workflows/weblate_user_statistics.yml'

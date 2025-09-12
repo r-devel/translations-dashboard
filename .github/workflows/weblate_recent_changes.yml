@@ -2,11 +2,10 @@ name: Weblate Recent Changes Refresh
 
 on: 
   workflow_dispatch:
-  schedule:  
-    - cron:  '20 12 * * *'
+
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'R/'
       - '.github/workflows/weblate_recent_changes.yml'

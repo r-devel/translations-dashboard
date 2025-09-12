@@ -2,11 +2,10 @@ name: Weblate Language Statistics Refresh
 
 on:
   workflow_dispatch:
-  schedule:  
-    - cron:  '0 12 * * *'
+ 
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'R/'
       - '.github/workflows/weblate_languages.yml'
