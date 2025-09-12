@@ -34,7 +34,7 @@ jobs:
         
     - name: Commit and Push Any Changes
       run: |
-        git pull origin main
+        git pull
         git add *.csv
         if ! git diff-index --quiet HEAD; then
           git config --local user.email "action@github.com"
