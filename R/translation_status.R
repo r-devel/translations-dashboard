@@ -89,7 +89,7 @@ metadata <- pmap_df(na.omit(translations[c("package", "po_file")]),
 ## add in translations data (information from file name)
 metadata <- left_join(translations, metadata) |>
     select(-pot)
-write_csv(metadata, "metadata.csv")
+write_csv(metadata, "data/metadata.csv")
 # Categorise message status -----------------------------------------------
 
 get_message_status <- function(package, po_file) {
