@@ -8,14 +8,14 @@ on:
     branches:
       - main
     paths:
-      - 'weblate/Language Statisitics/**'
+      - 'R/'
       - '.github/workflows/weblate_languages.yml'
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: weblate/Language Statisitics
+        working-directory: R/
     steps:
     - name: checkout_repo
       uses: actions/checkout@v4
@@ -32,7 +32,7 @@ jobs:
       env: 
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
-        Rscript Languages_Statistics.R
+        Rscript languages_statistics.R
       
     - name: Commit and Push Any Changes
       run: |

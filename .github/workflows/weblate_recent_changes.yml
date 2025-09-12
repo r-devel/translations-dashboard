@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'weblate/Recent Changes/**'
+      - 'R/'
       - '.github/workflows/weblate_recent_changes.yml'
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-20.04 
     defaults:
       run:
-        working-directory: weblate/Recent Changes
+        working-directory: R/
     steps:
     - name: checkout_repo
       uses: actions/checkout@v4
@@ -34,7 +34,7 @@ jobs:
       env: 
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
-        Rscript "Recent changes.R"
+        Rscript "recent_changes.R"
         
     - name: Commit and Push Any Changes
       run: |

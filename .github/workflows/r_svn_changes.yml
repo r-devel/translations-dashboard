@@ -7,7 +7,7 @@ on:
   push:
     branches: main
     paths:
-      - 'translation_status.R'
+      - 'R/translation_status.R'
       - '.github/workflows/r_svn_changes.yml'
   schedule:
     - cron: '0 0 * * *'
