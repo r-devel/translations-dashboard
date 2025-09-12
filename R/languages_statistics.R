@@ -61,5 +61,5 @@ for (i in 1:count) {
   data$Untranslated[i] <- as.numeric(stats[1]) - as.numeric(stats[4]) - as.numeric(stats[5])
 }
 
-write.csv(data,"data/language_statistics.csv")
+write.csv(data,"data/language_statistics.csv") #
 
