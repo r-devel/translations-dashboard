@@ -42,14 +42,11 @@ jobs:
       run: Rscript R/translation_status.R
     - name: Commit and Push Any Changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-
-        if git diff --quiet && git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          git add *.csv
+        git pull
+        git add *.csv
+        if ! git diff-index --quiet HEAD; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git commit -m "Update r-devel message status"
-          git pull --rebase
           git push
         fi
