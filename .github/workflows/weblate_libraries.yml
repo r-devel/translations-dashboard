@@ -2,26 +2,26 @@ name: Weblate Library Statistics Refresh
 
 on:
   workflow_dispatch:
-  
+
   push:
     branches:
       - dev
     paths:
-      - 'R/'
-      - '.github/workflows/weblate_libraries.yml'
+      - "R/library_language_statistics.R"
+      - ".github/workflows/weblate_libraries.yml"
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-latest 
     steps:
-    - name: checkout_repo
-      uses: actions/checkout@v4
-    - uses: r-lib/actions/setup-r@v2
-    - name: Install packages
-      uses: r-lib/actions/setup-r-dependencies@v2
-      with:
-        packages: |
-          any::httr
-          any::jsonlite
+      - name: checkout_repo
+        uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::httr
+            any::jsonlite
 
     - name: Run R scripts
       env: 
