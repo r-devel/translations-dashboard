@@ -6,8 +6,8 @@ on:
     branches:
       - dev
     paths:
-      - 'R/'
-      - '.github/workflows/weblate_user_statistics.yml'
+      - "R/user_statistics.R"
+      - ".github/workflows/weblate_user_statistics.yml"
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-latest 
@@ -31,13 +31,13 @@ jobs:
       run: | 
         Rscript "R/user_statistics.R"
 
-    - name: Commit and Push Any Changes
-      run: |
-        git pull
-        git add *.csv
-        if ! git diff-index --quiet HEAD; then
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Update weblate users csv"
-          git push
-        fi
+      - name: Commit and Push Any Changes
+        run: |
+          git pull
+          git add *.csv
+          if ! git diff-index --quiet HEAD; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "Update weblate users csv"
+            git push
+          fi
