@@ -1,14 +1,14 @@
 name: Weblate Recent Changes Refresh
 
-on: 
+on:
   workflow_dispatch:
 
   push:
     branches:
       - dev
     paths:
-      - 'R/'
-      - '.github/workflows/weblate_recent_changes.yml'
+      - "R/recent_changes.R"
+      - ".github/workflows/weblate_recent_changes.yml"
 
 jobs:
   Running_R_scripts:
