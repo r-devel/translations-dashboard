@@ -8,7 +8,13 @@ API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
 # Get new translations (action = 5) for r-project project only
 # (See comments at end of file for actions)
+# And only get changes since last time this script ran, with a little bit of wiggle room added.
+last_df <- readr::read_csv("New Translation.csv")
+max_date <- max(as.Date(last_df$date))
+max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
+
 changes_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=5"
+changes_url <- paste0(changes_url, "&timestamp_after=", max_date)
 endpoint <- changes_url
 
 h <- new_handle()
@@ -16,6 +22,7 @@ handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
 handle_setopt(h, customrequest = "GET")
 handle_setopt(h, httpheader = c(paste0("Authorization: Token ", API_TOKEN)))
 
+print(paste("Querying endpoint", endpoint))
 response <- curl_fetch_memory(endpoint, handle = h)
 
 changes <- rawToChar(response$content)
@@ -24,6 +31,7 @@ changes <- fromJSON(changes)
 
 libraries_url<-"https://translate.rx.studio/api/projects/r-project/components/"
 
+print(paste("Querying endpoint", libraries_url))
 lib_response <- curl_fetch_memory(libraries_url, handle = h)
 
 libraries <- rawToChar(lib_response$content)
@@ -53,6 +61,7 @@ times<-c()
 for (i in 1:pages) {
   pages_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=5&page=", i)
   
+  print(paste("Querying endpoint", pages_url))
   pages_response <- curl_fetch_memory(pages_url, handle = h)
   
   pages_changes <- rawToChar(pages_response$content)
@@ -103,10 +112,16 @@ for (i in 1:pages) {
 translated_data<-data.frame(user=users,language=lang,library=lib,units=units,date=dates,time=times)
 dd<-duplicated(translated_data$units,fromLast = TRUE)
 translated_data<-translated_data[!dd,]
+
 ### Marked for edit 
+# Only get changes since last time this script ran, with a little bit of wiggle room added.
+last_df <- readr::read_csv("Marked for Edit.csv")
+max_date <- max(as.Date(last_df$date))
+max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
 edit_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=37"
+edit_url <- paste0(edit_url, "&timestamp_after=", max_date)
 
-
+print(paste("Querying endpoint", edit_url))
 edit_response <- curl_fetch_memory(edit_url, handle = h)
 
 edits <- rawToChar(edit_response$content)
@@ -134,7 +149,7 @@ for(i in 1:edit_pages)
 {
   mark_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=37&page=", i)
   
-  
+  print(paste("Querying endpoint", mark_url))
   mark_response <- curl_fetch_memory(mark_url, handle = h)
   
   mark_changes <- rawToChar(mark_response$content)
@@ -188,9 +203,14 @@ mark_data<-mark_data[!d_row,]
 editing<-dim(mark_data)[1]
 
 ###Translation changed
+# Only get changes since last time this script ran, with a little bit of wiggle room added.
+last_df <- readr::read_csv("New Translation.csv")
+max_date <- max(as.Date(last_df$date))
+max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
 changed_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=2"
+changed_url <- paste0(changed_url, "&timestamp_after=", max_date)
 
-
+print(paste("Querying endpoint", changed_url))
 changes_response <- curl_fetch_memory(changed_url, handle = h)
 
 changed <- rawToChar(changes_response$content)
@@ -219,7 +239,7 @@ for(i in 1:changed_pages)
   
   ch_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=2&page=", i)
   
-  
+  print(paste("Querying endpoint", ch_url))
   ch_response <- curl_fetch_memory(ch_url, handle = h)
   
   ch_changes <- rawToChar(ch_response$content)
