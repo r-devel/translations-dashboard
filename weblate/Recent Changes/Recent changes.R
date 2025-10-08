@@ -333,8 +333,22 @@ changed_index<-match(translation_changed,changed_data$units)
 translated_data<-translated_data[-changed_indexes,]
 translated_data<-rbind(translated_data,changed_data[changed_index,])
 
-write_csv(translated_data,"New Translation.csv")
-write_csv(mark_data,"Marked for Edit.csv")
+# Append to previous runs
+translated_data_old <- readr::read_csv("New Translation.csv")
+translated_data <- rbind(translated_data_old, translated_data)
+
+mark_data_old <- readr::read_csv("Marked for Edit.csv")
+mark_data <- rbind(mark_data_old, mark_data)
+
+# Results retrieved from API will likely go back further in time than the last
+# time that this script was executed by CI/CD. It might just be by 12 hours, but
+# if the CI/CD fails or becomes intermittent it could be longer.
+# Whatever the case, remove duplicates caused by the overlap.
+translated_data <- translated_data[!duplicated(translated_data), ]
+mark_data <- mark_data[!duplicated(mark_data), ]
+
+write_csv(translated_data, "New Translation.csv")
+write_csv(mark_data, "Marked for Edit.csv")
 
 # Weblate action id and action names (can't find documented)
 # # Missing numbers do not appear in r-project project as of 2024-10-11
