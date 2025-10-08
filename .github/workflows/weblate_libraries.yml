@@ -2,14 +2,14 @@ name: Weblate Library Statistics Refresh
 
 on:
   workflow_dispatch:
-  schedule:  
-    - cron:  '10 12 * * *'
+  schedule:
+    - cron: "10 12 * * *"
   push:
     branches:
       - main
     paths:
-      - 'weblate/Library Language Statistics/**'
-      - '.github/workflows/weblate_libraries.yml'
+      - "weblate/Library Language Statistics/**"
+      - ".github/workflows/weblate_libraries.yml"
 jobs:
   Running_R_scripts:
     runs-on: ubuntu-20.04 
@@ -17,29 +17,29 @@ jobs:
       run:
         working-directory: weblate/Library Language Statistics
     steps:
-    - name: checkout_repo
-      uses: actions/checkout@v4
-    - uses: r-lib/actions/setup-r@v2
-    - name: Install packages
-      uses: r-lib/actions/setup-r-dependencies@v2
-      with:
-        packages: |
-          any::httr
-          any::jsonlite
+      - name: checkout_repo
+        uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::httr
+            any::jsonlite
 
-    - name: Run R scripts
-      env: 
-        WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
-      run: | 
-        Rscript "Library Language Statistics.R"
-      
-    - name: Commit and Push Any Changes
-      run: |
-        git pull
-        git add *.csv
-        if ! git diff-index --quiet HEAD; then
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Updated weblate library csv"
-          git push
-        fi
+      - name: Run R scripts
+        env:
+          WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        run: |
+          Rscript "Library Language Statistics.R"
+
+      - name: Commit and Push Any Changes
+        run: |
+          git pull
+          git add *.csv
+          if ! git diff-index --quiet HEAD; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "Updated weblate library csv"
+            git push
+          fi
