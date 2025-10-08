@@ -2,45 +2,45 @@ name: Weblate Language Statistics Refresh
 
 on:
   workflow_dispatch:
-  schedule:  
-    - cron:  '0 12 * * *'
+  schedule:
+    - cron: "0 12 * * *"
   push:
     branches:
       - main
     paths:
-      - 'weblate/Language Statisitics/**'
-      - '.github/workflows/weblate_languages.yml'
+      - "weblate/Language Statisitics/**"
+      - ".github/workflows/weblate_languages.yml"
 jobs:
   Running_R_scripts:
-    runs-on: ubuntu-20.04 
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: weblate/Language Statisitics
     steps:
-    - name: checkout_repo
-      uses: actions/checkout@v4
-    - uses: r-lib/actions/setup-r@v2
+      - name: checkout_repo
+        uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
 
-    - name: Install packages
-      uses: r-lib/actions/setup-r-dependencies@v2
-      with:
-        packages: |
-          any::httr
-          any::data.table
-        
-    - name: Run R scripts
-      env: 
-        WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
-      run: | 
-        Rscript Languages_Statistics.R
-      
-    - name: Commit and Push Any Changes
-      run: |
-        git pull
-        git add *.csv
-        if ! git diff-index --quiet HEAD; then
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Update weblate language csv"
-          git push
-        fi
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::httr
+            any::data.table
+
+      - name: Run R scripts
+        env:
+          WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        run: |
+          Rscript Languages_Statistics.R
+
+      - name: Commit and Push Any Changes
+        run: |
+          git pull
+          git add *.csv
+          if ! git diff-index --quiet HEAD; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "Update weblate language csv"
+            git push
+          fi
