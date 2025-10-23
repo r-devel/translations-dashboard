@@ -76,10 +76,10 @@ GabiLima,Portuguese (Brazil),stats (R files),170371,20005,09:27:50
 GabiLima,Portuguese (Brazil),graphics (R files),80433,20004,15:14:08
 GabiLima,Portuguese (Brazil),graphics (R files),139024,20004,15:09:24
 GabiLima,Portuguese (Brazil),graphics (R files),80364,20004,14:25:52
-155138y@,Chinese (Simplified),base (R files),40358,19992,09:24:47
-155138y@,Chinese (Simplified),base (R files),40360,19989,15:30:52
-155138y@,Chinese (Simplified),grDevices (R files),226106,19989,15:30:52
-155138y@,Chinese (Simplified),base (R files),40355,19988,07:52:28
+155138y@,Chinese (Simplified Han script),base (R files),40358,19992,09:24:47
+155138y@,Chinese (Simplified Han script),base (R files),40360,19989,15:30:52
+155138y@,Chinese (Simplified Han script),grDevices (R files),226106,19989,15:30:52
+155138y@,Chinese (Simplified Han script),base (R files),40355,19988,07:52:28
 lukaszdaniel,Polish,base (C files),161189,19974,13:58:55
 Tomek,Polish,Mac GUI,256617,19972,22:17:48
 lukaszdaniel,Polish,Mac GUI,256791,19972,08:01:55
@@ -161,13 +161,13 @@ Meeko28,Russian,Mac GUI,240346,19862,14:19:44
 Meeko28,Russian,Mac GUI,240345,19862,14:19:18
 Meeko28,Russian,Mac GUI,240337,19862,14:12:49
 Meeko28,Russian,Mac GUI,240336,19862,14:12:25
-ShunWang,Chinese (Simplified),base (C files),239003,19862,09:14:55
+ShunWang,Chinese (Simplified Han script),base (C files),239003,19862,09:14:55
 Rikivillalba,Spanish,splines (C files),175147,19858,02:48:56
 michaelchirico,Portuguese (Brazil),methods (R files),87887,19810,18:43:20
 michaelchirico,Turkish,base (C files),166015,19810,18:38:19
 michaelchirico,Turkish,base (C files),166014,19810,18:38:02
 michaelchirico,Korean,base (C files),153668,19810,18:31:27
-ShunWang,Chinese (Simplified),base (C files),227707,19771,01:49:29
+ShunWang,Chinese (Simplified Han script),base (C files),227707,19771,01:49:29
 llrs,Catalan,tools (R files),223600,19709,23:13:41
 hturner,English (United Kingdom),base (C files),143734,19702,17:52:35
 Mara,Spanish,base (C files),145608,19698,13:19:23
