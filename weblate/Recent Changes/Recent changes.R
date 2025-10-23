@@ -59,7 +59,7 @@ timestamp<-c()
 dates<-c()
 times<-c()
 for (i in 1:pages) {
-  pages_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=5&page=", i)
+  pages_url <- paste0(changes_url, "&page=", i)
   
   print(paste("Querying endpoint", pages_url))
   pages_response <- curl_fetch_memory(pages_url, handle = h)
@@ -147,7 +147,7 @@ mark_dates<-c()
 mark_times<-c()
 for(i in 1:edit_pages)
 {
-  mark_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=37&page=", i)
+  mark_url <- paste0(edit_url, "&page=", i)
   
   print(paste("Querying endpoint", mark_url))
   mark_response <- curl_fetch_memory(mark_url, handle = h)
@@ -237,7 +237,7 @@ changed_times<-c()
 for(i in 1:changed_pages)
 {
   
-  ch_url <- paste0("https://translate.rx.studio/api/projects/r-project/changes/?action=2&page=", i)
+  ch_url <- paste0(changed_url, "&page=", i)
   
   print(paste("Querying endpoint", ch_url))
   ch_response <- curl_fetch_memory(ch_url, handle = h)
@@ -294,7 +294,8 @@ changed_data<-changed_data[!du_row,]
 
 ###Data Processing
 
-
+# if translation changed after marking for edit, record changed translation
+# otherwise record as marked for edit
 elements_changed<-intersect(mark_data$units,changed_data$units)
 indexes<-match(elements_changed,mark_data$units)
 indexes2<-match(elements_changed,changed_data$units)
@@ -323,10 +324,12 @@ mark_data<-mark_data[-indexes[j],]
 changed_data<-changed_data[-indexes[k],]
 editing<-dim(mark_data)[1]
 
+# if new translation marked for edit, exclude from new translations
 translation_edited<-intersect(translated_data$units,mark_data$units)
 translated_indexes<-match(translation_edited,translated_data$units)
 translated_data<-translated_data[-translated_indexes,]
 
+# treat new and updated translations as "new translations"
 translation_changed<-intersect(translated_data$units,changed_data$units)
 changed_indexes<-match(translation_changed,translated_data$units)
 changed_index<-match(translation_changed,changed_data$units)
@@ -347,8 +350,10 @@ mark_data <- rbind(mark_data_old, mark_data)
 translated_data <- translated_data[!duplicated(translated_data), ]
 mark_data <- mark_data[!duplicated(mark_data), ]
 
-write_csv(translated_data, "New Translation.csv")
-write_csv(mark_data, "Marked for Edit.csv")
+write_csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
+          "New Translation.csv")
+write_csv(mark_data[order(mark_data$date, decreasing = TRUE),], 
+          "Marked for Edit.csv")
 
 # Weblate action id and action names (can't find documented)
 # # Missing numbers do not appear in r-project project as of 2024-10-11
