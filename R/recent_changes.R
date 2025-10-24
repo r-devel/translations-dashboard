@@ -321,7 +321,7 @@ for(i in 1:length(indexes))
   }
 }
 mark_data<-mark_data[-indexes[j],]
-changed_data<-changed_data[-indexes[k],]
+changed_data<-changed_data[-indexes2[k],]
 editing<-dim(mark_data)[1]
 
 # if new translation marked for edit, exclude from new translations
