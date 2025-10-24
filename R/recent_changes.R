@@ -294,8 +294,8 @@ changed_data<-changed_data[!du_row,]
 
 ###Data Processing
 
-# if translation changed after marking for edit, record changed translation
-# otherwise record as marked for edit
+# if translation changed after marking for edit, remove from mark_data
+# otherwise remove from changed_data
 elements_changed<-intersect(mark_data$units,changed_data$units)
 indexes<-match(elements_changed,mark_data$units)
 indexes2<-match(elements_changed,changed_data$units)
@@ -320,7 +320,10 @@ for(i in 1:length(indexes))
     k<-c(k,i)
   }
 }
-mark_data<-mark_data[-indexes[j],]
+
+# remove records changed after marking for edit
+mark_data<-mark_data[-indexes[j],] 
+# remove records marked for edit after changing
 changed_data<-changed_data[-indexes2[k],]
 editing<-dim(mark_data)[1]
 
