@@ -325,16 +325,10 @@ changed_data<-changed_data[-indexes2[k],]
 editing<-dim(mark_data)[1]
 
 # if new translation marked for edit, exclude from new translations
+# (because translation won't get used, string is not translated for user)
 translation_edited<-intersect(translated_data$units,mark_data$units)
 translated_indexes<-match(translation_edited,translated_data$units)
 translated_data<-translated_data[-translated_indexes,]
-
-# treat new and updated translations as "new translations"
-translation_changed<-intersect(translated_data$units,changed_data$units)
-changed_indexes<-match(translation_changed,translated_data$units)
-changed_index<-match(translation_changed,changed_data$units)
-translated_data<-translated_data[-changed_indexes,]
-translated_data<-rbind(translated_data,changed_data[changed_index,])
 
 # Append to previous runs
 translated_data_old <- readr::read_csv("New Translation.csv")
