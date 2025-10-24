@@ -56,7 +56,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 55,Jordi Mas,jmas,0,1,Catalan,N/A,N/A,Unbegun
 56,Josep Pueyo-Ros,jospueyo,7,1,Catalan,2023-10-01T13:55:50.524301Z,2023-10-01T13:48:09.236391Z,Inactive
 57,Toni Hermoso Pulido,toniher,0,1,Catalan,N/A,N/A,Unbegun
-58,Riva Quiroga,rivaquiroga,94,1,Spanish,2025-09-12T08:41:40.690693Z,2025-09-08T08:30:31.327708Z,Active
+58,Riva Quiroga,rivaquiroga,102,1,Spanish,2025-10-23T15:15:17.227192Z,2025-09-08T08:30:31.327708Z,Active
 59,Aylén Avila,ImoPupato,11,1,Spanish,2023-10-20T14:39:48.381609Z,2023-10-20T14:18:11.698576Z,Inactive
 60,Jesica Formoso,Jformoso,34,1,Spanish,2023-10-20T15:45:55.584893Z,2023-10-20T14:16:47.126949Z,Inactive
 61,Luis D. Verde Arregoitia,luisdverde,670,1,Spanish,2025-09-08T08:25:41.457661Z,2023-10-20T14:31:03.078902Z,Inactive
@@ -67,7 +67,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 66,Jan Strappa,jansf,38,1,Spanish,2023-10-20T14:47:18.061102Z,2023-10-20T14:30:31.175547Z,Inactive
 67,Riva Quiroga,riva-quiroga,8,1,Spanish,2023-10-20T15:43:49.938958Z,2023-10-20T14:28:10.080390Z,Inactive
 68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:54:42.593639Z,2023-10-20T18:45:05.762564Z,Inactive
-69,Rafael Fontenelle,rffontenelle,477,1,Portuguese (Brazil),2025-10-04T01:13:29.457648Z,2023-10-31T18:24:54.537614Z,Inactive
+69,Rafael Fontenelle,rffontenelle,491,1,Portuguese (Brazil),2025-10-23T17:18:32.408835Z,2023-10-31T18:24:54.537614Z,Inactive
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T17:49:59.393796Z,2023-11-04T16:55:02.499619Z,Inactive
 71,Raman Shah,ramansh,9,1,Nepali,2024-04-07T17:55:30.974935Z,2023-11-17T12:05:52.719532Z,Inactive
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:16:50.958962Z,2024-01-11T20:09:30.718917Z,Inactive
