@@ -110,16 +110,17 @@ for (i in 1:pages) {
   times<-c(times,time)
 }
 translated_data<-data.frame(user=users,language=lang,library=lib,units=units,date=dates,time=times)
+# can get duplication e.g. if someone accidentally added empty new translation
 dd<-duplicated(translated_data$units,fromLast = TRUE)
 translated_data<-translated_data[!dd,]
 
 ### Marked for edit 
-# Only get changes since last time this script ran, with a little bit of wiggle room added.
-last_df <- readr::read_csv("Marked for Edit.csv")
-max_date <- max(as.Date(last_df$date))
-max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
-edit_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=37"
-edit_url <- paste0(edit_url, "&timestamp_after=", max_date)
+# Need to always download full set of "Marked for edit" translations, since 
+# there is no robust way to track newly marked/unmarked
+# (status can be changed by updates to the repository vs user action)
+edit_url<-"https://translate.rx.studio/api/units/"
+# using search query here not query parameters!
+edit_url <- paste0(edit_url, "?q=project:r-project%20AND%20state:needs-editing")
 
 print(paste("Querying endpoint", edit_url))
 edit_response <- curl_fetch_memory(edit_url, handle = h)
@@ -128,23 +129,20 @@ edits <- rawToChar(edit_response$content)
 
 edits <- fromJSON(edits)
 edit_count<-edits$count
-edit_remain<-edit_count%%50
+edit_remain<-edit_count%%200 # different default page size for units!
 edit_pages=0
 if(edit_remain==0)
 {
-  edit_pages<-edit_count/50
+  edit_pages<-edit_count/200
 }else
 {
-  edit_pages<-ceiling(edit_count/50)
+  edit_pages<-ceiling(edit_count/200)
 }
 mark_lang<-c()
-mark_users <- c()
-mark_lib<-c()
-mark_slug<-c()
+mark_lib <- c()
+mark_string<-c()
 mark_units<-c()
-mark_timestamp<-c()
-mark_dates<-c()
-mark_times<-c()
+mark_web_url<-c()
 for(i in 1:edit_pages)
 {
   mark_url <- paste0(edit_url, "&page=", i)
@@ -155,201 +153,35 @@ for(i in 1:edit_pages)
   mark_changes <- rawToChar(mark_response$content)
   
   mark_changes <- fromJSON(mark_changes)
-  
-  mark_component<-str_extract(mark_changes$results$component, "components/(.*?)/")
-  mark_component<-str_remove_all(mark_component, "components/|/")
-  mark_extracted_users <- str_extract(mark_changes$results$user, "/([^/]+)/$")
-  mark_extracted_users <- str_remove_all(mark_extracted_users, "/")
-  mark_extracted_lang <- str_extract(mark_changes$results$translation, "/([^/]+)/$")
-  mark_extracted_lang <- str_remove_all(mark_extracted_lang, "/")
-  mark_extracted_slug <- str_extract(mark_changes$results$component, "/([^/]+)/$")
-  mark_extracted_slug <- str_remove_all(mark_extracted_slug, "/")
-  mark_extracted_units<-str_extract(mark_changes$results$unit, "/([^/]+)/$")
-  mark_extracted_units<-str_remove_all(mark_extracted_units,"/")
-  mark_datetime <- as.POSIXct(mark_changes$results$timestamp, format = "%Y-%m-%dT%H:%M:%OSZ")
-  mark_datetime <- strptime(mark_datetime, format = "%Y-%m-%d %H:%M:%S")
-  
-  mark_date <- as.Date(mark_datetime)
-  
-  mark_time <- format(mark_datetime, format = "%H:%M:%S")
-  mark_languages<-numeric(length(mark_extracted_lang))
-  k=1
-  for(lan in mark_extracted_lang)
-  {
-    index<-which(lan==Language_Statistics$Code)
-    mark_languages[k]<-Language_Statistics[index,]$Name
-    k=k+1
-  }
-  
-  mark_extracted_lib<-numeric(length(mark_extracted_slug))
-  k=1
-  for(s in mark_extracted_slug)
-  {
-    index<-which(s==slugs)
-    mark_extracted_lib[k]<-name_of_libraries[index]
-    k=k+1
-  }
-  mark_users <- c(mark_users, mark_extracted_users)
-  mark_lang<-c(mark_lang,mark_languages)
-  mark_slug<-c(mark_slug,mark_extracted_slug)
-  mark_lib<-c(mark_lib,mark_extracted_lib)
-  mark_units<-c(mark_units,mark_extracted_units)
-  mark_dates<-c(mark_dates,mark_date)
-  mark_times<-c(mark_times,mark_time)
+  # each row is a unit: https://docs.weblate.org/en/latest/api.html#units
+  mark_lang_id <- match(mark_changes$results$language_code,
+                        Language_Statistics$Code)
+  mark_lang<-c(mark_lang,Language_Statistics$Name[mark_lang_id])
+  mark_lib_id <- match(basename(dirname(mark_changes$results$translation)),
+                       slugs)
+  mark_lib<-c(mark_lib, name_of_libraries[mark_lib_id])
+  # where there are multiple messages due to plurals, use the first
+  singular <- vapply(mark_changes$results$source, "[", character(1), 1)
+  mark_string<-c(mark_string,singular)
+  mark_units<-c(mark_units,mark_changes$results$id)
+  mark_web_url<-c(mark_web_url,mark_changes$results$web_url)
 }
-mark_data<-data.frame(user=mark_users,language=mark_lang,library=mark_lib,units=mark_units,date=mark_dates,time=mark_times)
-d_row<-duplicated(mark_data$units,fromLast = TRUE)
-mark_data<-mark_data[!d_row,]
-editing<-dim(mark_data)[1]
-
-###Translation changed
-# Only get changes since last time this script ran, with a little bit of wiggle room added.
-last_df <- readr::read_csv("New Translation.csv")
-max_date <- max(as.Date(last_df$date))
-max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
-changed_url<-"https://translate.rx.studio/api/projects/r-project/changes/?action=2"
-changed_url <- paste0(changed_url, "&timestamp_after=", max_date)
-
-print(paste("Querying endpoint", changed_url))
-changes_response <- curl_fetch_memory(changed_url, handle = h)
-
-changed <- rawToChar(changes_response$content)
-
-changed <- fromJSON(changed)
-changed_count<-changed$count
-changed_remain<-changed_count%%50
-changed_pages=0
-if(changed_remain==0)
-{
-  changed_pages<-changed_count/50
-}else
-{
-  changed_pages<-ceiling(changed_count/50)
-}
-changed_lang<-c()
-changed_users <- c()
-changed_lib<-c()
-changed_slug<-c()
-changed_units<-c()
-changed_timestamp<-c()
-changed_dates<-c()
-changed_times<-c()
-for(i in 1:changed_pages)
-{
-  
-  ch_url <- paste0(changed_url, "&page=", i)
-  
-  print(paste("Querying endpoint", ch_url))
-  ch_response <- curl_fetch_memory(ch_url, handle = h)
-  
-  ch_changes <- rawToChar(ch_response$content)
-  
-  ch_changes <- fromJSON(ch_changes)
-  ch_component<-str_extract(ch_changes$results$component, "components/(.*?)/")
-  ch_component<-str_remove_all(ch_component, "components/|/")
-  ch_units<-str_extract(ch_changes$results$unit, "/([^/]+)/$")
-  ch_units<-str_remove_all(ch_units,"/")
-  ch_users <- str_extract(ch_changes$results$user, "/([^/]+)/$")
-  ch_users <- str_remove_all(ch_users, "/")
-  ch_lang <- str_extract(ch_changes$results$translation, "/([^/]+)/$")
-  ch_lang <- str_remove_all(ch_lang, "/")
-  ch_slug <- str_extract(ch_changes$results$component, "/([^/]+)/$")
-  ch_slug <- str_remove_all(ch_slug, "/")
-  ch_units<-str_extract(ch_changes$results$unit, "/([^/]+)/$")
-  ch_units<-str_remove_all(ch_units,"/")
-  ch_datetime <- as.POSIXct(ch_changes$results$timestamp, format = "%Y-%m-%dT%H:%M:%OSZ")
-  ch_datetime <- strptime(ch_datetime, format = "%Y-%m-%d %H:%M:%S")
-  
-  ch_date <- as.Date(ch_datetime)
-  
-  ch_time <- format(ch_datetime, format = "%H:%M:%S")
-  ch_languages<-numeric(length(ch_lang))
-  k=1
-  for(lan in ch_lang)
-  {
-    index<-which(lan==Language_Statistics$Code)
-    ch_languages[k]<-Language_Statistics[index,]$Name
-    k=k+1
-  }
-  
-  ch_lib<-numeric(length(ch_slug))
-  k=1
-  for(s in ch_slug)
-  {
-    index<-which(s==slugs)
-    ch_lib[k]<-name_of_libraries[index]
-    k=k+1
-  }
-  changed_users <- c(changed_users, ch_users)
-  changed_lang<-c(changed_lang,ch_languages)
-  changed_slug<-c(changed_slug,ch_slug)
-  changed_lib<-c(changed_lib,ch_lib)
-  changed_units<-c(changed_units,ch_units)
-  changed_dates<-c(changed_dates,ch_date)
-  changed_times<-c(changed_times,ch_time)
-}
-changed_data<-data.frame(user=changed_users,language=changed_lang,library=changed_lib,units=changed_units,date=changed_dates,time=changed_times)
-du_row<-duplicated(changed_data$units,fromLast = TRUE)
-changed_data<-changed_data[!du_row,]
+mark_data<-data.frame(language=mark_lang,library=mark_lib,string=mark_string,
+                      id = mark_units,url=mark_web_url)
 
 ###Data Processing
 
-# if translation changed after marking for edit, remove from mark_data
-# otherwise remove from changed_data
-elements_changed<-intersect(mark_data$units,changed_data$units)
-indexes<-match(elements_changed,mark_data$units)
-indexes2<-match(elements_changed,changed_data$units)
-
-date_at_indexes<-as.Date(mark_data[indexes,]$date,origin="1970-01-01")
-time_at_indexes<-mark_data[indexes,]$time
-timestamp_at_indexes<-paste0(date_at_indexes," ",time_at_indexes)
-datetime_at_indexes <- as.POSIXct(timestamp_at_indexes, format = "%Y-%m-%d %H:%M:%S")
-
-date_at_indexes2<-as.Date(changed_data[indexes2,]$date,origin="1970-01-01")
-time_at_indexes2<-changed_data[indexes2,]$time
-timestamp_at_indexes2<-paste0(date_at_indexes2," ",time_at_indexes2)
-datetime_at_indexes2 <- as.POSIXct(timestamp_at_indexes2, format = "%Y-%m-%d %H:%M:%S")
-j<-c()
-k<-c()
-for(i in 1:length(indexes))
-{
-  if(timestamp_at_indexes2[i]>timestamp_at_indexes[i])
-  {
-    j<-c(j,i)
-  }else{
-    k<-c(k,i)
-  }
-}
-
-# remove records changed after marking for edit
-mark_data<-mark_data[-indexes[j],] 
-# remove records marked for edit after changing
-changed_data<-changed_data[-indexes2[k],]
-editing<-dim(mark_data)[1]
-
-# if new translation marked for edit, exclude from new translations
-# (because translation won't get used, string is not translated for user)
-translation_edited<-intersect(translated_data$units,mark_data$units)
-translated_indexes<-match(translation_edited,translated_data$units)
-translated_data<-translated_data[-translated_indexes,]
-
-# Append to previous runs
+# Append new translations to previously saved translations, remove duplicates
 translated_data_old <- readr::read_csv("New Translation.csv")
 translated_data <- rbind(translated_data_old, translated_data)
 
-mark_data_old <- readr::read_csv("Marked for Edit.csv")
-mark_data <- rbind(mark_data_old, mark_data)
-
-# Results retrieved from API will likely go back further in time than the last
-# time that this script was executed by CI/CD. It might just be by 12 hours, but
-# if the CI/CD fails or becomes intermittent it could be longer.
-# Whatever the case, remove duplicates caused by the overlap.
+# Remove duplicates and save, newest translations first
 translated_data <- translated_data[!duplicated(translated_data), ]
-mark_data <- mark_data[!duplicated(mark_data), ]
-
 write_csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
           "New Translation.csv")
-write_csv(mark_data[order(mark_data$date, decreasing = TRUE),], 
+
+# Overwrite previous record of translations marked for edit
+write_csv(mark_data[order(mark_data$language, mark_data$library),], 
           "Marked for Edit.csv")
 
 # Weblate action id and action names (can't find documented)
