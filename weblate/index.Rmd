@@ -804,47 +804,27 @@ subplot(plot_r,plot_c,nrows=2,margin = 0.07)
 Translations
 =====================================
 
-```{r}
-linked<-c()
-for(u in Marked_for_Edit$units)
-{
-url<-paste0("https://translate.rx.studio/api/units/",u,"/")
-h <- new_handle()
-handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
-handle_setopt(h, customrequest = "GET")
-handle_setopt(h, httpheader = c("Authorization: Token wlu_U8k6Kk12pyhXuBeXOP6imHRFiPrUMwHgHari"))
-
-res <- curl_fetch_memory(url, handle = h)
-content <- rawToChar(res$content)
-users_last <- fromJSON(content)
-linked<-c(linked,users_last$web_url)
-}
-data <- cbind(
-  Marked_for_Edit,links=NA
-)
-data$linked <- linked
-data$date<-as.Date(data$date)
-```
 Row 
 --------------------------------------------------------------------------------
 
 ### Translation in Weblate that require review
 
 ```{r}
+# add empty links column for link buttons
+Marked_for_Edit$links <- NA
 htmltools::div(
   style = "width: 100%;
           height:450px;
           overflow:auto;",
   reactable(
-    data,
+    Marked_for_Edit,
     filterable = TRUE,
     defaultColDef = colDef(show = TRUE),
     groupBy=c("language","library"),
     showPageSizeOptions = TRUE,
     pagination = TRUE,
     columns = list(
-      linked = colDef(show = FALSE),
-      units =colDef(name="Translation_message_id"),
+      url = colDef(show = FALSE),
       links = colDef(
         name = "",
         sortable = FALSE,
@@ -855,7 +835,7 @@ htmltools::div(
       if (column.id !== 'links') {
         return
       }
-      var link = rowInfo.row.linked;
+      var link = rowInfo.row.url;
       console.log(link);
       window.open(link, '_blank');
     }")
@@ -868,11 +848,15 @@ Row
 ### Growth of Translations over Last Year
 
 ```{r}
-all_date<-as.POSIXct.Date(New_Translation$date,origin="1970-01-01")
-all_date2<-as.POSIXct.Date(Marked_for_Edit$date,origin="1970-01-01")
-all_date<-c(all_date,all_date2)
+# Exclude new translations that are currently marked for edit
+# since they remain untranslated from user point of view
+exclude <- which(New_Translation$units %in% Marked_for_Edit$id)
+New_Translation<-New_Translation[-exclude,]
+
+New_Translation$date<-as.Date(New_Translation$date)
+
 # extract the year and month from each date
-year_month <- format(all_date, "%Y-%m")
+year_month <- format(New_Translation$date, "%Y-%m")
 
 # count the number of dates in each month
 date_counts <- table(year_month)
@@ -898,7 +882,6 @@ Row
 ### Translated
 
 ```{r}
-New_Translation$date<-as.Date(New_Translation$date)
 htmltools::div(
   style = "width: 100%;
           height:450px;
