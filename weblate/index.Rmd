@@ -848,11 +848,10 @@ Row
 ### Growth of Translations over Last Year
 
 ```{r}
-# Exclude new translations that are currently marked for edit
-# since they remain untranslated from user point of view
-exclude <- which(New_Translation$units %in% Marked_for_Edit$id)
-New_Translation<-New_Translation[-exclude,]
-
+# This is the date a translation was first added. May not be "growth" exactly
+# as translation won't be used if marked for edit. However, marked for edit 
+# status can change over time and hard to date when marked for edit status 
+# first removed as can't be detected from changes API
 New_Translation$date<-as.Date(New_Translation$date)
 
 # extract the year and month from each date
