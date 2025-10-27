@@ -2,14 +2,13 @@
 library(curl)
 library(jsonlite)
 library(stringr)
-library(readr)
-Language_Statistics <- read_csv("./../Language Statisitics/Language_Statistics_new.csv")
+Language_Statistics <- read.csv("./../Language Statisitics/Language_Statistics_new.csv")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
 # Get new translations (action = 5) for r-project project only
 # (See comments at end of file for actions)
 # And only get changes since last time this script ran, with a little bit of wiggle room added.
-last_df <- readr::read_csv("New Translation.csv")
+last_df <- read.csv("New Translation.csv")
 max_date <- max(as.Date(last_df$date))
 max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
 
@@ -110,9 +109,6 @@ for (i in 1:pages) {
   times<-c(times,time)
 }
 translated_data<-data.frame(user=users,language=lang,library=lib,units=units,date=dates,time=times)
-# can get duplication e.g. if someone accidentally added empty new translation
-dd<-duplicated(translated_data$units,fromLast = TRUE)
-translated_data<-translated_data[!dd,]
 
 ### Marked for edit 
 # Need to always download full set of "Marked for edit" translations, since 
@@ -171,18 +167,18 @@ mark_data<-data.frame(language=mark_lang,library=mark_lib,string=mark_string,
 
 ###Data Processing
 
-# Append new translations to previously saved translations, remove duplicates
-translated_data_old <- readr::read_csv("New Translation.csv")
-translated_data <- rbind(translated_data_old, translated_data)
+# Add new translations above previously saved translations
+translated_data_old <- read.csv("New Translation.csv")
+translated_data <- rbind(translated_data, translated_data_old)
 
-# Remove duplicates and save, newest translations first
+# Remove duplicated (identical) records and save, newest translations first
 translated_data <- translated_data[!duplicated(translated_data), ]
-write_csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
-          "New Translation.csv")
+write.csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
+          "New Translation.csv", quote = FALSE, row.names = FALSE)
 
 # Overwrite previous record of translations marked for edit
-write_csv(mark_data[order(mark_data$language, mark_data$library),], 
-          "Marked for Edit.csv")
+write.csv(mark_data[order(mark_data$language, mark_data$library),], 
+          "Marked for Edit.csv", quote = FALSE, row.names = FALSE)
 
 # Weblate action id and action names (can't find documented)
 # # Missing numbers do not appear in r-project project as of 2024-10-11
