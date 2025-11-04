@@ -6153,7 +6153,6 @@ English (United Kingdom),tools (R files),Missing link(s) in Rd file '%s':,271669
 English (United Kingdom),tools (R files),Non-topic package-anchored link(s) in Rd file '%s':,271670,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=15d70a6059333453
 English (United Kingdom),tools (R files),Found a .Internal call in methods for the following S4 generic:,271671,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=836bcc472f7712ec
 English (United Kingdom),utils (R files),Arguments of person() should be character or NULL,257355,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=81765e08458af93d
-French,The R Project for Statistical Computing,missing value,138132,https://translate.rx.studio/translate/r-project/glossary/fr/?checksum=75ae4b86ff26c4d2
 German,base (C files),input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8,143040,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=fa6ea6222ca33e93
 German,base (C files),cannot initialize zstd decompressor,270999,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=b6f671c040c17b58
 German,base (C files),cannot initialize zstd compressor,271000,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=95995e65519ec7d3
