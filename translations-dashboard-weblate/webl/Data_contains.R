@@ -1,0 +1,6 @@
+library(readr)
+Language_Statistics_new <- read_csv("Language Statisitics/Language_Statistics_new.csv")
+Library_Language_Statistics <- read_csv("Library Language Statistics/Library Language Statistics.csv")
+Marked_for_Edit <- read_csv("Recent Changes/Marked for Edit.csv")
+New_Translation <- read_csv("Recent Changes/New Translation.csv")
+Statistics <- read_csv("User Statistics/Statistics.csv")

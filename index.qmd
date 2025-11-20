@@ -1,0 +1,331 @@
+---
+title: "R Translations Status Dashboard"
+# logo: images/logo.png
+# nav-buttons: [github, twitter]
+format:
+  dashboard:
+    orientation: rows
+    vertical-layout: scroll
+    self-contained: false
+    favicon: null
+    include-in-header:
+      - fragments/ganalytics.html
+    include-after-body:
+      - fragments/afterInit.html
+    css:
+      - fragments/custom.css
+      - css/custom.css
+---
+
+To Do: 
+- change css (Daidai) 
+- change rows/sidebar/columns to quarto-friendly (Darakhshan)
+- work on creating ONE document with weblate and flexdashboard (Dionne)
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(crosstalk)
+library(tidyverse)
+library(htmltools)
+library(plotly)
+library(reactable)
+library(glue)
+source("R/global_translations.R")
+```
+
+Sidebar {.sidebar data-width=200}
+=====================================
+
+```{r, echo=FALSE, results='asis'}
+htmltools::includeHTML('fragments/sidebar.html')
+```
+
+Home
+=====================================
+
+
+Row
+-------------------------------------
+
+### Total Languages
+
+```{r}
+valueBox(total_lang, icon = "fa-language", color = "white")
+```
+
+### Translated Messages
+
+```{r}
+valueBox(total_trans_msg, icon = "fa-comment", color = "white")
+```
+
+### Untranslated Messages
+
+```{r}
+valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
+```
+
+### Fuzzy Messages
+
+```{r}
+valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
+```
+
+Row {data-height=70}
+-----------------------------------------------------------------------
+
+```{r data}
+trans_stats <- SharedData$new(final_df)
+```
+
+```{r filters}
+
+# Filter Select Input - Language
+filter_select(id = "language", 
+              label = "Select Translation Language",
+              sharedData = trans_stats, 
+              group = ~language)
+
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
+
+```{r}
+trans_stats <- plot_ly(trans_stats, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
+trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xaxis = list(title = "Packages"), barmode = 'group')
+trans_stats
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Count of Translated Messages | <small> Across Packages </small>
+
+```{r}
+complete_trans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "translated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      translated_count = colDef(
+        name = "Translated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_trans_df$translated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+### Count of Untranslated Messages | <small> Across Packages </small>
+
+```{r}
+complete_untrans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "untranslated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        name = "Untranslated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_untrans_df$untranslated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Percentage Distribution of Message Translation | <small> Across Packages </small>
+
+```{r}
+final_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      fuzzy_count = colDef(
+        show = FALSE
+      ),
+      pc_trans_count = colDef(
+        name = "Translated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_untrans_count = colDef(
+        name = "Untranslated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_fuzzy_count = colDef(
+        name = "Fuzzy Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#241327"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+Row {data-height=100}
+-----------------------------------------------------------------------
+
+### Dashboard Updates
+
+```{r}
+ gh_endpoint <- "https://api.github.com/repos/r-devel/translations/commits?path=message_status.csv&page=1&per_page=1"
+ last_update_date <- get_last_data_update(gh_endpoint)
+ glue::glue("This page was last updated on: ", {last_update_date})
+```
+
+
+
+
+R Translation Teams
+=====================================
+
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### R Translation Teams | <small> Contact Details </small>
+
+```{r}
+translation_teams %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      Language = colDef(
+        name = "Translation Languages",
+        filterable = TRUE,
+      ),
+      Members = colDef(
+        name = "R-Core Lead Maintainers",
+        filterable = TRUE,
+      ),
+      Contact = colDef(
+        name = "Email Contacts",
+        filterable = TRUE,
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+```{js}
+```
