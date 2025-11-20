@@ -169,59 +169,14 @@ mark_data<-data.frame(language=mark_lang,library=mark_lib,string=mark_string,
 ###Data Processing
 
 # Add new translations above previously saved translations
-translated_data_old <- read.csv("New Translation.csv")
+translated_data_old <- read.csv("new_translation.csv")
 translated_data <- rbind(translated_data, translated_data_old)
 
 # Remove duplicated (identical) records and save, newest translations first
 translated_data <- translated_data[!duplicated(translated_data), ]
 write.csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
-          "New Translation.csv", quote = FALSE, row.names = FALSE)
+          "new_translation.csv", quote = FALSE, row.names = FALSE)
 
 # Overwrite previous record of translations marked for edit
 write.csv(mark_data[order(mark_data$language, mark_data$library),], 
-          "Marked for Edit.csv", quote = FALSE, row.names = FALSE)
-
-# Weblate action id and action names (can't find documented)
-# # Missing numbers do not appear in r-project project as of 2024-10-11
-# 2 Translation changed 
-# 3 Comment added 
-# 4 Suggestion added 
-# 5 New translation 
-# 6 Automatic translation 
-# 7 Suggestion accepted 
-# 8 Translation reverted 
-# 9 Translation uploaded 
-# 13 New source string 
-# 14 Component locked 
-# 15 Component unlocked 
-# 16 Found duplicated string 
-# 17 Committed changes 
-# 18 Pushed changes 
-# 21 Rebased repository 
-# 22 Failed merge on repository 
-# 23 Failed rebase on repository 
-# 24 Parse error 
-# 26 Suggestion removed 
-# 27 Search and replace 
-# 28 Failed push on repository 
-# 29 Suggestion removed during cleanup 
-# 30 Source string changed 
-# 31 New string added 
-# 34 Added user 
-# 36 Translation approved 
-# 37 Marked for edit 
-# 38 Removed component 
-# 40 Found duplicated language 
-# 42 Renamed component 
-# 44 New strings to translate 
-# 45 New contributor 
-# 47 New alert 
-# 48 Added new language 
-# 50 Created project 
-# 51 Created component
-# 59 String updated in the repository 
-# 60 Add-on installed 
-# 61 Add-on configuration changed 
-# 63 Removed string 
-# 64 Removed comment 
-# 65 Resolved comment 
+          "marked_for_edit.csv", quote = FALSE, row.names = FALSE)

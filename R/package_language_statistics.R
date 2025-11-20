@@ -55,4 +55,4 @@ for(i in 1:libraries_count)
   df<-data.frame(S.no=seq(1,lang_count[i]),Library=name_of_libraries[i],Component=component[i],Language=lang[[i]],Total_words =total[[i]],Translated=translated[[i]],Untranslated=untranslated[[i]],Fuzzy=fuzzy[[i]])
   data<-rbind(data,df)
 }
-write.csv(data,"data/library_language_statistics.csv")
+write.csv(data,"data/package_language_statistics.csv")

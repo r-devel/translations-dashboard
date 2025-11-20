@@ -170,5 +170,5 @@ for(time in as.POSIXct(data2$Last_Activity,format = "%Y-%m-%dT%H:%M:%OSZ", tz = 
   k=k+1
 }
 data2$Active<-active
-write_csv(data2, "data/statistics.csv")
+write_csv(data2, "data/user_statistics.csv")
 

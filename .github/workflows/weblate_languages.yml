@@ -7,7 +7,7 @@ on:
     branches:
       - dev
     paths:
-      - "R/languages_statistics.R"
+      - "R/language_statistics.R"
       - ".github/workflows/weblate_languages.yml"
 jobs:
   Running_R_scripts:
@@ -28,7 +28,7 @@ jobs:
       env: 
         WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
       run: | 
-        Rscript R/languages_statistics.R
+        Rscript R/language_statistics.R
       
     - name: Commit and Push Any Changes
       run: |

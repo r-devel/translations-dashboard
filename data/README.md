@@ -10,7 +10,7 @@ This folder contains the data used for the translation dashboards.
 - **language_statistics.csv**  
   Data about all supported languages, including their identifiers, translation progress metrics, and the timestamp of the last update.
 
-- **message_status.csv**  
+- **translation_status.csv**  
   The current status of each message, by language.
 
 - **marked_for_edit.csv**  
@@ -22,5 +22,5 @@ This folder contains the data used for the translation dashboards.
 - **new_translation.csv**  
   Recent translation activity by user and message, with timestamps.
 
-- **statistics.csv**  
+- **user_statistics.csv**  
   List of translators and their contribution statistics.

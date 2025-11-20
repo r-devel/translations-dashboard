@@ -141,4 +141,4 @@ message_status <- bind_rows(message_status, missing_status) |>
     arrange(package, component, language) |>
     select(-pot)
 
-write_csv(message_status,"data/message_status.csv")
+write_csv(message_status,"data/translation_status.csv")
