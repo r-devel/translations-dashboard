@@ -1,5 +1,5 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
-1,Anonymous,anonymous,0,0,character(0),2025-11-09T23:24:23.470332Z,2022-08-30T14:20:03.409262Z,Unbegun
+1,Anonymous,anonymous,0,0,character(0),2025-11-20T04:14:18.819442Z,2022-08-30T14:20:03.409262Z,Unbegun
 2,Weblate Admin,daroczig,26,1,Hungarian,2025-08-14T00:04:06.723676Z,2022-05-26T10:44:35.658195Z,Inactive
 3,Deleted User,deleted-3,0,0,character(0),N/A,N/A,Unbegun
 4,Deleted User,deleted-4,0,0,character(0),N/A,N/A,Unbegun
@@ -129,3 +129,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 128,Erika Siregar,erikaris,264,1,Indonesian,2025-09-12T13:55:43.388110Z,2025-09-12T09:06:13.321945Z,Active
 129,Kiran Phalke,phalkekp,59,1,Japanese,2025-09-12T13:29:54.099873Z,2025-09-12T09:56:46.704653Z,Active
 130,Derek Wright,derekwright,44,2,"c(""Portuguese (Brazil)"", ""Russian"")",2025-10-08T11:26:04.712356Z,2025-10-07T14:20:01.487291Z,Active
+131,Alwin Wang,alwinw,0,0,character(0),N/A,N/A,Unbegun
