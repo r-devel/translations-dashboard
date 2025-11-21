@@ -25,8 +25,6 @@ changes <- fetch_response_as_json(endpoint = changes_url, handle = h)
 libraries_url <- "https://translate.rx.studio/api/projects/r-project/components/"
 libraries <- fetch_response_as_json(endpoint = libraries_url, handle = h)
 
-
-libraries_count <- libraries$count
 slugs <- libraries$results$slug
 name_of_libraries <- libraries$results$name
 count <- changes$count
