@@ -2,11 +2,14 @@
 library(curl)
 library(jsonlite)
 library(stringr)
+
+list.files("../R/", full.names = TRUE) |> lapply(source)
 Language_Statistics <- read.csv(
   "./../Language Statisitics/Language_Statistics_new.csv"
 )
-R.utils::sourceDirectory("./../R/")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
+
+
 h <- get_auth_handle(API_TOKEN)
 
 
@@ -20,23 +23,23 @@ max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
 changes_url <- "https://translate.rx.studio/api/projects/r-project/changes/?action=5"
 changes_url <- paste0(changes_url, "&timestamp_after=", max_date)
 
-changes <- fetch_response_as_json(endpoint = changes_url, handle = h)
+changes <- fetch_response_content(endpoint = changes_url, handle = h)
+pages <- calculate_n_pages(changes$count)
+
+## returns list of page content
+changes_pages <- fetch_pages_content(
+  n_pages = pages,
+  endpoint = changes_url,
+  handle = h
+)
+###
 
 libraries_url <- "https://translate.rx.studio/api/projects/r-project/components/"
-libraries <- fetch_response_as_json(endpoint = libraries_url, handle = h)
+libraries <- fetch_response_content(endpoint = libraries_url, handle = h)
 
-
-libraries_count <- libraries$count
 slugs <- libraries$results$slug
 name_of_libraries <- libraries$results$name
-count <- changes$count
-remain <- count %% 50
-pages <- 0
-if (remain == 0) {
-  pages <- count / 50
-} else {
-  pages <- ceiling(count / 50)
-}
+
 lang <- c()
 users <- c()
 lib <- c()
@@ -45,58 +48,33 @@ units <- c()
 timestamp <- c()
 dates <- c()
 times <- c()
-for (i in 1:pages) {
-  ### split loop into section 1 that gets all responses (3 lines below)
-  pages_url <- paste0(changes_url, "&page=", i)
-  print(paste("Querying endpoint", pages_url))
-  pages_response <- curl_fetch_memory(pages_url, handle = h)
 
-  pages_changes <- rawToChar(pages_response$content)
-  pages_changes <- fromJSON(pages_changes)
-  component <- str_extract(pages_changes$results$component, "components/(.*?)/")
-  component <- str_remove_all(component, "components/|/")
-  extracted_users <- str_extract(pages_changes$results$user, "/([^/]+)/$")
-  extracted_users <- str_remove_all(extracted_users, "/")
-  extracted_lang <- str_extract(pages_changes$results$translation, "/([^/]+)/$")
-  extracted_lang <- str_remove_all(extracted_lang, "/")
-  extracted_slug <- str_extract(pages_changes$results$component, "/([^/]+)/$")
-  extracted_slug <- str_remove_all(extracted_slug, "/")
-  extracted_units <- str_extract(pages_changes$results$unit, "/([^/]+)/$")
-  extracted_units <- str_remove_all(extracted_units, "/")
-  datetime <- as.POSIXct(
-    pages_changes$results$timestamp,
-    format = "%Y-%m-%dT%H:%M:%OSZ"
+
+for (changes_page in changes_pages) {
+  page_data <- process_page_response(changes_page)
+
+  languages <- match_language_names(
+    page_data$extracted_lang,
+    Language_Statistics
   )
-  datetime <- strptime(datetime, format = "%Y-%m-%d %H:%M:%S")
 
-  date <- as.Date(datetime)
-
-  time <- format(datetime, format = "%H:%M:%S")
-  
-  languages <- match_language_names(extracted_lang, Language_Statistics)
-
-  extracted_lib <- numeric(length(extracted_slug))
+  extracted_lib <- numeric(length(page_data$extracted_slug))
   k <- 1
-  for (s in extracted_slug) {
+  for (s in page_data$extracted_slug) {
     index <- which(s == slugs)
     extracted_lib[k] <- name_of_libraries[index]
     print(k)
     k <- k + 1
   }
-  users <- c(users, extracted_users)
+  users <- c(users, page_data$extracted_users)
   lang <- c(lang, languages)
-  slug <- c(slug, extracted_slug)
+  slug <- c(slug, page_data$extracted_slug)
   lib <- c(lib, extracted_lib)
-  units <- c(units, extracted_units)
-  dates <- c(dates, date)
-  times <- c(times, time)
-  lang <- c(lang, languages)
-  slug <- c(slug, extracted_slug)
-  lib <- c(lib, extracted_lib)
-  units <- c(units, extracted_units)
-  dates <- c(dates, date)
-  times <- c(times, time)
+  units <- c(units, page_data$extracted_units)
+  dates <- c(dates, page_data$date)
+  times <- c(times, page_data$time)
 }
+
 translated_data <- data.frame(
   user = users,
   language = lang,
@@ -106,8 +84,8 @@ translated_data <- data.frame(
   time = times
 )
 
-### Marked for edit 
-# Need to always download full set of "Marked for edit" translations, since 
+### Marked for edit
+# Need to always download full set of "Marked for edit" translations, since
 # there is no robust way to track newly marked/unmarked
 # (status can be changed by updates to the repository vs user action)
 edit_url <- "https://translate.rx.studio/api/units/"
@@ -119,7 +97,6 @@ edits <- fetch_response_as_json(endpoint = edit_url, handle = h)
 edit_pages <- ceiling(edits$count/200)
 mark_data <- do.call(rbind, lapply(seq_len(edit_pages), mark_page, edit_url, 
                                    Language_Statistics))
-
 
 ###Data Processing
 
