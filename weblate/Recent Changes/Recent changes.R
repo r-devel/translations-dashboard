@@ -8,7 +8,7 @@ Language_Statistics <- read.csv(
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 h <- get_auth_handle(API_TOKEN)
 
-R.utils::sourceDirectory("./../R")
+R.utils::sourceDirectory("./../R/")
 
 # Get new translations (action = 5) for r-project project only
 # (See comments at end of file for actions)
@@ -20,10 +20,10 @@ max_date <- format(max_date - 1, "%Y-%m-%dT%H:%M:%SZ")
 changes_url <- "https://translate.rx.studio/api/projects/r-project/changes/?action=5"
 changes_url <- paste0(changes_url, "&timestamp_after=", max_date)
 
-changes <- fetch_responses_as_json(endpoint = changes_url, handle = h)
+changes <- fetch_response_as_json(endpoint = changes_url, handle = h)
 
 libraries_url <- "https://translate.rx.studio/api/projects/r-project/components/"
-libraries <- fetch_responses_as_json(endpoint = libraries_url, handle = h)
+libraries <- fetch_response_as_json(endpoint = libraries_url, handle = h)
 
 
 libraries_count <- libraries$count
