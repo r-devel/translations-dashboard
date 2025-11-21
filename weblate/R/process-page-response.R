@@ -4,7 +4,7 @@
 #'
 #' @returns A list.
 #' @export
-process_page_response <- function(pages_changes) {
+process_page_response <- function(page) {
   ### ... and second section which processes all page responses
   # - also avoid use of stringr to avoid dependency
   # page_changes <- rawToChar(page_response$content)
@@ -20,19 +20,19 @@ process_page_response <- function(pages_changes) {
   # extracted_units <- str_extract(page_changes$results$unit, "/([^/]+)/$")
   # extracted_units <- str_remove_all(extracted_units, "/")
 
-  component <- extract_str(pages_changes$results$component, "components/(.*?)/")
+  component <- extract_str(page$results$component, "components/(.*?)/")
   component <- gsub("components/|/", "", component)
-  extracted_users <- extract_str(pages_changes$results$user, "/([^/]+)/$")
+  extracted_users <- extract_str(page$results$user, "/([^/]+)/$")
   extracted_users <- gsub("/", "", extracted_users)
-  extracted_lang <- extract_str(pages_changes$results$translation, "/([^/]+)/$")
+  extracted_lang <- extract_str(page$results$translation, "/([^/]+)/$")
   extracted_lang <- gsub("/", "", extracted_lang)
-  extracted_slug <- extract_str(pages_changes$results$component, "/([^/]+)/$")
+  extracted_slug <- extract_str(page$results$component, "/([^/]+)/$")
   extracted_slug <- gsub("/", "", extracted_slug)
-  extracted_units <- extract_str(pages_changes$results$unit, "/([^/]+)/$")
+  extracted_units <- extract_str(page$results$unit, "/([^/]+)/$")
   extracted_units <- gsub("/", "", extracted_units)
 
   datetime <- as.POSIXct(
-    pages_changes$results$timestamp,
+    page$results$timestamp,
     format = "%Y-%m-%dT%H:%M:%OSZ"
   )
   datetime <- strptime(datetime, format = "%Y-%m-%d %H:%M:%S")
