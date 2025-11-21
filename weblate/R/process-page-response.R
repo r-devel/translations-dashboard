@@ -1,0 +1,82 @@
+#' Extract and clean data from a page
+#'
+#' @param pages_changes
+#'
+#' @returns A list.
+#' @export
+process_page_response <- function(pages_changes) {
+  ### ... and second section which processes all page responses
+  # - also avoid use of stringr to avoid dependency
+  # page_changes <- rawToChar(page_response$content)
+  # page_changes <- fromJSON(page_changes)
+  # component <- str_extract(page_changes$results$component, "components/(.*?)/")
+  # component <- str_remove_all(component, "components/|/")
+  # extracted_users <- str_extract(page_changes$results$user, "/([^/]+)/$")
+  # extracted_users <- str_remove_all(extracted_users, "/")
+  # extracted_lang <- str_extract(page_changes$results$translation, "/([^/]+)/$")
+  # extracted_lang <- str_remove_all(extracted_lang, "/")
+  # extracted_slug <- str_extract(page_changes$results$component, "/([^/]+)/$")
+  # extracted_slug <- str_remove_all(extracted_slug, "/")
+  # extracted_units <- str_extract(page_changes$results$unit, "/([^/]+)/$")
+  # extracted_units <- str_remove_all(extracted_units, "/")
+
+  component <- extract_str(pages_changes$results$component, "components/(.*?)/")
+  component <- gsub("components/|/", "", component)
+  extracted_users <- extract_str(pages_changes$results$user, "/([^/]+)/$")
+  extracted_users <- gsub("/", "", extracted_users)
+  extracted_lang <- extract_str(pages_changes$results$translation, "/([^/]+)/$")
+  extracted_lang <- gsub("/", "", extracted_lang)
+  extracted_slug <- extract_str(pages_changes$results$component, "/([^/]+)/$")
+  extracted_slug <- gsub("/", "", extracted_slug)
+  extracted_units <- extract_str(pages_changes$results$unit, "/([^/]+)/$")
+  extracted_units <- gsub("/", "", extracted_units)
+
+  datetime <- as.POSIXct(
+    pages_changes$results$timestamp,
+    format = "%Y-%m-%dT%H:%M:%OSZ"
+  )
+  datetime <- strptime(datetime, format = "%Y-%m-%d %H:%M:%S")
+  date <- as.Date(datetime)
+  time <- format(datetime, format = "%H:%M:%S")
+
+  list(
+    extracted_users = extracted_users,
+    extracted_lang = extracted_lang,
+    extracted_slug = extracted_slug,
+    extracted_units = extracted_units,
+    date = date,
+    time = time
+  )
+}
+
+
+#' Basically the same as stringr::str_extract()
+#'
+#' @param x A character vector.
+#' @param pattern A regular expression.
+#'
+#' @returns A character vector.
+#'
+#' @examples
+#' extract_str(c('test1', 'apple'), 'app')
+extract_str <- function(x, pattern) {
+  unname(sapply(x, function(.x) extract_str_or_na(.x, pattern)))
+}
+
+
+#' Extract the string given a pattern and return NA if no match.
+#'
+#' @param i A character.
+#' @param pattern A regular expression.
+#'
+#' @returns A character.
+#'
+#' @examples
+#' extract_str_or_na('apple', 'app')
+extract_str_or_na <- function(i, pattern) {
+  m <- unlist(regmatches(i, gregexpr(pattern, i)))
+  if (length(m) == 0) {
+    return(NA_character_)
+  }
+  m
+}
