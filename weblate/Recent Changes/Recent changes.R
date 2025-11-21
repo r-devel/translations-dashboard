@@ -1,7 +1,6 @@
 # Required libraries
 library(curl)
 library(jsonlite)
-library(stringr)
 
 list.files("../R/", full.names = TRUE) |> lapply(source)
 Language_Statistics <- read.csv(
