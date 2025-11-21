@@ -9,13 +9,13 @@ format:
     vertical-layout: scroll
     self-contained: false
     favicon: null
-    include-in-header:
-      - fragments/ganalytics.html
-    include-after-body:
-      - fragments/afterInit.html
-    css:
-      - fragments/custom.css
-      - css/custom.css
+    # include-in-header:
+    #   - fragments/ganalytics.html
+    # include-after-body:
+    #   - fragments/afterInit.html
+    # css:
+    #   - fragments/custom.css
+    #   - css/custom.css
     nav-buttons:
       - github
       - icon: github
@@ -23,53 +23,19 @@ format:
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard)
-library(crosstalk)
-library(tidyverse)
-library(htmltools)
-library(plotly)
-library(reactable)
-library(glue)
-library(fontawesome)
-library(dplyr)
-library(DT)
-library(reshape2)
-library(formattable)
-library(htmlwidgets)
-library(curl)
-library(lubridate)
-library(jsonlite)
-
-source("R/global_translations.R")
-source("webl/Data_contains.R")
-
-compute_active <- function() {
-  active_count<-nrow(subset(Statistics,Active=="Active"))
-  total<-nrow(Statistics)
-  return(active_count*100/total)
-}
-compute_inactive <- function() {
-  inactive_count<-nrow(subset(Statistics,Active=="Inactive"))
-  total<-nrow(Statistics)
-  return(inactive_count*100/total)
-}
-compute_unbegun <- function() {
-  unbegun_count<-nrow(subset(Statistics,Active=="Unbegun"))
-  total<-nrow(Statistics)
-  return(unbegun_count*100/total)
-}
+source("R/packages.R")    # loads packages
+source("R/load_data.R")   # loads data, custom functions and global translations 
 ```
 
-## {.sidebar}
+<!-- # {.sidebar} -->
 
-```{r, echo=FALSE, results='asis'}
-htmltools::includeHTML('fragments/sidebar.html')
-```
+<!-- ```{r, echo=FALSE, results='asis'} -->
+<!-- htmltools::includeHTML('fragments/sidebar.html') -->
+<!-- ``` -->
 
 # Home {orientation="columns" scrolling="true"}
 
-Row
--------------------------------------
+## Row 
 
 ### Total Languages
 
@@ -95,8 +61,7 @@ valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
 valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
 ```
 
-Row {data-height=70}
------------------------------------------------------------------------
+## Row {height=70}
 
 ```{r data}
 trans_stats <- SharedData$new(final_df)
@@ -112,8 +77,7 @@ filter_select(id = "language",
 
 ```
 
-Row {data-height=450}
------------------------------------------------------------------------
+## Row {height=450}
 
 ### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
 
@@ -125,8 +89,7 @@ trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xax
 trans_stats
 ```
 
-Row {data-height=450}
------------------------------------------------------------------------
+## Row {height=450}
 
 ### Count of Translated Messages | <small> Across Packages </small>
 
@@ -301,8 +264,7 @@ final_df %>%
   )
 ```
 
-Row {data-height=100}
------------------------------------------------------------------------
+## Row {height=100}
 
 ### Dashboard Updates
 
@@ -321,10 +283,7 @@ Row {data-height=100}
 
 # Languages {orientation="columns" scrolling="true"}
 
-=====================================
-Row 
----------------------------------------------------------------
---------
+## Row
 
 ### Total Languages
 
@@ -349,8 +308,7 @@ valueBox(sum(Language_Statistics_new$Untranslated), icon = "fa-comment-slash", c
 valueBox(sum(Language_Statistics_new$Fuzzy), icon = "fa-puzzle-piece", color = "white")
 ```
 
-Row{data-height=800px}
------------------------------------------------------------------------
+## Row {height=800px}
 
 ### Languages V/S Translations
 
@@ -387,6 +345,7 @@ p <- ggplot(df_long, aes(x = Name, y = value, fill = variable)) +
 p
 # p_plotly <- ggplotly(p)
 ```
+
 This graph depicts the translation status of each language.
 
 This graph gives a clear idea of which languages require more attention.
@@ -395,8 +354,8 @@ This graph gives a clear idea of which languages require more attention.
 # p <- p_plotly %>% layout(xaxis = list(tickfont = list(size = 10),titlefont = list(size = 1)),yaxis = list(tickfont = list(size = 10)),legend=list(font=list(size=10),title=list(font=list(size=16))))
 p
 ```
-Row
-----------------------------------------------------------------------------
+
+## Row
 
 ### Population V/S Translations
 ```{r}
@@ -423,8 +382,7 @@ Row
 
 ```
 
-Row
------------------------------------------------------------------------
+## Row
 
 ### Languages V/S Translation Status
 
@@ -436,8 +394,7 @@ plot_trans
 ```
 
 
-Row {data-height=450}
------------------------------------------------------------------------
+## Row {height=450}
 
 ### Languages V/S Users
 
@@ -474,14 +431,15 @@ formattable(counting,list(Population = color_tile("white", "orange"),area(col = 
                          x ~ icontext(ifelse(x, "ok", "remove"), ifelse(x, "Yes", "No")))
 )) 
 ```
+
 *The Languages marked in RED have no Contributors.
+
 ```{css,echo=FALSE}
 .bootstrap-table{
 overflow-y: scroll !important; 
 height: 450px;
 }
 ```
-
 
 # Leaderboard {orientation="columns" scrolling="true"}
 

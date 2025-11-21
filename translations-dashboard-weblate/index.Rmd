@@ -20,6 +20,8 @@ library(htmltools)
 library(plotly)
 library(reactable)
 library(glue)
+library(fontawesome)
+library(dplyr)
 source("R/global_translations.R")
 ```
 
