@@ -1,20 +1,5 @@
 ---
 title: "R Translations Status Dashboard"
-# logo: images/logo.png
-# nav-buttons: [github, twitter]
-format:
-  dashboard:
-    orientation: rows
-    vertical-layout: scroll
-    self-contained: false
-    favicon: null
-    include-in-header:
-      - fragments/ganalytics.html
-    include-after-body:
-      - fragments/afterInit.html
-    css:
-      - fragments/custom.css
-      - css/custom.css
 ---
 
 To Do: 
@@ -32,6 +17,12 @@ library(reactable)
 library(glue)
 source("R/global_translations.R")
 ```
+
+<!-- # Flippers {orientation="columns" scrolling="true"} -->
+
+
+## {.sidebar}
+
 
 Sidebar {.sidebar data-width=200}
 =====================================
