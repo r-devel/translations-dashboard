@@ -1,5 +1,14 @@
-collect_page_changes <- function(changes_page, language_file = NULL) {
-  stopifnot("language_file must be provided" = !is.null(language_file))
+collect_page_changes <- function(
+  changes_page,
+  language_file = NULL,
+  slugs = NULL,
+  name_of_libraries = NULL
+) {
+  stopifnot(
+    "language_file must be provided" = !is.null(language_file),
+    "slugs must be provided" = !is.null(slugs),
+    "name_of_libraries must be provided" = !is.null(name_of_libraries)
+  )
   page_data <- process_page_response(changes_page)
 
   languages <- match_language_names(

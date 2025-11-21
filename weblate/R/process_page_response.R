@@ -5,21 +5,6 @@
 #' @returns A list.
 #' @export
 process_page_response <- function(page) {
-  ### ... and second section which processes all page responses
-  # - also avoid use of stringr to avoid dependency
-  # page_changes <- rawToChar(page_response$content)
-  # page_changes <- fromJSON(page_changes)
-  # component <- str_extract(page_changes$results$component, "components/(.*?)/")
-  # component <- str_remove_all(component, "components/|/")
-  # extracted_users <- str_extract(page_changes$results$user, "/([^/]+)/$")
-  # extracted_users <- str_remove_all(extracted_users, "/")
-  # extracted_lang <- str_extract(page_changes$results$translation, "/([^/]+)/$")
-  # extracted_lang <- str_remove_all(extracted_lang, "/")
-  # extracted_slug <- str_extract(page_changes$results$component, "/([^/]+)/$")
-  # extracted_slug <- str_remove_all(extracted_slug, "/")
-  # extracted_units <- str_extract(page_changes$results$unit, "/([^/]+)/$")
-  # extracted_units <- str_remove_all(extracted_units, "/")
-
   component <- extract_str(page$results$component, "components/(.*?)/")
   component <- gsub("components/|/", "", component)
   extracted_users <- extract_str(page$results$user, "/([^/]+)/$")
