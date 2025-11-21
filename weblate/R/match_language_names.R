@@ -10,7 +10,7 @@
 #'
 #' @examples
 #' extracted_lang <- c('ar', 'bn', 'ca')
-#' languages <- match_language_names(extracted_lang, Language_Statistics_new)
+#' languages <- match_language_names(extracted_lang, Language_Statistics)
 match_language_names <- function (extracted_language_codes,
                                   language_file) {
   lang_codes <- match(extracted_language_codes, language_file$Code)
