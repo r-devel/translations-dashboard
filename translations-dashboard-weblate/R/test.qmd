@@ -1,0 +1,42 @@
+---
+title: "test"
+format:
+  dashboard:
+    orientation: rows
+    scrolling: true 
+---
+ 
+## Row {.tabset}
+
+### Language
+
+:::::: {.rows}
+
+::::: {.card height="20%"}
+```{r}
+print("Row = 20%")
+```
+:::::
+
+:::: {.columns}
+
+::: {.rows}
+```{r}
+print("Column = 50%")
+```
+```{r}
+print("Column = 50%")
+```
+:::
+
+```{r}
+print("Column = 50%")
+```
+
+::::
+
+::::::
+
+### Test
+
+{{< lipsum >}}
