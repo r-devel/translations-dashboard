@@ -72,17 +72,8 @@ for (i in 1:pages) {
   date <- as.Date(datetime)
 
   time <- format(datetime, format = "%H:%M:%S")
-  languages <- numeric(length(extracted_lang))
-
-  # vectorise this section
-  ###
-  k <- 1
-  for (lan in extracted_lang) {
-    index <- which(lan == Language_Statistics$Code)
-    languages[k] <- Language_Statistics[index, ]$Name
-    k <- k + 1
-  }
-  ###
+  
+  languages <- match_language_names(extracted_lang, Language_Statistics)
 
   extracted_lib <- numeric(length(extracted_slug))
   k <- 1
@@ -159,11 +150,12 @@ for (i in 1:edit_pages) {
 
   mark_changes <- fromJSON(mark_changes)
   # each row is a unit: https://docs.weblate.org/en/latest/api.html#units
-  mark_lang_id <- match(
-    mark_changes$results$language_code,
-    Language_Statistics$Code
+
+  mark_lang <- match_language_names(
+    mark_changes$results$language_code, 
+    Language_Statistics
   )
-  mark_lang <- c(mark_lang, Language_Statistics$Name[mark_lang_id])
+  
   mark_lib_id <- match(
     basename(dirname(mark_changes$results$translation)),
     slugs
