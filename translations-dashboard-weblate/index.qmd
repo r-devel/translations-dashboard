@@ -468,7 +468,7 @@ height: 450px;
 
 ### Leaderboard
 
-#### Row {height=40%}
+:::::: {.rows}
 
 ##### Weblate Leaderboard
 
@@ -660,63 +660,54 @@ function renderMovie(cellInfo) {
 }
 ```
 
-#### Row {height="20%"}
+::: {.columns}
 
-##### Column
-
-###### Active Users
-
-```{r}
+```{r active users}
+#| title: "Active Users"
 active <- compute_active()
 gauge(active, min = 0, max = 100, symbol = '%', gaugeSectors(
   success = c(50, 100), warning = c(30,50), danger = c(0, 30)
 ))
 ```
 
-###### Inactive Users
-
-```{r}
+```{r inactive users}
+#| title: "Inactive Users"
 inactive <- compute_inactive()
 gauge(inactive, min = 0, max = 100, symbol = '%', gaugeSectors(
   success = c(0,20), warning = c(20,50), danger = c(50, 100)
 ))
 ```
-###### Unbegun Users
 
-```{r}
+```{r unbegun users}
+#| title: "Unbegun Users"
 unbegun <- compute_unbegun()
 gauge(unbegun, min = 0, max = 50, symbol = '%', gaugeSectors(
   success = c(0,5), warning = c(5,15), danger = c(15,50)
 ))
 ```
 
+:::
 
-#### Row {height = "10%"}
+::: {.columns}
 
-#### Column
-
-###### primary
 ```{r}
+#| title: "Primary"
 valueBox(nrow(subset(Statistics,Active=="Active")), caption = "Active Users", icon = "fa-solid fa-users")
 ```
 
-###### Warning
-
 ```{r}
+#| title: "Warning"
 valueBox(nrow(subset(Statistics,Active=="Inactive")), caption = "Inactive Users", color = "warning", icon = "fa-solid fa-user-minus")
 ```
 
-###### Danger
-
 ```{r}
+#| title: "Danger"
 valueBox(nrow(subset(Statistics,Active=="Unbegun")), caption = "Unbegun users", color = "danger", icon = "fa-solid fa-user-slash")
 ```
-
-#### Row {height = "30%"}
-
-##### Graph of Top 10 Users vs Translation 
+:::
 
 ```{r}
+#| title: "Graph of Top 10 Users vs Translation"
 fig <- plot_ly(boards[1:10,], x = ~name, y = ~translated, type = 'bar', color=~name)
 fig <- fig %>% layout(xaxis = list(title = "Name", tickangle = -45,categoryorder = "total descending"),
          yaxis = list(title = "Translations"),
@@ -725,6 +716,8 @@ fig <- fig %>% layout(xaxis = list(title = "Name", tickangle = -45,categoryorder
 fig
 
 ```
+
+::::::
 
 ### Library
 
