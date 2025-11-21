@@ -6193,6 +6193,7 @@ German,tools (R files),Missing link(s) in Rd file '%s':,271664,https://translate
 German,tools (R files),Non-topic package-anchored link(s) in Rd file '%s':,271665,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=15d70a6059333453
 German,tools (R files),Found a .Internal call in methods for the following S4 generic:,271666,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=836bcc472f7712ec
 German,utils (R files),Invalid ROR ID: %s.,270450,https://translate.rx.studio/translate/r-project/utils-r/de/?checksum=31d87cf9454091b4
+Hindi,base (C files),'x' must be numeric,129001,https://translate.rx.studio/translate/r-project/base-c/hi/?checksum=d48fce2851c5356c
 Hindi,base (C files),vector size specified is too large,148734,https://translate.rx.studio/translate/r-project/base-c/hi/?checksum=784d3f81f75475d2
 Hindi,base (C files),cannot write to this connection,148746,https://translate.rx.studio/translate/r-project/base-c/hi/?checksum=5dff6bb30daf2eda
 Hindi,base (C files),non-character object(s),148771,https://translate.rx.studio/translate/r-project/base-c/hi/?checksum=98756f245b8661a2
@@ -6403,10 +6404,42 @@ Hindi,base (C files),invalid 'scipen' %d,271081,https://translate.rx.studio/tran
 Hindi,base (C files),zero-length 'path' argument,271082,https://translate.rx.studio/translate/r-project/base-c/hi/?checksum=0d0d2e73dcfa8c73
 Hindi,base (R files),target is %s, current is %s,179033,https://translate.rx.studio/translate/r-project/base-r/hi/?checksum=b5c4b0500f88953c
 Hindi,base (R files),'tolerance' should be numeric,179034,https://translate.rx.studio/translate/r-project/base-r/hi/?checksum=cd8aad09f75a37a6
+Hindi,base (R files),'x' must be numeric,179081,https://translate.rx.studio/translate/r-project/base-r/hi/?checksum=d48fce2851c5356c
 Hindi,base (R files),'kind' must be a character string (RNG to be used).,258351,https://translate.rx.studio/translate/r-project/base-r/hi/?checksum=6974c9c14eced97e
 Hindi,base (R files),'%s' must be a character string,258352,https://translate.rx.studio/translate/r-project/base-r/hi/?checksum=abaf9a0c906b7118
+Hindi,graphics (R files),'x' must be numeric,180021,https://translate.rx.studio/translate/r-project/graphics-r/hi/?checksum=d48fce2851c5356c
 Hindi,grDevices (C files),invalid 'file' parameter in %s,239869,https://translate.rx.studio/translate/r-project/grdevices-c/hi/?checksum=a64b5af3b8e5bb9b
 Hindi,parallel (R files),unknown cluster type: '%s',258250,https://translate.rx.studio/translate/r-project/parallel-r/hi/?checksum=fe2c1a26317279a2
+Hindi,stats (R files),object not interpretable as a factor,182437,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=6b1199bb435f4feb
+Hindi,stats (R files),cannot fit models without level ('alpha' must not be 0 or FALSE),182438,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=3b377674b78bc536
+Hindi,stats (R files),'alpha', 'beta' and 'gamma' must be within the unit interval,182439,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=fafd374c90669a3a
+Hindi,stats (R files),data must be non-zero for multiplicative Holt-Winters,182440,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=c2fabc204c129485
+Hindi,stats (R files),need at least 2 periods to compute seasonal start values,182441,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=ed0aa27fbfd8d0a7
+Hindi,stats (R files),optimization difficulties: %s,182443,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=073c9d0711e30be1
+Hindi,stats (R files),optimization failure,182444,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=b6664f2e44efff99
+Hindi,stats (R files),time series has no or less than 2 periods,182445,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=0ced5c60aa4d57a8
+Hindi,stats (R files),the series is entirely NA,182446,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=32ed1e5ef588cf88
+Hindi,stats (R files),frequency must be a positive integer >= 2 for BSM,182447,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=88318c767c9d53f9
+Hindi,stats (R files),only implemented for univariate time series,182448,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=52f81e32225c3af3
+Hindi,stats (R files),'x' must be numeric,182449,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=d48fce2851c5356c
+Hindi,stats (R files),the first value of the time series must not be missing,182450,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=2f3e99c624851f87
+Hindi,stats (R files),all parameters were fixed,182451,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=f0580770f1c2ffa2
+Hindi,stats (R files),possible convergence problem: 'optim' gave code = %d and message %s,182452,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=4aa0b10349aafa01
+Hindi,stats (R files),no factors in the fitted model,182453,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=848a71f48949e5ac
+Hindi,stats (R files),'which' specified no factors,182454,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=8044157ca9116c6c
+Hindi,stats (R files),'which' specified some non-factors which will be dropped,182455,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=f0e9dbdaf07200fb
+Hindi,stats (R files),'sampleT' and 'nser' must be integer,182456,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=8474b7c4d6f44546
+Hindi,stats (R files),'lag.max' must be at least 0,182457,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=7620f05b52bd5e32
+Hindi,stats (R files),'lag.max' must be at least 1,182458,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=fad9c91a311a1f84
+Hindi,stats (R files),NAs in 'x',182459,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=8af29c301d2733cb
+Hindi,stats (R files),x$lag must have at least 1 column,182460,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=9e725954c53b7261
+Hindi,stats (R files),can use ci.type="ma" only if first lag is 0,182461,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=0be10e5396a0dcd2
+Hindi,stats (R files),univariate time series only,182463,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=e89f6aa64d3b6b0a
+Hindi,stats (R files),no terms in scope,182464,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=6fdddaaef12d6515
+Hindi,stats (R files),no terms in scope for adding to object,182465,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=01ff7ab6382dd941
+Hindi,stats (R files),number of rows in use has changed: remove missing values?,182466,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=c8e0c743775441eb
+Hindi,stats (R files),attempting model selection on an essentially perfect fit is nonsense,182467,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=9e60dac1063fc96a
+Hindi,stats (R files),F test assumes quasi%s family,182468,https://translate.rx.studio/translate/r-project/stats-r/hi/?checksum=1dfe03661c55f0fd
 Hungarian,base (C files),invalid '%s' argument '%s',237171,https://translate.rx.studio/translate/r-project/base-c/hu/?checksum=3f8a0587efd0d740
 Hungarian,base (C files),invalid formal argument list for "%s",237174,https://translate.rx.studio/translate/r-project/base-c/hu/?checksum=f76ac6ef1fb3b8fb
 Hungarian,base (C files),first argument to '%s' must be a symbol,271095,https://translate.rx.studio/translate/r-project/base-c/hu/?checksum=cedcce7a377e8c68
