@@ -29,30 +29,55 @@ source("R/load_data.R")   # loads data, custom functions and global translations
 
 # Home {orientation="rows" scrolling="true"}
 
-## Row
+## Row {height=120}
 
 ### Total Languages
 
 ```{r}
-valueBox(total_lang, icon = "fa-language", color = "white")
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_lang
+)
+
 ```
 
 ### Translated Messages
 
 ```{r}
-valueBox(total_trans_msg, icon = "fa-comment", color = "white")
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_trans_msg
+)
 ```
 
 ### Untranslated Messages
 
 ```{r}
-valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_untrans_msg
+)
 ```
 
 ### Fuzzy Messages
 
 ```{r}
-valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_fuzzy_msg
+)
 ```
 
 ## Row {height=70}
