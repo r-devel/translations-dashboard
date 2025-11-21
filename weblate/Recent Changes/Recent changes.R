@@ -2,12 +2,15 @@
 library(curl)
 library(jsonlite)
 library(stringr)
+
+list.files("../R/", full.names = TRUE) |> lapply(source)
+# R.utils::sourceDirectory("../R/")
 Language_Statistics <- read.csv(
   "./../Language Statisitics/Language_Statistics_new.csv"
 )
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
-R.utils::sourceDirectory("./../R/")
+
 h <- get_auth_handle(API_TOKEN)
 
 
@@ -47,58 +50,32 @@ timestamp <- c()
 dates <- c()
 times <- c()
 
-for (i in 1:pages) {
-  ### split loop into section 1 that gets all responses (3 lines below)
-  pages_url <- paste0(changes_url, "&page=", i)
-  print(paste("Querying endpoint", pages_url))
-  pages_response <- curl_fetch_memory(pages_url, handle = h)
 
-  pages_changes <- rawToChar(pages_response$content)
-  pages_changes <- fromJSON(pages_changes)
-  component <- str_extract(pages_changes$results$component, "components/(.*?)/")
-  component <- str_remove_all(component, "components/|/")
-  extracted_users <- str_extract(pages_changes$results$user, "/([^/]+)/$")
-  extracted_users <- str_remove_all(extracted_users, "/")
-  extracted_lang <- str_extract(pages_changes$results$translation, "/([^/]+)/$")
-  extracted_lang <- str_remove_all(extracted_lang, "/")
-  extracted_slug <- str_extract(pages_changes$results$component, "/([^/]+)/$")
-  extracted_slug <- str_remove_all(extracted_slug, "/")
-  extracted_units <- str_extract(pages_changes$results$unit, "/([^/]+)/$")
-  extracted_units <- str_remove_all(extracted_units, "/")
-  datetime <- as.POSIXct(
-    pages_changes$results$timestamp,
-    format = "%Y-%m-%dT%H:%M:%OSZ"
+for (changes_page in changes_pages) {
+  page_data <- process_page_response(changes_page)
+
+  languages <- match_language_names(
+    page_data$extracted_lang,
+    Language_Statistics
   )
-  datetime <- strptime(datetime, format = "%Y-%m-%d %H:%M:%S")
 
-  date <- as.Date(datetime)
-
-  time <- format(datetime, format = "%H:%M:%S")
-  
-  languages <- match_language_names(extracted_lang, Language_Statistics)
-
-  extracted_lib <- numeric(length(extracted_slug))
+  extracted_lib <- numeric(length(page_data$extracted_slug))
   k <- 1
-  for (s in extracted_slug) {
+  for (s in page_data$extracted_slug) {
     index <- which(s == slugs)
     extracted_lib[k] <- name_of_libraries[index]
     print(k)
     k <- k + 1
   }
-  users <- c(users, extracted_users)
+  users <- c(users, page_data$extracted_users)
   lang <- c(lang, languages)
-  slug <- c(slug, extracted_slug)
+  slug <- c(slug, page_data$extracted_slug)
   lib <- c(lib, extracted_lib)
-  units <- c(units, extracted_units)
-  dates <- c(dates, date)
-  times <- c(times, time)
-  lang <- c(lang, languages)
-  slug <- c(slug, extracted_slug)
-  lib <- c(lib, extracted_lib)
-  units <- c(units, extracted_units)
-  dates <- c(dates, date)
-  times <- c(times, time)
+  units <- c(units, page_data$extracted_units)
+  dates <- c(dates, page_data$date)
+  times <- c(times, page_data$time)
 }
+
 translated_data <- data.frame(
   user = users,
   language = lang,
@@ -107,6 +84,9 @@ translated_data <- data.frame(
   date = dates,
   time = times
 )
+
+# chk_translated_data <- translated_data
+# identical(translated_data, chk_translated_data)
 
 ### Marked for edit
 # Need to always download full set of "Marked for edit" translations, since
@@ -142,22 +122,19 @@ mark_web_url <- c()
 for (i in 1:edit_pages) {
   mark_url <- paste0(edit_url, "&page=", i)
 
-
   print(paste("Querying endpoint", mark_url))
   mark_response <- curl_fetch_memory(mark_url, handle = h)
 
-
   mark_changes <- rawToChar(mark_response$content)
-
 
   mark_changes <- fromJSON(mark_changes)
   # each row is a unit: https://docs.weblate.org/en/latest/api.html#units
 
   mark_lang <- match_language_names(
-    mark_changes$results$language_code, 
+    mark_changes$results$language_code,
     Language_Statistics
   )
-  
+
   mark_lib_id <- match(
     basename(dirname(mark_changes$results$translation)),
     slugs
@@ -190,8 +167,11 @@ mark_data <- data.frame(
   url = mark_web_url
 )
 mark_data <- data.frame(
-  language = mark_lang, library = mark_lib, string = mark_string,
-  id = mark_units, url = mark_web_url
+  language = mark_lang,
+  library = mark_lib,
+  string = mark_string,
+  id = mark_units,
+  url = mark_web_url
 )
 
 ### Data Processing
