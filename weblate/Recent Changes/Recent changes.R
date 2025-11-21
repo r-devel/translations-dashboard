@@ -5,10 +5,10 @@ library(stringr)
 Language_Statistics <- read.csv(
   "./../Language Statisitics/Language_Statistics_new.csv"
 )
+R.utils::sourceDirectory("./../R/")
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 h <- get_auth_handle(API_TOKEN)
 
-R.utils::sourceDirectory("./../R/")
 
 # Get new translations (action = 5) for r-project project only
 # (See comments at end of file for actions)
@@ -106,93 +106,22 @@ translated_data <- data.frame(
   time = times
 )
 
-### Marked for edit
-# Need to always download full set of "Marked for edit" translations, since
-### Marked for edit
-# Need to always download full set of "Marked for edit" translations, since
+### Marked for edit 
+# Need to always download full set of "Marked for edit" translations, since 
 # there is no robust way to track newly marked/unmarked
 # (status can be changed by updates to the repository vs user action)
 edit_url <- "https://translate.rx.studio/api/units/"
-edit_url <- "https://translate.rx.studio/api/units/"
 # using search query here not query parameters!
+# we are assuming that there are 200 results per response 
 edit_url <- paste0(edit_url, "?q=project:r-project%20AND%20state:needs-editing")
+edits <- fetch_response_as_json(endpoint = edit_url, handle = h)
 
-print(paste("Querying endpoint", edit_url))
-edit_response <- curl_fetch_memory(edit_url, handle = h)
-
-edits <- rawToChar(edit_response$content)
-
-edits <- fromJSON(edits)
-edit_count <- edits$count
-edit_remain <- edit_count %% 200 # different default page size for units!
-edit_pages <- 0
-if (edit_remain == 0) {
-  edit_pages <- edit_count / 200
-} else {
-  edit_pages <- ceiling(edit_count / 200)
-}
-mark_lang <- c()
-mark_lang <- c()
-mark_lib <- c()
-mark_string <- c()
-mark_units <- c()
-mark_web_url <- c()
-for (i in 1:edit_pages) {
-  mark_url <- paste0(edit_url, "&page=", i)
+edit_pages <- ceiling(edits$count/200)
+mark_data <- do.call(rbind, lapply(seq_len(edit_pages), mark_page, edit_url, 
+                                   Language_Statistics))
 
 
-  print(paste("Querying endpoint", mark_url))
-  mark_response <- curl_fetch_memory(mark_url, handle = h)
-
-
-  mark_changes <- rawToChar(mark_response$content)
-
-
-  mark_changes <- fromJSON(mark_changes)
-  # each row is a unit: https://docs.weblate.org/en/latest/api.html#units
-
-  mark_lang <- match_language_names(
-    mark_changes$results$language_code, 
-    Language_Statistics
-  )
-  
-  mark_lib_id <- match(
-    basename(dirname(mark_changes$results$translation)),
-    slugs
-  )
-  mark_lib <- c(mark_lib, name_of_libraries[mark_lib_id])
-  mark_lang_id <- match(
-    mark_changes$results$language_code,
-    Language_Statistics$Code
-  )
-  mark_lang <- c(mark_lang, Language_Statistics$Name[mark_lang_id])
-  mark_lib_id <- match(
-    basename(dirname(mark_changes$results$translation)),
-    slugs
-  )
-  mark_lib <- c(mark_lib, name_of_libraries[mark_lib_id])
-  # where there are multiple messages due to plurals, use the first
-  singular <- vapply(mark_changes$results$source, "[", character(1), 1)
-  mark_string <- c(mark_string, singular)
-  mark_units <- c(mark_units, mark_changes$results$id)
-  mark_web_url <- c(mark_web_url, mark_changes$results$web_url)
-  mark_string <- c(mark_string, singular)
-  mark_units <- c(mark_units, mark_changes$results$id)
-  mark_web_url <- c(mark_web_url, mark_changes$results$web_url)
-}
-mark_data <- data.frame(
-  language = mark_lang,
-  library = mark_lib,
-  string = mark_string,
-  id = mark_units,
-  url = mark_web_url
-)
-mark_data <- data.frame(
-  language = mark_lang, library = mark_lib, string = mark_string,
-  id = mark_units, url = mark_web_url
-)
-
-### Data Processing
+###Data Processing
 
 # Add new translations above previously saved translations
 translated_data_old <- read.csv("New Translation.csv")
@@ -200,20 +129,12 @@ translated_data <- rbind(translated_data, translated_data_old)
 
 # Remove duplicated (identical) records and save, newest translations first
 translated_data <- translated_data[!duplicated(translated_data), ]
-write.csv(
-  translated_data[order(translated_data$date, decreasing = TRUE), ],
-  "New Translation.csv",
-  quote = FALSE,
-  row.names = FALSE
-)
+write.csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
+          "New Translation.csv", quote = FALSE, row.names = FALSE)
 
 # Overwrite previous record of translations marked for edit
-write.csv(
-  mark_data[order(mark_data$language, mark_data$library), ],
-  "Marked for Edit.csv",
-  quote = FALSE,
-  row.names = FALSE
-)
+write.csv(mark_data[order(mark_data$language, mark_data$library),], 
+          "Marked for Edit.csv", quote = FALSE, row.names = FALSE)
 
 # Weblate action id and action names (can't find documented)
 # # Missing numbers do not appear in r-project project as of 2024-10-11
