@@ -7,6 +7,7 @@ list.files("../R/", full.names = TRUE) |> lapply(source)
 Language_Statistics <- read.csv(
   "./../Language Statisitics/Language_Statistics_new.csv"
 )
+
 API_TOKEN <- Sys.getenv("WEBLATE_TOKEN")
 
 
@@ -40,48 +41,13 @@ libraries <- fetch_response_content(endpoint = libraries_url, handle = h)
 slugs <- libraries$results$slug
 name_of_libraries <- libraries$results$name
 
-lang <- c()
-users <- c()
-lib <- c()
-slug <- c()
-units <- c()
-timestamp <- c()
-dates <- c()
-times <- c()
-
-
-for (changes_page in changes_pages) {
-  page_data <- process_page_response(changes_page)
-
-  languages <- match_language_names(
-    page_data$extracted_lang,
-    Language_Statistics
+translated_data <- do.call(
+  rbind,
+  lapply(
+    changes_pages,
+    collect_page_changes,
+    language_file = Language_Statistics
   )
-
-  extracted_lib <- numeric(length(page_data$extracted_slug))
-  k <- 1
-  for (s in page_data$extracted_slug) {
-    index <- which(s == slugs)
-    extracted_lib[k] <- name_of_libraries[index]
-    print(k)
-    k <- k + 1
-  }
-  users <- c(users, page_data$extracted_users)
-  lang <- c(lang, languages)
-  slug <- c(slug, page_data$extracted_slug)
-  lib <- c(lib, extracted_lib)
-  units <- c(units, page_data$extracted_units)
-  dates <- c(dates, page_data$date)
-  times <- c(times, page_data$time)
-}
-
-translated_data <- data.frame(
-  user = users,
-  language = lang,
-  library = lib,
-  units = units,
-  date = dates,
-  time = times
 )
 
 ### Marked for edit
@@ -90,13 +56,15 @@ translated_data <- data.frame(
 # (status can be changed by updates to the repository vs user action)
 edit_url <- "https://translate.rx.studio/api/units/"
 # using search query here not query parameters!
-# we are assuming that there are 200 results per response 
+# we are assuming that there are 200 results per response
 edit_url <- paste0(edit_url, "?q=project:r-project%20AND%20state:needs-editing")
-edits <- fetch_response_as_json(endpoint = edit_url, handle = h)
+edits <- fetch_response_content(endpoint = edit_url, handle = h)
 
-edit_pages <- ceiling(edits$count/200)
-mark_data <- do.call(rbind, lapply(seq_len(edit_pages), mark_page, edit_url, 
-                                   Language_Statistics))
+edit_pages <- ceiling(edits$count / 200)
+mark_data <- do.call(
+  rbind,
+  lapply(seq_len(edit_pages), mark_page, edit_url, Language_Statistics)
+)
 
 ###Data Processing
 
@@ -106,12 +74,20 @@ translated_data <- rbind(translated_data, translated_data_old)
 
 # Remove duplicated (identical) records and save, newest translations first
 translated_data <- translated_data[!duplicated(translated_data), ]
-write.csv(translated_data[order(translated_data$date, decreasing = TRUE),], 
-          "New Translation.csv", quote = FALSE, row.names = FALSE)
+write.csv(
+  translated_data[order(translated_data$date, decreasing = TRUE), ],
+  "New Translation.csv",
+  quote = FALSE,
+  row.names = FALSE
+)
 
 # Overwrite previous record of translations marked for edit
-write.csv(mark_data[order(mark_data$language, mark_data$library),], 
-          "Marked for Edit.csv", quote = FALSE, row.names = FALSE)
+write.csv(
+  mark_data[order(mark_data$language, mark_data$library), ],
+  "Marked for Edit.csv",
+  quote = FALSE,
+  row.names = FALSE
+)
 
 # Weblate action id and action names (can't find documented)
 # # Missing numbers do not appear in r-project project as of 2024-10-11
