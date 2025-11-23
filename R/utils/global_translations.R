@@ -2,8 +2,8 @@
 library(tidyverse)
 
 # Reading "message_status.csv" and "metadata.csv"
-msg_status_df <- read.csv("message_status.csv")
-meta_data_df <- read.csv("metadata.csv")
+msg_status_df <- read.csv("data/translation_status.csv")
+meta_data_df <- read.csv("data/metadata.csv")
 
 # Value Boxes
 total_lang <- length(unique(msg_status_df$language))

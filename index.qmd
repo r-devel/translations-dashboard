@@ -1,69 +1,80 @@
 ---
 title: "R Translations Status Dashboard"
+format: 
+  dashboard:
+    vertical-layout: scroll
+    scrolling: true
+    favicon: 
+    theme: cosmo
 ---
 
-To Do: 
-- change css (Daidai) 
-- change rows/sidebar/columns to quarto-friendly (Darakhshan)
-- work on creating ONE document with weblate and flexdashboard (Dionne)
-
 ```{r setup, include=FALSE}
-library(flexdashboard)
-library(crosstalk)
-library(tidyverse)
-library(htmltools)
-library(plotly)
-library(reactable)
-library(glue)
-source("R/global_translations.R")
+
+if (!require("pacman")) install.packages("pacman")
+
+pacman::p_load(
+  crosstalk,
+  tidyverse,
+  htmltools,
+  plotly,
+  reactable,
+  glue
+)
+source("R/utils/global_translations.R")
 ```
 
-<!-- # Flippers {orientation="columns" scrolling="true"} -->
-
-
-## {.sidebar}
-
-
-Sidebar {.sidebar data-width=200}
-=====================================
-
-```{r, echo=FALSE, results='asis'}
-htmltools::includeHTML('fragments/sidebar.html')
-```
-
-Home
-=====================================
-
-
-Row
--------------------------------------
+# Home
+## Row {height=5%}
 
 ### Total Languages
 
 ```{r}
-valueBox(total_lang, icon = "fa-language", color = "white")
+#| content: valuebox
+#| title: "Total Languages"
+#| icon: translate
+#| color: primary
+list(
+  value = total_lang
+)
 ```
 
 ### Translated Messages
 
 ```{r}
-valueBox(total_trans_msg, icon = "fa-comment", color = "white")
+#| content: valuebox
+#| title: "Translated Messages"
+#| icon: chat
+#| color: success
+list(
+  value = total_trans_msg
+)
 ```
 
 ### Untranslated Messages
 
 ```{r}
-valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: x-circle
+#| color: warning
+list(
+  value = total_untrans_msg
+)
 ```
 
 ### Fuzzy Messages
 
 ```{r}
-valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
+#| content: valuebox
+#| title: "Fuzzy Messages"
+#| icon: puzzle
+#| color: info
+list(
+  value = total_fuzzy_msg
+)
 ```
 
-Row {data-height=70}
------------------------------------------------------------------------
+## Row {height=5%}
 
 ```{r data}
 trans_stats <- SharedData$new(final_df)
@@ -76,15 +87,13 @@ filter_select(id = "language",
               label = "Select Translation Language",
               sharedData = trans_stats, 
               group = ~language)
-
+ 
 ```
 
-Row {data-height=450}
------------------------------------------------------------------------
-
-### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
+## Row {height=15%}
 
 ```{r}
+#| title: "Graph of Translated vs Untranslated Messages | Per Package"
 trans_stats <- plot_ly(trans_stats, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
 trans_stats <- trans_stats %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
 trans_stats <- trans_stats %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
@@ -92,12 +101,12 @@ trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xax
 trans_stats
 ```
 
-Row {data-height=450}
------------------------------------------------------------------------
+## Row {height=20%}
 
-### Count of Translated Messages | <small> Across Packages </small>
+### Column 
 
 ```{r}
+#| title: "Count of Translated Messages | Across Packages"
 complete_trans_df %>%
   reactable(
     .,
@@ -142,9 +151,10 @@ complete_trans_df %>%
   )
 ```
 
-### Count of Untranslated Messages | <small> Across Packages </small>
+### Column 
 
 ```{r}
+#| title: "Count of Untranslated Messages | Across Packages"
 complete_untrans_df %>%
   reactable(
     .,
@@ -189,12 +199,11 @@ complete_untrans_df %>%
   )
 ```
 
-Row {data-height=450}
------------------------------------------------------------------------
-
-### Percentage Distribution of Message Translation | <small> Across Packages </small>
+## Row {height=20%}
 
 ```{r}
+#| title: "Percentage Distribution of Message Translation | Across Packages"
+
 final_df %>%
   reactable(
     .,
@@ -268,30 +277,22 @@ final_df %>%
   )
 ```
 
-Row {data-height=100}
------------------------------------------------------------------------
-
-### Dashboard Updates
+## Row {height=5%}
 
 ```{r}
- gh_endpoint <- "https://api.github.com/repos/r-devel/translations/commits?path=message_status.csv&page=1&per_page=1"
+#| title: "Dashboard Updates"
+ gh_endpoint <- "https://api.github.com/repos/r-devel/translations-dashboard/commits?path=message_status.csv&page=1&per_page=1"
  last_update_date <- get_last_data_update(gh_endpoint)
  glue::glue("This page was last updated on: ", {last_update_date})
 ```
 
 
+# R Translation Teams
 
-
-R Translation Teams
-=====================================
-
-
-Row {data-height=450}
------------------------------------------------------------------------
-
-### R Translation Teams | <small> Contact Details </small>
+## Row
 
 ```{r}
+#| title: "R Translation Teams | Contact Details"
 translation_teams %>%
   reactable(
     .,
@@ -318,5 +319,3 @@ translation_teams %>%
   )
 ```
 
-```{js}
-```
