@@ -1,0 +1,6 @@
+library(readr)
+Language_Statistics_new <- read_csv("webl/Language Statisitics/Language_Statistics_new.csv")
+Library_Language_Statistics <- read_csv("webl/Library Language Statistics/Library Language Statistics.csv")
+Marked_for_Edit <- read_csv("webl/Recent Changes/Marked for Edit.csv")
+New_Translation <- read_csv("webl/Recent Changes/New Translation.csv")
+Statistics <- read_csv("webl/User Statistics/Statistics.csv")

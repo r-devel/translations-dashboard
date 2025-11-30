@@ -1,0 +1,35 @@
+project:
+  type: website   # or "default" if you do NOT want website nav
+
+website:
+  title: "R Translations Status Dashboard"
+
+format:
+  dashboard:
+    orientation: rows
+    vertical-layout: scroll
+    self-contained: false
+    favicon: null
+    sidebar:
+    style: "floating"      # or "docked"
+    search: true
+    collapse-level: 1
+
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: page1.qmd
+        text: Page 1
+      - href: page2.qmd
+        text: Page 2
+      - section: "Reports"
+        contents:
+          - report1.qmd
+          - report2.qmd
+    include-in-header:
+      - fragments/ganalytics.html
+    include-after-body:
+      - fragments/afterInit.html
+    css:
+      - fragments/custom.css
+      - css/custom.css

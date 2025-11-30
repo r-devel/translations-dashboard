@@ -1,0 +1,1277 @@
+---
+title: "R Translations Status Dashboard"
+# logo: images/logo.png
+# nav-buttons: [github, twitter]
+format:
+  dashboard:
+    orientation: rows
+    scrolling: true 
+    vertical-layout: scroll
+    self-contained: false
+    favicon: null
+    # include-in-header:
+    #   - fragments/ganalytics.html
+    # include-after-body:
+    #   - fragments/afterInit.html
+    # css:
+    #   - fragments/custom.css
+    #   - css/custom.css
+    nav-buttons:
+      - github
+      - icon: github
+        href: https://github.com/r-devel/translations-dashboard
+---
+
+```{r setup, include=FALSE}
+source("R/packages.R")    # loads packages
+source("R/load_data.R")   # loads data, custom functions and global translations 
+```
+
+# Home {orientation="rows" scrolling="true"}
+
+## Row {height=120}
+
+### Total Languages
+
+```{r}
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_lang
+)
+
+```
+
+### Translated Messages
+
+```{r}
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_trans_msg
+)
+```
+
+### Untranslated Messages
+
+```{r}
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_untrans_msg
+)
+```
+
+### Fuzzy Messages
+
+```{r}
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = total_fuzzy_msg
+)
+```
+
+## Row {height=70}
+
+```{r data}
+trans_stats <- SharedData$new(final_df)
+```
+
+```{r filters}
+
+# Filter Select Input - Language
+filter_select(id = "language",
+              label = "Select Translation Language",
+              sharedData = trans_stats,
+              group = ~language)
+
+```
+
+## Row {height=450}
+
+### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
+
+```{r}
+trans_stats <- plot_ly(trans_stats, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
+trans_stats <- trans_stats %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
+trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xaxis = list(title = "Packages"), barmode = 'group')
+trans_stats
+```
+
+## Row {height=450}
+
+### Count of Translated Messages | <small> Across Packages </small>
+
+```{r}
+complete_trans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "translated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      translated_count = colDef(
+        name = "Translated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_trans_df$translated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+### Count of Untranslated Messages | <small> Across Packages </small>
+
+```{r}
+complete_untrans_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultSorted = "untranslated_count",
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        name = "Untranslated Message Count",
+        defaultSortOrder = "desc",
+        cell = function(value) {
+          width <- paste0(value * 100 / max(complete_untrans_df$untranslated_count), "%")
+          value <- format(value, big.mark = ",")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = width, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Percentage Distribution of Message Translation | <small> Across Packages </small>
+
+```{r}
+final_df %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      package = colDef(
+        name = "Package Name",
+        width = 150,
+        defaultSortOrder = "desc",
+        filterable = TRUE,
+      ),
+      language = colDef(
+        name = "Language",
+        width = 150,
+        filterable = TRUE,
+      ),
+      translated_count = colDef(
+        show = FALSE
+      ),
+      untranslated_count = colDef(
+        show = FALSE
+      ),
+      fuzzy_count = colDef(
+        show = FALSE
+      ),
+      pc_trans_count = colDef(
+        name = "Translated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#fc5185"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_untrans_count = colDef(
+        name = "Untranslated Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#3fc1c9"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      ),
+      pc_fuzzy_count = colDef(
+        name = "Fuzzy Message",
+        cell = function(value) {
+          value <- paste0(format(round(value * 100, 2), nsmall = 1), "%")
+          value <- format(value, width = 9, justify = "right")
+          bar <- div(
+            class = "bar-chart",
+            style = list(marginRight = "6px"),
+            div(class = "bar", style = list(width = value, backgroundColor = "#241327"))
+          )
+          div(class = "bar-cell", span(class = "number", value), bar)
+        }
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
+## Row {height=100}
+
+### Dashboard Updates
+
+```{r}
+ gh_endpoint <- "https://api.github.com/repos/r-devel/translations/commits?path=message_status.csv&page=1&per_page=1"
+ last_update_date <- get_last_data_update(gh_endpoint)
+ glue::glue("This page was last updated on: ", {last_update_date})
+```
+
+<!-- # Weblate Dashboard -->
+
+```{r setup2, include=FALSE}
+# Install thematic and un-comment for themed static plots (i.e., ggplot2)
+#thematic::thematic_rmd()
+```
+
+
+# Weblate {orientation="rows" scrolling="true"}
+
+## Row {.tabset}
+
+### Languages
+
+:::::: {.rows}
+
+:::: {.columns}
+
+```{r total languages valuebox}
+#| content: valuebox
+#| title: "Total Languages"
+#| icon: language
+#| color: primary
+list(
+  value = total_untrans_msg
+)
+```
+
+```{r translated messages valuebox}
+#| content: valuebox
+#| title: "Translated Messages"
+#| icon: chat
+#| color: success
+list(
+  value = sum(Language_Statistics_new$Translated)
+)
+```
+
+```{r untranslated messages valuebox}
+#| content: valuebox
+#| title: "Untranslated Messages"
+#| icon: chat-slash
+#| color: warning
+list(
+  value = sum(Language_Statistics_new$Untranslated)
+)
+```
+
+```{r fuzzy messages valuebox}
+#| content: valuebox
+#| title: "Fuzzy Messages"
+#| icon: puzzle
+#| color: info
+list(
+  value = sum(Language_Statistics_new$Fuzzy)
+)
+```
+::::
+
+::: {.rows}
+#### Languages V/S Translations
+
+```{r fig.width=10,fig.height=30}
+Statistics$Languages <- lapply(Statistics$Languages, function(x) {
+  if (startsWith(x, "c(")) {
+    eval(parse(text = x))
+  } else {
+    x
+  }
+})
+board<-Statistics[order(Statistics$translated,decreasing = TRUE),]
+boards<-board %>% select(name,username,translated,Languages,Active)
+
+boards<-boards%>%mutate(Rank=row_number())
+df<-select(Language_Statistics_new,c(Name,Translated,Fuzzy,Untranslated))
+df_long <- reshape2::melt(df, id.vars = "Name")
+
+p<-ggplot(df_long, aes(x = Name, y = value, fill = variable)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Languages", y = "Translation",fill="Legend") +
+  scale_fill_manual(values = c("Translated" = "#A2FF86", "Fuzzy" = "#0079FF", "Untranslated" = "#F31559")) +theme(axis.text.x = element_text(angle = 90,size=18),legend.text = element_text(size = 14),legend.box = "horizontal",legend.title = element_text(size=30),axis.title.x = element_text(angle = 0,size=22),axis.title.y = element_text(angle = 90,size=22),axis.text.y = element_text(angle = 0,size=18),legend.background=element_rect(fill="pink", size=1, linetype="solid"))
+# p_plotly <- ggplotly(p)
+```
+
+This graph depicts the translation status of each language.
+
+This graph gives a clear idea of which languages require more attention.
+
+```{r fig.width=10,fig.height=10}
+# p <- p_plotly %>% layout(xaxis = list(tickfont = list(size = 10),titlefont = list(size = 1)),yaxis = list(tickfont = list(size = 10)),legend=list(font=list(size=10),title=list(font=list(size=16))))
+p
+```
+
+#### Population V/S Translations
+```{r}
+fig1 <- plot_ly(Language_Statistics_new, y = ~Population, x = ~Name, name = 'Population', type = 'bar')
+fig2 <- plot_ly(Language_Statistics_new, y = ~Translated, x = ~Name, name = 'Translation', type = 'bar')
+fig <- subplot(fig1,fig2,nrows=2,margin = 0.07,shareX = TRUE)%>%
+    layout(title = list(text = "Population v/s Translations Completed"), plot_bgcolor='#e5ecf6', xaxis = list(title="Language",zerolinecolor = '#ffff', zerolinewidth = 2, gridcolor = 'ffff'), yaxis = list(title="Population",zerolinecolor = '#ffff', zerolinewidth = 2, gridcolor = 'ffff'),yaxis2=list(title="Translations"),showlegend=FALSE,barmode="stack")
+
+  # Add hyperlinks to x-axis labels
+  fig <- fig %>% add_annotations(
+    x=Language_Statistics_new$Name,
+    y=rep(-0.3,length(Language_Statistics_new$Name)),
+    text=paste0("<a href='https://translate.rx.studio/languages/",Language_Statistics_new$Code,"/'>Link</a>"),
+    xref='x',
+    yref='paper',
+    showarrow=FALSE,
+    font=list(color='blue',size=10),
+    xshift=10
+  )
+
+  fig
+```
+
+#### Languages V/S Translation Status
+
+```{r}
+plot_trans<-plot_ly(Language_Statistics_new,x=~Name,y=~Translated,name="Translated",type = "bar")
+plot_trans<-plot_trans%>%add_trace(y=~Untranslated,name="Untranslated")
+plot_trans<-plot_trans%>%add_trace(y=~Fuzzy,name="Fuzzy")%>%layout(barmode="stack")
+plot_trans
+```
+
+#### Languages V/S Users
+
+```{r}
+vec<-numeric()
+for(i in board$Languages)
+{
+  vec<-c(vec,i)
+}
+counting<-Language_Statistics_new
+counting$Contributors<-rep(0,length(counting$Name))
+for(i in vec)
+{
+  if(i %in% counting$Name)
+  {
+    index<-which(counting$Name==i)
+    counting$Contributors[index]<-counting$Contributors[index]+1
+  }
+}
+counting<-counting[ ,!(colnames(counting) %in% c("Code", "Date","Time"))]
+counting$`50% translation`<-ifelse(counting$Translated*2>=counting$Total_Words,TRUE,FALSE)
+counting<-subset(counting,select = -...1)
+```
+
+```{r}
+formattable(counting,list(Population = color_tile("white", "orange"),area(col = c("Total_Words")) ~ normalize_bar("pink", 0.2),area(col = c("Translated")) ~ normalize_bar("lightgreen", 0.2),area(col = c("Fuzzy")) ~ normalize_bar("lightblue", 0.2),area(col = c("Untranslated")) ~ normalize_bar("rgb(255, 182, 193)", 0.2),Name = formatter(
+    "span",
+    style = x ~ ifelse(counting$Contributors == 0, "color:red; font-weight:bold","color:black")
+  ),Contributors = formatter(
+    "span",
+    style = x ~ ifelse(x == 0, "color:red", "color:black")
+  ),`50% translation` = formatter("span",
+                         style = x ~ style(color = ifelse(x, "green", "red")),
+                         x ~ icontext(ifelse(x, "ok", "remove"), ifelse(x, "Yes", "No")))
+))
+```
+
+*The Languages marked in RED have no Contributors.
+
+```{css,echo=FALSE}
+.bootstrap-table{
+overflow-y: scroll !important;
+height: 450px;
+}
+```
+
+:::
+
+::::::
+
+### Leaderboard
+
+:::::: {.rows}
+
+##### Weblate Leaderboard
+
+```{r table, echo=FALSE, message=FALSE}
+shared_data <- SharedData$new(boards)
+
+shared_data%>%reactable(
+  .,
+  pagination = TRUE,
+  showPageSizeOptions = TRUE,
+  defaultColDef = colDef(vAlign = "center", headerClass = "header"),
+  columns = list(
+    Rank = colDef(
+      name = "Rank",
+      align = "center",
+      minWidth = 70,
+      maxWidth = 120,
+      cell = JS('function(cellInfo) {
+        let units; 
+        if(cellInfo.viewIndex === 0)
+        {
+          units="🥇"
+        }else if(cellInfo.viewIndex === 1)
+        {
+          units="🥈"
+        }else if(cellInfo.viewIndex === 2)
+        {
+          units="🥉"
+        }else
+        {
+          units=""
+        }
+        return cellInfo.value + `<div class="units">${units}</div>`
+      }'),
+      html = TRUE
+    ),
+    name = colDef(
+      name = "Name",
+      # Since there are so many rows, we use a JS render function to keep the
+      # page size down. This would be much easier to code in R, but that would
+      # significantly increase the file size.
+      html = TRUE,
+      minWidth = 150,
+      filterable = TRUE
+    ),
+    username = colDef(
+      name = "User-Name",
+      # Since there are so many rows, we use a JS render function to keep the
+      # page size down. This would be much easier to code in R, but that would
+      # significantly increase the file size.
+      cell = JS("renderMovie"),
+      html = TRUE,
+      minWidth = 150
+    ),
+    translated = colDef(
+      name = "Translations",
+      defaultSortOrder = "desc",
+      # Show the user score in a donut chart like TMDb does. Since donut charts
+      # are hard to compare, apply a color scale as well.
+      html = TRUE,
+      align = "center",
+      width = 140,
+      class = "user-score"
+    ),
+    Active = colDef(cell = function(value){
+      class<-paste0("tag status-",tolower(value))
+      div(class=class,value)
+    }),
+    Languages = colDef(show = FALSE)
+  ),
+  highlight = TRUE,
+  bordered = TRUE,
+  compact = TRUE,
+  class = "movies-tbl"
+)
+
+```
+
+```{js table_js, echo=FALSE}
+// Custom JavaScript cell renderer for the Movie column
+function renderMovie(cellInfo) {
+  const url = 'https://translate.rx.studio/user/' + cellInfo.row['username']
+  const imageSrc = 'https://translate.rx.studio/avatar/128/' + cellInfo.row['username']+'.png'
+  const altText = cellInfo.value + ' movie poster'
+  const poster = `<a href="${url}"><img src="${imageSrc}" class="movie-poster" alt="${altText}"></a>`
+
+  const title = `<a href="${url}">${cellInfo.value}</a>`
+
+  const text = `<div class="movie-info-text">${title}</div>`
+  return `<div class="movie-info">${poster}${text}</div>`
+}
+```
+
+```{css,echo=FALSE}
+/* Font from https://fontsarena.com/hanken-grotesk-by-hanken-design-co/ */
+.movies {
+  font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+}
+
+.movies h2 {
+  font-weight: 600;
+}
+
+.movies a {
+  color: #007899;
+  text-decoration: none;
+}
+
+.movies a:hover,
+.movies a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+}
+
+.movies-tbl {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.header {
+  color: hsl(220, 100%, 75%);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.header:hover[aria-sort],
+.header[aria-sort='ascending'],
+.header[aria-sort='descending'] {
+  color: hsl(0, 100%, 55%);
+}
+.units {
+  display: inline-block;
+  width: 1.125rem;
+}
+.movie-info {
+  display: flex;
+  align-items: center;
+}
+
+.movie-info-text {
+  margin-left: 0.75rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-info-details {
+  margin-top: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 40%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.125rem 0.75rem;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.status-active {
+  background: hsl(116, 60%, 90%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-inactive {
+  background: hsl(230, 70%, 90%);
+  color: hsl(230, 45%, 30%);
+}
+
+.status-unbegun {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+.movie-poster {
+  width: 45px;
+  height: 68px;
+  box-shadow: 0 0 0 1px hsl(0, 0%, 95%);
+}
+
+
+.user-score {
+  font-weight: 600;
+}
+```
+
+::: {.columns}
+
+```{r active users}
+#| title: "Active Users"
+active <- compute_active()
+gauge(active, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(50, 100), warning = c(30,50), danger = c(0, 30)
+))
+```
+
+```{r inactive users}
+#| title: "Inactive Users"
+inactive <- compute_inactive()
+gauge(inactive, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(0,20), warning = c(20,50), danger = c(50, 100)
+))
+```
+
+```{r unbegun users}
+#| title: "Unbegun Users"
+unbegun <- compute_unbegun()
+gauge(unbegun, min = 0, max = 50, symbol = '%', gaugeSectors(
+  success = c(0,5), warning = c(5,15), danger = c(15,50)
+))
+```
+
+:::
+
+::: {.columns}
+
+```{r}
+#| title: "Primary"
+valueBox(nrow(subset(Statistics,Active=="Active")), caption = "Active Users", icon = "fa-solid fa-users")
+```
+
+```{r}
+#| title: "Warning"
+valueBox(nrow(subset(Statistics,Active=="Inactive")), caption = "Inactive Users", color = "warning", icon = "fa-solid fa-user-minus")
+```
+
+```{r}
+#| title: "Danger"
+valueBox(nrow(subset(Statistics,Active=="Unbegun")), caption = "Unbegun users", color = "danger", icon = "fa-solid fa-user-slash")
+```
+:::
+
+```{r}
+#| title: "Graph of Top 10 Users vs Translation"
+fig <- plot_ly(boards[1:10,], x = ~name, y = ~translated, type = 'bar', color=~name)
+fig <- fig %>% layout(xaxis = list(title = "Name", tickangle = -45,categoryorder = "total descending"),
+         yaxis = list(title = "Translations"),
+         margin = list(b = 100),showlegend=FALSE,rangeslider=list(type="name"))
+
+fig
+
+```
+
+::::::
+
+### Library
+
+```{r fig.height=7}
+# Your code for creating the initial plot
+fig <- plot_ly(Library_Language_Statistics, x = ~Language, y = ~Translated, text = ~paste("Translated:", Translated, "<br>",
+                                                                                          "Library:", Library, "<br>",
+                                                                                          "Language:", Language), type = 'scatter', mode = 'markers', marker = list(opacity = 0.5, sizemode = 'diameter',size=8))
+fig <- fig %>% layout(title = 'Status of Languages in each Library',
+                      xaxis = list(showgrid = FALSE),
+                      yaxis = list(showgrid = FALSE),
+                      showlegend = FALSE)
+
+# Create a list of buttons for the dropdown menu
+buttons <- lapply(unique(Library_Language_Statistics$Library), function(lib) {
+  list(
+    method = "restyle",
+    args = list(
+      list(
+        x = list(Library_Language_Statistics$Language[Library_Language_Statistics$Library == lib]),
+        y = list(Library_Language_Statistics$Translated[Library_Language_Statistics$Library == lib]),
+        text = list(paste("Library:", Library_Language_Statistics$Library[Library_Language_Statistics$Library == lib], "<br>",
+                          "Language:", Library_Language_Statistics$Language[Library_Language_Statistics$Library == lib], "<br>",
+                          "Translated:", Library_Language_Statistics$Translated[Library_Language_Statistics$Library == lib])),
+        hovertext = list(paste("Library:", Library_Language_Statistics$Library[Library_Language_Statistics$Library == lib], "<br>",
+                               "Language:", Library_Language_Statistics$Language[Library_Language_Statistics$Library == lib], "<br>",
+                               "Translated:", Library_Language_Statistics$Translated[Library_Language_Statistics$Library == lib]))
+,        marker = list(
+          size=10,
+          color = "blue"
+)
+      )
+    ),
+    label = lib
+  )
+})
+
+# Add the dropdown menu to the plot
+fig <- fig %>% layout(
+  updatemenus = list(
+    list(
+      y = 1,
+      buttons = buttons
+    )
+  )
+)
+
+fig
+
+```
+
+<!-- ## Row {height=620px} -->
+
+```{r}
+libraries <- unique(Library_Language_Statistics$Library)
+plots <- list()
+top_label <- c('Total<br>Words', 'Translated', 'Fuzzy', 'Untranslated')
+
+for (libr in libraries) {
+  df <- subset(Library_Language_Statistics, Library == libr)
+
+  fi <- plot_ly(df, x = ~Total_words, y = ~Language, type = 'bar', orientation = 'h',
+                name = 'Total Words',
+                marker = list(color = 'rgba(38, 24, 74, 0.8)',
+                              line = list(color = 'rgb(248, 248, 249)', width = 1)))
+
+  fi <- fi %>% add_trace(x = ~Translated, name = 'Translated', marker = list(color = 'rgba(71, 58, 131, 0.8)'))
+  fi <- fi %>% add_trace(x = ~Fuzzy, name = 'Fuzzy', marker = list(color = 'rgba(122, 120, 168, 0.8)'))
+  fi <- fi %>% add_trace(x = ~Untranslated, name = 'Untranslated', marker = list(color = 'rgba(164, 163, 204, 0.85)'))
+
+  fi <- fi %>% layout(
+    xaxis = list(
+      title = "",
+      showgrid = FALSE,
+      showline = FALSE,
+      showticklabels = FALSE,
+      zeroline = FALSE,
+      domain = c(0.15, 1)
+    ),
+    yaxis = list(
+      title = "",
+      showgrid = FALSE,
+      showline = FALSE,
+      showticklabels = FALSE,
+      zeroline = FALSE
+    ),
+    barmode = 'stack',
+    paper_bgcolor = 'rgb(248, 248, 255)',
+    plot_bgcolor = 'rgb(248, 248, 255)',
+    margin = list(),
+    showlegend = F
+  )
+
+  fi <- fi %>% add_annotations(
+    xref = 'paper',
+    yref = 'y',
+    x = 0.14,
+    y = df$Language,
+    xanchor = 'right',
+    text = df$Language,
+    font = list(family = 'Arial', size = 10, color = 'rgb(67, 67, 67)'),
+    showarrow = FALSE,
+    align = 'right'
+  )
+
+  fi <- fi %>% add_annotations(
+    xref = 'x',
+    yref = 'y',
+    x = df$Total_words / 2,
+    y = df$Language,
+    text = paste(df$Total_words),
+    font = list(family = 'Arial', size = 10, color = 'rgb(248, 248, 255)'),
+    showarrow = FALSE
+  )
+
+  fi <- fi %>% add_annotations(
+    xref = 'x',
+    yref = 'y',
+    x = df$Total_words + df$Translated / 2,
+    y = df$Language,
+    text = ifelse(df$Translated != 0, paste(df$Translated), ""),
+    font = list(family = 'Arial', size = 10, color = 'rgb(248, 248, 255)'),
+    showarrow = FALSE
+  )
+
+  fi <- fi %>% add_annotations(
+    xref = 'x',
+    yref = 'y',
+    x = df$Total_words + df$Translated + df$Fuzzy / 2,
+    y = df$Language,
+    text = ifelse(df$Fuzzy != 0, paste(df$Fuzzy), ""),
+    font = list(family = 'Arial', size = 10, color = 'rgb(248, 248, 255)'),
+    showarrow = FALSE
+  )
+
+  fi <- fi %>% add_annotations(
+    xref = 'x',
+    yref = 'y',
+    x = df$Total_words + df$Translated + df$Fuzzy + df$Untranslated / 2,
+    y = df$Language,
+    text = ifelse(df$Untranslated != 0, paste(df$Untranslated), ""),
+    font = list(family = 'Arial', size = 10, color = 'rgb(248, 248, 255)'),
+    showarrow = FALSE
+  )
+  fi <- fi %>% layout(annotations = list(
+    list(
+      x = 0.5,
+      y = 1.1,
+      text = libr,
+      showarrow = F,
+      xref = 'paper',
+      yref = 'paper',
+      xanchor = 'center',
+      yanchor = 'top',
+      font = list(size = 16)
+    )
+  ))
+
+  plots[[libr]] <- fi
+}
+```
+
+#### Library Translation Status
+
+```{r}
+subplot1 <- subplot(plots[[5]], plots[[6]], nrows = 1)
+subplot2 <- subplot(plots[[7]], plots[[8]], nrows = 1)
+subplot1 <- subplot1 %>% layout(margin = list(t = 30, b = 30))
+subplot2 <- subplot2 %>% layout(margin = list(t = 30, b = 30))
+subplots <- subplot(subplot1, subplot2, subplot2, nrows = 3) %>% layout(width = 1030, height = 305 * 3)
+
+for (i in seq_along(plots)) {
+  plots[[i]] <- plots[[i]] %>% layout(margin = list(t = 60, b = 30))
+}
+
+subplots2 <- subplot(plots, nrows = ceiling(length(libraries) / 2)) %>% layout(width = 1030, height = 305 * length(libraries))
+scrollable_div <- div(
+  style = "overflow-y: scroll; height: 600px;",
+  subplots2
+)
+
+scrollable_div
+```
+
+<!-- ### Row {height=800px} -->
+
+#### Translation Status per Language
+
+```{r}
+component<-unique(Library_Language_Statistics$Component)
+r_component<-subset(Library_Language_Statistics,Component==component[1])
+c_component<-subset(Library_Language_Statistics,Component==component[3])
+english_component<-subset(Library_Language_Statistics,Component==component[2])
+
+library<-unique(r_component$Library)
+libra<-c()
+total_word<-c()
+translate<-c()
+for(lib in library)
+{
+  indexes<-which(r_component$Library==lib)
+  total_word<-c(total_word,sum(r_component$Total_words[indexes]))
+  translate<-c(translate,sum(r_component$Translated[indexes]))
+  libra<-c(libra,lib)
+}
+r_df<-data.frame(libra,total_word,translate)
+
+library<-unique(c_component$Library)
+libra<-c()
+total_word<-c()
+translate<-c()
+for(lib in library)
+{
+  indexes<-which(c_component$Library==lib)
+  total_word<-c(total_word,sum(c_component$Total_words[indexes]))
+  translate<-c(translate,sum(c_component$Translated[indexes]))
+  libra<-c(libra,lib)
+}
+c_df<-data.frame(libra,total_word,translate)
+
+library<-unique(english_component$Library)
+libra<-c()
+total_word<-c()
+translate<-c()
+for(lib in library)
+{
+  indexes<-which(english_component$Library==lib)
+  total_word<-c(total_word,sum(english_component$Total_words[indexes]))
+  translate<-c(translate,sum(english_component$Translated[indexes]))
+  libra<-c(libra,lib)
+}
+eng_df<-data.frame(libra,total_word,translate)
+
+plot_r<-plot_ly(r_df,x=~libra,y=~total_word,name="Total words",type = "bar")
+plot_r<-plot_r%>%add_trace(y=~translate,name="Translate")%>%layout(showlegend = FALSE,annotations = list(
+  list(
+    x = 0.5,
+    y = 1.1,
+    text = "R",
+    showarrow = F,
+    xref = 'paper',
+    yref = 'paper',
+    xanchor = 'center',
+    yanchor = 'top',
+    font=list(size=16)
+  )),barmode="stack")
+plot_c<-plot_ly(c_df,x=~libra,y=~total_word,name="Total words",type = "bar")
+plot_c<-plot_c%>%add_trace(y=~translate,name="Translate",mode="lines+markers")%>%layout(showlegend = FALSE,annotations = list(
+  list(
+    x = 0.5,
+    y = 1.1,
+    text = "C",
+    showarrow = F,
+    xref = 'paper',
+    yref = 'paper',
+    xanchor = 'center',
+    yanchor = 'top',
+    font=list(size=16)
+  )),barmode="stack")
+
+subplot(plot_r,plot_c,nrows=2,margin = 0.07)
+```
+
+
+
+### Translations {orientation="rows" scrolling="true"}
+
+```{r}
+# linked<-c()
+# for(u in Marked_for_Edit$units)
+# {
+# url<-paste0("https://translate.rx.studio/api/units/",u,"/")
+# h <- curl::new_handle()
+# handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
+# handle_setopt(h, customrequest = "GET")
+# handle_setopt(h, httpheader = c("Authorization: Token wlu_U8k6Kk12pyhXuBeXOP6imHRFiPrUMwHgHari"))
+#
+# res <- curl_fetch_memory(url, handle = h)
+# content <- rawToChar(res$content)
+# users_last <- fromJSON(content)
+# linked<-c(linked,users_last$web_url)
+# }
+# data <- cbind(
+#   Marked_for_Edit,links=NA
+# )
+# data$linked <- linked
+# data$date<-as.Date(data$date)
+
+linked <- rep(NA, nrow(Marked_for_Edit))  # pre-fill with NA
+
+for (i in seq_len(nrow(Marked_for_Edit))) {
+
+  u <- Marked_for_Edit$units[i]
+
+  url <- paste0("https://translate.rx.studio/api/units/", u, "/")
+  h <- curl::new_handle()
+  handle_setopt(h, ssl_verifyhost = 0L, ssl_verifypeer = 0L)
+  handle_setopt(h, customrequest = "GET")
+  handle_setopt(h, httpheader = c(
+    "Authorization: Token wlu_U8k6Kk12pyhXuBeXOP6imHRFiPrUMwHgHari"
+  ))
+
+  res <- curl_fetch_memory(url, handle = h)
+  content <- rawToChar(res$content)
+  users_last <- fromJSON(content)
+
+  # Only assign if present
+  if (!is.null(users_last$web_url)) {
+    linked[i] <- users_last$web_url
+  }
+}
+
+data <- Marked_for_Edit
+data$linked <- linked
+data$date <- as.Date(data$date)
+
+```
+
+<!-- ## Row -->
+
+#### Translation in Weblate that require review
+
+```{r}
+htmltools::div(
+  style = "width: 100%;
+          height:450px;
+          overflow:auto;",
+  reactable(
+    data,
+    filterable = TRUE,
+    defaultColDef = colDef(show = TRUE),
+    groupBy=c("language","library"),
+    showPageSizeOptions = TRUE,
+    pagination = TRUE,
+    columns = list(
+      linked = colDef(show = FALSE),
+      units =colDef(name="Translation_message_id"),
+      links = colDef(
+        name = "",
+        sortable = FALSE,
+        cell = function() htmltools::tags$button("Links")
+      )
+    ),
+    onClick = JS("function(rowInfo, column) {
+      if (column.id !== 'links') {
+        return
+      }
+      var link = rowInfo.row.linked;
+      console.log(link);
+      window.open(link, '_blank');
+    }")
+  )
+)
+```
+
+<!-- ## Row -->
+
+#### Growth of Translations over Last Year
+
+```{r}
+all_date<-as.POSIXct.Date(New_Translation$date,origin="1970-01-01")
+all_date2<-as.POSIXct.Date(Marked_for_Edit$date,origin="1970-01-01")
+all_date<-c(all_date,all_date2)
+# extract the year and month from each date
+year_month <- format(all_date, "%Y-%m")
+
+# count the number of dates in each month
+date_counts <- table(year_month)
+
+# display the result
+date_counts<-as.data.frame(date_counts)
+date_counts$cumFreq<-cumsum(date_counts$Freq)
+date_counts<-date_counts[(nrow(date_counts)-11):nrow(date_counts),]
+
+fig <- plot_ly(date_counts, x = ~year_month, y = ~cumFreq, name = 'Graph', type = 'scatter', mode = 'line', stackgroup = 'one', fillcolor = 'pink')
+fig <- fig %>% layout(title = 'Growth of Translations over time',
+                      xaxis = list(title = "Dates",
+                                   showgrid = FALSE),
+                      yaxis = list(title = "Transaltions",
+                                   showgrid = FALSE))
+
+fig
+```
+
+<!-- ## Row -->
+
+#### Translated
+
+```{r}
+New_Translation$date<-as.Date(New_Translation$date)
+htmltools::div(
+  style = "width: 100%;
+          height:450px;
+          overflow:auto;",
+  reactable(
+    New_Translation,
+    filterable = TRUE,
+    defaultColDef = colDef(show = TRUE),
+    groupBy=c("library","language"),
+    showPageSizeOptions = TRUE,
+    columns = list(
+      new_linked = colDef(show = FALSE),
+      units =colDef(show=FALSE),
+      links = colDef(
+        name = "",
+        sortable = FALSE,
+        cell = function() htmltools::tags$button("Links")
+      )
+    ),
+    onClick = JS("function(rowInfo, column) {
+      if (column.id !== 'links') {
+        return
+      }
+      var link = rowInfo.row.linked;
+      console.log(link);
+      window.open(link, '_blank');
+    }")
+  )
+)
+```
+
+### Information
+
+<!-- ## Row -->
+
+#### R Translation Weblate Status
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+<strong>Dashboard Developer</strong>
+:::
+  <p><h3>Shrish Shete</h3>(<em>Contributor at GSOC 2023</em>)</p>
+  <i class="fa-solid fa-circle-info"></i> <b>About</b> : Student at <b>IIT Kanpur</b>,India (Statistics and Data Science)<br>
+  <i class="fa-regular fa-envelope"></i> <b>Email</b> : sheteshrish1203@gmail.com<br>
+  <i class="fa-brands fa-github"></i> <b>Github</b> : https://github.com/shrish-shete20<br>
+  <i class="fa-brands fa-linkedin"></i> <b>Linkedin</b> : https://www.linkedin.com/in/shrish-shete-31a34a249/<br>
+::::
+
+#### R Translation Weblate Status
+
+:::: {.blackbox data-latex=""}
+::: {.centers data-latex=""}
+<strong>Mentors</strong>
+:::
+  <h5 class="Mentor1">Ben Ubah</h5>
+  <i class="fa-solid fa-circle-info"></i> <b>About</b> : Mentor at GSOC 2023<br>
+    <i class="fa-regular fa-envelope"></i> <b>Email</b> : ubah.ben22@gmail.com<br>
+  <h5 class="Mentor2">Gabriel Becker</h5>
+  <i class="fa-solid fa-circle-info"></i> <b>About</b> : Mentor at GSOC 2023<br>
+    <i class="fa-regular fa-envelope"></i> <b>Email</b> : gabembecker@gmail.com<br>
+::::
+
+<style>
+    .centers {
+        text-align: center;
+    }
+</style>
+
+<!-- Row -->
+<!-- --------------------------------------------------------------------------------- -->
+
+#### <small> <em>About the Dashboard</em></small>
+
+This R project seeks to develop a dashboard that provides a clear overview of the current
+status of language translations, enabling the R community to comprehend the progress
+made thus far easily.
+The development of this tool has the potential to serve as a primary resource for exploring
+and comprehending the progress made in translating a specific language. It can benefit a
+wide range of stakeholders, including community developers and organizers seeking
+information on language translations.
+By providing a comprehensive report on the translation status of messages in different
+languages, the tool can support the planning of diversity packages and recognize the
+contributions of regional volunteers who devote considerable time and effort to translating
+messages into their native languages by acknowledging the efforts.
+
+The project aims to establish a robust framework for monitoring the translation status of R.
+
+<i class="fa-solid fa-star"></i> <strong> Features</strong>
+
+- <b>Leaderboard Page</b> : Contains a Leaderboard of all Users on Weblate. This allowed users to view their rank on the platform, providing a clear visual representation of translation progress. The leaderboard is expected to motivate contributors to continue their efforts.
+
+- <b> Language Page</b> : The Language Page provides a comprehensive overview of the translation status of each language. This is achieved through the use of a variety of visualizations, which display information such as the number of translators working on each language, the amount of work that remains to be translated, and the overall progress of the translation project. The Language Page is an essential tool for project managers and translators, as it allows them to track the progress of the translation project and identify areas where additional resources may be needed. It is also a valuable resource for users who are interested in contributing to the translation project.
+
+- <b> Library Page</b> : The Library Page provides an overview of the translation status of each library in each language. It includes information such as the number of components that have been translated, the amount of work that remains to be translated, and the overall progress of the translation project. The Library Page also includes an overview of the translation status in each component. It is also a valuable resource for users who are interested in contributing to the translation project.
+
+- <b> Translation Page</b> : The Translation Page provides a list of strings that have been translated, but still need editing. The list includes links to the translation site, so that users can easily contribute their edits. The Translation Page is designed to be user-friendly and informative. The list of strings is clear and easy to understand, and the links to the translation site are easy to find. The Translation Page is a valuable resource for anyone who is involved in the translation project, and it is an essential tool for ensuring the success of the project.
+
+<i class="fa-solid fa-toolbox"></i> <strong>TOOLS</strong>
+
+- <i class="fa-solid fa-wrench"></i> Front-End : HTML <i class="fa-brands fa-html5"></i>,CSS <i class="fa-brands fa-css3-alt"></i>,Java Script <i class="fa-brands fa-js"></i>,bslib theme template <i class="fa-solid fa-code"></i>.
+- <i class="fa-solid fa-wrench"></i> Back-End : A small ETL infrastructure based on R <i class="fa-brands fa-r-project"></i>,Github actions <i class="fa-brands fa-github"></i>, Github Pages <i class="fa-brands fa-square-github"></i> that daily retrieves data from Weblate API. This infrastructure provides a way to work with Weblate's authentication system automatically. The back-end is completely separated from the front-end.
+- <i class="fa-solid fa-clock"></i> Update : The dashboard is updated daily.
+<style>
+  ul {
+    list-style-type: none;
+  }
+</style>
+
+
+<i class="fa-solid fa-address-book"></i> <strong>Contact</strong>
+If you have any questions, feedback, suggestions, please open an issue on GitHub <i class="fa-brands fa-github"></i> here: https://github.com/shrish-shete20/weblate or email the primary maintainer: sheteshrish1203@gmail.com
+
+```{r}
+htmltools::tags$div(
+  htmltools::tags$button(
+    id = "view_code",
+    class = "btn btn-primary",
+    style = "background-color: blue;",
+    htmltools::tags$i(class = "fa fa-github"),
+    "View Code",
+    onclick = "window.open('https://github.com/shrish-shete20/weblate', '_blank')"
+  ),
+  htmltools::tags$button(
+    id = "submit_issue",
+    class = "btn btn-danger",
+    style = "background-color: red;",
+    htmltools::tags$i(class = "fa-solid fa-circle-exclamation"),
+    "Submit Issue",
+    onclick = "window.open('https://github.com/shrish-shete20/weblate/issues', '_blank')"
+  )
+)
+
+```
+
+# R Translation Teams
+
+## Row {height=450}
+
+### R Translation Teams | <small> Contact Details </small>
+
+```{r}
+translation_teams %>%
+  reactable(
+    .,
+    pagination = TRUE,
+    showPageSizeOptions = TRUE,
+    highlight = TRUE,
+    defaultColDef = colDef(headerClass = "header", align = "left"),
+    columns = list(
+      Language = colDef(
+        name = "Translation Languages",
+        filterable = TRUE,
+      ),
+      Members = colDef(
+        name = "R-Core Lead Maintainers",
+        filterable = TRUE,
+      ),
+      Contact = colDef(
+        name = "Email Contacts",
+        filterable = TRUE,
+      )),
+    compact = TRUE,
+    bordered = TRUE,
+    class = "categories-tbl"
+  )
+```
+
