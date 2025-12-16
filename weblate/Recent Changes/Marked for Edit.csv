@@ -4466,7 +4466,6 @@ Chinese (Simplified Han script),base (C files),numerical expression has length >
 Chinese (Simplified Han script),base (C files),numerical expression has %d elements: only the first used,168043,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=2f13fd69a7899382
 Chinese (Simplified Han script),base (C files),invalid type (%s) for '%s' (must be a vector),168045,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=03468dd79dd61c31
 Chinese (Simplified Han script),base (C files),'%s' must be a finite number,168050,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=c68e3c533d930fa6
-Chinese (Simplified Han script),base (C files),'%s' must be of length 1,168051,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=3f1d91df8edd2d49
 Chinese (Simplified Han script),base (C files),'lengths' is not of mode integer,168053,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=0a26d5da025ef695
 Chinese (Simplified Han script),base (C files),'from' is not of mode integer,168054,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=239c3367999e9a0d
 Chinese (Simplified Han script),base (C files),'by' is not of mode integer,168055,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=2f4bf3d7733af23e
@@ -4581,8 +4580,6 @@ Chinese (Simplified Han script),base (C files),zero-length 'path' argument,27133
 Chinese (Simplified Han script),base (C files),binary-mode connection required for ascii=false,271341,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=f0ef141b0b2614dc
 Chinese (Simplified Han script),base (C files),'partial' index %lld outside bounds,271342,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=2bc10ef640232be6
 Chinese (Simplified Han script),base (C files),'partial' index %d outside bounds,271343,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=50d0d674bea1f55e
-Chinese (Simplified Han script),base (R files),See help("Defunct"),40358,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=6eafa8fafeaed0b2
-Chinese (Simplified Han script),base (R files),'%s' is deprecated.,40360,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=90a33066166acf42
 Chinese (Simplified Han script),base (R files),Conflicts attaching package %s:
 %s,40605,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9beb37569e2a7e23
 Chinese (Simplified Han script),base (R files),Package %s version %s cannot be unloaded:
@@ -4636,11 +4633,7 @@ Chinese (Simplified Han script),base (R files),invalid '%s': type "%s",226795,ht
 Chinese (Simplified Han script),base (R files),'uplo' must be "U" or "L",226796,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=a66333c23e2dd14a
 Chinese (Simplified Han script),base (R files),invalid nrow(z),226797,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9b81226e23c8678f
 Chinese (Simplified Han script),base (R files),invalid 'x',226800,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=8d495725cec58df5
-Chinese (Simplified Han script),base (R files),'kind' must be a character string (RNG to be used).,258474,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=6974c9c14eced97e
 Chinese (Simplified Han script),base (R files),'%s' must be a non-empty character string,258477,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=013d2492742135f1
-Chinese (Simplified Han script),base (R files),'%s' must be of length 1,270893,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=3f1d91df8edd2d49
-Chinese (Simplified Han script),base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270895,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=d8a6ad3d85ae293d
-Chinese (Simplified Han script),base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270896,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=035cca669b0c6f3b
 Chinese (Simplified Han script),base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270897,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9da6cce003460690
 Chinese (Simplified Han script),base (R files),'%s' must be a "%s" object,270898,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=f34c4471ff00dfee
 Chinese (Simplified Han script),base (R files),'recursive' must be a length-1 vector,270900,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=a2292cb330caa33d
@@ -4691,7 +4684,6 @@ Chinese (Simplified Han script),grDevices (R files),invalid width,138466,https:/
 Chinese (Simplified Han script),grDevices (R files),invalid height,138467,https://translate.rx.studio/translate/r-project/grdevices-r/zh_Hans/?checksum=9cf25732bc528589
 Chinese (Simplified Han script),grDevices (R files),'filename' must be a non-empty character string,138468,https://translate.rx.studio/translate/r-project/grdevices-r/zh_Hans/?checksum=8d61b315e64ae1e3
 Chinese (Simplified Han script),grDevices (R files),%d %s value <= 0 omitted from logarithmic plot,138469,https://translate.rx.studio/translate/r-project/grdevices-r/zh_Hans/?checksum=458ba15e9f60736e
-Chinese (Simplified Han script),grDevices (R files),'%s' is deprecated.,226106,https://translate.rx.studio/translate/r-project/grdevices-r/zh_Hans/?checksum=90a33066166acf42
 Chinese (Simplified Han script),grid (R files),invalid fontface,83346,https://translate.rx.studio/translate/r-project/grid-r/zh_Hans/?checksum=2b1072abb57e897d
 Chinese (Simplified Han script),grid (R files),one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE'),83350,https://translate.rx.studio/translate/r-project/grid-r/zh_Hans/?checksum=78afaf02e2998740
 Chinese (Simplified Han script),grid (R files),Down viewport failed to record on display list,83355,https://translate.rx.studio/translate/r-project/grid-r/zh_Hans/?checksum=7eee399eada7ca9b
