@@ -103,7 +103,7 @@
 "102",12,"base (C files)","C","Polish",1712,1712,0,0
 "103",13,"base (C files)","C","Portuguese (Brazil)",1694,1442,12,240
 "104",14,"base (C files)","C","Russian",1712,1695,3,14
-"105",15,"base (C files)","C","Turkish",1712,1092,190,430
+"105",15,"base (C files)","C","Turkish",1712,1094,188,430
 "106",16,"base (C files)","C","Chinese (Simplified Han script)",1712,1406,108,198
 "107",17,"base (C files)","C","Chinese (Traditional Han script)",1712,1412,98,202
 "108",18,"base (C files)","C","Arabic",1712,150,1486,76
@@ -222,7 +222,7 @@
 "221",11,"graphics (C files)","C","Polish",130,130,0,0
 "222",12,"graphics (C files)","C","Portuguese (Brazil)",130,118,3,9
 "223",13,"graphics (C files)","C","Russian",130,130,0,0
-"224",14,"graphics (C files)","C","Turkish",130,102,7,21
+"224",14,"graphics (C files)","C","Turkish",130,103,6,21
 "225",15,"graphics (C files)","C","Chinese (Simplified Han script)",130,129,0,1
 "226",16,"graphics (C files)","C","Chinese (Traditional Han script)",130,124,3,3
 "227",17,"graphics (C files)","C","Arabic",130,3,127,0
