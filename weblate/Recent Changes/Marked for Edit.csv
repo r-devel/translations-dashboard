@@ -212,8 +212,6 @@ Bengali,base (R files),'%s' must be a character string,258292,https://translate.
 Bengali,base (R files),'%s' must be a non-empty character string,258294,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=013d2492742135f1
 Bengali,base (R files),'%s' must be of length 1,270634,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=3f1d91df8edd2d49
 Bengali,base (R files),'%s' must be a "%s" object,270639,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=f34c4471ff00dfee
-Catalan,base (C files),object of type '%s' is not subsettable,233717,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=1753dd7f054f9153
-Catalan,base (C files),singular matrix in 'backsolve'. First zero in diagonal [%d],233862,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=028ca471b668b648
 Catalan,base (C files),getAttrib: invalid type (%s) for TAG,233865,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=8f6b0543d0faa0b3
 Catalan,base (C files),invalid slot name length,233897,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=1cd57c66f982db68
 Catalan,base (C files),invalid type '%s' for slot name,233898,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=de54cb64fc66d87c
