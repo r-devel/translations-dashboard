@@ -119,8 +119,8 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 118,Philippe Grosjean,phgrosjean,3,1,French,2025-07-22T08:37:12.865083Z,2025-07-22T08:35:35.288863Z,Inactive
 119,Frans van Dunné,FvD,0,2,"c(""Spanish"", ""Dutch"")",N/A,N/A,Unbegun
 120,Vincent Arel-Bundock,vincentarelbundock,0,2,"c(""French"", ""English"")",N/A,N/A,Unbegun
-121,Languages add-on,addon:languages,0,0,character(0),2025-08-12T03:47:33.799183Z,2025-08-12T03:45:03.262346Z,Active
-122,Azure AI Translator,mt:microsoft-translator,5,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Active
+121,Languages add-on,addon:languages,0,0,character(0),2025-08-12T03:47:33.799183Z,2025-08-12T03:45:03.262346Z,Unbegun
+122,Azure AI Translator,mt:microsoft-translator,5,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Inactive
 123,Nikita Mozgunov,nikotinz,0,1,Russian,N/A,N/A,Unbegun
 124,Eren Ozberk,erenozberk,1,2,"c(""Turkish"", ""English"")",2025-09-12T09:10:40.875381Z,2025-09-12T09:07:05.673268Z,Active
 125,Tulio Baars,tbaars,750,1,Portuguese (Brazil),2025-09-12T15:20:41.241130Z,2025-09-08T13:27:40.022818Z,Active
