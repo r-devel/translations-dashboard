@@ -38,7 +38,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 37,Shrish Shete,shrishs21,2,2,"c(""English (United Kingdom)"", ""Hindi"")",N/A,N/A,Active
 38,Om Shivam Verma,omsv135,0,0,character(0),N/A,N/A,Unbegun
 39,Sovan Karmakar,Sovan,7,3,"c(""Bengali"", ""English (United Kingdom)"", ""English"")",2023-04-05T06:30:03.843731Z,2023-04-05T06:19:12.199744Z,Inactive
-40,Shreshtha Modi,shreshthamodi,52,2,"c(""Hindi"", ""English (United Kingdom)"")",2023-04-05T16:08:24.913425Z,2023-04-05T16:08:24.913425Z,Inactive
+40,Shreshtha Modi,shreshthamodi,52,2,"c(""Hindi"", ""English (United Kingdom)"")",N/A,N/A,Active
 41,María Cristina Nanton,MCNanton,38,1,Spanish,2023-10-12T22:05:35.792992Z,2023-08-09T23:38:29.713931Z,Inactive
 42,Hugo Gruson,hgruson,17,1,French,2023-04-13T09:36:34.017717Z,2023-04-13T09:31:55.858098Z,Inactive
 43,Paola Corrales,PaoCorrales,501,1,Spanish,2024-11-21T06:15:41.508243Z,2023-05-16T14:10:27.470268Z,Inactive
@@ -56,7 +56,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 55,Jordi Mas,jmas,0,1,Catalan,N/A,N/A,Unbegun
 56,Josep Pueyo-Ros,jospueyo,7,1,Catalan,2023-10-01T13:55:50.524301Z,2023-10-01T13:48:09.236391Z,Inactive
 57,Toni Hermoso Pulido,toniher,0,1,Catalan,N/A,N/A,Unbegun
-58,Riva Quiroga,rivaquiroga,102,1,Spanish,2025-10-23T15:15:17.227192Z,2025-09-08T08:30:31.327708Z,Active
+58,Riva Quiroga,rivaquiroga,102,1,Spanish,2025-10-23T15:15:17.227192Z,2025-09-08T08:30:31.327708Z,Inactive
 59,Aylén Avila,ImoPupato,11,1,Spanish,2023-10-20T14:39:48.381609Z,2023-10-20T14:18:11.698576Z,Inactive
 60,Jesica Formoso,Jformoso,34,1,Spanish,2023-10-20T15:45:55.584893Z,2023-10-20T14:16:47.126949Z,Inactive
 61,Luis D. Verde Arregoitia,luisdverde,670,1,Spanish,2025-09-08T08:25:41.457661Z,2023-10-20T14:31:03.078902Z,Inactive
@@ -123,9 +123,9 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 122,Azure AI Translator,mt:microsoft-translator,5,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Inactive
 123,Nikita Mozgunov,nikotinz,0,1,Russian,N/A,N/A,Unbegun
 124,Eren Ozberk,erenozberk,1,2,"c(""Turkish"", ""English"")",2025-09-12T09:10:40.875381Z,2025-09-12T09:07:05.673268Z,Active
-125,Tulio Baars,tbaars,750,1,Portuguese (Brazil),2025-09-12T15:20:41.241130Z,2025-09-08T13:27:40.022818Z,Active
+125,Tulio Baars,tbaars,750,1,Portuguese (Brazil),2025-09-12T15:20:41.241130Z,2025-09-08T13:27:40.022818Z,Inactive
 126,Geraldine Gomez Millan,gsgomez,0,1,Spanish,N/A,N/A,Unbegun
-127,Kota Yoneda,KotaYoneda,0,1,Japanese,2025-09-08T08:46:16.631080Z,2025-09-08T08:46:06.488504Z,Active
+127,Kota Yoneda,KotaYoneda,0,1,Japanese,2025-09-08T08:46:16.631080Z,2025-09-08T08:46:06.488504Z,Unbegun
 128,Erika Siregar,erikaris,264,1,Indonesian,2025-09-12T13:55:43.388110Z,2025-09-12T09:06:13.321945Z,Active
 129,Kiran Phalke,phalkekp,59,1,Japanese,2025-09-12T13:29:54.099873Z,2025-09-12T09:56:46.704653Z,Active
 130,Derek Wright,derekwright,44,2,"c(""Portuguese (Brazil)"", ""Russian"")",2025-10-08T11:26:04.712356Z,2025-10-07T14:20:01.487291Z,Active
