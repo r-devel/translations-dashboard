@@ -3957,7 +3957,6 @@ Catalan,utils (C files),unable to open the clipboard,224000,https://translate.rx
 Catalan,utils (C files),unable to write to the clipboard,224001,https://translate.rx.studio/translate/r-project/utils-c/ca/?checksum=bd4aa44db09411ff
 Catalan,utils (C files),column %d claims to be a factor but does not have numeric codes,239899,https://translate.rx.studio/translate/r-project/utils-c/ca/?checksum=6a3f514144968638
 Catalan,utils (R files),some options in argument 'restrict' were not recognized and hence ignored,224017,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3b947d3d7d9ea9dd
-Catalan,utils (R files),argument 'format' is deprecated and has no affect on search results,224018,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=a187f701fb06b6ad
 Catalan,utils (R files),A search query has been submitted to %s,224019,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=71e99729a6d9655d
 Catalan,utils (R files),The results page should open in your browser shortly,224020,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=6f36abd0d2a16446
 Catalan,utils (R files),reference to unknown chunk %s,224021,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=e67f9fcb28bddfc6
@@ -4369,15 +4368,6 @@ Catalan,utils (R files),last record incomplete, %d line discarded,224432,https:/
 Catalan,utils (R files),invalid roman numeral: %s,224433,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=39d89987c8ac92fa
 Catalan,utils (R files),cannot coerce %s to TRUE or FALSE,239642,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=2307fd53daee5ab1
 Catalan,utils (R files),Arguments of person() should be character or NULL,257340,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=81765e08458af93d
-Catalan,utils (R files),Output file:,307132,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=343332f438cd3c7c
-Catalan,utils (R files),no R objects specified or available,307134,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=695edac5c55c360f
-Catalan,utils (R files),cannot install macOS binary packages on Windows,307136,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=10bf7e18d693e192
-Catalan,utils (R files),cannot install macOS binary packages on this platform,307138,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=d53522819520de49
-Catalan,utils (R files),removing leading '/',307140,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=c74314ef9b27ce90
-Catalan,utils (R files),path is empty,307142,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=8eca8ebef95c4160
-Catalan,utils (R files),file %s is not a macOS binary package,307144,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=72ff49917a33a986
-Catalan,utils (R files),'memory.size()' is Windows-specific,307146,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=05f2911a93efed70
-Catalan,utils (R files),'memory.limit()' is Windows-specific,307148,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=49cbd104229d438c
 Chinese (Simplified Han script),base (C files),'file' must be a character string or connection,68894,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=eaefd0f3af0aca1f
 Chinese (Simplified Han script),base (C files),invalid '(to - from)/by',69567,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=eeec16fd78250451
 Chinese (Simplified Han script),base (C files),invalid slot name length,167049,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=1cd57c66f982db68
