@@ -11,7 +11,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 10,Lluís,llrs,326,1,Spanish,2026-03-11T21:05:08.950883Z,2022-08-31T19:02:49.185580Z,Inactive
 11,Beatriz Milz,beatrizmilz,95,1,Portuguese (Brazil),2022-10-21T23:53:19.527141Z,2022-10-15T13:47:30.049688Z,Inactive
 12,Martin Mächler,mmaechler,0,1,German,N/A,N/A,Unbegun
-13,Shun Wang,ShunWang,2273,1,Chinese (Simplified Han script),2025-03-04T03:32:57.411502Z,2022-09-25T03:54:47.221413Z,Inactive
+13,Shun Wang,ShunWang,2278,1,Chinese (Simplified Han script),2026-03-31T15:21:09.932736Z,2022-09-25T03:54:47.221413Z,Inactive
 14,Kwangchun Lee,tidyverse,15,1,Korean,2022-10-01T01:52:11.092991Z,2022-09-28T02:06:44.906538Z,Inactive
 15,joygram,joygram,2,1,Korean,2022-09-29T04:55:07.852687Z,2022-09-29T03:28:33.524393Z,Inactive
 16,Macarena Quiroga,msquiroga,425,1,Spanish,2026-01-02T18:21:26.867629Z,2022-10-14T13:18:07.512475Z,Inactive
@@ -120,7 +120,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 119,Frans van Dunné,FvD,0,2,"c(""Spanish"", ""Dutch"")",N/A,N/A,Unbegun
 120,Vincent Arel-Bundock,vincentarelbundock,0,2,"c(""French"", ""English"")",N/A,N/A,Unbegun
 121,Languages add-on,addon:languages,0,0,character(0),2025-08-12T03:47:33.799183Z,2025-08-12T03:45:03.262346Z,Unbegun
-122,Azure AI Translator,mt:microsoft-translator,5,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Inactive
+122,Azure AI Translator,mt:microsoft-translator,9,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Inactive
 123,Nikita Mozgunov,nikotinz,0,1,Russian,N/A,N/A,Unbegun
 124,Eren Ozberk,erenozberk,1,2,"c(""Turkish"", ""English"")",2025-09-12T09:10:40.875381Z,2025-09-12T09:07:05.673268Z,Inactive
 125,Tulio Baars,tbaars,750,1,Portuguese (Brazil),2025-09-12T15:20:41.241130Z,2025-09-08T13:27:40.022818Z,Inactive
@@ -138,3 +138,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 137,Sarala Matthews,sarala_stella@yahoo.co.in,59,1,Hindi,2025-11-21T06:58:30.777596Z,2025-11-21T06:09:51.224101Z,Active
 138,Zaw Myo Tun,zawmtun,13,1,Chinese (Simplified Han script),2025-12-16T03:06:52.024634Z,2025-12-16T02:42:50.497382Z,Active
 139,Fikret Bartu YURDACAN,fbartuyurdacan,7,1,Turkish,2025-12-16T20:52:11.347032Z,2025-12-16T20:43:34.087679Z,Active
+140,novica,novica,0,0,character(0),N/A,N/A,Unbegun
