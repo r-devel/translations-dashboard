@@ -54,7 +54,7 @@
 "53",23,"The R Project for Statistical Computing","English","Indonesian",179,2,177,0
 "54",24,"The R Project for Statistical Computing","English","Bengali",179,8,171,0
 "55",25,"The R Project for Statistical Computing","English","Urdu",179,2,177,0
-"56",26,"The R Project for Statistical Computing","English","Nepali",179,106,73,0
+"56",26,"The R Project for Statistical Computing","English","Nepali",179,106,0,73
 "57",27,"The R Project for Statistical Computing","English","Catalan",183,25,158,0
 "58",28,"The R Project for Statistical Computing","English","Dutch",179,2,177,0
 "59",29,"The R Project for Statistical Computing","English","Pangasinan",179,2,177,0
@@ -110,7 +110,7 @@
 "109",19,"base (C files)","C","Albanian",1717,0,1605,112
 "110",20,"base (C files)","C","English (United Kingdom)",1732,1643,39,50
 "111",21,"base (C files)","C","Hindi",1717,51,1457,209
-"112",22,"base (C files)","C","Nepali",1717,7,1691,19
+"112",22,"base (C files)","C","Nepali",1717,7,1411,299
 "113",23,"base (C files)","C","Catalan",1713,321,14,1378
 "114",24,"base (C files)","C","Dutch",1698,86,1612,0
 "115",25,"base (C files)","C","Hungarian",1716,15,1695,6
@@ -788,7 +788,7 @@
 "787",7,"Mac GUI","English","Spanish",505,505,0,0
 "788",8,"Mac GUI","English","Arabic",505,212,293,0
 "789",9,"Mac GUI","English","Hindi",505,0,505,0
-"790",10,"Mac GUI","English","Nepali",505,12,493,0
+"790",10,"Mac GUI","English","Nepali",505,12,0,493
 "791",11,"Mac GUI","English","Turkish",505,35,470,0
 "792",12,"Mac GUI","English","Hungarian",505,144,361,0
 "793",13,"Mac GUI","English","Catalan",505,505,0,0
