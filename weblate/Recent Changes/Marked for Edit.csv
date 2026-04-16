@@ -7327,7 +7327,6 @@ Japanese,graphics (R files),invalid plot type,79789,https://translate.rx.studio/
 Japanese,graphics (R files),invalid plot type '%s',79791,https://translate.rx.studio/translate/r-project/graphics-r/ja/?checksum=19093d8b21d27a92
 Japanese,graphics (R files),'text.width' must be numeric, >= 0, or a scalar NA,139015,https://translate.rx.studio/translate/r-project/graphics-r/ja/?checksum=af484466f4ebc89d
 Japanese,graphics (R files),panel.last ignored, it is not a function,307563,https://translate.rx.studio/translate/r-project/graphics-r/ja/?checksum=b9a94c6623cec310
-Japanese,graphics (R files),fuzz must be non-negative,307564,https://translate.rx.studio/translate/r-project/graphics-r/ja/?checksum=7d693f58162cdc03
 Japanese,grDevices (C files),Failed to allocate PDF definition string,73391,https://translate.rx.studio/translate/r-project/grdevices-c/ja/?checksum=da73b908c145262b
 Japanese,grDevices (C files),failed to increase definition string (shut down PDF device),73392,https://translate.rx.studio/translate/r-project/grdevices-c/ja/?checksum=d32cf76b8c344938
 Japanese,grDevices (C files),failed to increase 'maxDefns',73393,https://translate.rx.studio/translate/r-project/grdevices-c/ja/?checksum=9be2d840368531dc
