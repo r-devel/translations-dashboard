@@ -1,6 +1,6 @@
 serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_Activity,Active
 1,Anonymous,anonymous,0,0,character(0),2026-01-11T22:58:51.191522Z,2022-08-30T14:20:03.409262Z,Unbegun
-2,Weblate Admin,daroczig,26,1,Hungarian,2026-03-08T20:44:59.542861Z,2022-05-26T10:44:35.658195Z,Inactive
+2,Weblate Admin,daroczig,63,1,Hungarian,2026-04-14T21:50:45.533991Z,2022-05-26T10:44:35.658195Z,Inactive
 3,Deleted User,deleted-3,0,0,character(0),N/A,N/A,Unbegun
 4,Deleted User,deleted-4,0,0,character(0),N/A,N/A,Unbegun
 5,Angela Sanzo,angelasanzo,107,1,Spanish,2022-10-15T13:48:33.161586Z,2022-07-26T11:46:55.491580Z,Inactive
@@ -69,7 +69,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 68,Silvana Pereyra,spereyra,10,1,Spanish,2023-10-20T18:54:42.593639Z,2023-10-20T18:45:05.762564Z,Inactive
 69,Rafael Fontenelle,rffontenelle,491,1,Portuguese (Brazil),2025-10-23T17:18:32.408835Z,2023-10-31T18:24:54.537614Z,Inactive
 70,Mayeul Kauffmann,mayeul_kauffmann,3,4,"c(""French"", ""Italian"", ""Spanish"", ""English"")",2023-11-04T17:49:59.393796Z,2023-11-04T16:55:02.499619Z,Inactive
-71,Raman Shah,ramansh,11,1,Nepali,2026-04-12T08:59:37.798367Z,2023-11-17T12:05:52.719532Z,Inactive
+71,Raman Shah,ramansh,860,1,Nepali,2026-04-12T08:59:37.798367Z,2023-11-17T12:05:52.719532Z,Inactive
 72,Mandal MSH,mshmandal,6,1,Bengali,2024-01-11T20:16:50.958962Z,2024-01-11T20:09:30.718917Z,Inactive
 73,Sophie Buttke,sb,0,1,German,2024-02-15T16:32:16.993838Z,2024-02-15T16:32:16.993838Z,Unbegun
 74,Worood Alswaji,Worood,50,1,Arabic,2024-03-31T19:42:01.069905Z,2024-03-22T19:33:37.220944Z,Inactive
@@ -120,7 +120,7 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 119,Frans van Dunné,FvD,0,2,"c(""Spanish"", ""Dutch"")",N/A,N/A,Unbegun
 120,Vincent Arel-Bundock,vincentarelbundock,0,2,"c(""French"", ""English"")",N/A,N/A,Unbegun
 121,Languages add-on,addon:languages,0,0,character(0),2025-08-12T03:47:33.799183Z,2025-08-12T03:45:03.262346Z,Unbegun
-122,Azure AI Translator,mt:microsoft-translator,9,0,character(0),2025-08-12T03:56:48.287685Z,2025-08-12T03:49:46.872200Z,Inactive
+122,Azure AI Translator,mt:microsoft-translator,9,0,character(0),2026-04-14T04:55:59.418015Z,2025-08-12T03:49:46.872200Z,Inactive
 123,Nikita Mozgunov,nikotinz,0,1,Russian,N/A,N/A,Unbegun
 124,Eren Ozberk,erenozberk,1,2,"c(""Turkish"", ""English"")",2025-09-12T09:10:40.875381Z,2025-09-12T09:07:05.673268Z,Inactive
 125,Tulio Baars,tbaars,750,1,Portuguese (Brazil),2025-09-12T15:20:41.241130Z,2025-09-08T13:27:40.022818Z,Inactive
@@ -140,3 +140,4 @@ serial_number,name,username,translated,Lanaguages_Count,Languages,created,Last_A
 139,Fikret Bartu YURDACAN,fbartuyurdacan,7,1,Turkish,2025-12-16T20:52:11.347032Z,2025-12-16T20:43:34.087679Z,Active
 140,novica,novica,0,0,character(0),N/A,N/A,Unbegun
 141,JeongyoonLee,JayLee,0,1,Korean,N/A,N/A,Unbegun
+142,Weblate Translation Memory,mt:weblate-translation-memory,0,0,character(0),2026-04-14T04:55:59.026610Z,2026-04-14T03:57:00.241920Z,Active
