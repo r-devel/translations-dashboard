@@ -69,7 +69,7 @@
 "68",8,"base (R files)","R","Korean",589,374,173,42
 "69",9,"base (R files)","R","Lithuanian",589,523,37,29
 "70",10,"base (R files)","R","Norwegian Nynorsk",589,348,83,158
-"71",11,"base (R files)","R","Polish",594,590,2,2
+"71",11,"base (R files)","R","Polish",590,586,2,2
 "72",12,"base (R files)","R","Portuguese (Brazil)",589,577,4,8
 "73",13,"base (R files)","R","Russian",589,554,24,11
 "74",14,"base (R files)","R","Turkish",589,126,434,29
@@ -101,9 +101,9 @@
 "100",10,"base (C files)","C","Lithuanian",1719,1481,75,163
 "101",11,"base (C files)","C","Norwegian Nynorsk",1717,1092,183,442
 "102",12,"base (C files)","C","Polish",1716,1710,1,5
-"103",13,"base (C files)","C","Portuguese (Brazil)",1732,1436,25,271
+"103",13,"base (C files)","C","Portuguese (Brazil)",1731,1435,25,271
 "104",14,"base (C files)","C","Russian",1716,1693,4,19
-"105",15,"base (C files)","C","Turkish",1717,1095,190,432
+"105",15,"base (C files)","C","Turkish",1716,1094,190,432
 "106",16,"base (C files)","C","Chinese (Simplified Han script)",1716,1404,110,202
 "107",17,"base (C files)","C","Chinese (Traditional Han script)",1719,1410,99,210
 "108",18,"base (C files)","C","Arabic",1713,150,1487,76
@@ -242,12 +242,12 @@
 "241",1,"graphics (R files)","R","English",159,159,0,0
 "242",2,"graphics (R files)","R","Danish",157,10,143,4
 "243",3,"graphics (R files)","R","German",157,154,2,1
-"244",4,"graphics (R files)","R","French",158,155,2,1
+"244",4,"graphics (R files)","R","French",157,154,2,1
 "245",5,"graphics (R files)","R","Italian",157,153,3,1
-"246",6,"graphics (R files)","R","Japanese",158,142,9,7
+"246",6,"graphics (R files)","R","Japanese",157,142,9,6
 "247",7,"graphics (R files)","R","Korean",157,130,21,6
 "248",8,"graphics (R files)","R","Lithuanian",157,149,4,4
-"249",9,"graphics (R files)","R","Polish",158,155,2,1
+"249",9,"graphics (R files)","R","Polish",157,154,2,1
 "250",10,"graphics (R files)","R","Portuguese (Brazil)",156,151,1,4
 "251",11,"graphics (R files)","R","Russian",157,154,2,1
 "252",12,"graphics (R files)","R","Chinese (Simplified Han script)",157,139,10,8
