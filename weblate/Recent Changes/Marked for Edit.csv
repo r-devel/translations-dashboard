@@ -9816,8 +9816,6 @@ Norwegian Nynorsk,base (C files),can't shut down a locked device,307921,https://
 Norwegian Nynorsk,base (C files),Index out of bounds,307923,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=df71cd1af4e69f2e
 Norwegian Nynorsk,base (C files),vector is too large,307924,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=613235ae14a0ce8d
 Norwegian Nynorsk,base (C files),'nvec' is not of mode integer,307926,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=d8c33eeacaac009e
-Norwegian Nynorsk,base (C files),'from' has length 0, but not 'lengths',307927,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=260ef2d9a898312a
-Norwegian Nynorsk,base (C files),'by' has length 0, but not 'lengths',307928,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=88d8a9ffec9e4f6a
 Norwegian Nynorsk,base (C files),'nvec' must be a vector of non-negative integers,307929,https://translate.rx.studio/translate/r-project/base-c/nn/?checksum=402ffa3f55b2ed9e
 Norwegian Nynorsk,base (R files),'tolerance' should be numeric,37463,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=cd8aad09f75a37a6
 Norwegian Nynorsk,base (R files),'scale' should be numeric or NULL,37464,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=1e3451880238434f
@@ -11228,8 +11226,6 @@ Turkish,base (C files),can't shut down a locked device,308048,https://translate.
 Turkish,base (C files),Index out of bounds,308050,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=df71cd1af4e69f2e
 Turkish,base (C files),vector is too large,308051,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=613235ae14a0ce8d
 Turkish,base (C files),'nvec' is not of mode integer,308053,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=d8c33eeacaac009e
-Turkish,base (C files),'from' has length 0, but not 'lengths',308054,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=260ef2d9a898312a
-Turkish,base (C files),'by' has length 0, but not 'lengths',308055,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=88d8a9ffec9e4f6a
 Turkish,base (C files),'nvec' must be a vector of non-negative integers,308056,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=402ffa3f55b2ed9e
 Turkish,base (R files),Use '%s' instead.,39773,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=58886c83086e0fa3
 Turkish,base (R files),'%s' is deprecated.,39777,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=90a33066166acf42
