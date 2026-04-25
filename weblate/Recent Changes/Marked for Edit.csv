@@ -10782,11 +10782,6 @@ Russian,utils (R files),removing leading '/' from '%s',307318,https://translate.
 Russian,utils (R files),file %s is not a binary package,307322,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=e433e00498c53e38
 Russian,utils (R files),cannot extract package from %s,307324,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=9823f8c59bcbba72
 Russian,utils (R files),Output file:  ,307325,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=ec61cb67695f05e0
-Spanish,base (C files),'dim' cannot be of length 0,308936,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=c3b7922bcc2915de
-Spanish,base (C files),can't shut down a locked device,308942,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=5dfdb0638584859f
-Spanish,base (C files),Index out of bounds,308944,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=df71cd1af4e69f2e
-Spanish,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308805,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=b50eacf7c792b0d3
-Spanish,utils (R files),Output file:  ,307197,https://translate.rx.studio/translate/r-project/utils-r/es/?checksum=ec61cb67695f05e0
 Turkish,base (C files),'file' must be a character string or connection,67252,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=eaefd0f3af0aca1f
 Turkish,base (C files),all arguments must be named,68160,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=9408e08357ccd380
 Turkish,base (C files),non-finite value supplied by 'optim',165135,https://translate.rx.studio/translate/r-project/base-c/tr/?checksum=97e291ce6efe5d56
