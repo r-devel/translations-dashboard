@@ -6300,6 +6300,7 @@ French,stats (R files),incorrect number of columns for 'prob' in %s,308264,https
 French,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,308265,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=1c6a0448b8a762a7
 French,stats (R files),NAs are not allowed in 'groups' or 'blocks',308268,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=05222f43eeabafe9
 French,stats (R files),'correct' must be an integer between 0 and 3,308269,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=4e0de53577e32370
+French,The R Project for Statistical Computing,'%s',251417,https://translate.rx.studio/translate/r-project/glossary/fr/?checksum=78f534c666dbf1de
 French,tools (R files),downloading reverse dependencies %s,308632,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=7cf826615309ca75
 French,tools (R files),download of reverse dependency %s failed,308633,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=d50cbdef1e44e441
 French,tools (R files),download of %d reverse dependencies failed:
