@@ -6278,7 +6278,6 @@ English (United Kingdom),utils (R files),removing leading '/' from '%s',307174,h
 English (United Kingdom),utils (R files),Output file:  ,307184,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=ec61cb67695f05e0
 French,base (C files),'x' must be numeric or complex,307762,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=0d3a1854c01ae117
 French,base (C files),'dim' cannot be of length 0,307763,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=c3b7922bcc2915de
-French,base (C files),can't shut down a locked device,307768,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=5dfdb0638584859f
 French,base (C files),Index out of bounds,307770,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=df71cd1af4e69f2e
 French,base (C files),besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm,307777,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=9de77a974101233c
 French,base (R files),directories are ignored,308824,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=eada66bb551c8617
