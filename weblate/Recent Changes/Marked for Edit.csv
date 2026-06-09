@@ -3847,9 +3847,12 @@ Catalan,stats (R files),%s is not defined for unordered responses,310157,https:/
 Catalan,stats (R files),incorrect number of columns for 'prob' in %s,310158,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=2ee56ee694d89297
 Catalan,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,310159,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=1c6a0448b8a762a7
 Catalan,stats (R files),NAs are not allowed in 'groups' or 'blocks',310162,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=05222f43eeabafe9
-Catalan,stats (R files),'%s' is not implemented yet,310163,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=78014cf86310938d
 Catalan,stats (R files),'correct' must be an integer between 0 and 3,310165,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=4e0de53577e32370
 Catalan,stats (R files),'z' is not a rank vector,310166,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=ce085cf4502bafd0
+Catalan,stats (R files),'formula' missing or invalid,313647,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=4262d77d8e1ffe57
+Catalan,stats (R files),formula missing,313649,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=dc3e47cd16871e48
+Catalan,stats (R files),Requested conf.level not achievable,313651,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=3886e2a5b3c45f29
+Catalan,stats (R files),.nknots.smspl() is now exported; use it instead of n.knots(),313653,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=831e6daf9246edf4
 Catalan,stats4 (R files),some named values are not arguments to the supplied log-likelihood,222463,https://translate.rx.studio/translate/r-project/stats4-r/ca/?checksum=5939b4e28a714eda
 Catalan,tcltk (R files),cannot change names on Tcl array,222299,https://translate.rx.studio/translate/r-project/tcltk-r/ca/?checksum=6d7a7ae99232c6d9
 Catalan,tcltk (R files),cannot set length of Tcl array,222300,https://translate.rx.studio/translate/r-project/tcltk-r/ca/?checksum=a15849b6ccda1cd6
@@ -4021,7 +4024,6 @@ Catalan,tools (R files),inst/doc,223737,https://translate.rx.studio/translate/r-
 Catalan,tools (R files),ignored as vignettes have been rebuilt.,223739,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=ec683a0121d59bd4
 Catalan,tools (R files),Run R CMD build with --no-build-vignettes to prevent rebuilding.,223740,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=6b8d08501f62644a
 Catalan,tools (R files),invalid value for '--compact-vignettes', assuming %s,223741,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=a524af464f6c0ac8
-Catalan,tools (R files),Error: cannot rename directory to %s,223742,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=7fe8e00ad123c9c6
 Catalan,tools (R files),elapsed-time limit of %g %s reached for sub-process,223743,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=cf55c2a87d5152f3
 Catalan,tools (R files),cannot link from %s,223744,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=863d58d47158149b
 Catalan,tools (R files),configuration files are not supported as from R 2.12.0,223746,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=a7f8653ec213d2cd
@@ -4279,7 +4281,9 @@ Catalan,tools (R files),Input must be character,309010,https://translate.rx.stud
 Catalan,tools (R files),invalid 'type',309012,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=df5c8ffe2904ee90
 Catalan,tools (R files),'gpg' is not available for signing,309013,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=8ae99d929e93e22f
 Catalan,tools (R files),Signing failed:,309018,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=0896a8f7c35d5ff9
-Catalan,tools (R files),Rd files without \description:,309021,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=9fe740a844019e91
+Catalan,tools (R files),downloading %s ...,313632,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=ed966a0a22e36be1
+Catalan,tools (R files),for R_CROSS_BUILD,313634,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=1887df1cfe36d9ad
+Catalan,tools (R files),Comparing %s to %s ...,313636,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=0314134d55f5bbe9
 Catalan,utils (C files),invalid quote symbol set,223956,https://translate.rx.studio/translate/r-project/utils-c/ca/?checksum=483c596bc61d3062
 Catalan,utils (C files),cannot read from this connection,223958,https://translate.rx.studio/translate/r-project/utils-c/ca/?checksum=fa5878bebd43ba09
 Catalan,utils (C files),Problem closing connection:  %s,223967,https://translate.rx.studio/translate/r-project/utils-c/ca/?checksum=617af5de3809752f
@@ -5217,7 +5221,6 @@ Chinese (Simplified Han script),stats (R files),exactly one of 'n', 'delta', 'po
 Chinese (Simplified Han script),stats (R files),NAs are not allowed in 'groups' or 'blocks',308541,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=05222f43eeabafe9
 Chinese (Simplified Han script),stats (R files),'correct' must be an integer between 0 and 3,308542,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=4e0de53577e32370
 Chinese (Simplified Han script),stats (R files),'z' is not a rank vector,308543,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=ce085cf4502bafd0
-Chinese (Simplified Han script),stats (R files),'%s' is not implemented yet,310274,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=78014cf86310938d
 Chinese (Simplified Han script),stats4 (R files),some named values are not arguments to the supplied log-likelihood,100033,https://translate.rx.studio/translate/r-project/stats4-r/zh_Hans/?checksum=5939b4e28a714eda
 Chinese (Simplified Han script),tools (R files),The package 'dir' argument must be of length 1,110918,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=aa54252f221334c4
 Chinese (Simplified Han script),tools (R files),Invalid VignetteBuilder field.,110936,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=e1c4bad1fbfbfa06
@@ -5337,28 +5340,6 @@ Chinese (Simplified Han script),tools (R files),invalid 'type',308749,https://tr
 Chinese (Simplified Han script),tools (R files),package %s successfully unpacked and %s sums checked,309334,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=fc465af263572f2b
 Chinese (Simplified Han script),tools (R files),'gpg' is not available for signing,309337,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=8ae99d929e93e22f
 Chinese (Simplified Han script),tools (R files),Signing failed:,309342,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=0896a8f7c35d5ff9
-Chinese (Simplified Han script),tools (R files),Rd files without \description:,309343,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=9fe740a844019e91
-Chinese (Simplified Han script),tools (R files),one of 'package' and 'dir' must be specified.,309355,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=1b759b4eaef9fa39
-Chinese (Simplified Han script),tools (R files),files,309375,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=8af9f081e503ca46
-Chinese (Simplified Han script),tools (R files),cannot coerce %s to logical,309431,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=bbc7b7cf74bc4ed8
-Chinese (Simplified Han script),tools (R files),Inconsistent encoding specifications: %s with %%\SweaveUTF8,309443,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=476d0d751b617d66
-Chinese (Simplified Han script),tools (R files),Foreign function call without 'PACKAGE' argument:,309503,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=d6316f53a7e6484d
-Chinese (Simplified Han script),tools (R files),Foreign function call with empty 'PACKAGE' argument:,309505,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=a2a9e3547b506fcd
-Chinese (Simplified Han script),tools (R files),Foreign function call with 'PACKAGE' argument in a base package:,309507,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=ded7bb8683f00aee
-Chinese (Simplified Han script),tools (R files),Foreign function call with 'PACKAGE' argument in a different package:,309509,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=663a824a9f392a3b
-Chinese (Simplified Han script),tools (R files),Warning: found non-ASCII string,309511,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=c2ddb75bba51b397
-Chinese (Simplified Han script),tools (R files),\VignetteDepends{},309519,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=920d660d8030df75
-Chinese (Simplified Han script),tools (R files),\name,309537,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=c2f6088130941ed6
-Chinese (Simplified Han script),tools (R files),package directory,309553,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=b291006ba36f70f2
-Chinese (Simplified Han script),tools (R files),running 'src/Makefile.win' ...,309565,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=6044f8248158102e
-Chinese (Simplified Han script),tools (R files),not installing,309627,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=a52be9787e633f7c
-Chinese (Simplified Han script),tools (R files),not insttalling,309639,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=f3967752863841a9
-Chinese (Simplified Han script),tools (R files),running msgmerge failed,309641,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=0682f8f4b076c314
-Chinese (Simplified Han script),tools (R files),running msginit failed,309643,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=a6cfb92aa03dab04
-Chinese (Simplified Han script),tools (R files),running msgconv failed,309645,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=88bcd122185e8269
-Chinese (Simplified Han script),tools (R files),installing a top-level 'COPYING' file is deprecated -- see the 'Writing R Extensions' manual',309679,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=46d5b5aa17e14d8f
-Chinese (Simplified Han script),tools (R files),cannot read boolean object,309683,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=f6bf8c46615d7a05
-Chinese (Simplified Han script),tools (R files),*** error on file,309759,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=7881b3b7bbdcd317
 Chinese (Simplified Han script),utils (R files),Warning: unknown option '--clean='%s,117100,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=96c5d326f5cd8165
 Chinese (Simplified Han script),utils (R files),Unrecognized response,117114,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=c4102ba3a58b757d
 Chinese (Simplified Han script),utils (R files),no method found for %s(., n=%s) and class %s,117200,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=1644e81d222e8ff1
@@ -5853,7 +5834,6 @@ Chinese (Traditional Han script),stats (R files),exactly one of 'n', 'delta', 'p
 Chinese (Traditional Han script),stats (R files),NAs are not allowed in 'groups' or 'blocks',308565,https://translate.rx.studio/translate/r-project/stats-r/zh_Hant/?checksum=05222f43eeabafe9
 Chinese (Traditional Han script),stats (R files),'correct' must be an integer between 0 and 3,308566,https://translate.rx.studio/translate/r-project/stats-r/zh_Hant/?checksum=4e0de53577e32370
 Chinese (Traditional Han script),stats (R files),'z' is not a rank vector,308567,https://translate.rx.studio/translate/r-project/stats-r/zh_Hant/?checksum=ce085cf4502bafd0
-Chinese (Traditional Han script),stats (R files),'%s' is not implemented yet,310276,https://translate.rx.studio/translate/r-project/stats-r/zh_Hant/?checksum=78014cf86310938d
 Chinese (Traditional Han script),stats4 (R files),some named values are not arguments to the supplied log-likelihood,100103,https://translate.rx.studio/translate/r-project/stats4-r/zh_Hant/?checksum=5939b4e28a714eda
 Chinese (Traditional Han script),tools (C files),md5 failed on file '%ls',105229,https://translate.rx.studio/translate/r-project/tools-c/zh_Hant/?checksum=4a8ff653dc7398df
 Chinese (Traditional Han script),tools (C files),Not enough arguments passed to user macro '%s',105243,https://translate.rx.studio/translate/r-project/tools-c/zh_Hant/?checksum=15fa7aecf1779cde
@@ -6737,7 +6717,6 @@ English (United Kingdom),stats (R files),%s is not defined for unordered respons
 English (United Kingdom),stats (R files),incorrect number of columns for 'prob' in %s,310214,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=2ee56ee694d89297
 English (United Kingdom),stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,310215,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=1c6a0448b8a762a7
 English (United Kingdom),stats (R files),NAs are not allowed in 'groups' or 'blocks',310218,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=05222f43eeabafe9
-English (United Kingdom),stats (R files),'%s' is not implemented yet,310219,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=78014cf86310938d
 English (United Kingdom),stats (R files),'correct' must be an integer between 0 and 3,310221,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=4e0de53577e32370
 English (United Kingdom),stats (R files),'z' is not a rank vector,310222,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=ce085cf4502bafd0
 English (United Kingdom),tools (C files),sha256 failed on file '%ls',258582,https://translate.rx.studio/translate/r-project/tools-c/en_GB/?checksum=01a212507266201e
@@ -6828,7 +6807,6 @@ French,stats (R files),incorrect number of columns for 'prob' in %s,308264,https
 French,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,308265,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=1c6a0448b8a762a7
 French,stats (R files),NAs are not allowed in 'groups' or 'blocks',308268,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=05222f43eeabafe9
 French,stats (R files),'correct' must be an integer between 0 and 3,308269,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=4e0de53577e32370
-French,stats (R files),'%s' is not implemented yet,310249,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=78014cf86310938d
 French,stats (R files),'z' is not a rank vector,310251,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=ce085cf4502bafd0
 French,The R Project for Statistical Computing,'%s',251417,https://translate.rx.studio/translate/r-project/glossary/fr/?checksum=78f534c666dbf1de
 French,tools (R files),downloading reverse dependencies %s,308632,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=7cf826615309ca75
@@ -6955,7 +6933,6 @@ German,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' mus
 German,stats (R files),NAs are not allowed in 'groups' or 'blocks',308206,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=05222f43eeabafe9
 German,stats (R files),'correct' must be an integer between 0 and 3,308207,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=4e0de53577e32370
 German,stats (R files),'z' is not a rank vector,308208,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=ce085cf4502bafd0
-German,stats (R files),'%s' is not implemented yet,310195,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=78014cf86310938d
 German,tools (R files),Authors@R field gives persons with invalid ROR identifiers:,271662,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=6b949f75b6635df1
 German,tools (R files),Authors@R field gives persons with duplicated ROR identifiers:,271663,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=397fc665abfe345b
 German,tools (R files),Missing link(s) in Rd file '%s':,271664,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=4b5f7ae579d1f594
@@ -7610,7 +7587,6 @@ Italian,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' mu
 Italian,stats (R files),NAs are not allowed in 'groups' or 'blocks',308339,https://translate.rx.studio/translate/r-project/stats-r/it/?checksum=05222f43eeabafe9
 Italian,stats (R files),'correct' must be an integer between 0 and 3,308340,https://translate.rx.studio/translate/r-project/stats-r/it/?checksum=4e0de53577e32370
 Italian,stats (R files),'z' is not a rank vector,308341,https://translate.rx.studio/translate/r-project/stats-r/it/?checksum=ce085cf4502bafd0
-Italian,stats (R files),'%s' is not implemented yet,310256,https://translate.rx.studio/translate/r-project/stats-r/it/?checksum=78014cf86310938d
 Italian,tools (C files),sha256 failed on file '%ls',258592,https://translate.rx.studio/translate/r-project/tools-c/it/?checksum=01a212507266201e
 Italian,tools (C files),sha256 failed on file '%s',258593,https://translate.rx.studio/translate/r-project/tools-c/it/?checksum=2d67a4a1d86c25b9
 Italian,tools (R files),Rd files without \alias:,139565,https://translate.rx.studio/translate/r-project/tools-r/it/?checksum=2fa45f22bff101da
@@ -8190,7 +8166,6 @@ Japanese,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' m
 Japanese,stats (R files),NAs are not allowed in 'groups' or 'blocks',308363,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=05222f43eeabafe9
 Japanese,stats (R files),'correct' must be an integer between 0 and 3,308364,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=4e0de53577e32370
 Japanese,stats (R files),'z' is not a rank vector,308365,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=ce085cf4502bafd0
-Japanese,stats (R files),'%s' is not implemented yet,310258,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=78014cf86310938d
 Japanese,stats4 (R files),some named values are not arguments to the supplied log-likelihood,99559,https://translate.rx.studio/translate/r-project/stats4-r/ja/?checksum=5939b4e28a714eda
 Japanese,tools (C files),md5 failed on file '%ls',104970,https://translate.rx.studio/translate/r-project/tools-c/ja/?checksum=4a8ff653dc7398df
 Japanese,tools (C files),Not enough arguments passed to user macro '%s',104984,https://translate.rx.studio/translate/r-project/tools-c/ja/?checksum=15fa7aecf1779cde
@@ -8702,7 +8677,6 @@ Korean,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' mus
 Korean,stats (R files),NAs are not allowed in 'groups' or 'blocks',308387,https://translate.rx.studio/translate/r-project/stats-r/ko/?checksum=05222f43eeabafe9
 Korean,stats (R files),'correct' must be an integer between 0 and 3,308388,https://translate.rx.studio/translate/r-project/stats-r/ko/?checksum=4e0de53577e32370
 Korean,stats (R files),'z' is not a rank vector,308389,https://translate.rx.studio/translate/r-project/stats-r/ko/?checksum=ce085cf4502bafd0
-Korean,stats (R files),'%s' is not implemented yet,310260,https://translate.rx.studio/translate/r-project/stats-r/ko/?checksum=78014cf86310938d
 Korean,stats4 (R files),some named values are not arguments to the supplied log-likelihood,99606,https://translate.rx.studio/translate/r-project/stats4-r/ko/?checksum=5939b4e28a714eda
 Korean,tools (C files),md5 failed on file '%ls',105007,https://translate.rx.studio/translate/r-project/tools-c/ko/?checksum=4a8ff653dc7398df
 Korean,tools (C files),Not enough arguments passed to user macro '%s',105021,https://translate.rx.studio/translate/r-project/tools-c/ko/?checksum=15fa7aecf1779cde
@@ -9156,7 +9130,6 @@ Lithuanian,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level'
 Lithuanian,stats (R files),NAs are not allowed in 'groups' or 'blocks',308411,https://translate.rx.studio/translate/r-project/stats-r/lt/?checksum=05222f43eeabafe9
 Lithuanian,stats (R files),'correct' must be an integer between 0 and 3,308412,https://translate.rx.studio/translate/r-project/stats-r/lt/?checksum=4e0de53577e32370
 Lithuanian,stats (R files),'z' is not a rank vector,308413,https://translate.rx.studio/translate/r-project/stats-r/lt/?checksum=ce085cf4502bafd0
-Lithuanian,stats (R files),'%s' is not implemented yet,310262,https://translate.rx.studio/translate/r-project/stats-r/lt/?checksum=78014cf86310938d
 Lithuanian,tools (C files),sha256 failed on file '%ls',258598,https://translate.rx.studio/translate/r-project/tools-c/lt/?checksum=01a212507266201e
 Lithuanian,tools (C files),sha256 failed on file '%s',258599,https://translate.rx.studio/translate/r-project/tools-c/lt/?checksum=2d67a4a1d86c25b9
 Lithuanian,tools (R files),Possibly missing '()' after 'return' in the following function:,108628,https://translate.rx.studio/translate/r-project/tools-r/lt/?checksum=a6893d6471805a7c
@@ -10870,7 +10843,6 @@ Polish,stats (R files),incorrect number of columns for 'prob' in %s,308434,https
 Polish,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,308435,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=1c6a0448b8a762a7
 Polish,stats (R files),NAs are not allowed in 'groups' or 'blocks',308438,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=05222f43eeabafe9
 Polish,stats (R files),'correct' must be an integer between 0 and 3,308442,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=4e0de53577e32370
-Polish,stats (R files),'%s' is not implemented yet,310264,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=78014cf86310938d
 Polish,stats (R files),requested conf.level not achievable,310266,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=75ad476de766a44a
 Polish,stats (R files),'z' is not a rank vector,310267,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=ce085cf4502bafd0
 Polish,tools (R files),download of reverse dependency %s failed,308705,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=d50cbdef1e44e441
@@ -11483,7 +11455,6 @@ Portuguese (Brazil),stats (R files),exactly one of 'n', 'delta', 'power', and 's
 Portuguese (Brazil),stats (R files),NAs are not allowed in 'groups' or 'blocks',308467,https://translate.rx.studio/translate/r-project/stats-r/pt_BR/?checksum=05222f43eeabafe9
 Portuguese (Brazil),stats (R files),'correct' must be an integer between 0 and 3,308468,https://translate.rx.studio/translate/r-project/stats-r/pt_BR/?checksum=4e0de53577e32370
 Portuguese (Brazil),stats (R files),'z' is not a rank vector,308469,https://translate.rx.studio/translate/r-project/stats-r/pt_BR/?checksum=ce085cf4502bafd0
-Portuguese (Brazil),stats (R files),'%s' is not implemented yet,310268,https://translate.rx.studio/translate/r-project/stats-r/pt_BR/?checksum=78014cf86310938d
 Portuguese (Brazil),tools (R files),%s calls:,109198,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=b55faddee5e668f9
 Portuguese (Brazil),tools (R files),Error: tangling vignette '%s' failed with diagnostics:
 %s,109290,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=5b6207235f69ce3f
@@ -11644,7 +11615,6 @@ Russian,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' mu
 Russian,stats (R files),NAs are not allowed in 'groups' or 'blocks',308491,https://translate.rx.studio/translate/r-project/stats-r/ru/?checksum=05222f43eeabafe9
 Russian,stats (R files),'correct' must be an integer between 0 and 3,308492,https://translate.rx.studio/translate/r-project/stats-r/ru/?checksum=4e0de53577e32370
 Russian,stats (R files),'z' is not a rank vector,308493,https://translate.rx.studio/translate/r-project/stats-r/ru/?checksum=ce085cf4502bafd0
-Russian,stats (R files),'%s' is not implemented yet,310270,https://translate.rx.studio/translate/r-project/stats-r/ru/?checksum=78014cf86310938d
 Russian,tools (R files),Authors@R field gives persons with duplicated ORCID identifiers:,258185,https://translate.rx.studio/translate/r-project/tools-r/ru/?checksum=ec420068bfe9e981
 Russian,tools (R files),'bytes' must be a raw vector,258189,https://translate.rx.studio/translate/r-project/tools-r/ru/?checksum=eaa1aff04e25298e
 Russian,tools (R files),x must be a single string,258190,https://translate.rx.studio/translate/r-project/tools-r/ru/?checksum=fb86f4923399412e
@@ -11728,7 +11698,6 @@ Spanish,stats (R files),%s is not defined for unordered responses,310239,https:/
 Spanish,stats (R files),incorrect number of columns for 'prob' in %s,310240,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=2ee56ee694d89297
 Spanish,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,310241,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=1c6a0448b8a762a7
 Spanish,stats (R files),NAs are not allowed in 'groups' or 'blocks',310244,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=05222f43eeabafe9
-Spanish,stats (R files),'%s' is not implemented yet,310245,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=78014cf86310938d
 Spanish,stats (R files),'correct' must be an integer between 0 and 3,310247,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=4e0de53577e32370
 Spanish,stats (R files),'z' is not a rank vector,310248,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=ce085cf4502bafd0
 Spanish,tools (R files),Rd files without %s:,309075,https://translate.rx.studio/translate/r-project/tools-r/es/?checksum=8a29043c5dd26b13
@@ -12415,7 +12384,6 @@ Turkish,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' mu
 Turkish,stats (R files),NAs are not allowed in 'groups' or 'blocks',308515,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=05222f43eeabafe9
 Turkish,stats (R files),'correct' must be an integer between 0 and 3,308516,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=4e0de53577e32370
 Turkish,stats (R files),'z' is not a rank vector,308517,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=ce085cf4502bafd0
-Turkish,stats (R files),'%s' is not implemented yet,310272,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=78014cf86310938d
 Turkish,stats4 (R files),some named values are not arguments to the supplied log-likelihood,99977,https://translate.rx.studio/translate/r-project/stats4-r/tr/?checksum=5939b4e28a714eda
 Turkish,utils (R files),unable to create %s,116896,https://translate.rx.studio/translate/r-project/utils-r/tr/?checksum=40b3695f959a88ba
 Turkish,utils (R files),ERROR: failed to create lock directory %s,117044,https://translate.rx.studio/translate/r-project/utils-r/tr/?checksum=e131bf1e042e2455
