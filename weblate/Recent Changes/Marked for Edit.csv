@@ -5954,8 +5954,6 @@ Danish,base (C files),cannot open file '%ls': it is a directory,140477,https://t
 Danish,base (C files),cannot open file '%s': it is a directory,140478,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=26c92e1749e2bfaa
 Danish,base (C files),'%s' is not a %s,140530,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=09d4ffe6ba246b91
 Danish,base (C files),internal connection is not a %s,140531,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=6b4c65fa526b3033
-Danish,base (C files),Problem closing connection:  %s,140544,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=617af5de3809752f
-Danish,base (C files),Problem closing connection,140545,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=7d5cf1c0537d3b13
 Danish,base (C files),line longer than buffer size %lu,140550,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=b5b0fda70b647d32
 Danish,base (C files),Error writing to connection:  %s,140551,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=238e03ad2775f263
 Danish,base (C files),Error writing to connection,140552,https://translate.rx.studio/translate/r-project/base-c/da/?checksum=3175f19c2c1071eb
@@ -6188,13 +6186,8 @@ Danish,base (R files),'%s' must be a "%s" object,270666,https://translate.rx.stu
 Danish,base (R files),'recursive' must be a length-1 vector,270668,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=a2292cb330caa33d
 Danish,base (R files),directories are ignored,308774,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=eada66bb551c8617
 Danish,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308777,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=b50eacf7c792b0d3
-Danish,base (R GUI),Install package(s) from local files...,28095,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=1b6a75f4e053fead
 Danish,base (R GUI),Unable to save metafile to the clipboard,28159,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=a6ec188613143ce2
 Danish,base (R GUI),Unable to create metafile,28160,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=35b80209eb8490a1
-Danish,base (R GUI),Insufficient memory to create metafile,28161,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=430ec3544b21b886
-Danish,base (R GUI),Unable to choose printer,28162,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=f3f7a30d6e079263
-Danish,base (R GUI),Insufficient memory for new printer,28163,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=996f4e60fb9cdb6b
-Danish,base (R GUI),Unable to start the print job,28164,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=c3cf7509f3074419
 Danish,compiler,non-namespace found within namespace environments,71684,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=feb079e30f167f92
 Danish,compiler,more than one default provided in switch() call,71703,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=a09ec7869e73389f
 Danish,compiler,cannot compile this expression,71718,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=c6bb4b3d1cb15f02
@@ -6205,7 +6198,6 @@ Danish,graphics (R files),invalid plot type,79173,https://translate.rx.studio/tr
 Danish,graphics (R files),invalid plot type '%s',79175,https://translate.rx.studio/translate/r-project/graphics-r/da/?checksum=19093d8b21d27a92
 Danish,grDevices (C files),invalid value of 'maxColorValue',72346,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=f35c45ca5280fa01
 Danish,grDevices (C files),invalid 'names' vector,72347,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=f2cb0a2b646d4ea5
-Danish,grDevices (C files),invalid '%s' value,72349,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=99623bfe9d0e63b7
 Danish,grDevices (C files),invalid RGB specification,72351,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=e7fea67de5bc5bb6
 Danish,grDevices (C files),invalid color name '%s',72352,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=0e9580a89932fe03
 Danish,grDevices (C files),invalid color specification "%s",72353,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=183bbaf3b925aade
@@ -6253,7 +6245,6 @@ Danish,grDevices (C files),a clipboard metafile can store only one figure.,72486
 Danish,grDevices (C files),invalid filename argument in 'savePlot',72494,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=075252f0c12b5f68
 Danish,grDevices (C files),invalid argument,72501,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=41ed64c7ad5c37ed
 Danish,grDevices (C files),not a supported scheme, no image data written,72507,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=0e7a3d156bcc27df
-Danish,grDevices (C files),invalid '%s' argument,72508,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=92d54592503a5f26
 Danish,grDevices (C files),could not open file '%s',72510,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=4f61009a556a1ff3
 Danish,grDevices (C files),unable to start device '%s',72511,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=4ed612b248805b2a
 Danish,grDevices (C files),Failed to create gradient,133282,https://translate.rx.studio/translate/r-project/grdevices-c/da/?checksum=d0f6a981ee054807
@@ -6389,7 +6380,6 @@ Danish,grid (R files),invalid 'xscale' in viewport,81735,https://translate.rx.st
 Danish,grid (R files),invalid 'yscale' in viewport,81736,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=f6491625be5f5ed1
 Danish,grid (R files),invalid 'angle' in viewport,81737,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=7735bc6b0790dff6
 Danish,grid (R files),invalid 'layout' in viewport,81738,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=9a2948510d312474
-Danish,grid (R files),invalid grob name,81748,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=b2ca5a8c956afce6
 Danish,grid (R files),invalid viewport name,81749,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=8a376f7c605fca44
 Danish,grid (R files),Invalid coordinates,133244,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=91c8c671bb6467c5
 Danish,grid (R files),Invalid grob coordinates,133245,https://translate.rx.studio/translate/r-project/grid-r/da/?checksum=52c1b2e274f5a526
@@ -6450,7 +6440,6 @@ Danish,stats (C files),invalid factors,90581,https://translate.rx.studio/transla
 Danish,stats (C files),'%s' must be of length one,90584,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=c4ca7df1b70f5028
 Danish,stats (C files),'iter' must be finite and >= 0,90596,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=9bb9cfeef7d4e299
 Danish,stats (C files),invalid type (%s) for variable '%s',90608,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=ed7c4d30d7452034
-Danish,stats (C files),invalid '%s' argument,90611,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=92d54592503a5f26
 Danish,stats (C files),invalid model frame,90612,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=8b0c493898c2ef4b
 Danish,stats (C files),variable %d has no levels,90615,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=3337d25416d33f03
 Danish,stats (C files),invalid formula in 'update',90623,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=15cf18012cd9205d
@@ -6461,7 +6450,6 @@ Danish,stats (C files),invalid model formula in ExtractVars,90628,https://transl
 Danish,stats (C files),invalid model formula in EncodeVars,90630,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=f7021bdf9aeae961
 Danish,stats (C files),'specials' must be NULL or a character vector,90632,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=caf4415d62d2d403
 Danish,stats (C files),'tmax' is not a positive integer,90662,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=6ad4c9f020eb0264
-Danish,stats (C files),invalid '%s' value,90670,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=99623bfe9d0e63b7
 Danish,stats (C files),NA value for '%s' is not allowed,90674,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=1d097a004796c997
 Danish,stats (C files),'maxiter' must be positive,90675,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=f99e5e4221bfe7fa
 Danish,stats (C files),invalid parameter length,90681,https://translate.rx.studio/translate/r-project/stats-c/da/?checksum=46d37e099fda15e6
@@ -6511,8 +6499,6 @@ Danish,stats (R files),'correct' must be an integer between 0 and 3,308183,https
 Danish,stats4 (R files),some named values are not arguments to the supplied log-likelihood,99397,https://translate.rx.studio/translate/r-project/stats4-r/da/?checksum=5939b4e28a714eda
 Danish,tcltk (R files),'pb' is not from class %s,104449,https://translate.rx.studio/translate/r-project/tcltk-r/da/?checksum=87c4e5c35ea81819
 Danish,tools (C files),md5 failed on file '%ls',104822,https://translate.rx.studio/translate/r-project/tools-c/da/?checksum=4a8ff653dc7398df
-Danish,tools (C files),invalid '%s' value,104831,https://translate.rx.studio/translate/r-project/tools-c/da/?checksum=99623bfe9d0e63b7
-Danish,tools (C files),invalid '%s' argument,104850,https://translate.rx.studio/translate/r-project/tools-c/da/?checksum=92d54592503a5f26
 Danish,tools (C files),sha256 failed on file '%ls',258578,https://translate.rx.studio/translate/r-project/tools-c/da/?checksum=01a212507266201e
 Danish,tools (C files),sha256 failed on file '%s',258579,https://translate.rx.studio/translate/r-project/tools-c/da/?checksum=2d67a4a1d86c25b9
 Danish,tools (R files),The package 'dir' argument must be of length 1,105734,https://translate.rx.studio/translate/r-project/tools-r/da/?checksum=aa54252f221334c4
