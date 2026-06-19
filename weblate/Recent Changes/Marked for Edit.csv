@@ -6186,8 +6186,6 @@ Danish,base (R files),'%s' must be a "%s" object,270666,https://translate.rx.stu
 Danish,base (R files),'recursive' must be a length-1 vector,270668,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=a2292cb330caa33d
 Danish,base (R files),directories are ignored,308774,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=eada66bb551c8617
 Danish,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308777,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=b50eacf7c792b0d3
-Danish,base (R GUI),Unable to save metafile to the clipboard,28159,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=a6ec188613143ce2
-Danish,base (R GUI),Unable to create metafile,28160,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=35b80209eb8490a1
 Danish,compiler,non-namespace found within namespace environments,71684,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=feb079e30f167f92
 Danish,compiler,more than one default provided in switch() call,71703,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=a09ec7869e73389f
 Danish,compiler,cannot compile this expression,71718,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=c6bb4b3d1cb15f02
