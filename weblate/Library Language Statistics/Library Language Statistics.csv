@@ -76,7 +76,7 @@
 "75",15,"base (R files)","R","Chinese (Simplified Han script)",589,487,52,50
 "76",16,"base (R files)","R","Chinese (Traditional Han script)",589,490,51,48
 "77",17,"base (R files)","R","Hungarian",589,325,239,25
-"78",18,"base (R files)","R","Arabic",589,19,562,8
+"78",18,"base (R files)","R","Arabic",589,22,559,8
 "79",19,"base (R files)","R","Albanian",589,30,553,6
 "80",20,"base (R files)","R","Spanish",589,581,2,6
 "81",21,"base (R files)","R","Indonesian",589,13,576,0
@@ -430,7 +430,7 @@
 "429",9,"parallel (R files)","R","Russian",38,38,0,0
 "430",10,"parallel (R files)","R","Chinese (Simplified Han script)",38,26,9,3
 "431",11,"parallel (R files)","R","Chinese (Traditional Han script)",38,30,6,2
-"432",12,"parallel (R files)","R","Arabic",38,1,37,0
+"432",12,"parallel (R files)","R","Arabic",38,38,0,0
 "433",13,"parallel (R files)","R","Portuguese (Brazil)",38,38,0,0
 "434",14,"parallel (R files)","R","Spanish",38,38,0,0
 "435",15,"parallel (R files)","R","Japanese",38,36,1,1
