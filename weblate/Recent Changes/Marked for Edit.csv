@@ -212,8 +212,6 @@ Arabic,base (C files),invalid negative 'newlen',310464,https://translate.rx.stud
 Arabic,base (C files),not a resizable vector,310465,https://translate.rx.studio/translate/r-project/base-c/ar/?checksum=335ce13a89484973
 Arabic,base (C files),invalid '%s' argument, given the value of '%s',310469,https://translate.rx.studio/translate/r-project/base-c/ar/?checksum=17e6dac38f7b74c8
 Arabic,base (C files),'nvec' must be a vector of non-negative integers,310473,https://translate.rx.studio/translate/r-project/base-c/ar/?checksum=402ffa3f55b2ed9e
-Arabic,base (R files),'%s' is not a valid choice,119234,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=cfd899932a97ee43
-Arabic,base (R files),malformed version string,119236,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=f0f205a6b11ea890
 Arabic,base (R files),'row.names' is not a character or integer vector of length %d,239028,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=945521af6727a28b
 Arabic,base (R files),'kind' must be a character string (RNG to be used).,258284,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=6974c9c14eced97e
 Arabic,base (R files),'%s' must be a non-empty character string,258287,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=013d2492742135f1
