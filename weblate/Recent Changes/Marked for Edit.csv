@@ -214,7 +214,6 @@ Arabic,base (C files),invalid '%s' argument, given the value of '%s',310469,http
 Arabic,base (C files),'nvec' must be a vector of non-negative integers,310473,https://translate.rx.studio/translate/r-project/base-c/ar/?checksum=402ffa3f55b2ed9e
 Arabic,base (R files),'row.names' is not a character or integer vector of length %d,239028,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=945521af6727a28b
 Arabic,base (R files),'kind' must be a character string (RNG to be used).,258284,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=6974c9c14eced97e
-Arabic,base (R files),'%s' must be a non-empty character string,258287,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=013d2492742135f1
 Arabic,base (R files),'%s' must be of length 1,270625,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=3f1d91df8edd2d49
 Arabic,base (R files),'recursive' must be a length-1 vector,270632,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=a2292cb330caa33d
 Arabic,base (R files),'arg' must be of length >= 1,310278,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=abdde4f6162b0d49
