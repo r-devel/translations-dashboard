@@ -21,6 +21,13 @@ library(plotly)
 library(reactable)
 library(glue)
 source("R/global_translations.R")
+
+# Set colors to translation status
+colors <- c(
+  "Translated" = "#5495CFFF",
+  "Untranslated" = "#DB4743FF",
+  "Fuzzy" = "#F5AF4DFF"
+)
 ```
 
 Sidebar {.sidebar data-width=200}
@@ -61,132 +68,265 @@ valueBox(total_untrans_msg, icon = "fa-comment-slash", color = "white")
 valueBox(total_fuzzy_msg, icon = "fa-puzzle-piece", color = "white")
 ```
 
-Row {data-height=70}
+Row {data-height=750}
 -----------------------------------------------------------------------
-
-```{r data}
-trans_stats <- SharedData$new(final_df)
-```
-
-```{r filters}
-
-# Filter Select Input - Language
-filter_select(id = "language", 
-              label = "Select Translation Language",
-              sharedData = trans_stats, 
-              group = ~language)
-
-```
-
-Row {data-height=450}
------------------------------------------------------------------------
-
-### Graph of Translated vs Untranslated Messages | <small> Per Language </small>
+### Translatation progress | <small> Per Package </small>
 
 ```{r}
-trans_stats <- plot_ly(trans_stats, x = ~package, y = ~translated_count, type = 'bar', name = 'Translated Messages')
-trans_stats <- trans_stats %>% add_trace(y = ~untranslated_count, name = 'Untranslated Messages')
-trans_stats <- trans_stats %>% add_trace(y = ~fuzzy_count, name = 'Fuzzy Messages')
-trans_stats <- trans_stats %>% layout(yaxis = list(title = 'Message Count'), xaxis = list(title = "Packages"), barmode = 'group')
-trans_stats
-```
 
-Row {data-height=450}
------------------------------------------------------------------------
-
-### Count of Translated Messages | <small> Across Packages </small>
-
-```{r}
-complete_trans_df %>%
-  reactable(
-    .,
-    pagination = TRUE,
-    showPageSizeOptions = TRUE,
-    highlight = TRUE,
-    defaultSorted = "translated_count",
-    defaultColDef = colDef(headerClass = "header", align = "left"),
-    columns = list(
-      package = colDef(
-        name = "Package Name",
-        width = 150,
-        defaultSortOrder = "desc",
-        filterable = TRUE,
-      ),
-      language = colDef(
-        name = "Language",
-        width = 150,
-        filterable = TRUE,
-      ),
-      untranslated_count = colDef(
-        show = FALSE
-      ),
-      translated_count = colDef(
-        name = "Translated Message Count",
-        defaultSortOrder = "desc",
-        cell = function(value) {
-          width <- paste0(value * 100 / max(complete_trans_df$translated_count), "%")
-          value <- format(value, big.mark = ",")
-          value <- format(value, width = 9, justify = "right")
-          bar <- div(
-            class = "bar-chart",
-            style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = width, backgroundColor = "#fc5185"))
-          )
-          div(class = "bar-cell", span(class = "number", value), bar)
-        }
-      )),
-    compact = TRUE,
-    bordered = TRUE,
-    class = "categories-tbl"
+# Calculate count and percentage for all languages
+final_df_all <- final_df |> 
+  group_by(package) |>    
+  summarise(across(c(translated_count,untranslated_count, 
+                     fuzzy_count), sum)) |> 
+  mutate(language = "All", .after = package) |>
+  rowwise() |> 
+  mutate(
+    pc_trans_count = translated_count / sum(c_across(translated_count:fuzzy_count)),
+    pc_untrans_count = untranslated_count / sum(c_across(translated_count:fuzzy_count)),
+    pc_fuzzy_count = fuzzy_count / sum(c_across(translated_count:fuzzy_count)) 
   )
+
+# Join languages with all
+final_df_neg <- bind_rows(final_df_all, final_df) |> 
+  mutate(pc_untrans_count = -pc_untrans_count,
+         pc_fuzzy_count = -pc_fuzzy_count,
+         pc_trans_count = pc_trans_count) |>
+  pivot_longer(cols = starts_with("pc"), values_to = "percentage", names_to = "trans_status") |>
+  mutate(trans_status = factor(trans_status,
+                               levels = c("pc_trans_count", "pc_untrans_count", "pc_fuzzy_count"),
+                               labels = c("Translated", "Untranslated", "Fuzzy")))
+
+
+# Get unique languages
+languages <- unique(final_df_neg$language)
+n_lang <- length(languages)
+
+# Create buttons for each language
+buttons <- lapply(seq_len(n_lang), function(i) {
+  # Each language has a trace for each status
+  n_status <- 3 # Translated, Untranslated, Fuzzy
+  visible <- logical(n_lang * n_status)
+  # Turn on visibility for language i with this button
+  visible[((i - 1) * n_status + 1):(i * n_status)] <- TRUE
+  list(
+    method = "restyle",
+    args = list("visible", visible),
+    label = languages[i]
+  )
+})
+
+# Create the plot with all languages visible
+fig <- plot_ly(height = 700)
+
+# Add traces for each language
+for(lang in languages) {
+  fig <- fig |>
+    add_bars(data = final_df_neg[final_df_neg$language == lang, ],
+             x = ~ percentage,
+             y = ~ package,
+             color = ~ trans_status,
+             colors = colors,
+             visible = if (lang == "All") TRUE else FALSE)
+}
+
+fig <- fig |>
+  layout(
+    xaxis = list(title = 'Progress', tickformat = ',.0%'),
+    yaxis = list(title = ''),
+    barmode = 'relative',
+    legend = list(x = 1,
+                  y = 0),
+    updatemenus = list(
+      list(
+        type = "dropdown",
+        buttons = buttons,
+        x = 1.25,
+        y = 1
+      )
+    )
+  )
+
+fig
 ```
 
-### Count of Untranslated Messages | <small> Across Packages </small>
+
+### Translatation progress | <small> Per Language </small>
 
 ```{r}
-complete_untrans_df %>%
-  reactable(
-    .,
-    pagination = TRUE,
-    showPageSizeOptions = TRUE,
-    highlight = TRUE,
-    defaultSorted = "untranslated_count",
-    defaultColDef = colDef(headerClass = "header", align = "left"),
-    columns = list(
-      package = colDef(
-        name = "Package Name",
-        width = 150,
-        defaultSortOrder = "desc",
-        filterable = TRUE,
-      ),
-      language = colDef(
-        name = "Language",
-        width = 150,
-        filterable = TRUE,
-      ),
-      translated_count = colDef(
-        show = FALSE
-      ),
-      untranslated_count = colDef(
-        name = "Untranslated Message Count",
-        defaultSortOrder = "desc",
-        cell = function(value) {
-          width <- paste0(value * 100 / max(complete_untrans_df$untranslated_count), "%")
-          value <- format(value, big.mark = ",")
-          value <- format(value, width = 9, justify = "right")
-          bar <- div(
-            class = "bar-chart",
-            style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = width, backgroundColor = "#3fc1c9"))
-          )
-          div(class = "bar-cell", span(class = "number", value), bar)
-        }
-      )),
-    compact = TRUE,
-    bordered = TRUE,
-    class = "categories-tbl"
+
+# Data manipulation
+lang_df <- final_df |> 
+  group_by(language) |>
+  summarise(
+    translated_count = sum(translated_count, na.rm = TRUE),
+    untranslated_count = sum(untranslated_count, na.rm = TRUE),
+    fuzzy_count = sum(fuzzy_count, na.rm = TRUE),
+    Total = translated_count + untranslated_count + fuzzy_count
+  ) |> 
+  mutate(
+    Translated = case_when(
+      translated_count > 0 & round(translated_count/Total*100, 0) == 0 ~ 1,
+      TRUE ~ round(translated_count/Total*100, 0)
+    ),
+    Fuzzy = case_when(
+      fuzzy_count > 0 & round(fuzzy_count/Total*100, 0) == 0 ~ 1,
+      TRUE ~ round(fuzzy_count/Total*100, 0)
+    ),
+    Untranslated = 100 - Translated - Fuzzy
   )
+
+# Generate layout for 1 waffle chart
+create_waffle_coordinates <- function(total_squares, width = 10) {
+  x <- numeric(total_squares)
+  y <- numeric(total_squares)
+  
+  for (i in 0:(total_squares - 1)) {
+    x[i + 1] <- i %% width
+    y[i + 1] <- floor(i / width)
+  }
+  return(data.frame(x = x, y = y))
+}
+
+
+build_waffle <- function(data) {
+  
+  all_shapes <- list()
+  all_annotations <- list()
+  
+  # -- Layout configuration --
+  cols <- 6 
+  rows <- ceiling(nrow(data) / cols)
+  
+  # Gap between charts
+  x_gap <- 11 
+  y_gap <- 12.5 
+  
+  # --- Loop 1: Grid shapes (Percentages) ---
+  for (i in 1:nrow(data)) {
+    language <- data$language[i]
+    
+    # Use percentages to build the 10x10 grid
+    counts <- c(
+      Translated = data$Translated[i],
+      Untranslated = data$Untranslated[i],
+      Fuzzy = data$Fuzzy[i]
+    )
+    
+    # Grid position calculation
+    col_idx <- (i - 1) %% cols
+    row_idx <- floor((i - 1) / cols)
+    
+    x_offset <- col_idx * x_gap
+    y_offset <- (rows - 1 - row_idx) * y_gap 
+    
+    # Create coordinates
+    grid <- create_waffle_coordinates(sum(counts))
+    # browser()
+    grid$category <- factor(rep(names(counts), times = counts), levels = c("Translated", "Untranslated", "Fuzzy"))
+ 
+    
+    # Add title annotation
+    all_annotations[[length(all_annotations) + 1]] <- list(
+      x = x_offset + 5, 
+      y = y_offset + 10.75, 
+      text = language, 
+      showarrow = FALSE, 
+      font = list(size = 12)
+    )
+    
+    # Create shapes
+    for (j in 1:nrow(grid)) {
+      cat_name <- grid$category[j]
+      
+      shape <- list(
+        type = "rect",
+        x0 = grid$x[j] + x_offset, 
+        y0 = grid$y[j] + y_offset,
+        x1 = grid$x[j] + x_offset + 0.9, 
+        y1 = grid$y[j] + y_offset + 0.9,
+        fillcolor = colors[[cat_name]],
+        line = list(width = 0),
+        layer = "below"
+      )
+      all_shapes[[length(all_shapes) + 1]] <- shape
+    }
+  }
+  
+  # --- Loop 2: Hover data (Counts) ---
+  hover_data <- data.frame()
+  
+  for (i in 1:nrow(data)) {
+    language <- data$language[i]
+    
+    pct_counts <- c(
+      Translated = data$Translated[i], 
+      Untranslated = data$Untranslated[i], 
+      Fuzzy = data$Fuzzy[i]
+    )
+    
+    real_counts <- c(
+      Translated = data$translated_count[i], 
+      Untranslated = data$untranslated_count[i], 
+      Fuzzy = data$fuzzy_count[i]
+    )
+    
+    col_idx <- (i - 1) %% cols
+    row_idx <- floor((i - 1) / cols)
+    x_offset <- col_idx * x_gap
+    y_offset <- (rows - 1 - row_idx) * y_gap
+    
+    grid <- create_waffle_coordinates(sum(pct_counts))
+    grid$category <- factor(rep(names(pct_counts), times = pct_counts), levels = c("Translated", "Untranslated", "Fuzzy"))
+    
+    
+    grid$real_x <- grid$x + x_offset + 0.45
+    grid$real_y <- grid$y + y_offset + 0.45
+    grid$language <- language
+    
+    grid$Total <- rep(real_counts, times = pct_counts)
+    
+    hover_data <- rbind(hover_data, grid)
+  }
+  
+  # Interactive plot
+  p <- plot_ly(height = 750) |>
+    layout(
+      shapes = all_shapes,
+      annotations = all_annotations,
+      xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE, title = ""),
+      yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE, scaleanchor = "x", scaleratio = 1, title = ""),
+      showlegend = TRUE,
+      legend = list(
+        orientation = "h",
+        xanchor = "center",
+        x = 0.5, 
+        y = -0.005,
+        yanchor = "top",
+        itemsizing = "constant"
+      ),
+      margin = list(t = 10, b = 80, l = 0, r = 0)
+    ) |>
+    add_trace(
+      data = hover_data,
+      x = ~real_x,
+      y = ~real_y,
+      type = 'scatter',
+      mode = 'markers',
+      color = ~category,
+      colors = colors,
+      text = ~paste("<b>", language, "</b><br><b>", category, "</b>messages:<b>",Total, "</b>"),
+      hoverinfo = "text",
+      name = ~category
+    )
+  
+  return(p)
+}
+
+build_waffle(lang_df)
 ```
+
+
 
 Row {data-height=450}
 -----------------------------------------------------------------------
@@ -230,7 +370,7 @@ final_df %>%
           bar <- div(
             class = "bar-chart",
             style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = value, backgroundColor = "#fc5185"))
+            div(class = "bar", style = list(width = value, backgroundColor = colors[["Translated"]]))
           )
           div(class = "bar-cell", span(class = "number", value), bar)
         }
@@ -243,7 +383,7 @@ final_df %>%
           bar <- div(
             class = "bar-chart",
             style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = value, backgroundColor = "#3fc1c9"))
+            div(class = "bar", style = list(width = value, backgroundColor = colors[["Untranslated"]]))
           )
           div(class = "bar-cell", span(class = "number", value), bar)
         }
@@ -256,7 +396,7 @@ final_df %>%
           bar <- div(
             class = "bar-chart",
             style = list(marginRight = "6px"),
-            div(class = "bar", style = list(width = value, backgroundColor = "#241327"))
+            div(class = "bar", style = list(width = value, backgroundColor = colors[["Fuzzy"]]))
           )
           div(class = "bar-cell", span(class = "number", value), bar)
         }
@@ -273,9 +413,9 @@ Row {data-height=100}
 ### Dashboard Updates
 
 ```{r}
- gh_endpoint <- "https://api.github.com/repos/r-devel/translations-dashboard/commits?path=message_status.csv&page=1&per_page=1"
- last_update_date <- get_last_data_update(gh_endpoint)
- glue::glue("This page was last updated on: ", {last_update_date})
+gh_endpoint <- "https://api.github.com/repos/r-devel/translations-dashboard/commits?path=message_status.csv&page=1&per_page=1"
+last_update_date <- get_last_data_update(gh_endpoint)
+glue::glue("This page was last updated on: ", {last_update_date})
 ```
 
 
@@ -285,7 +425,7 @@ R Translation Teams
 =====================================
 
 
-Row {data-height=450}
+Row {data-height=850}
 -----------------------------------------------------------------------
 
 ### R Translation Teams | <small> Contact Details </small>
@@ -296,6 +436,7 @@ translation_teams %>%
     .,
     pagination = TRUE,
     showPageSizeOptions = TRUE,
+    defaultPageSize = 25,
     highlight = TRUE,
     defaultColDef = colDef(headerClass = "header", align = "left"),
     columns = list(
