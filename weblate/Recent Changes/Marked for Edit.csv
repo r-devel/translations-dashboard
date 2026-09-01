@@ -6662,7 +6662,6 @@ French,grDevices (C files),Failed to apply font variations,310110,https://transl
 French,grDevices (R files),Axis value(s) out of range,307393,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=1af2c70d39d3f643
 French,grDevices (R files),No axes specified,307394,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=083faf01dd236ccc
 French,grDevices (R files),Axis values must be numeric,307396,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=87a39377c3b72ec3
-French,stats (R files),invalid argument '%s',308247,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=5f5a8a964f52df15
 French,stats (R files),incorrect dimensions,308248,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=f8723455e0775fc5
 French,stats (R files),at least two groups required,308250,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=52a155d8c3ea9bf3
 French,stats (R files),cannot compute exact permutation distribution in %s,308256,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=e4c1c55c2c49e0cc
@@ -6756,6 +6755,7 @@ German,base (C files),relative range of values (%4.0f * EPS) is small (axis %d),
 German,base (C files),could not allocate memory for http headers,311844,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=5d629f0d08479729
 German,base (C files),"%s" is not an existing slot in an object of class "%s",312036,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=a8c653f8b83b05f7
 German,base (C files),invalid color specification,312060,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=fc9613f2038bfdfb
+German,base (C files),the '%*' constructed 'fmt2' length exceeds maximum of %d,312640,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=0df36b5a4e875955
 German,base (R files),'%s' must be of length 1,270670,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=3f1d91df8edd2d49
 German,base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270672,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=d8a6ad3d85ae293d
 German,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270673,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=035cca669b0c6f3b
