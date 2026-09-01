@@ -91,7 +91,7 @@
 "90",30,"base (R files)","R","Czech",585,0,585,0
 "91",1,"base (C files)","C","English",2793,2793,0,0
 "92",2,"base (C files)","C","Danish",1741,486,1081,174
-"93",3,"base (C files)","C","German",2233,2164,12,57
+"93",3,"base (C files)","C","German",2233,2163,12,58
 "94",4,"base (C files)","C","Spanish",1741,1703,9,29
 "95",5,"base (C files)","C","Persian",1741,3,1738,0
 "96",6,"base (C files)","C","French",1741,1699,10,32
@@ -542,7 +542,7 @@
 "541",1,"stats (R files)","R","English",835,835,0,0
 "542",2,"stats (R files)","R","Danish",831,44,753,34
 "543",3,"stats (R files)","R","German",831,799,12,20
-"544",4,"stats (R files)","R","French",831,806,12,13
+"544",4,"stats (R files)","R","French",831,808,11,12
 "545",5,"stats (R files)","R","Italian",831,780,23,28
 "546",6,"stats (R files)","R","Japanese",831,715,46,70
 "547",7,"stats (R files)","R","Korean",831,589,191,51
