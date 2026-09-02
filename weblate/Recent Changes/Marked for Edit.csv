@@ -6621,7 +6621,6 @@ English (United Kingdom),utils (R files),cannot install binary packages from oth
 English (United Kingdom),utils (R files),file %s is not a binary package,309890,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=e433e00498c53e38
 English (United Kingdom),utils (R files),package %s successfully unpacked and %s sums checked,309891,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=fc465af263572f2b
 English (United Kingdom),utils (R files),package %s signature verified (%s %s),309892,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=af07a7725f6413f9
-French,base (C files),'x' must be numeric or complex,307762,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=0d3a1854c01ae117
 French,base (C files),'dim' cannot be of length 0,307763,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=c3b7922bcc2915de
 French,base (C files),Index out of bounds,307770,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=df71cd1af4e69f2e
 French,base (C files),besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm,307777,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=9de77a974101233c
