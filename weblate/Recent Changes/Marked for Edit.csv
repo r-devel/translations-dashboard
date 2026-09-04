@@ -165,6 +165,10 @@ Bengali,base (R files),'%s' must be a non-empty character string,258294,https://
 Bengali,base (R files),'%s' must be of length 1,270634,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=3f1d91df8edd2d49
 Bengali,base (R files),'%s' must be a "%s" object,270639,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=f34c4471ff00dfee
 Bengali,base (R files),'%s' is not valid for '%s',313812,https://translate.rx.studio/translate/r-project/base-r/bn/?checksum=3e1f7e4e3bd414df
+Catalan,base (C files),unable to load shared object '%s':
+  %s,233778,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=d64f75f14ab97423
+Catalan,base (C files),values must be type '%s',
+ but FUN(X[[%lld]]) result is type '%s',233809,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=6f82d4b9deb1ee6a
 Catalan,base (C files),getAttrib: invalid type (%s) for TAG,233865,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=8f6b0543d0faa0b3
 Catalan,base (C files),invalid slot name length,233897,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=1cd57c66f982db68
 Catalan,base (C files),invalid type '%s' for slot name,233898,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=de54cb64fc66d87c
@@ -1519,6 +1523,9 @@ Catalan,base (C files),expanded path length %lld would be too long for
 ,235303,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=f049ef118356cf13
 Catalan,base (C files),An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report(),235304,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=0c6f1220699694bb
 Catalan,base (C files),problem in saving the history file '%s',235305,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=e440ffb599c0e0ce
+Catalan,base (C files),Cannot open file '%s': %s
+
+,235306,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=0b1a9ac62a9c4e33
 Catalan,base (C files),error in running command,235307,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=7f3717e6f61f4977
 Catalan,base (C files),'file' argument is too long,235308,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=8ace46ee2ac581a1
 Catalan,base (C files),no history mechanism available,235309,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=47d5b2934943fcc7
@@ -1619,17 +1626,6 @@ Catalan,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignor
 Catalan,base (C files),invalid binom type in 'RNGkind',313942,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=3ea0744cd9a91ab6
 Catalan,base (C files),unexpected format in ascii connection '%s',313944,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=88efc53063e6b0fa
 Catalan,base (C files),error reading from connection '%s',313945,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=83375b765e475526
-Catalan,base (C files),not safe to return vector pointer,314643,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=e84d944b70557545
-Catalan,base (C files),type "%s" not supported in interlanguage calls,314645,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=1ffd93c92bf72a53
-Catalan,base (C files),mode '%s' is not supported in call_R,314646,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=335c58f0ec967ecf
-Catalan,base (C files), [ reached getOption("max.print") -- omitted %d row ]
-,314647,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=e093e2a780653c01
-Catalan,base (C files),No function to return from, jumping to top level,314648,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=f464d6072b880778
-Catalan,base (C files),top level inconsistency?,314649,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=e9c11c09bc56760a
-Catalan,base (C files),restarts not supported in 'eval',314650,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=82204c859b33267d
-Catalan,base (C files),bytecode version mismatch; using eval,314651,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=866011957ceb3cbf
-Catalan,base (C files),bytecode version is too old,314652,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=a2e4cf3f1ec1f24a
-Catalan,base (C files),bytecode version is too new,314653,https://translate.rx.studio/translate/r-project/base-c/ca/?checksum=73f2fec695dab389
 Catalan,base (R files),'%s' must be of length 1,270643,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=3f1d91df8edd2d49
 Catalan,base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270645,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=d8a6ad3d85ae293d
 Catalan,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270646,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=035cca669b0c6f3b
@@ -1641,7 +1637,6 @@ Catalan,base (R files),namespace '%s' is already loaded so argument '%s' will be
 Catalan,base (R files),'%s' is not valid for '%s',313820,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=3e1f7e4e3bd414df
 Catalan,base (R files),No functions specified,313822,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=ed47ffda240346ef
 Catalan,graphics (R files),panel.last ignored, it is not a function,314445,https://translate.rx.studio/translate/r-project/graphics-r/ca/?checksum=b9a94c6623cec310
-Catalan,graphics (R files),fuzz must be non-negative,314448,https://translate.rx.studio/translate/r-project/graphics-r/ca/?checksum=7d693f58162cdc03
 Catalan,grDevices (C files),Clipping path ignored (device is appending path),221954,https://translate.rx.studio/translate/r-project/grdevices-c/ca/?checksum=6383ed8a0272b20c
 Catalan,grDevices (C files),color intensity %s, not in [0,1],221955,https://translate.rx.studio/translate/r-project/grdevices-c/ca/?checksum=3f1610fb7305fb30
 Catalan,grDevices (C files),color intensity %g, not in [0,1],221956,https://translate.rx.studio/translate/r-project/grdevices-c/ca/?checksum=fd762ebbaa21163e
@@ -1898,7 +1893,6 @@ Catalan,grDevices (R files),Invalid glyph height(s),221166,https://translate.rx.
 Catalan,grDevices (R files),Invalid glyph height,221167,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=1b7ac5f728fc1b18
 Catalan,grDevices (R files),Unknown height; using bottom anchor,221168,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=f7a263e902544d71
 Catalan,grDevices (R files),Invalid glyph anchor,221169,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=61a34c025af454ae
-Catalan,grDevices (R files),Font file longer than 500 will be truncated,221170,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=9145f76ed6a5001b
 Catalan,grDevices (R files),Font family longer than 200 will be truncated,221171,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=615d966fc9f1c25f
 Catalan,grDevices (R files),PostScript font name longer than 200 will be truncated,221172,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=b6f9cb0a1c90fd9a
 Catalan,grDevices (R files),Font information is inconsistent,221173,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=a93276ba7d58b2de
@@ -2232,6 +2226,10 @@ Catalan,grid (R files),invalid viewport name,221111,https://translate.rx.studio/
 Catalan,grid (R files),Closed must be length 1 and must not be a missing value,271571,https://translate.rx.studio/translate/r-project/grid-r/ca/?checksum=89a0ddf09609268a
 Catalan,grid (R files),must specify at least one of 'xData' or 'xscale',271572,https://translate.rx.studio/translate/r-project/grid-r/ca/?checksum=7df2a2c4973fbe4d
 Catalan,grid (R files),must specify at least one of 'yData' or 'yscale',271573,https://translate.rx.studio/translate/r-project/grid-r/ca/?checksum=bbec64a3e3a851d1
+Catalan,methods (R files),unnamed argument must extend either the S3 class or the class of the data part; not true of class %s,221474,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=64af766e14ebd20e
+Catalan,methods (R files),S3Part() is only defined for classes set up by setOldCLass(), basic classes or subclasses of these:  not true of class %s,221483,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=8dd81b0c1231c7f2
+Catalan,methods (R files),the 'coerce' argument to 'setIs' should be a function of one argument, got an object of class %s,221488,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=521a38511afbe809
+Catalan,methods (R files),the computation: 'as(object,"%s") <- value' is valid when object has class %s only if 'is(value, "%s")' is TRUE ('class(value)' was %s),221489,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=eb6dc29a630c85d6
 Catalan,methods (R files),there is no automatic definition for 'as(object, "%s") <- value' when object has class %s and no 'replace' argument was supplied; replacement will be an error,221490,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=bf9c715ee0a1fbbd
 Catalan,methods (R files),the 'replace' argument to setIs() should be a function of 2 or 3 arguments, got an object of class %s,221491,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=9edb4ebd2dc682ca
 Catalan,methods (R files),the member classes must be defined: not true of %s,221492,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=977ca6086157df03
@@ -2628,11 +2626,6 @@ Catalan,methods (R files),Choosing method %s from %d ambiguous possibility,22187
 Catalan,methods (R files),no definition of class %s in the specified position, %s, definition on : %s,221877,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=2d265101e0b88a07
 Catalan,methods (R files),unable to load required package %s,258496,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=4b759e0b1be229b6
 Catalan,methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258497,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=cec0c4408bb2134c
-Catalan,methods (R files),Function must be an S4 generic,314707,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=3ab93a8f5b22e149
-Catalan,methods (R files),invalid method sublist,314708,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=762b0b9cfe66c49f
-Catalan,methods (R files),%f is not a valid generic function: methods list was an object of class %s,314709,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=67f0fec61c76ac0f
-Catalan,methods (R files),%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s,314710,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=23392e2d582a9987
-Catalan,methods (R files),skipping methods list element %s of unexpected class %s,314711,https://translate.rx.studio/translate/r-project/methods-r/ca/?checksum=a7cd41e52c946ee3
 Catalan,parallel (R files),need at least one argument,222329,https://translate.rx.studio/translate/r-project/parallel-r/ca/?checksum=4cb1f99fd2c27adc
 Catalan,parallel (R files),zero-length inputs cannot be mixed with those of non-zero length,222330,https://translate.rx.studio/translate/r-project/parallel-r/ca/?checksum=4a3eb04ccadad4b6
 Catalan,parallel (R files),no cluster 'cl' supplied and none is registered,222334,https://translate.rx.studio/translate/r-project/parallel-r/ca/?checksum=257f5041f2054d0b
@@ -3501,7 +3494,6 @@ Catalan,stats (R files),'start.innov' is too short: need %d point,223287,https:/
 Catalan,stats (R files),diag(V) had non-positive or NA entries; the non-finite result may be dubious,239687,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=080da96622c21936
 Catalan,stats (R files),cannot use 'paired' in formula method,239689,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=bb9093f1eb9d9151
 Catalan,stats (R files),extra argument %s is not of class "%s",239690,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=f4479a2c1f570429
-Catalan,stats (R files),must supply 'formula' or 'data',258551,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=27d182861927123c
 Catalan,stats (R files),if not a list, 'seasonal' must be a non-negative numeric vector of length 3,271411,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=c55b6f46fc6da051
 Catalan,stats (R files),'seasonal' is neither a list with component 'order' nor a numeric vector of length 3,271412,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=623530a3886010c4
 Catalan,stats (R files),'termlabels' must be a character vector,271413,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=8a0a7db4151fa7ca
@@ -4020,7 +4012,6 @@ Catalan,utils (R files),'dump' is empty,224094,https://translate.rx.studio/trans
 Catalan,utils (R files),Available environments had calls:,224095,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=85451e1551c7f5e3
 Catalan,utils (R files),Enter an environment number, or 0 to exit,224096,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=cf69a96eeca63561
 Catalan,utils (R files),recover called non-interactively; frames dumped, use debugger() to view,224097,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=357cbcb099c8c640
-Catalan,utils (R files),No suitable frames for recover(),224098,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=264d028c6168dc56
 Catalan,utils (R files),No demo found for topic %s,224099,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=1be79128e292dc32
 Catalan,utils (R files),Demo for topic %s' found more than once,
 using the one found in %s,224100,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3e9957230733e3d3
@@ -4121,7 +4112,6 @@ Catalan,utils (R files),'code_files' must be a character vector,224195,https://t
 Catalan,utils (R files),'list' must be a character vector naming R objects,224196,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=8c8f6b5b31f619df
 Catalan,utils (R files),directory '%s' already exists,224198,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=d4ce830f839dffe1
 Catalan,utils (R files),generic functions and other S4 objects (e.g., '%s') cannot be dumped; use the 'code_files' argument,224199,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=53a6799e29144db8
-Catalan,utils (R files),unable to access index for repository %s,224201,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=a0adb86f8c4ec51f
 Catalan,utils (R files),invalid 'filters' argument.,224202,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=30deed68432a9ce7
 Catalan,utils (R files),specifying 'contriburl' or 'available' requires a single type, not type = "both",224203,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=50927e4e977da2ba
 Catalan,utils (R files),package '%s' in library '%s' will not be updated,224204,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=8aa094667899cedb
@@ -4256,7 +4246,6 @@ Catalan,utils (R files),bzip2,224336,https://translate.rx.studio/translate/r-pro
 Catalan,utils (R files),xz,224337,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3cee87115c210756
 Catalan,utils (R files),failed to create directory %s,224338,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=9de4c96dfe01bcb4
 Catalan,utils (R files),invalid octal digit,224339,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=12893967024cd160
-Catalan,utils (R files),removing drive '%s',224340,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=718678ef114fa2ba
 Catalan,utils (R files),path starts with '~',224342,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=973dc83866b1518c
 Catalan,utils (R files),path contains '..',224343,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3e225bd6e937fdda
 Catalan,utils (R files),'tarfile' must be a character string or a connection,224345,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=c15fa91426c6ab2e
@@ -4318,7 +4307,6 @@ Catalan,utils (R files),'memory.limit()' is no longer supported,224404,https://t
 Catalan,utils (R files),winDialog() cannot be used non-interactively,224405,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=7c5940ee88e0982c
 Catalan,utils (R files),winDialogString() cannot be used non-interactively,224406,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=5803a16900d52f79
 Catalan,utils (R files),%d Sweave file for basename %s found,224407,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=d69325862ec53416
-Catalan,utils (R files),Output/used file:  ,224408,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=ed6d8c1fc66ec997
 Catalan,utils (R files),%d occurrence in %s,224409,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=e4b25f4b83aa557c
 Catalan,utils (R files),Invalid role specification: %s.,224410,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=2faf480576749954
 Catalan,utils (R files),A bibentry of bibtype %s has to specify the field: %s,224411,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=6728f4051542eec0
@@ -4362,15 +4350,6 @@ Catalan,utils (R files),package %s signature verified (%s %s),309841,https://tra
 Catalan,utils (R files),Output file:  ,309844,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=ec61cb67695f05e0
 Catalan,utils (R files),value of option 'results' should be lowercase,314138,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=d30179b06699ee49
 Catalan,utils (R files),value of option 'strip.white' should be lowercase,314139,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=c1bb6b97fed78121
-Catalan,utils (R files),type == "both" can only be used on Windows or a CRAN build for macOS,314140,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=68300664a0f3c4b8
-Catalan,utils (R files),no R objects specified or available,314141,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=695edac5c55c360f
-Catalan,utils (R files),path is empty,314142,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=8eca8ebef95c4160
-Catalan,utils (R files),'memory.size()' is Windows-specific,314143,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=05f2911a93efed70
-Catalan,utils (R files),'memory.limit()' is Windows-specific,314144,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=49cbd104229d438c
-Catalan,utils (R files),It is recommended to use %s/%s instead of %s/%s/%s.,314145,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=0a535a24f68593e6
-Catalan,utils (R files),argument %s must be a character string,314146,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=cd5f2cae32ce0523
-Catalan,utils (R files),invalid 'type'; must be a character string,314147,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=5d0a54c1073ff8ec
-Catalan,utils (R files),file 'filelist' is missing for directory %s,314148,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=c491f5619b40c0df
 Chinese (Simplified Han script),base (C files),'file' must be a character string or connection,68894,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=eaefd0f3af0aca1f
 Chinese (Simplified Han script),base (C files),invalid '(to - from)/by',69567,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=eeec16fd78250451
 Chinese (Simplified Han script),base (C files),invalid slot name length,167049,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=1cd57c66f982db68
@@ -4513,6 +4492,8 @@ Chinese (Simplified Han script),base (C files),bessel_y(%g): ncalc (=%d) != nb (
 Chinese (Simplified Han script),base (C files),pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d,168428,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=f1fb82aa8c9bb713
 Chinese (Simplified Han script),base (C files),pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter.,168431,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=6ce4f48daf357fcd
 Chinese (Simplified Han script),base (C files),'receive.console.signals' must be logical and not NA,168458,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=2516b136dfa28482
+Chinese (Simplified Han script),base (C files),data length [%lld] is not a sub-multiple or multiple of the number of rows [%d],227710,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=e189ec568c35046d
+Chinese (Simplified Han script),base (C files),data length [%lld] is not a sub-multiple or multiple of the number of columns [%d],227711,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=e790670347256ae9
 Chinese (Simplified Han script),base (C files),data length differs from size of matrix: [%lld != %d x %d],227712,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=69a1d421fcfa3ed5
 Chinese (Simplified Han script),base (C files),'names' attribute [%lld] must be the same length as the vector [%lld],227715,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=c63df6dbabaa0685
 Chinese (Simplified Han script),base (C files),dims [product %lld] do not match the length of object [%lld],227716,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=228da63e509c629f
@@ -4607,10 +4588,6 @@ Chinese (Simplified Han script),base (C files),'.Random.seed[1] %% 100' is not a
 Chinese (Simplified Han script),base (C files),invalid binom type in 'RNGkind',314096,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=3ea0744cd9a91ab6
 Chinese (Simplified Han script),base (C files),unexpected format in ascii connection '%s',314098,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=88efc53063e6b0fa
 Chinese (Simplified Han script),base (C files),error reading from connection '%s',314099,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=83375b765e475526
-Chinese (Simplified Han script),base (C files),the base graphics system is not registered,314678,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=48c63c771209714c
-Chinese (Simplified Han script),base (C files),'lengths' is not of mode integer,314680,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=0a26d5da025ef695
-Chinese (Simplified Han script),base (C files),'from' has length 0, but not 'lengths',314681,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=260ef2d9a898312a
-Chinese (Simplified Han script),base (C files),'by' has length 0, but not 'lengths',314682,https://translate.rx.studio/translate/r-project/base-c/zh_Hans/?checksum=88d8a9ffec9e4f6a
 Chinese (Simplified Han script),base (R files),Conflicts attaching package %s:
 %s,40605,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9beb37569e2a7e23
 Chinese (Simplified Han script),base (R files),Package %s version %s cannot be unloaded:
@@ -4625,8 +4602,6 @@ Chinese (Simplified Han script),base (R files),not found in namespace %s:
 %s,40690,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=1fea2836beab78cb
 Chinese (Simplified Han script),base (R files),package %s was installed before R 4.0.0: please re-install it,40699,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=d7ce33c1acc58d70
 Chinese (Simplified Han script),base (R files),package %s has no 'package.rds' in Meta/,40701,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=748628ba6cb52f33
-Chinese (Simplified Han script),base (R files),package %s has a license that you need to accept:,40704,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=377365b7e4aca234
-Chinese (Simplified Han script),base (R files),according to the DESCRIPTION file it is,40705,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=e5d8538df4759426
 Chinese (Simplified Han script),base (R files),S4 exports specified in 'NAMESPACE' but not defined in package %s,40719,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=e292e6afa4141842
 Chinese (Simplified Han script),base (R files),--- processing classes,40723,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=3be54c1c0346d214
 Chinese (Simplified Han script),base (R files),replacing previous import by %s when loading %s,40744,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=a73e617809385256
@@ -4665,14 +4640,20 @@ Chinese (Simplified Han script),base (R files),'uplo' must be "U" or "L",226796,
 Chinese (Simplified Han script),base (R files),invalid nrow(z),226797,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9b81226e23c8678f
 Chinese (Simplified Han script),base (R files),invalid 'x',226800,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=8d495725cec58df5
 Chinese (Simplified Han script),base (R files),'%s' must be a non-empty character string,258477,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=013d2492742135f1
+Chinese (Simplified Han script),base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270895,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=d8a6ad3d85ae293d
+Chinese (Simplified Han script),base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270896,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=035cca669b0c6f3b
 Chinese (Simplified Han script),base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270897,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=9da6cce003460690
 Chinese (Simplified Han script),base (R files),'%s' must be a "%s" object,270898,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=f34c4471ff00dfee
 Chinese (Simplified Han script),base (R files),'recursive' must be a length-1 vector,270900,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=a2292cb330caa33d
 Chinese (Simplified Han script),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308911,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=b50eacf7c792b0d3
 Chinese (Simplified Han script),base (R files),'%s' is not valid for '%s',313901,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=3e1f7e4e3bd414df
 Chinese (Simplified Han script),base (R files),No functions specified,313903,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=ed47ffda240346ef
+Chinese (Simplified Han script),base (R files),package %s has a license that you need to accept:,314908,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=377365b7e4aca234
+Chinese (Simplified Han script),base (R files),according to the DESCRIPTION file it is,314909,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=e5d8538df4759426
 Chinese (Simplified Han script),compiler,cannot compile this expression,72098,https://translate.rx.studio/translate/r-project/compiler/zh_Hans/?checksum=c6bb4b3d1cb15f02
 Chinese (Simplified Han script),graphics (C files),argument %d does not name a graphical parameter,139337,https://translate.rx.studio/translate/r-project/graphics-c/zh_Hans/?checksum=f441dcc016591c0f
+Chinese (Simplified Han script),graphics (R files),formula must specify 1 or 2 categorical variables,80622,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=13614fa20d44b04f
+Chinese (Simplified Han script),graphics (R files),formula with cbind() must specify 1 categorical variable,80624,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=76b629ebbc79b985
 Chinese (Simplified Han script),graphics (R files),'z' must be numeric or logical,80677,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=3e33d4955f979e82
 Chinese (Simplified Han script),graphics (R files),invalid argument 'horInd',80704,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=0cc0124f5d7c8891
 Chinese (Simplified Han script),graphics (R files),invalid argument 'verInd',80705,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=a33fddbc1b3c6a04
@@ -4991,8 +4972,6 @@ Chinese (Simplified Han script),tools (R files),package %s successfully unpacked
 Chinese (Simplified Han script),tools (R files),'gpg' is not available for signing,309337,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=8ae99d929e93e22f
 Chinese (Simplified Han script),tools (R files),Signing failed:,309342,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=0896a8f7c35d5ff9
 Chinese (Simplified Han script),tools (R files),must specify 'address',314549,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=55b2d94f5ea578ca
-Chinese (Simplified Han script),tools (R files),Applied installation-time patch,314553,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=1debd46917af15c8
-Chinese (Simplified Han script),tools (R files),in package installation,314554,https://translate.rx.studio/translate/r-project/tools-r/zh_Hans/?checksum=e491d312fe1988da
 Chinese (Simplified Han script),utils (R files),Warning: unknown option '--clean='%s,117100,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=96c5d326f5cd8165
 Chinese (Simplified Han script),utils (R files),Unrecognized response,117114,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=c4102ba3a58b757d
 Chinese (Simplified Han script),utils (R files),no method found for %s(., n=%s) and class %s,117200,https://translate.rx.studio/translate/r-project/utils-r/zh_Hans/?checksum=1644e81d222e8ff1
@@ -5836,8 +5815,6 @@ Danish,base (R files),not found in namespace %s:
 %s,33111,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=1fea2836beab78cb
 Danish,base (R files),package %s was installed before R 4.0.0: please re-install it,33120,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=d7ce33c1acc58d70
 Danish,base (R files),package %s has no 'package.rds' in Meta/,33122,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=748628ba6cb52f33
-Danish,base (R files),package %s has a license that you need to accept:,33125,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=377365b7e4aca234
-Danish,base (R files),according to the DESCRIPTION file it is,33126,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=e5d8538df4759426
 Danish,base (R files),S4 exports specified in 'NAMESPACE' but not defined in package %s,33140,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=e292e6afa4141842
 Danish,base (R files),--- processing classes,33144,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=3be54c1c0346d214
 Danish,base (R files),replacing previous import %s by %s when loading %s,33168,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=970bf6550f487bfb
@@ -5884,6 +5861,9 @@ Danish,base (R files),directories are ignored,308774,https://translate.rx.studio
 Danish,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308777,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=b50eacf7c792b0d3
 Danish,base (R files),'%s' is not valid for '%s',313828,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=3e1f7e4e3bd414df
 Danish,base (R files),No functions specified,313830,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=ed47ffda240346ef
+Danish,base (R files),package %s has a license that you need to accept:,314754,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=377365b7e4aca234
+Danish,base (R files),according to the DESCRIPTION file it is,314755,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=e5d8538df4759426
+Danish,base (R GUI),Insufficient memory to create metafile,28161,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=430ec3544b21b886
 Danish,compiler,non-namespace found within namespace environments,71684,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=feb079e30f167f92
 Danish,compiler,more than one default provided in switch() call,71703,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=a09ec7869e73389f
 Danish,compiler,cannot compile this expression,71718,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=c6bb4b3d1cb15f02
@@ -6120,6 +6100,7 @@ Danish,parallel (C files),cannot wait for child %d as it does not exist,88270,ht
 Danish,parallel (C files),'mckill' failed,88274,https://translate.rx.studio/translate/r-project/parallel-c/da/?checksum=dfa2e0593efa4b72
 Danish,parallel (C files),'mcexit' can only be used in a child process,88275,https://translate.rx.studio/translate/r-project/parallel-c/da/?checksum=143ac98be5756eb4
 Danish,parallel (C files),'mcexit' failed,88277,https://translate.rx.studio/translate/r-project/parallel-c/da/?checksum=7707d6939a9df55d
+Danish,parallel (R files),zero-length inputs cannot be mixed with those of non-zero length,89613,https://translate.rx.studio/translate/r-project/parallel-r/da/?checksum=4a3eb04ccadad4b6
 Danish,parallel (R files),'process' must be of class %s,89628,https://translate.rx.studio/translate/r-project/parallel-r/da/?checksum=d9c113ad68c7dd7c
 Danish,parallel (R files),socket cluster with %d nodes on host %s,89643,https://translate.rx.studio/translate/r-project/parallel-r/da/?checksum=fa86195617dd8234
 Danish,parallel (R files),scheduled core %s did not deliver a result, all values of the job will be affected,89645,https://translate.rx.studio/translate/r-project/parallel-r/da/?checksum=9aeb41b9ff97a095
@@ -6279,6 +6260,8 @@ Dutch,base (C files),'name' must be a scalar string,313097,https://translate.rx.
 Dutch,base (C files),Index out of bounds,313106,https://translate.rx.studio/translate/r-project/base-c/nl/?checksum=df71cd1af4e69f2e
 Dutch,base (C files),invalid '%s' argument, given the value of '%s',313128,https://translate.rx.studio/translate/r-project/base-c/nl/?checksum=17e6dac38f7b74c8
 English (United Kingdom),base (C files),data length [%lld] is not a sub-multiple or multiple of the number of rows [%d],237084,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=e189ec568c35046d
+English (United Kingdom),base (C files),data length [%lld] is not a sub-multiple or multiple of the number of columns [%d],237085,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=e790670347256ae9
+English (United Kingdom),base (C files),'names' attribute [%lld] must be the same length as the vector [%lld],237087,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=c63df6dbabaa0685
 English (United Kingdom),base (C files),file descriptor is too large for select(),237094,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=cee14231eb997cdc
 English (United Kingdom),base (C files),comparison (%s) is not possible for language types,237104,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=489129444386eab2
 English (United Kingdom),base (C files),comparing this symbol and string pair is not supported,237105,https://translate.rx.studio/translate/r-project/base-c/en_GB/?checksum=9ef87ce70b42b8ab
@@ -6355,7 +6338,6 @@ English (United Kingdom),base (R files),namespace '%s' is already loaded so argu
 English (United Kingdom),base (R files),'%s' is not valid for '%s',313834,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=3e1f7e4e3bd414df
 English (United Kingdom),base (R files),No functions specified,313836,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=ed47ffda240346ef
 English (United Kingdom),graphics (R files),panel.last ignored, it is not a function,307542,https://translate.rx.studio/translate/r-project/graphics-r/en_GB/?checksum=b9a94c6623cec310
-English (United Kingdom),graphics (R files),fuzz must be non-negative,314452,https://translate.rx.studio/translate/r-project/graphics-r/en_GB/?checksum=7d693f58162cdc03
 English (United Kingdom),grDevices (C files),QuartzBitmap_Output - filename is empty!,307470,https://translate.rx.studio/translate/r-project/grdevices-c/en_GB/?checksum=1c9bd565f2edd6d7
 English (United Kingdom),grDevices (C files),Font variations too long,307471,https://translate.rx.studio/translate/r-project/grdevices-c/en_GB/?checksum=ec3cddf127766b0c
 English (United Kingdom),grDevices (C files),Failed to apply font variations,307472,https://translate.rx.studio/translate/r-project/grdevices-c/en_GB/?checksum=da546829b5282615
@@ -6365,6 +6347,8 @@ English (United Kingdom),grDevices (R files),Axis value(s) out of range,307381,h
 English (United Kingdom),grDevices (R files),No axes specified,307382,https://translate.rx.studio/translate/r-project/grdevices-r/en_GB/?checksum=083faf01dd236ccc
 English (United Kingdom),grDevices (R files),Axis values must be numeric,307384,https://translate.rx.studio/translate/r-project/grdevices-r/en_GB/?checksum=87a39377c3b72ec3
 English (United Kingdom),grDevices (R files),Ghostscript was not found,314427,https://translate.rx.studio/translate/r-project/grdevices-r/en_GB/?checksum=13d45bf8b6039158
+English (United Kingdom),grid (R files),Closed must be length 1 and must not be a missing value,271583,https://translate.rx.studio/translate/r-project/grid-r/en_GB/?checksum=89a0ddf09609268a
+English (United Kingdom),methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258503,https://translate.rx.studio/translate/r-project/methods-r/en_GB/?checksum=cec0c4408bb2134c
 English (United Kingdom),parallel (R files),unknown cluster type: '%s',258244,https://translate.rx.studio/translate/r-project/parallel-r/en_GB/?checksum=fe2c1a26317279a2
 English (United Kingdom),parallel (R files),incompatible arguments,314212,https://translate.rx.studio/translate/r-project/parallel-r/en_GB/?checksum=32aa3090a4816666
 English (United Kingdom),stats (C files),data are constant in bandwidth calculation,270526,https://translate.rx.studio/translate/r-project/stats-c/en_GB/?checksum=0f1bf616dc41ef66
@@ -6373,7 +6357,6 @@ English (United Kingdom),stats (C files),environment 'rho' must contain a numeri
 English (United Kingdom),stats (C files),'lower' and 'upper' must be numeric (double) vectors,270530,https://translate.rx.studio/translate/r-project/stats-c/en_GB/?checksum=a646bbefb962e108
 English (United Kingdom),stats (R files),diag(V) had non-positive or NA entries; the non-finite result may be dubious,239691,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=080da96622c21936
 English (United Kingdom),stats (R files),extra argument %s is not of class "%s",239693,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=f4479a2c1f570429
-English (United Kingdom),stats (R files),must supply 'formula' or 'data',258554,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=27d182861927123c
 English (United Kingdom),stats (R files),if not a list, 'seasonal' must be a non-negative numeric vector of length 3,271439,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=c55b6f46fc6da051
 English (United Kingdom),stats (R files),'seasonal' is neither a list with component 'order' nor a numeric vector of length 3,271440,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=623530a3886010c4
 English (United Kingdom),stats (R files),'termlabels' must be a character vector,271441,https://translate.rx.studio/translate/r-project/stats-r/en_GB/?checksum=8a0a7db4151fa7ca
@@ -6404,6 +6387,7 @@ English (United Kingdom),tools (R files),x must be a single string,258022,https:
 English (United Kingdom),tools (R files),Error: running examples in %s failed,258024,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=309ac598868a96db
 English (United Kingdom),tools (R files),Error: running the tests in %s failed,258025,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=18dcf6379af49a2a
 English (United Kingdom),tools (R files),'%s' must be a character string,258026,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=abaf9a0c906b7118
+English (United Kingdom),tools (R files),Package %s does not have a registered vignette engine,258028,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=63a442a9a1646014
 English (United Kingdom),tools (R files),Authors@R field gives persons with invalid ROR identifiers:,271667,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=6b949f75b6635df1
 English (United Kingdom),tools (R files),Authors@R field gives persons with duplicated ROR identifiers:,271668,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=397fc665abfe345b
 English (United Kingdom),tools (R files),Missing link(s) in Rd file '%s':,271669,https://translate.rx.studio/translate/r-project/tools-r/en_GB/?checksum=4b5f7ae579d1f594
@@ -6434,6 +6418,7 @@ English (United Kingdom),utils (R files),package %s successfully unpacked and %s
 English (United Kingdom),utils (R files),package %s signature verified (%s %s),309892,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=af07a7725f6413f9
 English (United Kingdom),utils (R files),value of option 'results' should be lowercase,314155,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=d30179b06699ee49
 English (United Kingdom),utils (R files),value of option 'strip.white' should be lowercase,314156,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=c1bb6b97fed78121
+French,base (C files),'x' must be numeric or complex,307762,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=0d3a1854c01ae117
 French,base (C files),'dim' cannot be of length 0,307763,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=c3b7922bcc2915de
 French,base (C files),Index out of bounds,307770,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=df71cd1af4e69f2e
 French,base (C files),besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm,307777,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=9de77a974101233c
@@ -6471,11 +6456,24 @@ French,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignore
 French,base (C files),invalid binom type in 'RNGkind',313984,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=3ea0744cd9a91ab6
 French,base (C files),unexpected format in ascii connection '%s',313986,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=88efc53063e6b0fa
 French,base (C files),error reading from connection '%s',313987,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=83375b765e475526
+French,base (R files),number of columns of result, %d, is not a multiple of vector length %d of arg %d,138769,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=f624335be11876d2
+French,base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270733,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=d8a6ad3d85ae293d
+French,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270734,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=035cca669b0c6f3b
+French,base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270735,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=9da6cce003460690
 French,base (R files),directories are ignored,308824,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=eada66bb551c8617
 French,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308827,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=b50eacf7c792b0d3
 French,base (R files),'%s' is not valid for '%s',313847,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=3e1f7e4e3bd414df
 French,base (R files),No functions specified,313849,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=ed47ffda240346ef
 French,graphics (R files),panel.last ignored, it is not a function,307549,https://translate.rx.studio/translate/r-project/graphics-r/fr/?checksum=b9a94c6623cec310
+French,grDevices (C files),Quartz gradients exhausted (failed to increase maxPatterns),139140,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=6d5db2e99be753a1
+French,grDevices (C files),Quartz patterns exhausted (failed to increase maxPatterns),139141,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=dc16b25e85b2907b
+French,grDevices (C files),Quartz clipping paths exhausted (failed to increase maxClipPaths),139147,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=25f6de1cc1b45d4e
+French,grDevices (C files),Quartz groups exhausted (failed to increase maxGroups),139153,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=c2a186773ce9ace0
+French,grDevices (C files),Add compositing operator not supported; falling back to over,139155,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=16ce6f6ba35acf1c
+French,grDevices (C files),font width unknown for character 0x%02x in encoding %s,226138,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=89f13cd312219965
+French,grDevices (C files),font metrics unknown for character 0x%02x in encoding %s,226141,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=fd6f6ddfe6eb14f7
+French,grDevices (C files),invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale,226142,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=6ae1bf839c6a4586
+French,grDevices (C files),conversion failure on '%s' in 'mbcsToSbcs': for <%02x>,226143,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=0a21bc7b4426416e
 French,grDevices (C files),QuartzBitmap_Output - filename is empty!,307480,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=1c9bd565f2edd6d7
 French,grDevices (C files),Font variations too long,310109,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=ec3cddf127766b0c
 French,grDevices (C files),Failed to apply font variations,310110,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=da546829b5282615
@@ -6485,7 +6483,11 @@ French,grDevices (R files),Axis value(s) out of range,307393,https://translate.r
 French,grDevices (R files),No axes specified,307394,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=083faf01dd236ccc
 French,grDevices (R files),Axis values must be numeric,307396,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=87a39377c3b72ec3
 French,grDevices (R files),Ghostscript was not found,314429,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=13d45bf8b6039158
+French,grid (R files),'x' and 'y' must be units and 'device' must be logical,138533,https://translate.rx.studio/translate/r-project/grid-r/fr/?checksum=475958671807aef1
+French,grid (R files),'w' and 'h' must be units and 'device' must be logical,138534,https://translate.rx.studio/translate/r-project/grid-r/fr/?checksum=60ed80dd1c84435b
+French,methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258507,https://translate.rx.studio/translate/r-project/methods-r/fr/?checksum=cec0c4408bb2134c
 French,parallel (R files),incompatible arguments,314216,https://translate.rx.studio/translate/r-project/parallel-r/fr/?checksum=32aa3090a4816666
+French,stats (R files),invalid argument '%s',308247,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=5f5a8a964f52df15
 French,stats (R files),incorrect dimensions,308248,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=f8723455e0775fc5
 French,stats (R files),at least two groups required,308250,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=52a155d8c3ea9bf3
 French,stats (R files),cannot compute exact permutation distribution in %s,308256,https://translate.rx.studio/translate/r-project/stats-r/fr/?checksum=e4c1c55c2c49e0cc
@@ -6512,6 +6514,7 @@ French,tools (R files),package %s successfully unpacked and %s sums checked,3091
 French,tools (R files),'gpg' is not available for signing,309106,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=8ae99d929e93e22f
 French,tools (R files),Signing failed:,309111,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=0896a8f7c35d5ff9
 French,tools (R files),must specify 'address',314495,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=55b2d94f5ea578ca
+French,utils (C files),column %d claims to be a factor but does not have numeric codes,226809,https://translate.rx.studio/translate/r-project/utils-c/fr/?checksum=6a3f514144968638
 French,utils (R files),'memory.size()' is no longer supported,113754,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=b5f1f84e73cdbbc9
 French,utils (R files),'memory.limit()' is no longer supported,113755,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=bb9d02e65f7472ec
 French,utils (R files),Enter a frame number, or 0 to exit,307208,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=f95c948e8533972b
@@ -6570,14 +6573,11 @@ German,base (C files),besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algo
 German,base (C files),NA in coercion to boolean,311709,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=d1b3d1528d643e95
 German,base (C files),'cumvar' not defined for complex numbers,311710,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=80c3c690c449851f
 German,base (C files),bad ... value,311712,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=02220b312fac999c
-German,base (C files),first argument to '%s' must be a symbol,311715,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=cedcce7a377e8c68
-German,base (C files),second argument to '%s' must be an environment,311716,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=0bcaeda8c8170687
 German,base (C files),unbound variable,311717,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=54e53884c18286a7
 German,base (C files),not a delayed or forced binding,311718,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=e2261ef1535c9e52
 German,base (C files),not a delayed binding,311719,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=76a810798890678b
 German,base (C files),not a forced binding,311720,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=463f422a659642e7
 German,base (C files),'%s' is not of type %s,311721,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=e037c6aecceb2dea
-German,base (C files),cannot resolve owner of file '%ls': %s,311722,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=1510fbf7c4258d7f
 German,base (C files),'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored,313953,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=bc7b2425b06b405d
 German,base (C files),'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored,313954,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=5cd0f89f0e3ec6d6
 German,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignored,313955,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=6a304e7ff9b7d60f
@@ -6589,7 +6589,6 @@ German,base (R files),without 'by', when one of 'to', 'from' is missing, 'length
 German,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270673,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=035cca669b0c6f3b
 German,base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270674,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=9da6cce003460690
 German,base (R files),'%s' must be a "%s" object,270675,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=f34c4471ff00dfee
-German,base (R files),'recursive' must be a length-1 vector,270677,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=a2292cb330caa33d
 German,base (R files),directories are ignored,308778,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=eada66bb551c8617
 German,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308781,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=b50eacf7c792b0d3
 German,base (R files),'%s' is not valid for '%s',313831,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=3e1f7e4e3bd414df
@@ -6998,6 +6997,7 @@ Hungarian,parallel (R files),'process' must be of class %s,214837,https://transl
 Hungarian,parallel (R files),unknown cluster type: '%s',258252,https://translate.rx.studio/translate/r-project/parallel-r/hu/?checksum=fe2c1a26317279a2
 Hungarian,parallel (R files),incompatible arguments,314220,https://translate.rx.studio/translate/r-project/parallel-r/hu/?checksum=32aa3090a4816666
 Hungarian,splines (R files),some 'x' values beyond boundary knots may cause ill-conditioned bases,215216,https://translate.rx.studio/translate/r-project/splines-r/hu/?checksum=c57f6bfe844321fe
+Hungarian,stats (R files),profiling has found a better solution, so original fit had not converged,216464,https://translate.rx.studio/translate/r-project/stats-r/hu/?checksum=d532620e4053e0f9
 Hungarian,stats (R files),'termlabels' must be a character vector,271469,https://translate.rx.studio/translate/r-project/stats-r/hu/?checksum=8a0a7db4151fa7ca
 Hungarian,stats (R files),df.offset must be numeric and >= 0,271472,https://translate.rx.studio/translate/r-project/stats-r/hu/?checksum=731e574b067170bb
 Hungarian,stats (R files),penalty must be numeric and > 0,271473,https://translate.rx.studio/translate/r-project/stats-r/hu/?checksum=0ed2df055d7d6f48
@@ -7623,7 +7623,6 @@ Japanese,base (R files),MARGIN = %s is invalid for dim = %s,35867,https://transl
 Japanese,base (R files),'vec' must be sorted non-decreasingly and not contain NAs,35898,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=f950ed787c3d47d2
 Japanese,base (R files),'fun' is not a function,35899,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=549170032fd852c4
 Japanese,base (R files),'flag' should contain only characters from [0+- #'I],35904,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=2e7599d00a9cb65f
-Japanese,base (R files),'zero.print' is truncated to fit into formatted zeros; consider 'replace=TRUE',35912,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=4b3e5ab165dd9f2c
 Japanese,base (R files),'input.d.mark' has no characters,35914,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=2248747be530476f
 Japanese,base (R files),argument '%s' will be ignored,35918,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=6c0d5a14ccde305c
 Japanese,base (R files),package %s found more than once, using the first from
@@ -7631,7 +7630,6 @@ Japanese,base (R files),package %s found more than once, using the first from
 Japanese,base (R files),cannot mtfrm,36007,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=7c20869056155d9d
 Japanese,base (R files),package %s was installed before R 4.0.0: please re-install it,36035,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=d7ce33c1acc58d70
 Japanese,base (R files),package %s has no 'package.rds' in Meta/,36037,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=748628ba6cb52f33
-Japanese,base (R files),according to the DESCRIPTION file it is,36041,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=e5d8538df4759426
 Japanese,base (R files),S4 exports specified in 'NAMESPACE' but not defined in package %s,36055,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=e292e6afa4141842
 Japanese,base (R files),--- processing classes,36059,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=3be54c1c0346d214
 Japanese,base (R files),replacing previous import %s by %s when loading %s,36083,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=970bf6550f487bfb
@@ -7675,6 +7673,7 @@ Japanese,base (R files),directories are ignored,308844,https://translate.rx.stud
 Japanese,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308847,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=b50eacf7c792b0d3
 Japanese,base (R files),'%s' is not valid for '%s',313865,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=3e1f7e4e3bd414df
 Japanese,base (R files),No functions specified,313867,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=ed47ffda240346ef
+Japanese,base (R files),according to the DESCRIPTION file it is,314825,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=e5d8538df4759426
 Japanese,base (R GUI),Install package(s) from local files...,29679,https://translate.rx.studio/translate/r-project/base-r-gui/ja/?checksum=1b6a75f4e053fead
 Japanese,base (R GUI),Unable to save metafile to the clipboard,29743,https://translate.rx.studio/translate/r-project/base-r-gui/ja/?checksum=a6ec188613143ce2
 Japanese,compiler,non-namespace found within namespace environments,71836,https://translate.rx.studio/translate/r-project/compiler/ja/?checksum=feb079e30f167f92
@@ -8445,6 +8444,7 @@ Korean,tools (R files),must specify 'address',314519,https://translate.rx.studio
 Korean,utils (C files),corrupt data frame -- length of column %d does not match nrows,110171,https://translate.rx.studio/translate/r-project/utils-c/ko/?checksum=5fcb67ac4d211648
 Korean,utils (C files),corrupt matrix -- dims do not match length,110173,https://translate.rx.studio/translate/r-project/utils-c/ko/?checksum=00abc75e76ad7e64
 Korean,utils (C files),argument 'class' must be a character string,110181,https://translate.rx.studio/translate/r-project/utils-c/ko/?checksum=f8eba70223d0e407
+Korean,utils (C files),argument 'x' must be a length-1 character vector,110182,https://translate.rx.studio/translate/r-project/utils-c/ko/?checksum=9063318d22e3114a
 Korean,utils (R files),no method found for %s(., n=%s) and class %s,114722,https://translate.rx.studio/translate/r-project/utils-r/ko/?checksum=1644e81d222e8ff1
 Korean,utils (R files),invalid 'type',114809,https://translate.rx.studio/translate/r-project/utils-r/ko/?checksum=df5c8ffe2904ee90
 Korean,utils (R files),invalid options("pkgType"); must be a character string,114819,https://translate.rx.studio/translate/r-project/utils-r/ko/?checksum=925a7914a2eca0be
@@ -8972,7 +8972,6 @@ Nepali,base (C files),all attributes must have names [%d does not],157043,https:
 Nepali,base (C files),'which' must be of mode character,157044,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=3457be07d04587ec
 Nepali,base (C files),exactly one attribute 'which' must be given,157045,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a604de72f1dd2891
 Nepali,base (C files),'name' must be non-null character string,157049,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=bb462845334de017
-Nepali,base (C files),invalid type or length for slot name,157050,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=e1132f6a305d97d7
 Nepali,base (C files),cannot get a slot ("%s") from an object of type "%s",157051,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=900e2f93f8c4ee14
 Nepali,base (C files),no slot of name "%s" for this object of class "%s",157052,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=3c8d80afb2118549
 Nepali,base (C files),attempt to set slot on NULL object,157053,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=17b49531d4f1720a
@@ -9026,7 +9025,6 @@ Nepali,base (C files),cannot open fifo '%s',157187,https://translate.rx.studio/t
 Nepali,base (C files),too large a block specified,157188,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=6fbbe9e65a579797
 Nepali,base (C files),cannot open the connection,157194,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=4acb63f6e2a5a2f6
 Nepali,base (C files),only first element of 'description' argument used,157195,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a81598d05f49a331
-Nepali,base (C files),fifo("") only supports open = "w+" and open = "w+b": using the former,157196,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=c943ddb24f675b6b
 Nepali,base (C files),fifo connections are not available on this system,157197,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=754784f026517210
 Nepali,base (C files),memory allocation to open clipboard failed,157216,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=62ff63c6418934cd
 Nepali,base (C files),unable to open the clipboard,157217,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=bd62914d5e9d5c8f
@@ -9041,13 +9039,10 @@ Nepali,base (C files),truncating string with embedded nuls,157271,https://transl
 Nepali,base (C files),can only read in bytes in a non-UTF-8 MBCS locale,157272,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=0b3e7c5524e24cd4
 Nepali,base (C files),text connection used with %s(), results may be incorrect,157273,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a0a1a204b413efe1
 Nepali,base (C files),'object' is too short,157274,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=18ac5651e211f57c
-Nepali,base (C files),writeChar: more bytes requested than are in the string - will zero-pad,157275,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=f728faf26f7724d3
-Nepali,base (C files),writeChar: more characters requested than are in the string - will zero-pad,157276,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=95fea5f0087e221b
 Nepali,base (C files),maximum number of pushback lines exceeded,157277,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=85ffe7c81a4df502
 Nepali,base (C files),could not allocate space for pushback,157278,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=5b7c47252946ad66
 Nepali,base (C files),URL scheme unsupported by this method,157291,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=f44078acec5ce5c2
 Nepali,base (C files),allocation of 'gzcon' connection failed,157304,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=c365ee9d491d599c
-Nepali,base (C files),'tracemem' is not useful for weak reference or external pointer objects,157349,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a2f38c92dc9529b8
 Nepali,base (C files),deparse may be incomplete,157352,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=11cb9ef9394d0550
 Nepali,base (C files),deparse may be not be source()able in R < 2.7.0,157353,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=5dee552ece322178
 Nepali,base (C files),'opts' should be small non-negative integer,157357,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=3550aa6155a7f76a
@@ -9102,10 +9097,8 @@ Nepali,base (C files),bad restart,157562,https://translate.rx.studio/translate/r
 Nepali,base (C files),restart not on stack,157563,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=787082ccc2cf97fb
 Nepali,base (C files),not in a try context,157564,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=33337dc2e9907a41
 Nepali,base (C files),error message must be a character string,157565,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=dd6b32055d4122b6
-Nepali,base (C files),evaluation nested too deeply: infinite recursion / options(expressions=)?,157569,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=4600f8bc6de01dc6
 Nepali,base (C files),attempt to apply non-function,157580,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=423caf46cf2f8a40
 Nepali,base (C files),argument %d is empty,157582,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=af7b615a2c8e6381
-Nepali,base (C files),could not find symbol "%s" in environment of the generic function,157583,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=c568fc2db8f7d06c
 Nepali,base (C files),already byte code profiling,157629,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=bac4fc600acf58ab
 Nepali,base (C files),setting profile timer failed,157630,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=f7083bd951566f40
 Nepali,base (C files),not byte code profiling,157631,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=ef7aff518de6e81e
@@ -9117,7 +9110,6 @@ Nepali,base (C files),recursive use of 'getGraphicsEvent' not supported,157637,h
 Nepali,base (C files),input buffer overflow (%s:%d:%d),157641,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=0244c8886a120b7b
 Nepali,base (C files),unexpected %s,157662,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=b6c685d11409615b
 Nepali,base (C files),result string is too long,157703,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a08fc79b45a42b31
-Nepali,base (C files),save="ask" in non-interactive use: command-line default will be used,157738,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=7d635d240528b1dd
 Nepali,base (C files),invalid 'status', 0 assumed,157740,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=54ff1b3207ae8d5e
 Nepali,base (C files),invalid 'runLast', FALSE assumed,157741,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=93582f99c504d2a0
 Nepali,base (C files),cannot allocate space for toplevel callback element,157742,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=a284c2981e04f838
@@ -9197,7 +9189,6 @@ Nepali,base (C files),cannot open URL '%s',158354,https://translate.rx.studio/tr
 Nepali,base (C files),download from '%s' failed,158369,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=b4198cefc7faecd4
 Nepali,base (C files),cannot read from connection,158370,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=ba68f421038bca95
 Nepali,base (C files),cannot open the connection to '%s',158371,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=223cca40fdda9f8c
-Nepali,base (C files),argument type[1]='%s' must be a character string of string length 1,158376,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=64882d319762da1f
 Nepali,base (C files),'%s' must be a numeric matrix,158381,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=65467b1b4c2f0882
 Nepali,base (C files),argument %d of Lapack routine %s had invalid value,158390,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=9269cac9fc96ed98
 Nepali,base (C files),Lapack routine %s: system is exactly singular: U[%d,%d] = 0,158391,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=cfcd0eef614be2dd
@@ -9206,8 +9197,6 @@ Nepali,base (C files),'size' argument must be a positive integer,158400,https://
 Nepali,base (C files),'size' cannot exceed ncol(x) = %d,158401,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=db6071e6605502d7
 Nepali,base (C files),'size' cannot exceed nrow(x) = %d,158402,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=6abf27b5c6a18ae0
 Nepali,base (C files),element (%d, %d) is zero, so the inverse cannot be computed,158403,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=01bf944ccaae703f
-Nepali,base (C files),bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?
-,158417,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=40cef096bb49d2ec
 Nepali,base (C files),bessel_y(%g,nu=%g): precision lost in result
 ,158418,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=2794a600a824f0c9
 Nepali,base (C files),'k' (%.2f) must be integer, rounded to %.0f,158419,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=308fa977fadde210
@@ -9223,7 +9212,6 @@ Nepali,base (C files),WARNING: unknown gui '%s', using none
 Nepali,base (C files),path given in -f/--file is too long,158464,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=364c17acde9a06dc
 Nepali,base (C files),creating temporary file for '-e' failed,158465,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=ea442452152a1d3c
 Nepali,base (C files),WARNING: Only editing the first in the list of files,158466,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=d98699aab09a56fb
-Nepali,base (C files),'names' attribute [%lld] must be the same length as the vector [%lld],227436,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=c63df6dbabaa0685
 Nepali,base (C files),invalid multibyte string %lld,227439,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=31b45621246ccede
 Nepali,base (C files),line %lld appears to contain an embedded nul,227441,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=85b88df392f8a418
 Nepali,base (C files),'missing(%s)' did not find an argument,227444,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=2548cd04e31b1ef0
@@ -9235,7 +9223,6 @@ Nepali,base (C files),%s: argument of type %s is not an external pointer,257757,
 Nepali,base (C files),%s: argument of type %s is not a closure,257761,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=99025c35be7caefa
 Nepali,base (C files),%s: argument of type %s is not an environment or NULL,257763,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=2a3d77bf9227e451
 Nepali,base (C files),cannot set an attribute on a '%s',271188,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=fd377ced59ce89a7
-Nepali,base (C files),setting environment(<primitive function>) is not possible and trying it is deprecated,271189,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=0039850cbf0421ff
 Nepali,base (C files),cannot initialize zstd compressor,271192,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=95995e65519ec7d3
 Nepali,base (C files),binary-mode connection required for ascii=false,271202,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=f0ef141b0b2614dc
 Nepali,base (C files),'partial' index %lld outside bounds,271203,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=2bc10ef640232be6
@@ -9243,7 +9230,6 @@ Nepali,base (C files),'x' must be numeric or complex,307896,https://translate.rx
 Nepali,base (C files),'name' is not a symbol or a scalar string,313057,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=d5e6bb34c3e4927a
 Nepali,base (C files),'name' must be a scalar string,313059,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=7157daa9fccf1432
 Nepali,base (C files),bad attribute tag,313060,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=9fc46928820f9157
-Nepali,base (C files),number of characters is not computable in "bytes" encoding, element %lld,313061,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=2bee804beec7ce72
 Nepali,base (C files),width is not computable in "bytes" encoding, element %lld,313062,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=b8f0a42adef89938
 Nepali,base (C files),bad ... value,313066,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=02220b312fac999c
 Nepali,base (C files),unbound variable,313069,https://translate.rx.studio/translate/r-project/base-c/ne/?checksum=54e53884c18286a7
@@ -10389,8 +10375,6 @@ Norwegian Nynorsk,base (R files),package %s was installed before R 4.0.0: please
 Norwegian Nynorsk,base (R files),namespace %s %s is being loaded, but %s %s is required,37785,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=b0391643bd3e48be
 Norwegian Nynorsk,base (R files),package %s has no 'package.rds' in Meta/,37786,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=748628ba6cb52f33
 Norwegian Nynorsk,base (R files),package %s has a license that you need to accept after viewing,37788,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=1bf7ef2185ed687b
-Norwegian Nynorsk,base (R files),package %s has a license that you need to accept:,37789,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=377365b7e4aca234
-Norwegian Nynorsk,base (R files),according to the DESCRIPTION file it is,37790,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=e5d8538df4759426
 Norwegian Nynorsk,base (R files),license for package %s not accepted,37792,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=259e3e8d8bbc46ed
 Norwegian Nynorsk,base (R files),S4 exports specified in 'NAMESPACE' but not defined in package %s,37804,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=e292e6afa4141842
 Norwegian Nynorsk,base (R files),--- processing classes,37808,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=3be54c1c0346d214
@@ -10472,6 +10456,8 @@ Norwegian Nynorsk,base (R files),'recursive' must be a length-1 vector,270828,ht
 Norwegian Nynorsk,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308863,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=b50eacf7c792b0d3
 Norwegian Nynorsk,base (R files),'%s' is not valid for '%s',313880,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=3e1f7e4e3bd414df
 Norwegian Nynorsk,base (R files),No functions specified,313882,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=ed47ffda240346ef
+Norwegian Nynorsk,base (R files),package %s has a license that you need to accept:,314859,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=377365b7e4aca234
+Norwegian Nynorsk,base (R files),according to the DESCRIPTION file it is,314860,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=e5d8538df4759426
 Norwegian Nynorsk,base (R GUI),Install package(s) from local files...,30471,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=1b6a75f4e053fead
 Norwegian Nynorsk,base (R GUI),Unable to save metafile to the clipboard,30535,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=a6ec188613143ce2
 Norwegian Nynorsk,base (R GUI),Unable to create metafile,30536,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=35b80209eb8490a1
@@ -10569,6 +10555,9 @@ Polish,grDevices (R files),Axis value(s) out of range,307429,https://translate.r
 Polish,grDevices (R files),No axes specified,307430,https://translate.rx.studio/translate/r-project/grdevices-r/pl/?checksum=083faf01dd236ccc
 Polish,grDevices (R files),Axis values must be numeric,307432,https://translate.rx.studio/translate/r-project/grdevices-r/pl/?checksum=87a39377c3b72ec3
 Polish,grDevices (R files),Ghostscript was not found,314436,https://translate.rx.studio/translate/r-project/grdevices-r/pl/?checksum=13d45bf8b6039158
+Polish,methods (R files),Definition of slot %s, in class %s, as %s conflicts with definition, inherited from class %s, as %s,87441,https://translate.rx.studio/translate/r-project/methods-r/pl/?checksum=ceb872fee8266f91
+Polish,methods (R files),class %s is defined (with package slot %s) but no metadata object found to revise %s information---not imported?  Making a copy in package %s,87573,https://translate.rx.studio/translate/r-project/methods-r/pl/?checksum=bccb7f4b61596f6f
+Polish,methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258534,https://translate.rx.studio/translate/r-project/methods-r/pl/?checksum=cec0c4408bb2134c
 Polish,parallel (R files),incompatible arguments,314232,https://translate.rx.studio/translate/r-project/parallel-r/pl/?checksum=32aa3090a4816666
 Polish,stats (R files),invalid argument '%s',308417,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=5f5a8a964f52df15
 Polish,stats (R files),incorrect dimensions,308418,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=f8723455e0775fc5
@@ -10582,10 +10571,16 @@ Polish,stats (R files),incorrect number of columns for 'prob' in %s,308434,https
 Polish,stats (R files),exactly one of 'n', 'delta', 'power', and 'sig.level' must be NULL,308435,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=1c6a0448b8a762a7
 Polish,stats (R files),NAs are not allowed in 'groups' or 'blocks',308438,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=05222f43eeabafe9
 Polish,stats (R files),'correct' must be an integer between 0 and 3,308442,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=4e0de53577e32370
-Polish,stats (R files),requested conf.level not achievable,310266,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=75ad476de766a44a
 Polish,stats (R files),'z' is not a rank vector,310267,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=ce085cf4502bafd0
 Polish,stats (R files),mismatched names for %s and %s,314357,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=f4fbde3ce8db3623
 Polish,stats (R files),essentially perfect fit for %s: summary may be unreliable,314359,https://translate.rx.studio/translate/r-project/stats-r/pl/?checksum=7caab51c4df7c160
+Polish,tools (R files),Failed to locate %s output file %s or %s for vignette with name %s and engine %s. The following files exist in working directory %s: %s,108826,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=737167db8adcda1f
+Polish,tools (R files),Failed to locate %s output file %s for vignette with name %s and engine %s. The following files exist in working directory %s: %s,108828,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=83fd02e25fbc71ba
+Polish,tools (R files),Detected vignette source files (%s) with shared names (%s) and therefore risking overwriting each other's output files,108833,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=4d73a72697226c0b
+Polish,tools (R files),Malformed NEWS.Rd file:
+Chunk starting
+  %s
+contains no \item.,108975,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=7ee46081f5855d0b
 Polish,tools (R files),download of reverse dependency %s failed,308705,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=d50cbdef1e44e441
 Polish,tools (R files),download of %d reverse dependencies failed:
   %s,308706,https://translate.rx.studio/translate/r-project/tools-r/pl/?checksum=57aa94fa08a977b2
@@ -10824,6 +10819,11 @@ Portuguese (Brazil),base (C files),bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=
 ,163418,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=40cef096bb49d2ec
 Portuguese (Brazil),base (C files),pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter.,163430,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=6ce4f48daf357fcd
 Portuguese (Brazil),base (C files),'receive.console.signals' must be logical and not NA,163457,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=2516b136dfa28482
+Portuguese (Brazil),base (C files),values must be length %d,
+ but FUN(X[[%lld]]) result is length %d,227803,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=16c65e38819474ba
+Portuguese (Brazil),base (C files),values must be type '%s',
+ but FUN(X[[%lld]]) result is type '%s',227804,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=6f82d4b9deb1ee6a
+Portuguese (Brazil),base (C files),data length [%lld] is not a sub-multiple or multiple of the number of columns [%d],227808,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=e790670347256ae9
 Portuguese (Brazil),base (C files),"expr" must be a call expression,227827,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=12b322af69d78b87
 Portuguese (Brazil),base (C files),input string %lld is invalid UTF-8,227828,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=643169a83018e632
 Portuguese (Brazil),base (C files),'split' string %lld is invalid UTF-8,227829,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=d798359da6426e1e
@@ -10909,11 +10909,15 @@ Portuguese (Brazil),base (C files),'.Random.seed[1] %% 100' is not a valid RNG k
 Portuguese (Brazil),base (C files),invalid binom type in 'RNGkind',314068,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=3ea0744cd9a91ab6
 Portuguese (Brazil),base (C files),unexpected format in ascii connection '%s',314070,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=88efc53063e6b0fa
 Portuguese (Brazil),base (C files),error reading from connection '%s',314071,https://translate.rx.studio/translate/r-project/base-c/pt_BR/?checksum=83375b765e475526
+Portuguese (Brazil),base (R files),number of columns of result, %d, is not a multiple of vector length %d of arg %d,138904,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=f624335be11876d2
 Portuguese (Brazil),base (R files),'X' must be a data frame when 'INDEX' is a formula,138914,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=2f7db58a1ce7b7b2
 Portuguese (Brazil),base (R files),invalid non-character version specification 'x' (type: %s),138915,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=71731164f0cd795a
 Portuguese (Brazil),base (R files),Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead,138917,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=407aeaffefdfaed7
 Portuguese (Brazil),base (R files),'receive.console.signals' must be TRUE or FALSE,138918,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=0834ec2963e00b08
 Portuguese (Brazil),base (R files),using 1-norm approximation for approximate 2-norm,226768,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=3d707bcb91a6b2a3
+Portuguese (Brazil),base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270859,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=d8a6ad3d85ae293d
+Portuguese (Brazil),base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270860,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=035cca669b0c6f3b
+Portuguese (Brazil),base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270861,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=9da6cce003460690
 Portuguese (Brazil),base (R files),'recursive' must be a length-1 vector,270864,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=a2292cb330caa33d
 Portuguese (Brazil),base (R files),directories are ignored,308879,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=eada66bb551c8617
 Portuguese (Brazil),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308882,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=b50eacf7c792b0d3
@@ -10936,6 +10940,7 @@ Portuguese (Brazil),graphics (C files),invalid 'thermometers[, 1:2]',78359,https
 Portuguese (Brazil),graphics (C files),invalid 'boxplots' data (need 5 columns),78360,https://translate.rx.studio/translate/r-project/graphics-c/pt_BR/?checksum=24c165979807b12e
 Portuguese (Brazil),graphics (C files),'boxplots[, 5]' outside [0,1] -- may look funny,78361,https://translate.rx.studio/translate/r-project/graphics-c/pt_BR/?checksum=86e6ef204b7de7d3
 Portuguese (Brazil),graphics (C files),invalid 'boxplots[, 1:4]',78362,https://translate.rx.studio/translate/r-project/graphics-c/pt_BR/?checksum=4e37d1770b6beacf
+Portuguese (Brazil),graphics (R files),'expr' must be a function, or a call or an expression containing '%s',80335,https://translate.rx.studio/translate/r-project/graphics-r/pt_BR/?checksum=ca36c91d09e9cdd8
 Portuguese (Brazil),graphics (R files),the AREAS in the plot are wrong -- rather use 'freq = FALSE',80364,https://translate.rx.studio/translate/r-project/graphics-r/pt_BR/?checksum=23f307770fa57360
 Portuguese (Brazil),graphics (R files),no finite and non-missing values,80433,https://translate.rx.studio/translate/r-project/graphics-r/pt_BR/?checksum=e57952a1a5ec90b9
 Portuguese (Brazil),graphics (R files),weights are not supported for 2-way table specification,139024,https://translate.rx.studio/translate/r-project/graphics-r/pt_BR/?checksum=5380792719be04ff
@@ -10946,7 +10951,6 @@ Portuguese (Brazil),grDevices (C files),invalid line mitre,74133,https://transla
 Portuguese (Brazil),grDevices (C files),attempt to use invalid font %d replaced by font 1,74134,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=62260078a9f2c17f
 Portuguese (Brazil),grDevices (C files),invalid foreground/background color (postscript),74142,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=d992e3433d7ab251
 Portuguese (Brazil),grDevices (C files),invalid page type '%s' (postscript),74145,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=5119493cf9f593db
-Portuguese (Brazil),grDevices (C files),semi-transparency is not supported on this device: reported only once per page,74146,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=8351df12783a9a7e
 Portuguese (Brazil),grDevices (C files),Failed to allocate PDF definition string,74167,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=da73b908c145262b
 Portuguese (Brazil),grDevices (C files),failed to increase 'maxDefns',74169,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=9be2d840368531dc
 Portuguese (Brazil),grDevices (C files),failed to increase 'maxRaster',74177,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=98472fac86b1cb0c
@@ -10973,6 +10977,7 @@ Portuguese (Brazil),grDevices (C files),Failed to create pattern,139270,https://
 Portuguese (Brazil),grDevices (C files),Failed to create clipping path,139274,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=6778915710754d23
 Portuguese (Brazil),grDevices (C files),Failed to create Quartz mask,139277,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=812a78f30345d114
 Portuguese (Brazil),grDevices (C files),Failed to load font,139282,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=1673f951267db90f
+Portuguese (Brazil),grDevices (C files),invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale,226184,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=6ae1bf839c6a4586
 Portuguese (Brazil),grDevices (C files),invalid 'file' parameter in %s,226186,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=a64b5af3b8e5bb9b
 Portuguese (Brazil),grDevices (C files),Failed to apply font variations,307516,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=da546829b5282615
 Portuguese (Brazil),grDevices (C files),cannot open 'postscript' pipe to '%s' (reason: %s),314615,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=42fd26ea2a6699f0
@@ -10997,10 +11002,14 @@ Portuguese (Brazil),grDevices (R files),Axis value(s) out of range,307435,https:
 Portuguese (Brazil),grDevices (R files),No axes specified,307436,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=083faf01dd236ccc
 Portuguese (Brazil),grDevices (R files),Axis values must be numeric,307438,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=87a39377c3b72ec3
 Portuguese (Brazil),grDevices (R files),Ghostscript was not found,314437,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=13d45bf8b6039158
+Portuguese (Brazil),grid (C files),cannot pop the top-level viewport ('grid' and 'graphics' output mixed?),81255,https://translate.rx.studio/translate/r-project/grid-c/pt_BR/?checksum=d2bd968aab2c196a
+Portuguese (Brazil),grid (R files),cannot specify more than one of 'side=["left", "right"]', 'col', 'col.before', or 'col.after',82988,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=c9f93ba82b432459
+Portuguese (Brazil),grid (R files),must specify exactly one of 'side=["top", "bottom"]', 'row', 'row.before', or 'row.after',82989,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=ddddc87f60d88f53
 Portuguese (Brazil),grid (R files),one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE'),83002,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=78afaf02e2998740
 Portuguese (Brazil),grid (R files),only valid to push viewports,83005,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=516ba524b270ebba
 Portuguese (Brazil),grid (R files),Down viewport failed to record on display list,83007,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=7eee399eada7ca9b
 Portuguese (Brazil),grid (R files),Down viewport incorrectly recorded on display list,83008,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=54b83375f73f7c65
+Portuguese (Brazil),grid (R files),it is invalid to directly edit the 'children' or 'childrenOrder' slot,83041,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=1fa9ba8b45eb69b5
 Portuguese (Brazil),grid (R files),invalid 'result',83042,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=d3f122f9dae6e5c1
 Portuguese (Brazil),grid (R files),Invalid force target,83047,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=049d4b89622442d3
 Portuguese (Brazil),grid (R files),Invalid revert target,83048,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=c5332413d9f505f5
@@ -11048,6 +11057,11 @@ Portuguese (Brazil),grid (R files),Unknown anchor; using left justification,1386
 Portuguese (Brazil),grid (R files),Unknown anchor; using bottom justification,138630,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=a76e50be465305ee
 Portuguese (Brazil),grid (R files),'x' and 'y' must be units and 'device' must be logical,138631,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=475958671807aef1
 Portuguese (Brazil),grid (R files),'w' and 'h' must be units and 'device' must be logical,138632,https://translate.rx.studio/translate/r-project/grid-r/pt_BR/?checksum=60ed80dd1c84435b
+Portuguese (Brazil),methods (C files),S language method selection did not return normally when called from internal dispatch for function '%s',83940,https://translate.rx.studio/translate/r-project/methods-c/pt_BR/?checksum=a92a52b596d2dde9
+Portuguese (Brazil),methods (C files),no generic function definition found for '%s' in the supplied environment,83943,https://translate.rx.studio/translate/r-project/methods-c/pt_BR/?checksum=a534e6dfb09fd395
+Portuguese (Brazil),methods (C files),expected a generic function or a primitive for dispatch, got an object of class "%s",83963,https://translate.rx.studio/translate/r-project/methods-c/pt_BR/?checksum=92903af29d1936b6
+Portuguese (Brazil),methods (R files),first argument should be the names of one of more generic functions (got object of class %s),87763,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=071633c3507ee780
+Portuguese (Brazil),methods (R files),error in updating S4 generic function %s; the function definition is not an S4 generic function (class %s),87768,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=a30135688b17556f
 Portuguese (Brazil),methods (R files),%s is not currently a generic:  define it first to create a non-default implicit form,87775,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=a084c04ce3f9b3ad
 Portuguese (Brazil),methods (R files),formal arguments differ (in default values?),87780,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=3779d83ef38eec1c
 Portuguese (Brazil),methods (R files),formal arguments differ: (%s), (%s),87781,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=2d558aceb7e6b1e3
@@ -11056,6 +11070,7 @@ Portuguese (Brazil),methods (R files),signatures differ:  (%s), (%s),87783,https
 Portuguese (Brazil),methods (R files),package slots  differ: %s, %s,87784,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=5e975d76a556ac55
 Portuguese (Brazil),methods (R files),groups differ: %s, %s,87785,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=6b0af18dbbe1cb82
 Portuguese (Brazil),methods (R files),generic names differ: %s, %s,87786,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=f546124e65d9d9c6
+Portuguese (Brazil),methods (R files),argument %s must be a generic function or a single character string; got an object of class %s,87787,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=2d572fbdb1a36883
 Portuguese (Brazil),methods (R files),only FALSE is meaningful for 'inherited', when 'where' is supplied (got %s),87789,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=02f28143f40645d4
 Portuguese (Brazil),methods (R files),argument 'f' must be a generic function or %s,87790,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=019a38f372bbc165
 Portuguese (Brazil),methods (R files),element %d at level %d (class %s) cannot be interpreted as a function or named list,87794,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=13acbf0f66587de9
@@ -11080,6 +11095,7 @@ Portuguese (Brazil),methods (R files),in constructing the prototype for class %s
 Portuguese (Brazil),methods (R files),in making the prototype for class %s elements of the prototype failed to match the corresponding slot class: %s,87830,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=8593a60fdec65b45
 Portuguese (Brazil),methods (R files),potential cycle in class inheritance: %s has duplicates in superclasses and subclasses (%s),87831,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=260ba42044f806c8
 Portuguese (Brazil),methods (R files),in definition of class %s, information for superclass %s is of class %s (expected "SClassExtension"),87834,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=f2726aaa669e927f
+Portuguese (Brazil),methods (R files),trying to assign an object of class %s as the definition of class %s: must supply a "classRepresentation" object,87837,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=fa9bce333d812609
 Portuguese (Brazil),methods (R files),in defining class %s, the supplied data part class, %s is not valid (must be a basic class or a virtual class combining basic classes),87842,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=42c604195bafd726
 Portuguese (Brazil),methods (R files),no definition was found for superclass %s in the specification of class %s,87843,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=0cd7ad0018762fca
 Portuguese (Brazil),methods (R files),conflicting definition of data part: .Data = %s, superclass implies %s,87844,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=a585c78d9a90c61f
@@ -11095,6 +11111,7 @@ Portuguese (Brazil),methods (R files),class %s does not have a data part (a .Dat
 Portuguese (Brazil),methods (R files),a validity method must be a function of one argument, got an object of class %s,87861,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=a78b4952630b6b77
 Portuguese (Brazil),methods (R files),unable to find an environment containing class %s,87863,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=03d9a118010e299f
 Portuguese (Brazil),methods (R files),must supply either a generic function or a function as default for %s,87876,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=c04b97ce1f2931ed
+Portuguese (Brazil),methods (R files),the %s argument must be NULL or a generic function object; got an object of class %s,87877,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=e948155c9a861027
 Portuguese (Brazil),methods (R files),making a generic for special function %s,87879,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=91b7809c0b7869ed
 Portuguese (Brazil),methods (R files),formal arguments in method and generic do not appear in the same order,87882,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=849bf8cd148a7419
 Portuguese (Brazil),methods (R files),argument 'f' must be a string, generic function, or primitive: got an ordinary function,87887,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=d4079840e4a71970
@@ -11113,6 +11130,7 @@ Portuguese (Brazil),methods (R files),%s has a sealed class definition and canno
 Portuguese (Brazil),methods (R files),error in contained classes (%s) for class %s; class definition removed from %s,87924,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=db7a6802a803adfb
 Portuguese (Brazil),methods (R files),%s is not a defined class,87930,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=941ef0ced52acc0b
 Portuguese (Brazil),methods (R files),%s is not a slot in class %s,87931,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=671518dbffbe1ee5
+Portuguese (Brazil),methods (R files),argument 'classDef' must be a string or a class representation; got an object of class %s,87939,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=84de1cdef3d3e36d
 Portuguese (Brazil),methods (R files),no definition of %s to use for %s,87944,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=5c0512cae1c1d10a
 Portuguese (Brazil),methods (R files),multiple class definitions for %s from packages: %s; picking the first,87947,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=3821205bafe3eb63
 Portuguese (Brazil),methods (R files),no package name supplied and no class definition found for %s,87948,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=2ee24df200acbdb3
@@ -11146,6 +11164,7 @@ Portuguese (Brazil),methods (R files),multiple definitions of %s found; using th
 Portuguese (Brazil),methods (R files),%s is not a valid field or method name for reference class %s,88020,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=1a4a0cf13105c9b7
 Portuguese (Brazil),methods (R files),%s is not a reference class,88023,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=c43d03398924a9ce
 Portuguese (Brazil),methods (R files),%s is not a field in class %s,88024,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=9d2534873728dc8d
+Portuguese (Brazil),methods (R files),unnamed arguments to $new() must be objects from a reference class; got an object of class %s,88025,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=16763fb66e347d8f
 Portuguese (Brazil),methods (R files),%s is not a valid field or method name for this class,88026,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=d19f01bee6bf0158
 Portuguese (Brazil),methods (R files),%s is not a defined class in this environment,88028,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=7c618a3f98ace241
 Portuguese (Brazil),methods (R files),invalid 'Class' argument:  should be a single string,88029,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=e2b0a450c3b112df
@@ -11155,14 +11174,18 @@ Portuguese (Brazil),methods (R files),Methods not found: %s,88033,https://transl
 Portuguese (Brazil),methods (R files),the definition of class %s in package %s is locked, methods may not be redefined,88034,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=e00a42c616789193
 Portuguese (Brazil),methods (R files),arguments to methods() must be named, or one named list,88035,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=4a230ca17a9f949e
 Portuguese (Brazil),methods (R files),the definition of class %s in package %s is locked so fields may not be modified,88037,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=b38ef7b106b103da
+Portuguese (Brazil),methods (R files),invalid assignment for reference class field %s, should be from class %s or a subclass (was class %s),88039,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=e32847204a364dab
 Portuguese (Brazil),methods (R files),the 'contains' argument should be the names of superclasses:  got an element of class %s,88041,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=cc7ce4615f9cd8ce
 Portuguese (Brazil),methods (R files),no definition found for inherited class: %s,88042,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=24632b6b87c23f04
 Portuguese (Brazil),methods (R files),class %s for field %s is not defined,88044,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=d1f1b500e56c7a77
 Portuguese (Brazil),methods (R files),class %s is defined but is not a reference class,88047,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=9aa55083f29193a7
+Portuguese (Brazil),methods (R files),class must be a reference class representation or a character string; got an object of class %s,88048,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=f50ca3fe9bb21f0d
 Portuguese (Brazil),methods (R files),not a reference class: %s,88049,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=c09635c97b5963e7
 Portuguese (Brazil),methods (R files),arguments must all be character string names of fields,88053,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=91bab3ce0d68f15f
 Portuguese (Brazil),methods (R files),Could not find local object in supplied environment,88058,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=dc0445f9cbc0104a
+Portuguese (Brazil),methods (R files),invalid 'ignore' argument; should be a class definition or a character vector, got an object of class %s,88059,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=cc7fb89ce51c50ba
 Portuguese (Brazil),methods (R files),An object of class %s,88060,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=0a43cba8ebda8e37
+Portuguese (Brazil),methods (R files),invalid call to 'classLabel': expected a name or a class definition, got an object of class %s,88061,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=21456fde328f239a
 Portuguese (Brazil),methods (R files),%s is not a method for reference class %s,88063,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=99b1cda6fb024825
 Portuguese (Brazil),methods (R files),no function definition for %s found,88066,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=a2c203bd7d175ab9
 Portuguese (Brazil),methods (R files),cannot untrace method for %s; no method defined for this signature: %s,88067,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=5182b1fc2fe9ebd6
@@ -11178,6 +11201,8 @@ Portuguese (Brazil),methods (R files),%s() is not a generic function in the targ
 Portuguese (Brazil),methods (R files),Methods inserted for function %s(): %s,88089,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=45d42e9b37d58c04
 Portuguese (Brazil),methods (R files),no method in methods table for %s for signature %s,88093,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=1f1ac55cde83e290
 Portuguese (Brazil),methods (R files),unable to load required package %s,258535,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=4b759e0b1be229b6
+Portuguese (Brazil),methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258536,https://translate.rx.studio/translate/r-project/methods-r/pt_BR/?checksum=cec0c4408bb2134c
+Portuguese (Brazil),parallel (R files),'mc.preschedule' must be false if 'affinity.list' is used,126769,https://translate.rx.studio/translate/r-project/parallel-r/pt_BR/?checksum=b3a9cc3f1972245c
 Portuguese (Brazil),parallel (R files),incompatible arguments,314234,https://translate.rx.studio/translate/r-project/parallel-r/pt_BR/?checksum=32aa3090a4816666
 Portuguese (Brazil),stats (C files),'specials' must be NULL or a character vector,92304,https://translate.rx.studio/translate/r-project/stats-c/pt_BR/?checksum=caf4415d62d2d403
 Portuguese (Brazil),stats (C files),'tmax' is not a positive integer,92334,https://translate.rx.studio/translate/r-project/stats-c/pt_BR/?checksum=6ad4c9f020eb0264
@@ -11259,6 +11284,7 @@ Portuguese (Brazil),tools (R files),package %s successfully unpacked and %s sums
 Portuguese (Brazil),tools (R files),'gpg' is not available for signing,309288,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=8ae99d929e93e22f
 Portuguese (Brazil),tools (R files),Signing failed:,309293,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=0896a8f7c35d5ff9
 Portuguese (Brazil),tools (R files),must specify 'address',314535,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=55b2d94f5ea578ca
+Portuguese (Brazil),utils (C files),column %d claims to be a factor but does not have numeric codes,226814,https://translate.rx.studio/translate/r-project/utils-c/pt_BR/?checksum=6a3f514144968638
 Portuguese (Brazil),utils (R files),Enter a frame number, or 0 to exit,307306,https://translate.rx.studio/translate/r-project/utils-r/pt_BR/?checksum=f95c948e8533972b
 Portuguese (Brazil),utils (R files),cannot install binary packages from other operating systems on Windows,307307,https://translate.rx.studio/translate/r-project/utils-r/pt_BR/?checksum=c2901dc3d1e74f42
 Portuguese (Brazil),utils (R files),removing leading '/' from '%s',307308,https://translate.rx.studio/translate/r-project/utils-r/pt_BR/?checksum=2aa258cd426b2163
@@ -11456,6 +11482,14 @@ Spanish,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignor
 Spanish,base (C files),invalid binom type in 'RNGkind',313970,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=3ea0744cd9a91ab6
 Spanish,base (C files),unexpected format in ascii connection '%s',313972,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=88efc53063e6b0fa
 Spanish,base (C files),error reading from connection '%s',313973,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=83375b765e475526
+Spanish,base (R files),'%s' is only meaningful for ordered factors if all arguments have the same level sets,124905,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=0c4b7543f03cbec8
+Spanish,base (R files),'recursive' will be ignored as 'to' is not a single existing directory,124909,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=9e1c8d7706b9d135
+Spanish,base (R files),'format' must be one of {"f","e","E","g","G", "fg", "s"},124928,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=22582886bfe3506e
+Spanish,base (R files),'zero.print' is truncated to fit into formatted zeros; consider 'replace=TRUE',124933,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=4b3e5ab165dd9f2c
+Spanish,base (R files),package %s found more than once, using the first from
+  %s,124993,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=da0fccd67d63924c
+Spanish,base (R files),Further information is available in the following vignettes in directory %s:,124994,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=f30bced2368d5281
+Spanish,base (R files),attempt to set 'colnames' on an object with less than two dimensions,125032,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=08b9393f05c157c9
 Spanish,base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,310284,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=d8a6ad3d85ae293d
 Spanish,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,310285,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=035cca669b0c6f3b
 Spanish,base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,310286,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=9da6cce003460690
@@ -11469,6 +11503,8 @@ Spanish,grDevices (C files),cannot open 'postscript' pipe to '%s' (reason: %s),3
 Spanish,grDevices (C files),cannot open 'pdf' pipe to '%s' (reason: %s),314594,https://translate.rx.studio/translate/r-project/grdevices-c/es/?checksum=a2a7c6755b89074c
 Spanish,grDevices (R files),Ghostscript was not found,314428,https://translate.rx.studio/translate/r-project/grdevices-r/es/?checksum=13d45bf8b6039158
 Spanish,parallel (R files),incompatible arguments,314214,https://translate.rx.studio/translate/r-project/parallel-r/es/?checksum=32aa3090a4816666
+Spanish,stats (R files),length of FUN, %d,
+ does not match the length of the margins, %d,177382,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=27d799273a24e90f
 Spanish,stats (R files),invalid argument '%s',310223,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=5f5a8a964f52df15
 Spanish,stats (R files),incorrect dimensions,310224,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=f8723455e0775fc5
 Spanish,stats (R files),at least two groups required,310226,https://translate.rx.studio/translate/r-project/stats-r/es/?checksum=52a155d8c3ea9bf3
@@ -11970,7 +12006,6 @@ Turkish,base (C files),error reading from connection '%s',314092,https://transla
 Turkish,base (R files),Use '%s' instead.,39773,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=58886c83086e0fa3
 Turkish,base (R files),'%s' is deprecated.,39777,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=90a33066166acf42
 Turkish,base (R files),a dimension is zero,39783,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=19c5478282c6283b
-Turkish,base (R files),package %s is required by %s, which may no longer work correctly,39810,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=5f3f726b1aabc264
 Turkish,base (R files),package %s is required by %s so will not be detached,39811,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=d5cc536768b14fa7
 Turkish,base (R files),an object with that name already exists,39818,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=831710ca174de256
 Turkish,base (R files),invalid 'path' argument,39977,https://translate.rx.studio/translate/r-project/base-r/tr/?checksum=743831fdfad0bc61
