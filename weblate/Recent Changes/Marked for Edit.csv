@@ -140,6 +140,10 @@ Arabic,base (C files),unexpected format in ascii connection '%s',313928,https://
 Arabic,base (C files),error reading from connection '%s',313929,https://translate.rx.studio/translate/r-project/base-c/ar/?checksum=83375b765e475526
 Arabic,base (R files),'%s' is not valid for '%s',313809,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=3e1f7e4e3bd414df
 Arabic,base (R files),No functions specified,313811,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=ed47ffda240346ef
+Arabic,base (R files),%s may not have argument(s) %s,314922,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=3c26ac42d39383e1
+Arabic,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314923,https://translate.rx.studio/translate/r-project/base-r/ar/?checksum=b0535635410a0763
 Arabic,grDevices (C files),invalid 'file' parameter in %s,239828,https://translate.rx.studio/translate/r-project/grdevices-c/ar/?checksum=a64b5af3b8e5bb9b
 Arabic,grDevices (C files),cannot open 'pdf' pipe to '%s' (reason: %s),314562,https://translate.rx.studio/translate/r-project/grdevices-c/ar/?checksum=a2a7c6755b89074c
 Arabic,grDevices (R files),Axis value(s) out of range,314419,https://translate.rx.studio/translate/r-project/grdevices-r/ar/?checksum=1af2c70d39d3f643
@@ -1636,6 +1640,10 @@ Catalan,base (R files),directories are ignored,308770,https://translate.rx.studi
 Catalan,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308773,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=b50eacf7c792b0d3
 Catalan,base (R files),'%s' is not valid for '%s',313820,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=3e1f7e4e3bd414df
 Catalan,base (R files),No functions specified,313822,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=ed47ffda240346ef
+Catalan,base (R files),%s may not have argument(s) %s,314929,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=3c26ac42d39383e1
+Catalan,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314930,https://translate.rx.studio/translate/r-project/base-r/ca/?checksum=b0535635410a0763
 Catalan,graphics (R files),panel.last ignored, it is not a function,314445,https://translate.rx.studio/translate/r-project/graphics-r/ca/?checksum=b9a94c6623cec310
 Catalan,grDevices (C files),Clipping path ignored (device is appending path),221954,https://translate.rx.studio/translate/r-project/grdevices-c/ca/?checksum=6383ed8a0272b20c
 Catalan,grDevices (C files),color intensity %s, not in [0,1],221955,https://translate.rx.studio/translate/r-project/grdevices-c/ca/?checksum=3f1610fb7305fb30
@@ -4648,8 +4656,9 @@ Chinese (Simplified Han script),base (R files),'recursive' must be a length-1 ve
 Chinese (Simplified Han script),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308911,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=b50eacf7c792b0d3
 Chinese (Simplified Han script),base (R files),'%s' is not valid for '%s',313901,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=3e1f7e4e3bd414df
 Chinese (Simplified Han script),base (R files),No functions specified,313903,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=ed47ffda240346ef
-Chinese (Simplified Han script),base (R files),package %s has a license that you need to accept:,314908,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=377365b7e4aca234
-Chinese (Simplified Han script),base (R files),according to the DESCRIPTION file it is,314909,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=e5d8538df4759426
+Chinese (Simplified Han script),base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314995,https://translate.rx.studio/translate/r-project/base-r/zh_Hans/?checksum=b0535635410a0763
 Chinese (Simplified Han script),compiler,cannot compile this expression,72098,https://translate.rx.studio/translate/r-project/compiler/zh_Hans/?checksum=c6bb4b3d1cb15f02
 Chinese (Simplified Han script),graphics (C files),argument %d does not name a graphical parameter,139337,https://translate.rx.studio/translate/r-project/graphics-c/zh_Hans/?checksum=f441dcc016591c0f
 Chinese (Simplified Han script),graphics (R files),formula must specify 1 or 2 categorical variables,80622,https://translate.rx.studio/translate/r-project/graphics-r/zh_Hans/?checksum=13614fa20d44b04f
@@ -5317,6 +5326,10 @@ Chinese (Traditional Han script),base (R files),directories are ignored,308912,h
 Chinese (Traditional Han script),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308915,https://translate.rx.studio/translate/r-project/base-r/zh_Hant/?checksum=b50eacf7c792b0d3
 Chinese (Traditional Han script),base (R files),'%s' is not valid for '%s',313904,https://translate.rx.studio/translate/r-project/base-r/zh_Hant/?checksum=3e1f7e4e3bd414df
 Chinese (Traditional Han script),base (R files),No functions specified,313906,https://translate.rx.studio/translate/r-project/base-r/zh_Hant/?checksum=ed47ffda240346ef
+Chinese (Traditional Han script),base (R files),%s may not have argument(s) %s,314996,https://translate.rx.studio/translate/r-project/base-r/zh_Hant/?checksum=3c26ac42d39383e1
+Chinese (Traditional Han script),base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314997,https://translate.rx.studio/translate/r-project/base-r/zh_Hant/?checksum=b0535635410a0763
 Chinese (Traditional Han script),base (R GUI),Unable to save metafile to the clipboard,32119,https://translate.rx.studio/translate/r-project/base-r-gui/zh_Hant/?checksum=a6ec188613143ce2
 Chinese (Traditional Han script),base (R GUI),Unable to create metafile,32120,https://translate.rx.studio/translate/r-project/base-r-gui/zh_Hant/?checksum=35b80209eb8490a1
 Chinese (Traditional Han script),base (R GUI),Insufficient memory to create metafile,32121,https://translate.rx.studio/translate/r-project/base-r-gui/zh_Hant/?checksum=430ec3544b21b886
@@ -5861,8 +5874,9 @@ Danish,base (R files),directories are ignored,308774,https://translate.rx.studio
 Danish,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308777,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=b50eacf7c792b0d3
 Danish,base (R files),'%s' is not valid for '%s',313828,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=3e1f7e4e3bd414df
 Danish,base (R files),No functions specified,313830,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=ed47ffda240346ef
-Danish,base (R files),package %s has a license that you need to accept:,314754,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=377365b7e4aca234
-Danish,base (R files),according to the DESCRIPTION file it is,314755,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=e5d8538df4759426
+Danish,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314935,https://translate.rx.studio/translate/r-project/base-r/da/?checksum=b0535635410a0763
 Danish,base (R GUI),Insufficient memory to create metafile,28161,https://translate.rx.studio/translate/r-project/base-r-gui/da/?checksum=430ec3544b21b886
 Danish,compiler,non-namespace found within namespace environments,71684,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=feb079e30f167f92
 Danish,compiler,more than one default provided in switch() call,71703,https://translate.rx.studio/translate/r-project/compiler/da/?checksum=a09ec7869e73389f
@@ -6337,6 +6351,10 @@ English (United Kingdom),base (R files),directories are ignored,308782,https://t
 English (United Kingdom),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308785,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=b50eacf7c792b0d3
 English (United Kingdom),base (R files),'%s' is not valid for '%s',313834,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=3e1f7e4e3bd414df
 English (United Kingdom),base (R files),No functions specified,313836,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=ed47ffda240346ef
+English (United Kingdom),base (R files),%s may not have argument(s) %s,314938,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=3c26ac42d39383e1
+English (United Kingdom),base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314939,https://translate.rx.studio/translate/r-project/base-r/en_GB/?checksum=b0535635410a0763
 English (United Kingdom),graphics (R files),panel.last ignored, it is not a function,307542,https://translate.rx.studio/translate/r-project/graphics-r/en_GB/?checksum=b9a94c6623cec310
 English (United Kingdom),grDevices (C files),QuartzBitmap_Output - filename is empty!,307470,https://translate.rx.studio/translate/r-project/grdevices-c/en_GB/?checksum=1c9bd565f2edd6d7
 English (United Kingdom),grDevices (C files),Font variations too long,307471,https://translate.rx.studio/translate/r-project/grdevices-c/en_GB/?checksum=ec3cddf127766b0c
@@ -6464,6 +6482,10 @@ French,base (R files),directories are ignored,308824,https://translate.rx.studio
 French,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308827,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=b50eacf7c792b0d3
 French,base (R files),'%s' is not valid for '%s',313847,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=3e1f7e4e3bd414df
 French,base (R files),No functions specified,313849,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=ed47ffda240346ef
+French,base (R files),%s may not have argument(s) %s,314951,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=3c26ac42d39383e1
+French,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314952,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=b0535635410a0763
 French,graphics (R files),panel.last ignored, it is not a function,307549,https://translate.rx.studio/translate/r-project/graphics-r/fr/?checksum=b9a94c6623cec310
 French,grDevices (C files),Quartz gradients exhausted (failed to increase maxPatterns),139140,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=6d5db2e99be753a1
 French,grDevices (C files),Quartz patterns exhausted (failed to increase maxPatterns),139141,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=dc16b25e85b2907b
@@ -6593,6 +6615,10 @@ German,base (R files),directories are ignored,308778,https://translate.rx.studio
 German,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308781,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=b50eacf7c792b0d3
 German,base (R files),'%s' is not valid for '%s',313831,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=3e1f7e4e3bd414df
 German,base (R files),No functions specified,313833,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=ed47ffda240346ef
+German,base (R files),%s may not have argument(s) %s,314936,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=3c26ac42d39383e1
+German,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314937,https://translate.rx.studio/translate/r-project/base-r/de/?checksum=b0535635410a0763
 German,graphics (R files),panel.last ignored, it is not a function,307539,https://translate.rx.studio/translate/r-project/graphics-r/de/?checksum=b9a94c6623cec310
 German,grDevices (C files),QuartzBitmap_Output - filename is empty!,307465,https://translate.rx.studio/translate/r-project/grdevices-c/de/?checksum=1c9bd565f2edd6d7
 German,grDevices (C files),Font variations too long,307466,https://translate.rx.studio/translate/r-project/grdevices-c/de/?checksum=ec3cddf127766b0c
@@ -6968,6 +6994,9 @@ Hungarian,base (R files),'recursive' must be a length-1 vector,270756,https://tr
 Hungarian,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308835,https://translate.rx.studio/translate/r-project/base-r/hu/?checksum=b50eacf7c792b0d3
 Hungarian,base (R files),'%s' is not valid for '%s',313853,https://translate.rx.studio/translate/r-project/base-r/hu/?checksum=3e1f7e4e3bd414df
 Hungarian,base (R files),No functions specified,313855,https://translate.rx.studio/translate/r-project/base-r/hu/?checksum=ed47ffda240346ef
+Hungarian,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314960,https://translate.rx.studio/translate/r-project/base-r/hu/?checksum=b0535635410a0763
 Hungarian,base (R GUI),  Moving the cursor: 
 ,214377,https://translate.rx.studio/translate/r-project/base-r-gui/hu/?checksum=86ffac9149b6948e
 Hungarian,base (R GUI),
@@ -7173,6 +7202,10 @@ Italian,base (R files),directories are ignored,308840,https://translate.rx.studi
 Italian,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308843,https://translate.rx.studio/translate/r-project/base-r/it/?checksum=b50eacf7c792b0d3
 Italian,base (R files),'%s' is not valid for '%s',313862,https://translate.rx.studio/translate/r-project/base-r/it/?checksum=3e1f7e4e3bd414df
 Italian,base (R files),No functions specified,313864,https://translate.rx.studio/translate/r-project/base-r/it/?checksum=ed47ffda240346ef
+Italian,base (R files),%s may not have argument(s) %s,314963,https://translate.rx.studio/translate/r-project/base-r/it/?checksum=3c26ac42d39383e1
+Italian,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314964,https://translate.rx.studio/translate/r-project/base-r/it/?checksum=b0535635410a0763
 Italian,graphics (R files),panel.last ignored, it is not a function,307560,https://translate.rx.studio/translate/r-project/graphics-r/it/?checksum=b9a94c6623cec310
 Italian,grDevices (C files),Quartz gradients exhausted (failed to increase maxPatterns),139161,https://translate.rx.studio/translate/r-project/grdevices-c/it/?checksum=6d5db2e99be753a1
 Italian,grDevices (C files),Quartz patterns exhausted (failed to increase maxPatterns),139162,https://translate.rx.studio/translate/r-project/grdevices-c/it/?checksum=dc16b25e85b2907b
@@ -7673,7 +7706,9 @@ Japanese,base (R files),directories are ignored,308844,https://translate.rx.stud
 Japanese,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308847,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=b50eacf7c792b0d3
 Japanese,base (R files),'%s' is not valid for '%s',313865,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=3e1f7e4e3bd414df
 Japanese,base (R files),No functions specified,313867,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=ed47ffda240346ef
-Japanese,base (R files),according to the DESCRIPTION file it is,314825,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=e5d8538df4759426
+Japanese,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314966,https://translate.rx.studio/translate/r-project/base-r/ja/?checksum=b0535635410a0763
 Japanese,base (R GUI),Install package(s) from local files...,29679,https://translate.rx.studio/translate/r-project/base-r-gui/ja/?checksum=1b6a75f4e053fead
 Japanese,base (R GUI),Unable to save metafile to the clipboard,29743,https://translate.rx.studio/translate/r-project/base-r-gui/ja/?checksum=a6ec188613143ce2
 Japanese,compiler,non-namespace found within namespace environments,71836,https://translate.rx.studio/translate/r-project/compiler/ja/?checksum=feb079e30f167f92
@@ -8235,6 +8270,10 @@ Korean,base (R files),'recursive' must be a length-1 vector,270792,https://trans
 Korean,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308851,https://translate.rx.studio/translate/r-project/base-r/ko/?checksum=b50eacf7c792b0d3
 Korean,base (R files),'%s' is not valid for '%s',313868,https://translate.rx.studio/translate/r-project/base-r/ko/?checksum=3e1f7e4e3bd414df
 Korean,base (R files),No functions specified,313870,https://translate.rx.studio/translate/r-project/base-r/ko/?checksum=ed47ffda240346ef
+Korean,base (R files),%s may not have argument(s) %s,314967,https://translate.rx.studio/translate/r-project/base-r/ko/?checksum=3c26ac42d39383e1
+Korean,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314968,https://translate.rx.studio/translate/r-project/base-r/ko/?checksum=b0535635410a0763
 Korean,base (R GUI),Unable to save metafile to the clipboard,30007,https://translate.rx.studio/translate/r-project/base-r-gui/ko/?checksum=a6ec188613143ce2
 Korean,base (R GUI),Unable to create metafile,30008,https://translate.rx.studio/translate/r-project/base-r-gui/ko/?checksum=35b80209eb8490a1
 Korean,base (R GUI),Unable to choose printer,30010,https://translate.rx.studio/translate/r-project/base-r-gui/ko/?checksum=f3f7a30d6e079263
@@ -8705,6 +8744,10 @@ Lithuanian,base (R files),directories are ignored,308852,https://translate.rx.st
 Lithuanian,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308855,https://translate.rx.studio/translate/r-project/base-r/lt/?checksum=b50eacf7c792b0d3
 Lithuanian,base (R files),'%s' is not valid for '%s',313871,https://translate.rx.studio/translate/r-project/base-r/lt/?checksum=3e1f7e4e3bd414df
 Lithuanian,base (R files),No functions specified,313873,https://translate.rx.studio/translate/r-project/base-r/lt/?checksum=ed47ffda240346ef
+Lithuanian,base (R files),%s may not have argument(s) %s,314969,https://translate.rx.studio/translate/r-project/base-r/lt/?checksum=3c26ac42d39383e1
+Lithuanian,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314970,https://translate.rx.studio/translate/r-project/base-r/lt/?checksum=b0535635410a0763
 Lithuanian,base (R GUI),Unable to save metafile to the clipboard,30271,https://translate.rx.studio/translate/r-project/base-r-gui/lt/?checksum=a6ec188613143ce2
 Lithuanian,base (R GUI),Unable to create metafile,30272,https://translate.rx.studio/translate/r-project/base-r-gui/lt/?checksum=35b80209eb8490a1
 Lithuanian,base (R GUI),Insufficient memory to create metafile,30273,https://translate.rx.studio/translate/r-project/base-r-gui/lt/?checksum=430ec3544b21b886
@@ -10456,8 +10499,9 @@ Norwegian Nynorsk,base (R files),'recursive' must be a length-1 vector,270828,ht
 Norwegian Nynorsk,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308863,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=b50eacf7c792b0d3
 Norwegian Nynorsk,base (R files),'%s' is not valid for '%s',313880,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=3e1f7e4e3bd414df
 Norwegian Nynorsk,base (R files),No functions specified,313882,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=ed47ffda240346ef
-Norwegian Nynorsk,base (R files),package %s has a license that you need to accept:,314859,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=377365b7e4aca234
-Norwegian Nynorsk,base (R files),according to the DESCRIPTION file it is,314860,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=e5d8538df4759426
+Norwegian Nynorsk,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314976,https://translate.rx.studio/translate/r-project/base-r/nn/?checksum=b0535635410a0763
 Norwegian Nynorsk,base (R GUI),Install package(s) from local files...,30471,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=1b6a75f4e053fead
 Norwegian Nynorsk,base (R GUI),Unable to save metafile to the clipboard,30535,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=a6ec188613143ce2
 Norwegian Nynorsk,base (R GUI),Unable to create metafile,30536,https://translate.rx.studio/translate/r-project/base-r-gui/nn/?checksum=35b80209eb8490a1
@@ -10545,6 +10589,10 @@ Polish,base (R files),'%s' must be a non-empty character string,310303,https://t
 Polish,base (R files),'recursive' must be a length-1 vector,310304,https://translate.rx.studio/translate/r-project/base-r/pl/?checksum=a2292cb330caa33d
 Polish,base (R files),'%s' is not valid for '%s',313883,https://translate.rx.studio/translate/r-project/base-r/pl/?checksum=3e1f7e4e3bd414df
 Polish,base (R files),No functions specified,313885,https://translate.rx.studio/translate/r-project/base-r/pl/?checksum=ed47ffda240346ef
+Polish,base (R files),%s may not have argument(s) %s,314977,https://translate.rx.studio/translate/r-project/base-r/pl/?checksum=3c26ac42d39383e1
+Polish,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314978,https://translate.rx.studio/translate/r-project/base-r/pl/?checksum=b0535635410a0763
 Polish,graphics (R files),panel.last ignored, it is not a function,307573,https://translate.rx.studio/translate/r-project/graphics-r/pl/?checksum=b9a94c6623cec310
 Polish,grDevices (C files),QuartzBitmap_Output - filename is empty!,307512,https://translate.rx.studio/translate/r-project/grdevices-c/pl/?checksum=1c9bd565f2edd6d7
 Polish,grDevices (C files),Font variations too long,310122,https://translate.rx.studio/translate/r-project/grdevices-c/pl/?checksum=ec3cddf127766b0c
@@ -10923,6 +10971,11 @@ Portuguese (Brazil),base (R files),directories are ignored,308879,https://transl
 Portuguese (Brazil),base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308882,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=b50eacf7c792b0d3
 Portuguese (Brazil),base (R files),'%s' is not valid for '%s',313886,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=3e1f7e4e3bd414df
 Portuguese (Brazil),base (R files),No functions specified,313888,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=ed47ffda240346ef
+Portuguese (Brazil),base (R files),%s may not have argument(s) %s,314983,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=3c26ac42d39383e1
+Portuguese (Brazil),base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314984,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=b0535635410a0763
+Portuguese (Brazil),base (R files),Calls,314985,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=cfdfc53d76ca40ee
 Portuguese (Brazil),base (R GUI),Install package(s) from local files...,30999,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=1b6a75f4e053fead
 Portuguese (Brazil),base (R GUI),Unable to save metafile to the clipboard,31063,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=a6ec188613143ce2
 Portuguese (Brazil),base (R GUI),Unable to create metafile,31064,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=35b80209eb8490a1
@@ -11364,6 +11417,10 @@ Russian,base (R files),namespace '%s' is already loaded so argument '%s' will be
 Russian,base (R files),'recursive' must be a length-1 vector,308894,https://translate.rx.studio/translate/r-project/base-r/ru/?checksum=a2292cb330caa33d
 Russian,base (R files),'%s' is not valid for '%s',313889,https://translate.rx.studio/translate/r-project/base-r/ru/?checksum=3e1f7e4e3bd414df
 Russian,base (R files),No functions specified,313891,https://translate.rx.studio/translate/r-project/base-r/ru/?checksum=ed47ffda240346ef
+Russian,base (R files),%s may not have argument(s) %s,314986,https://translate.rx.studio/translate/r-project/base-r/ru/?checksum=3c26ac42d39383e1
+Russian,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314987,https://translate.rx.studio/translate/r-project/base-r/ru/?checksum=b0535635410a0763
 Russian,graphics (R files),panel.last ignored, it is not a function,307579,https://translate.rx.studio/translate/r-project/graphics-r/ru/?checksum=b9a94c6623cec310
 Russian,grDevices (C files),QuartzBitmap_Output - filename is empty!,307519,https://translate.rx.studio/translate/r-project/grdevices-c/ru/?checksum=1c9bd565f2edd6d7
 Russian,grDevices (C files),Font variations too long,307520,https://translate.rx.studio/translate/r-project/grdevices-c/ru/?checksum=ec3cddf127766b0c
@@ -11498,6 +11555,10 @@ Spanish,base (R files),directories are ignored,310289,https://translate.rx.studi
 Spanish,base (R files),'%s' must be a non-empty character string,310290,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=013d2492742135f1
 Spanish,base (R files),'%s' is not valid for '%s',313841,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=3e1f7e4e3bd414df
 Spanish,base (R files),No functions specified,313843,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=ed47ffda240346ef
+Spanish,base (R files),%s may not have argument(s) %s,314942,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=3c26ac42d39383e1
+Spanish,base (R files),package %s has a license that you need to accept:
+  according to the DESCRIPTION file it is
+  %s,314943,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=b0535635410a0763
 Spanish,graphics (R files),panel.last ignored, it is not a function,309803,https://translate.rx.studio/translate/r-project/graphics-r/es/?checksum=b9a94c6623cec310
 Spanish,grDevices (C files),cannot open 'postscript' pipe to '%s' (reason: %s),314593,https://translate.rx.studio/translate/r-project/grdevices-c/es/?checksum=42fd26ea2a6699f0
 Spanish,grDevices (C files),cannot open 'pdf' pipe to '%s' (reason: %s),314594,https://translate.rx.studio/translate/r-project/grdevices-c/es/?checksum=a2a7c6755b89074c
