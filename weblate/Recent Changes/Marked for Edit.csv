@@ -10975,7 +10975,6 @@ Portuguese (Brazil),base (R files),%s may not have argument(s) %s,314983,https:/
 Portuguese (Brazil),base (R files),package %s has a license that you need to accept:
   according to the DESCRIPTION file it is
   %s,314984,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=b0535635410a0763
-Portuguese (Brazil),base (R files),Calls,314985,https://translate.rx.studio/translate/r-project/base-r/pt_BR/?checksum=cfdfc53d76ca40ee
 Portuguese (Brazil),base (R GUI),Install package(s) from local files...,30999,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=1b6a75f4e053fead
 Portuguese (Brazil),base (R GUI),Unable to save metafile to the clipboard,31063,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=a6ec188613143ce2
 Portuguese (Brazil),base (R GUI),Unable to create metafile,31064,https://translate.rx.studio/translate/r-project/base-r-gui/pt_BR/?checksum=35b80209eb8490a1
@@ -11504,6 +11503,11 @@ Russian,utils (R files),package %s successfully unpacked and %s sums checked,310
 Russian,utils (R files),package %s signature verified (%s %s),310060,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=af07a7725f6413f9
 Russian,utils (R files),value of option 'results' should be lowercase,314194,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=d30179b06699ee49
 Russian,utils (R files),value of option 'strip.white' should be lowercase,314195,https://translate.rx.studio/translate/r-project/utils-r/ru/?checksum=c1bb6b97fed78121
+Spanish,base (C files),cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection,145608,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=1ac108c0dab8e5e3
+Spanish,base (C files),no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?),146101,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=986ce66d23a201f9
+Spanish,base (C files),'standardGeneric' called without 'methods' dispatch enabled (will be ignored),146126,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e5e67f62166b21dc
+Spanish,base (C files),data length [%lld] is not a sub-multiple or multiple of the number of rows [%d],226970,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e189ec568c35046d
+Spanish,base (C files),data length [%lld] is not a sub-multiple or multiple of the number of columns [%d],226971,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e790670347256ae9
 Spanish,base (C files),R_pretty(): very small range 'cell'=%.3g, increased to %g,312701,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=2c975b5fbeddda40
 Spanish,base (C files),R_pretty(): very large range 'cell'=%.3g, decreased to %g,312702,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e712810cb574123b
 Spanish,base (C files),'x' must be numeric or complex,312703,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=0d3a1854c01ae117
