@@ -6661,9 +6661,6 @@ German,stats (R files),'correct' must be an integer between 0 and 3,308207,https
 German,stats (R files),'z' is not a rank vector,308208,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=ce085cf4502bafd0
 German,stats (R files),mismatched names for %s and %s,314287,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=f4fbde3ce8db3623
 German,stats (R files),essentially perfect fit for %s: summary may be unreliable,314289,https://translate.rx.studio/translate/r-project/stats-r/de/?checksum=7caab51c4df7c160
-German,tools (R files),Authors@R field gives persons with invalid ROR identifiers:,271662,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=6b949f75b6635df1
-German,tools (R files),Authors@R field gives persons with duplicated ROR identifiers:,271663,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=397fc665abfe345b
-German,tools (R files),Missing link(s) in Rd file '%s':,271664,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=4b5f7ae579d1f594
 German,tools (R files),Non-topic package-anchored link(s) in Rd file '%s':,271665,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=15d70a6059333453
 German,tools (R files),Found a .Internal call in methods for the following S4 generic:,271666,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=836bcc472f7712ec
 German,tools (R files),Rd files without %s:,308598,https://translate.rx.studio/translate/r-project/tools-r/de/?checksum=8a29043c5dd26b13
