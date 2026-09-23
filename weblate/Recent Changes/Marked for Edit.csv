@@ -3107,8 +3107,6 @@ Catalan,stats (R files),must have same number of columns in 'x' and 'centers',22
 Catalan,stats (R files),'x' is a list, so ignoring argument 'g',222870,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=a50763478eaa8be6
 Catalan,stats (R files),some elements of 'x' are not numeric and will be coerced to numeric,222871,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=b035e58f7cdb7c04
 Catalan,stats (R files),not enough 'x' data,222872,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=10add95089a51f61
-Catalan,stats (R files),Parameter(s),222873,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=f4b23443d8831a5c
-Catalan,stats (R files),ignored,222874,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=36371d0a60591598
 Catalan,stats (R files),not enough 'y' data,222875,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=67b9357b6f8d7209
 Catalan,stats (R files),p-value will be approximate in the presence of ties,222876,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=212231f534a7e03c
 Catalan,stats (R files),'y' must be numeric or a function or a string naming a valid function,222877,https://translate.rx.studio/translate/r-project/stats-r/ca/?checksum=248f9866e10a1d78
@@ -3690,9 +3688,6 @@ Catalan,tools (R files),Failed to get error in evaluating %s,223733,https://tran
 Catalan,tools (R files),Got warning in evaluating %s, but also an error,223734,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=cbc2cd3213b892d2
 Catalan,tools (R files),Changes require specified 'style',223735,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=ec70653a15635292
 Catalan,tools (R files),The default JSS style may not be modified.,223736,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=32c5b576541e4636
-Catalan,tools (R files),inst/doc,223737,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=8e625acd0d26bc09
-Catalan,tools (R files),ignored as vignettes have been rebuilt.,223739,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=ec683a0121d59bd4
-Catalan,tools (R files),Run R CMD build with --no-build-vignettes to prevent rebuilding.,223740,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=6b8d08501f62644a
 Catalan,tools (R files),invalid value for '--compact-vignettes', assuming %s,223741,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=a524af464f6c0ac8
 Catalan,tools (R files),elapsed-time limit of %g %s reached for sub-process,223743,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=cf55c2a87d5152f3
 Catalan,tools (R files),cannot link from %s,223744,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=863d58d47158149b
@@ -3709,8 +3704,6 @@ Catalan,tools (R files),non-ASCII input in a CITATION file without a declared en
 Catalan,tools (R files),<p><code class='language-R'>%s</code> was run in the console.</p>,223759,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=28d6d374156c2cb7
 Catalan,tools (R files),<p>To view output in the browser, the <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> package must be installed.</p>,223760,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=56bff7c7a78e6325
 Catalan,tools (R files),<p>To view output in the browser, the <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> package must be installed and the environment variable <code>_R_HELP_ENABLE_ENHANCED_HTML_</code> must be set to TRUE.</p>,223761,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=544a3cd628a22f0e
-Catalan,tools (R files),HTTPD-REQUEST %s%s,223762,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=0f878ba867cce68d
-Catalan,tools (R files),=,223763,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=f530c3b3cb8d6d81
 Catalan,tools (R files),No files in this directory,223764,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=0b85377cc217f10e
 Catalan,tools (R files),No results found,223765,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=c5aa09dad414afec
 Catalan,tools (R files),Vignettes:,223766,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=0c9b03a47b73662b
@@ -3885,8 +3878,6 @@ Catalan,tools (R files),missing/empty \name field in Rd file
 %s,223946,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=ca31d1a6f12e5667
 Catalan,tools (R files),SUMMARY: processing the following file failed:,223947,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=08583d6dce51c01a
 Catalan,tools (R files),unable to re-encode %s line %s,223948,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=86c29f8094447058
-Catalan,tools (R files),%s file
-,223949,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=94ee143befd93cec
 Catalan,tools (R files),Required field missing or empty:,223950,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=f00e06dfa9bf460c
 Catalan,tools (R files),Help on topic '%s' was found in the following package:,223951,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=43876be497e11e8b
 Catalan,tools (R files),object %s is created by more than one data call,223952,https://translate.rx.studio/translate/r-project/tools-r/ca/?checksum=f42dace3afdc7018
@@ -4143,7 +4134,6 @@ Catalan,utils (R files),cannot choose a,224221,https://translate.rx.studio/trans
 Catalan,utils (R files),mirror non-interactively,224222,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=c6060ea8b518fd8f
 Catalan,utils (R files),cannot set repositories non-interactively,224223,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3db7be6ae35f744d
 Catalan,utils (R files),invalid options("pkgType"); must be a character string,224224,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=925a7914a2eca0be
-Catalan,utils (R files),No matching repositories found for,224225,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=164edd1089b06235
 Catalan,utils (R files),--- Please select repositories for use in this session ---,224227,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=ec011c994b5721dd
 Catalan,utils (R files),%s must be supplied,224228,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=641d821ca6a43bff
 Catalan,utils (R files),every package depends on at least one other,224229,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=fd4857078c8fe7d2
@@ -4249,9 +4239,6 @@ Catalan,utils (R files),argument 'compressed' is ignored for the internal method
 Catalan,utils (R files),invalid 'tarfile' argument,224332,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=7ddd64c6ab4792e8
 Catalan,utils (R files),'compressed' must be logical or character,224333,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=970c3af501e1fc67
 Catalan,utils (R files),No %s command found,224334,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=7e3ed41b54255775
-Catalan,utils (R files),gzip,224335,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=bde95e2b3fbfb5ee
-Catalan,utils (R files),bzip2,224336,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=0c52a4ec8e054a7f
-Catalan,utils (R files),xz,224337,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=3cee87115c210756
 Catalan,utils (R files),failed to create directory %s,224338,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=9de4c96dfe01bcb4
 Catalan,utils (R files),invalid octal digit,224339,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=12893967024cd160
 Catalan,utils (R files),path starts with '~',224342,https://translate.rx.studio/translate/r-project/utils-r/ca/?checksum=973dc83866b1518c
@@ -4828,8 +4815,6 @@ Chinese (Simplified Han script),stats (R files),only %d case,103457,https://tran
 Chinese (Simplified Han script),stats (R files),but %d variable,103458,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=72a1077108514a91
 Chinese (Simplified Han script),stats (R files),argument 'x' must be a formula,170421,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=10d76dffebe4ddb0
 Chinese (Simplified Han script),stats (R files),formula 'x' must have both left and right hand sides,170422,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=47ee3a938dd94e59
-Chinese (Simplified Han script),stats (R files),Parameter(s),170432,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=f4b23443d8831a5c
-Chinese (Simplified Han script),stats (R files),ignored,170433,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=36371d0a60591598
 Chinese (Simplified Han script),stats (R files),ties should not be present for the one-sample Kolmogorov-Smirnov test,170434,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=4b53d8cf40d9742e
 Chinese (Simplified Han script),stats (R files),invalid arguments,170435,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=6b8fcdaa810aa5a7
 Chinese (Simplified Han script),stats (R files),argument 'sizes' must be a vector of length 2,170436,https://translate.rx.studio/translate/r-project/stats-r/zh_Hans/?checksum=4c5e8350db2b111c
@@ -5517,8 +5502,6 @@ contains no \item.,111621,https://translate.rx.studio/translate/r-project/tools-
 Chinese (Traditional Han script),tools (R files),Invalid DESCRIPTION file for package %s,111623,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=c11e6ab0b1863942
 Chinese (Traditional Han script),tools (R files),Undeclared package %s in Rd xrefs,111688,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=49be0ad6b38bc987
 Chinese (Traditional Han script),tools (R files),Possibly missing '()' after 'return' in the following function:,111697,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=a6893d6471805a7c
-Chinese (Traditional Han script),tools (R files),%s file
-,111712,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=94ee143befd93cec
 Chinese (Traditional Han script),tools (R files),Rd files without \alias:,139823,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=2fa45f22bff101da
 Chinese (Traditional Han script),tools (R files),Invalid package aliases in Rd file '%s':,139824,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=c366553e486e35ee
 Chinese (Traditional Han script),tools (R files),Note: skipping %s,139830,https://translate.rx.studio/translate/r-project/tools-r/zh_Hant/?checksum=df247aed2ef2160e
@@ -6260,7 +6243,6 @@ Danish,utils (R files),package %s is not available %s,112530,https://translate.r
 Danish,utils (R files),invalid roman numeral: %s,112543,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=39d89987c8ac92fa
 Danish,utils (R files),'package' must be a character vector or NULL,139865,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=aac593d2d10c8dab
 Danish,utils (R files),'%s' must be a non-empty character string,139870,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=013d2492742135f1
-Danish,utils (R files),,,139873,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=6af141264b7a2315
 Danish,utils (R files),'%s' must be a character string,139874,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=abaf9a0c906b7118
 Danish,utils (R files),invalid method:,139879,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=87161fac613b2ef8
 Danish,utils (R files),file %s is not a binary package,307155,https://translate.rx.studio/translate/r-project/utils-r/da/?checksum=e433e00498c53e38
@@ -7853,8 +7835,6 @@ Japanese,stats (R files),not enough (non-missing) 'x' observations,97748,https:/
 Japanese,stats (R files),cannot compute confidence interval when all observations are zero or tied,97750,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=a00bd90a71748c61
 Japanese,stats (R files),argument 'x' must be a formula,170241,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=10d76dffebe4ddb0
 Japanese,stats (R files),formula 'x' must have both left and right hand sides,170242,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=47ee3a938dd94e59
-Japanese,stats (R files),Parameter(s),170252,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=f4b23443d8831a5c
-Japanese,stats (R files),ignored,170253,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=36371d0a60591598
 Japanese,stats (R files),ties should not be present for the one-sample Kolmogorov-Smirnov test,170254,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=4b53d8cf40d9742e
 Japanese,stats (R files),invalid arguments,170255,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=6b8fcdaa810aa5a7
 Japanese,stats (R files),argument 'sizes' must be a vector of length 2,170256,https://translate.rx.studio/translate/r-project/stats-r/ja/?checksum=4c5e8350db2b111c
@@ -11293,7 +11273,6 @@ Portuguese (Brazil),tools (R files),this seems to be a bundle -- and they are de
 Portuguese (Brazil),tools (R files),No new packages or updated package versions detected,109489,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=a5f78457ce7150b7
 Portuguese (Brazil),tools (R files),is not one line,133320,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=5982014fc45f5a34
 Portuguese (Brazil),tools (R files),Note: skipping %s,133321,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=df247aed2ef2160e
-Portuguese (Brazil),tools (R files),HTTPD-REQUEST %s%s,133325,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=0f878ba867cce68d
 Portuguese (Brazil),tools (R files),HTTPD-DEMO %s::%s,133328,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=86013b06dff469bf
 Portuguese (Brazil),tools (R files),No NEWS found for package %s,133330,https://translate.rx.studio/translate/r-project/tools-r/pt_BR/?checksum=1111a5a947deb577
 Portuguese (Brazil),tools (R files),Cannot extract version info from the following section titles:
@@ -12241,7 +12220,6 @@ Turkish,stats (R files),fitting parameter %s without any variables,102672,https:
 Turkish,stats (R files),'start.innov' is too short: need %d point,102675,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=702e1ba4005a35ae
 Turkish,stats (R files),argument 'x' must be a formula,170391,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=10d76dffebe4ddb0
 Turkish,stats (R files),formula 'x' must have both left and right hand sides,170392,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=47ee3a938dd94e59
-Turkish,stats (R files),ignored,170403,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=36371d0a60591598
 Turkish,stats (R files),invalid arguments,170405,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=6b8fcdaa810aa5a7
 Turkish,stats (R files),argument 'sizes' must be a vector of length 2,170406,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=4c5e8350db2b111c
 Turkish,stats (R files),argument 'q' must be numeric,170407,https://translate.rx.studio/translate/r-project/stats-r/tr/?checksum=b057f16a5f638632
