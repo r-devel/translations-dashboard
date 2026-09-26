@@ -10980,6 +10980,8 @@ Portuguese (Brazil),grDevices (C files),invalid line mitre,74133,https://transla
 Portuguese (Brazil),grDevices (C files),attempt to use invalid font %d replaced by font 1,74134,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=62260078a9f2c17f
 Portuguese (Brazil),grDevices (C files),invalid foreground/background color (postscript),74142,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=d992e3433d7ab251
 Portuguese (Brazil),grDevices (C files),invalid page type '%s' (postscript),74145,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=5119493cf9f593db
+Portuguese (Brazil),grDevices (C files),error from postscript() in running:
+    %s,74149,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=0330cba76f0d32f5
 Portuguese (Brazil),grDevices (C files),Failed to allocate PDF definition string,74167,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=da73b908c145262b
 Portuguese (Brazil),grDevices (C files),failed to increase 'maxDefns',74169,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=9be2d840368531dc
 Portuguese (Brazil),grDevices (C files),failed to increase 'maxRaster',74177,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=98472fac86b1cb0c
@@ -11004,13 +11006,10 @@ Portuguese (Brazil),grDevices (C files),unable to start device '%s',74257,https:
 Portuguese (Brazil),grDevices (C files),Failed to create gradient,139268,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=d0f6a981ee054807
 Portuguese (Brazil),grDevices (C files),Failed to create pattern,139270,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=4b9ddcaaa7738b01
 Portuguese (Brazil),grDevices (C files),Failed to create clipping path,139274,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=6778915710754d23
-Portuguese (Brazil),grDevices (C files),Failed to create Quartz mask,139277,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=812a78f30345d114
 Portuguese (Brazil),grDevices (C files),Failed to load font,139282,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=1673f951267db90f
-Portuguese (Brazil),grDevices (C files),invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale,226184,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=6ae1bf839c6a4586
 Portuguese (Brazil),grDevices (C files),invalid 'file' parameter in %s,226186,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=a64b5af3b8e5bb9b
 Portuguese (Brazil),grDevices (C files),Failed to apply font variations,307516,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=da546829b5282615
 Portuguese (Brazil),grDevices (C files),cannot open 'postscript' pipe to '%s' (reason: %s),314615,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=42fd26ea2a6699f0
-Portuguese (Brazil),grDevices (C files),cannot open 'pdf' pipe to '%s' (reason: %s),314616,https://translate.rx.studio/translate/r-project/grdevices-c/pt_BR/?checksum=a2a7c6755b89074c
 Portuguese (Brazil),grDevices (R files),Invalid pattern type,76324,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=c68dde2401b22340
 Portuguese (Brazil),grDevices (R files),Invalid 'extend' value,76325,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=4eb1a536201c6122
 Portuguese (Brazil),grDevices (R files),invalid raster subassignment,76361,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=261eaebc59b455b3
