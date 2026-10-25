@@ -1979,9 +1979,6 @@ Catalan,grDevices (R files),invalid width,221248,https://translate.rx.studio/tra
 Catalan,grDevices (R files),invalid height,221249,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=9cf25732bc528589
 Catalan,grDevices (R files),'res' must be specified unless 'units = "px"',221250,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=a177ad685a45c2c9
 Catalan,grDevices (R files),'filename' must be a non-empty character string,221251,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=8d61b315e64ae1e3
-Catalan,grDevices (R files),type = "quartz" is unavailable. trying "Xlib",221252,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=799a8fb7ae11e5da
-Catalan,grDevices (R files),type = "cairo" is unavailable. trying "Xlib",221253,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=d0e0e4d464cd3fe8
-Catalan,grDevices (R files),type = "cairo-png" is unavailable. trying "Xlib",221254,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=415850e17423596c
 Catalan,grDevices (R files),invalid 'file',221256,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=29b4296508db6123
 Catalan,grDevices (R files),invalid Quartz font:  must be 4 strings,221257,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=9094f2aab2cf89ad
 Catalan,grDevices (R files),invalid arguments in 'quartzFonts' (must be font names),221258,https://translate.rx.studio/translate/r-project/grdevices-r/ca/?checksum=43e0f62b3866cab0
@@ -11010,9 +11007,6 @@ Portuguese (Brazil),grDevices (R files),snapshot contains invalid graphics call,
 Portuguese (Brazil),grDevices (R files),Must have the ('Recommended') package "KernSmooth" installed,76372,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=f7ff365d246bf387
 Portuguese (Brazil),grDevices (R files),Available devices are:
 %s,76384,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=8fc786b0b80ba262
-Portuguese (Brazil),grDevices (R files),type = "quartz" is unavailable. trying "Xlib",76386,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=799a8fb7ae11e5da
-Portuguese (Brazil),grDevices (R files),type = "cairo" is unavailable. trying "Xlib",76387,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=d0e0e4d464cd3fe8
-Portuguese (Brazil),grDevices (R files),type = "cairo-png" is unavailable. trying "Xlib",76388,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=415850e17423596c
 Portuguese (Brazil),grDevices (R files),unknown family for X11(type = "XLib"),76395,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=96a86493ef8a1a9e
 Portuguese (Brazil),grDevices (R files),Calls like '%s' are unsafe and should be replaced by '%s',76402,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=8071d440bc4cd1f6
 Portuguese (Brazil),grDevices (R files),Invalid mask type,138433,https://translate.rx.studio/translate/r-project/grdevices-r/pt_BR/?checksum=02093eeae3e39382
