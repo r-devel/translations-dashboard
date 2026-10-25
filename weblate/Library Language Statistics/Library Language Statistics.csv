@@ -179,36 +179,36 @@
 "178",28,"grDevices (C files)","C","Pangasinan",213,0,213,0
 "179",29,"grDevices (C files)","C","Albanian",213,0,213,0
 "180",30,"grDevices (C files)","C","Urdu",213,0,213,0
-"181",1,"grDevices (R files)","R","English",177,177,0,0
-"182",2,"grDevices (R files)","R","Danish",177,92,43,42
-"183",3,"grDevices (R files)","R","German",177,169,4,4
-"184",4,"grDevices (R files)","R","English (United Kingdom)",177,170,3,4
-"185",5,"grDevices (R files)","R","French",177,170,3,4
-"186",6,"grDevices (R files)","R","Italian",177,142,22,13
-"187",7,"grDevices (R files)","R","Japanese",177,121,37,19
-"188",8,"grDevices (R files)","R","Korean",177,113,47,17
-"189",9,"grDevices (R files)","R","Lithuanian",177,132,28,17
-"190",10,"grDevices (R files)","R","Polish",177,170,3,4
-"191",11,"grDevices (R files)","R","Portuguese (Brazil)",177,155,3,19
-"192",12,"grDevices (R files)","R","Russian",177,169,4,4
-"193",13,"grDevices (R files)","R","Chinese (Simplified Han script)",177,113,42,22
-"194",14,"grDevices (R files)","R","Chinese (Traditional Han script)",177,121,37,19
-"195",15,"grDevices (R files)","R","Arabic",177,170,3,4
-"196",16,"grDevices (R files)","R","Spanish",177,176,0,1
-"197",17,"grDevices (R files)","R","Hindi",177,2,175,0
-"198",18,"grDevices (R files)","R","Catalan",177,10,7,160
-"199",19,"grDevices (R files)","R","Indonesian",177,18,158,1
-"200",20,"grDevices (R files)","R","Turkish",177,0,177,0
-"201",21,"grDevices (R files)","R","Bengali",177,0,177,0
-"202",22,"grDevices (R files)","R","Czech",177,0,177,0
-"203",23,"grDevices (R files)","R","Persian",177,0,177,0
-"204",24,"grDevices (R files)","R","Hungarian",177,0,177,0
-"205",25,"grDevices (R files)","R","Nepali",177,0,177,0
-"206",26,"grDevices (R files)","R","Dutch",177,0,177,0
-"207",27,"grDevices (R files)","R","Norwegian Nynorsk",177,0,177,0
-"208",28,"grDevices (R files)","R","Pangasinan",177,0,177,0
-"209",29,"grDevices (R files)","R","Albanian",177,0,177,0
-"210",30,"grDevices (R files)","R","Urdu",177,0,177,0
+"181",1,"grDevices (R files)","R","English",175,175,0,0
+"182",2,"grDevices (R files)","R","Danish",174,92,40,42
+"183",3,"grDevices (R files)","R","German",174,166,4,4
+"184",4,"grDevices (R files)","R","English (United Kingdom)",174,167,3,4
+"185",5,"grDevices (R files)","R","French",174,167,3,4
+"186",6,"grDevices (R files)","R","Italian",174,139,22,13
+"187",7,"grDevices (R files)","R","Japanese",174,121,34,19
+"188",8,"grDevices (R files)","R","Korean",174,113,44,17
+"189",9,"grDevices (R files)","R","Lithuanian",174,132,25,17
+"190",10,"grDevices (R files)","R","Polish",174,167,3,4
+"191",11,"grDevices (R files)","R","Portuguese (Brazil)",174,155,3,16
+"192",12,"grDevices (R files)","R","Russian",174,166,4,4
+"193",13,"grDevices (R files)","R","Chinese (Simplified Han script)",174,113,39,22
+"194",14,"grDevices (R files)","R","Chinese (Traditional Han script)",174,121,34,19
+"195",15,"grDevices (R files)","R","Arabic",174,167,3,4
+"196",16,"grDevices (R files)","R","Spanish",174,173,0,1
+"197",17,"grDevices (R files)","R","Hindi",174,2,172,0
+"198",18,"grDevices (R files)","R","Catalan",174,10,7,157
+"199",19,"grDevices (R files)","R","Indonesian",174,18,155,1
+"200",20,"grDevices (R files)","R","Turkish",174,0,174,0
+"201",21,"grDevices (R files)","R","Bengali",174,0,174,0
+"202",22,"grDevices (R files)","R","Czech",174,0,174,0
+"203",23,"grDevices (R files)","R","Persian",174,0,174,0
+"204",24,"grDevices (R files)","R","Hungarian",174,0,174,0
+"205",25,"grDevices (R files)","R","Nepali",174,0,174,0
+"206",26,"grDevices (R files)","R","Dutch",174,0,174,0
+"207",27,"grDevices (R files)","R","Norwegian Nynorsk",174,0,174,0
+"208",28,"grDevices (R files)","R","Pangasinan",174,0,174,0
+"209",29,"grDevices (R files)","R","Albanian",174,0,174,0
+"210",30,"grDevices (R files)","R","Urdu",174,0,174,0
 "211",1,"graphics (C files)","C","English",130,130,0,0
 "212",2,"graphics (C files)","C","Danish",130,7,122,1
 "213",3,"graphics (C files)","C","German",130,130,0,0
