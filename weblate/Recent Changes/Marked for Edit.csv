@@ -11444,12 +11444,7 @@ Russian,utils (R files),value of option 'strip.white' should be lowercase,314195
 Spanish,base (C files),cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection,145608,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=1ac108c0dab8e5e3
 Spanish,base (C files),no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?),146101,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=986ce66d23a201f9
 Spanish,base (C files),'standardGeneric' called without 'methods' dispatch enabled (will be ignored),146126,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e5e67f62166b21dc
-Spanish,base (C files),data length [%lld] is not a sub-multiple or multiple of the number of rows [%d],226970,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e189ec568c35046d
-Spanish,base (C files),data length [%lld] is not a sub-multiple or multiple of the number of columns [%d],226971,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e790670347256ae9
-Spanish,base (C files),R_pretty(): very small range 'cell'=%.3g, increased to %g,312701,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=2c975b5fbeddda40
 Spanish,base (C files),R_pretty(): very large range 'cell'=%.3g, decreased to %g,312702,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=e712810cb574123b
-Spanish,base (C files),'x' must be numeric or complex,312703,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=0d3a1854c01ae117
-Spanish,base (C files),'name' is not a symbol or a scalar string,312704,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=d5e6bb34c3e4927a
 Spanish,base (C files),invalid time series parameters specified (%d),312705,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=d58a7c56c2c6ff4d
 Spanish,base (C files),'name' must be a scalar string,312706,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=7157daa9fccf1432
 Spanish,base (C files),bad attribute tag,312707,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=9fc46928820f9157
@@ -11476,9 +11471,6 @@ Spanish,base (C files),invalid '%s' argument, given the value of '%s',312734,htt
 Spanish,base (C files),'nvec' is not of mode integer,312735,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=d8c33eeacaac009e
 Spanish,base (C files),'nvec' must be a vector of non-negative integers,312738,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=402ffa3f55b2ed9e
 Spanish,base (C files),'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored,313967,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=bc7b2425b06b405d
-Spanish,base (C files),'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored,313968,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=5cd0f89f0e3ec6d6
-Spanish,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignored,313969,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=6a304e7ff9b7d60f
-Spanish,base (C files),invalid binom type in 'RNGkind',313970,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=3ea0744cd9a91ab6
 Spanish,base (C files),unexpected format in ascii connection '%s',313972,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=88efc53063e6b0fa
 Spanish,base (C files),error reading from connection '%s',313973,https://translate.rx.studio/translate/r-project/base-c/es/?checksum=83375b765e475526
 Spanish,base (R files),'%s' is only meaningful for ordered factors if all arguments have the same level sets,124905,https://translate.rx.studio/translate/r-project/base-r/es/?checksum=0c4b7543f03cbec8
