@@ -1,0 +1,65 @@
+name: Zulip weekly report
+
+on: 
+  # Use this to test without posting; set dry_run to false to send a real message.
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Do not send a Zulip message (recommended for testing)'
+        required: true
+        type: boolean
+        default: true
+  schedule:
+    - cron: '0 19 * * 5'
+  push:
+    branches:
+      - main
+    paths:
+      - 'weblate/Zulip/weekly-report.R'
+      - 'weblate/Zulip/weekly-report.txt'
+      - '.github/workflows/Zulip.yml'
+jobs:
+  Running_R_scripts:
+    runs-on: ubuntu-latest 
+    defaults:
+      run:
+        working-directory: weblate/Zulip
+    steps:
+    - name: checkout_repo
+      uses: actions/checkout@v4
+    - uses: r-lib/actions/setup-r@v2
+    - name: Install packages
+      uses: r-lib/actions/setup-r-dependencies@v2
+      with:
+        packages: |
+          any::dplyr
+          any::httr
+          any::jsonlite
+          any::knitr
+          any::stringr
+          any::readr
+    - name: Run R scripts
+      env:
+        WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+
+
+      run: | 
+        Rscript "weekly-report.R"
+        
+    - name: Send message to Zulip
+      if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.dry_run) }}
+      env:
+        ZULIP_WEBHOOK_URL: ${{ secrets.ZULIP_WEBHOOK_URL }}
+      shell: bash
+      run: |
+        set -euo pipefail
+        if [[ -z "$ZULIP_WEBHOOK_URL" ]]; then
+          echo 'Missing ZULIP_WEBHOOK_URL secret.' >&2
+          exit 1
+        fi
+        payload=$(jq -n --rawfile text weekly-report.txt '{text: $text}')
+        curl --silent --show-error --fail-with-body \
+          -H 'Content-Type: application/json' \
+          --data "$payload" \
+          "$ZULIP_WEBHOOK_URL"
+        echo 'Zulip message sent successfully.'
