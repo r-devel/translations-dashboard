@@ -11307,8 +11307,6 @@ Russian,base (C files),'x' must be numeric or complex,308004,https://translate.r
 Russian,base (C files),'dim' cannot be of length 0,308005,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=c3b7922bcc2915de
 Russian,base (C files),can't shut down a locked device,308010,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=5dfdb0638584859f
 Russian,base (C files),Index out of bounds,308012,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=df71cd1af4e69f2e
-Russian,base (C files),R_pretty(): very small range 'cell'=%.3g, increased to %g,313213,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=2c975b5fbeddda40
-Russian,base (C files),R_pretty(): very large range 'cell'=%.3g, decreased to %g,313214,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=e712810cb574123b
 Russian,base (C files),'name' is not a symbol or a scalar string,313215,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=d5e6bb34c3e4927a
 Russian,base (C files),invalid time series parameters specified (%d),313216,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=d58a7c56c2c6ff4d
 Russian,base (C files),'name' must be a scalar string,313217,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=7157daa9fccf1432
@@ -11335,8 +11333,6 @@ Russian,base (C files),length(x) * '%s' * '%s' is too large,313244,https://trans
 Russian,base (C files),invalid '%s' argument, given the value of '%s',313245,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=17e6dac38f7b74c8
 Russian,base (C files),'nvec' is not of mode integer,313246,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=d8c33eeacaac009e
 Russian,base (C files),'nvec' must be a vector of non-negative integers,313249,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=402ffa3f55b2ed9e
-Russian,base (C files),'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored,314072,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=bc7b2425b06b405d
-Russian,base (C files),'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored,314073,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=5cd0f89f0e3ec6d6
 Russian,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignored,314074,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=6a304e7ff9b7d60f
 Russian,base (C files),invalid binom type in 'RNGkind',314075,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=3ea0744cd9a91ab6
 Russian,base (C files),unexpected format in ascii connection '%s',314077,https://translate.rx.studio/translate/r-project/base-c/ru/?checksum=88efc53063e6b0fa
