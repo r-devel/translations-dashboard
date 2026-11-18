@@ -102,7 +102,7 @@
 "101",11,"base (C files)","C","Norwegian Nynorsk",1738,1087,191,460
 "102",12,"base (C files)","C","Polish",1738,1687,12,39
 "103",13,"base (C files)","C","Portuguese (Brazil)",1738,1416,33,289
-"104",14,"base (C files)","C","Russian",1738,1673,13,52
+"104",14,"base (C files)","C","Russian",1738,1677,13,48
 "105",15,"base (C files)","C","Turkish",1738,1088,198,452
 "106",16,"base (C files)","C","Chinese (Simplified Han script)",1738,1388,118,232
 "107",17,"base (C files)","C","Chinese (Traditional Han script)",1738,1399,108,231
@@ -792,7 +792,7 @@
 "791",11,"Mac GUI","English","Turkish",505,35,470,0
 "792",12,"Mac GUI","English","Hungarian",505,144,361,0
 "793",13,"Mac GUI","English","Catalan",505,505,0,0
-"794",14,"Mac GUI","English","English (United Kingdom)",505,1,504,0
+"794",14,"Mac GUI","English","English (United Kingdom)",505,2,503,0
 "795",15,"Mac GUI","English","Russian",505,505,0,0
 "796",16,"Mac GUI","English","Pangasinan",505,0,505,0
 "797",17,"Mac GUI","English","Portuguese (Brazil)",505,505,0,0
