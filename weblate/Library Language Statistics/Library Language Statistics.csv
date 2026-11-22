@@ -4,7 +4,7 @@
 "3",3,"base (R GUI)","R","German",264,264,0,0
 "4",4,"base (R GUI)","R","Spanish",264,264,0,0
 "5",5,"base (R GUI)","R","Persian",264,256,0,8
-"6",6,"base (R GUI)","R","French",264,263,0,1
+"6",6,"base (R GUI)","R","French",264,264,0,0
 "7",7,"base (R GUI)","R","Italian",264,264,0,0
 "8",8,"base (R GUI)","R","Japanese",264,262,0,2
 "9",9,"base (R GUI)","R","Korean",264,259,0,5
@@ -34,7 +34,7 @@
 "33",3,"The R Project for Statistical Computing","English","German",179,6,173,0
 "34",4,"The R Project for Statistical Computing","English","Spanish",207,149,58,0
 "35",5,"The R Project for Statistical Computing","English","Persian",179,2,177,0
-"36",6,"The R Project for Statistical Computing","English","French",179,80,95,4
+"36",6,"The R Project for Statistical Computing","English","French",179,89,90,0
 "37",7,"The R Project for Statistical Computing","English","Italian",179,5,174,0
 "38",8,"The R Project for Statistical Computing","English","Japanese",181,5,176,0
 "39",9,"The R Project for Statistical Computing","English","Korean",179,5,174,0
@@ -63,7 +63,7 @@
 "62",2,"base (R files)","R","Danish",587,448,63,76
 "63",3,"base (R files)","R","German",587,574,4,9
 "64",4,"base (R files)","R","Persian",587,1,586,0
-"65",5,"base (R files)","R","French",587,577,0,10
+"65",5,"base (R files)","R","French",587,579,0,8
 "66",6,"base (R files)","R","Italian",587,553,13,21
 "67",7,"base (R files)","R","Japanese",587,499,20,68
 "68",8,"base (R files)","R","Korean",587,369,172,46
@@ -94,7 +94,7 @@
 "93",3,"base (C files)","C","German",1741,1719,6,16
 "94",4,"base (C files)","C","Spanish",1738,1685,21,32
 "95",5,"base (C files)","C","Persian",1738,3,1735,0
-"96",6,"base (C files)","C","French",1738,1695,6,37
+"96",6,"base (C files)","C","French",1738,1700,1,37
 "97",7,"base (C files)","C","Italian",1738,1572,32,134
 "98",8,"base (C files)","C","Japanese",1738,1341,132,265
 "99",9,"base (C files)","C","Korean",1738,1167,361,210
@@ -153,7 +153,7 @@
 "152",2,"grDevices (C files)","C","Danish",213,78,67,68
 "153",3,"grDevices (C files)","C","German",213,206,2,5
 "154",4,"grDevices (C files)","C","English (United Kingdom)",213,206,2,5
-"155",5,"grDevices (C files)","C","French",213,199,0,14
+"155",5,"grDevices (C files)","C","French",213,209,0,4
 "156",6,"grDevices (C files)","C","Italian",213,179,6,28
 "157",7,"grDevices (C files)","C","Japanese",213,142,46,25
 "158",8,"grDevices (C files)","C","Korean",213,134,56,23
@@ -183,7 +183,7 @@
 "182",2,"grDevices (R files)","R","Danish",174,92,40,42
 "183",3,"grDevices (R files)","R","German",174,166,4,4
 "184",4,"grDevices (R files)","R","English (United Kingdom)",174,167,3,4
-"185",5,"grDevices (R files)","R","French",174,170,0,4
+"185",5,"grDevices (R files)","R","French",174,173,0,1
 "186",6,"grDevices (R files)","R","Italian",174,139,22,13
 "187",7,"grDevices (R files)","R","Japanese",174,121,34,19
 "188",8,"grDevices (R files)","R","Korean",174,113,44,17
@@ -542,7 +542,7 @@
 "541",1,"stats (R files)","R","English",840,840,0,0
 "542",2,"stats (R files)","R","Danish",834,44,756,34
 "543",3,"stats (R files)","R","German",837,799,16,22
-"544",4,"stats (R files)","R","French",834,804,15,15
+"544",4,"stats (R files)","R","French",834,819,15,0
 "545",5,"stats (R files)","R","Italian",834,778,26,30
 "546",6,"stats (R files)","R","Japanese",834,715,49,70
 "547",7,"stats (R files)","R","Korean",834,589,194,51
@@ -692,7 +692,7 @@
 "691",1,"tools (R files)","R","English",455,455,0,0
 "692",2,"tools (R files)","R","Danish",455,42,381,32
 "693",3,"tools (R files)","R","German",455,432,11,12
-"694",4,"tools (R files)","R","French",455,432,13,10
+"694",4,"tools (R files)","R","French",455,441,13,1
 "695",5,"tools (R files)","R","Italian",455,393,18,44
 "696",6,"tools (R files)","R","Japanese",455,318,70,67
 "697",7,"tools (R files)","R","Korean",455,279,123,53
@@ -721,7 +721,7 @@
 "720",30,"tools (R files)","R","Urdu",455,0,455,0
 "721",1,"utils (C files)","C","English",59,59,0,0
 "722",2,"utils (C files)","C","German",59,59,0,0
-"723",3,"utils (C files)","C","French",59,58,0,1
+"723",3,"utils (C files)","C","French",59,59,0,0
 "724",4,"utils (C files)","C","Italian",59,58,0,1
 "725",5,"utils (C files)","C","Korean",59,48,7,4
 "726",6,"utils (C files)","C","Lithuanian",59,55,1,3
@@ -753,7 +753,7 @@
 "752",2,"utils (R files)","R","Danish",424,36,351,37
 "753",3,"utils (R files)","R","German",424,402,8,14
 "754",4,"utils (R files)","R","Persian",424,5,416,3
-"755",5,"utils (R files)","R","French",424,401,8,15
+"755",5,"utils (R files)","R","French",424,413,8,3
 "756",6,"utils (R files)","R","Italian",424,393,14,17
 "757",7,"utils (R files)","R","Japanese",424,330,58,36
 "758",8,"utils (R files)","R","Korean",424,297,92,35
