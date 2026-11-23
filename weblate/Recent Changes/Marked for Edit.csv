@@ -6412,65 +6412,8 @@ English (United Kingdom),utils (R files),package %s successfully unpacked and %s
 English (United Kingdom),utils (R files),package %s signature verified (%s %s),309892,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=af07a7725f6413f9
 English (United Kingdom),utils (R files),value of option 'results' should be lowercase,314155,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=d30179b06699ee49
 English (United Kingdom),utils (R files),value of option 'strip.white' should be lowercase,314156,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=c1bb6b97fed78121
-French,base (C files),'x' must be numeric or complex,307762,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=0d3a1854c01ae117
-French,base (C files),'dim' cannot be of length 0,307763,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=c3b7922bcc2915de
-French,base (C files),Index out of bounds,307770,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=df71cd1af4e69f2e
-French,base (C files),R_pretty(): very small range 'cell'=%.3g, increased to %g,312773,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=2c975b5fbeddda40
-French,base (C files),R_pretty(): very large range 'cell'=%.3g, decreased to %g,312774,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=e712810cb574123b
-French,base (C files),'name' is not a symbol or a scalar string,312775,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=d5e6bb34c3e4927a
-French,base (C files),invalid time series parameters specified (%d),312776,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=d58a7c56c2c6ff4d
-French,base (C files),'name' must be a scalar string,312777,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=7157daa9fccf1432
-French,base (C files),bad attribute tag,312778,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=9fc46928820f9157
-French,base (C files),invalid multibyte string, element %lld,312779,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=2fbd2265df840e42
-French,base (C files),number of characters is not computable in "bytes" encoding, element %lld,312780,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=2bee804beec7ce72
-French,base (C files),width is not computable in "bytes" encoding, element %lld,312781,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=b8f0a42adef89938
-French,base (C files),file stream has trailing content that appears not to be compressed by gzip,312782,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=a54e41d3abd60b5d
-French,base (C files),'cumvar' not defined for complex numbers,312783,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=80c3c690c449851f
-French,base (C files),bad ... value,312785,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=02220b312fac999c
-French,base (C files),unbound variable,312788,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=54e53884c18286a7
-French,base (C files),not a delayed or forced binding,312789,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=e2261ef1535c9e52
-French,base (C files),not a delayed binding,312790,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=76a810798890678b
-French,base (C files),not a forced binding,312791,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=463f422a659642e7
-French,base (C files),existing `*tmp*` binding is an active binding,312793,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=fb969bd9d2c35989
-French,base (C files),'%s' is not of type %s,312794,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=e037c6aecceb2dea
-French,base (C files),attempt access index %lld/%lld in STRING_ELT,312795,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=c7c10eb0bfad7fe5
-French,base (C files),attempt access index %lld/%lld in VECTOR_ELT,312796,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=aadc12b80dae3279
-French,base (C files),cannot make a resizable vector of type '%s',312797,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=637084b69181c5d2
-French,base (C files),invalid negative 'newlen',312800,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=1518e9d63616ee0c
-French,base (C files),not a resizable vector,312801,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=335ce13a89484973
-French,base (C files),'newlen' is too large,312802,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=af5634f0eaf41653
-French,base (C files),length(x) * '%s' * '%s' is too large,312804,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=e43c929381aa5e9a
-French,base (C files),invalid '%s' argument, given the value of '%s',312805,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=17e6dac38f7b74c8
-French,base (C files),'nvec' is not of mode integer,312806,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=d8c33eeacaac009e
-French,base (C files),'nvec' must be a vector of non-negative integers,312809,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=402ffa3f55b2ed9e
-French,base (C files),'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored,313981,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=bc7b2425b06b405d
-French,base (C files),'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored,313982,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=5cd0f89f0e3ec6d6
-French,base (C files),'.Random.seed[1] %% 100' is not a valid RNG kind so ignored,313983,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=6a304e7ff9b7d60f
-French,base (C files),invalid binom type in 'RNGkind',313984,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=3ea0744cd9a91ab6
-French,base (C files),unexpected format in ascii connection '%s',313986,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=88efc53063e6b0fa
-French,base (C files),error reading from connection '%s',313987,https://translate.rx.studio/translate/r-project/base-c/fr/?checksum=83375b765e475526
-French,base (R files),without 'by', when one of 'to', 'from' is missing, 'length.out' / 'along.with' must be specified,270733,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=d8a6ad3d85ae293d
-French,base (R files),given 'by', exactly two of 'to', 'from' and 'length.out' / 'along.with' must be specified,270734,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=035cca669b0c6f3b
-French,base (R files),exactly three of 'to', 'from', 'by' and 'length.out' / 'along.with' must be specified,270735,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=9da6cce003460690
-French,base (R files),directories are ignored,308824,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=eada66bb551c8617
-French,base (R files),namespace '%s' is already loaded so argument '%s' will be ignored.,308827,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=b50eacf7c792b0d3
-French,base (R files),No functions specified,313849,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=ed47ffda240346ef
-French,base (R files),%s may not have argument(s) %s,314951,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=3c26ac42d39383e1
-French,base (R files),package %s has a license that you need to accept:
-  according to the DESCRIPTION file it is
-  %s,314952,https://translate.rx.studio/translate/r-project/base-r/fr/?checksum=b0535635410a0763
-French,graphics (R files),panel.last ignored, it is not a function,307549,https://translate.rx.studio/translate/r-project/graphics-r/fr/?checksum=b9a94c6623cec310
-French,grDevices (C files),Quartz clipping paths exhausted (failed to increase maxClipPaths),139147,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=25f6de1cc1b45d4e
-French,grDevices (C files),Add compositing operator not supported; falling back to over,139155,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=16ce6f6ba35acf1c
-French,grDevices (C files),Font variations too long,310109,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=ec3cddf127766b0c
-French,grDevices (C files),Failed to apply font variations,310110,https://translate.rx.studio/translate/r-project/grdevices-c/fr/?checksum=da546829b5282615
-French,grDevices (R files),Axis value(s) out of range,307393,https://translate.rx.studio/translate/r-project/grdevices-r/fr/?checksum=1af2c70d39d3f643
-French,grid (R files),'x' and 'y' must be units and 'device' must be logical,138533,https://translate.rx.studio/translate/r-project/grid-r/fr/?checksum=475958671807aef1
-French,grid (R files),'w' and 'h' must be units and 'device' must be logical,138534,https://translate.rx.studio/translate/r-project/grid-r/fr/?checksum=60ed80dd1c84435b
 French,methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258507,https://translate.rx.studio/translate/r-project/methods-r/fr/?checksum=cec0c4408bb2134c
 French,parallel (R files),incompatible arguments,314216,https://translate.rx.studio/translate/r-project/parallel-r/fr/?checksum=32aa3090a4816666
-French,tools (R files),must specify 'address',314495,https://translate.rx.studio/translate/r-project/tools-r/fr/?checksum=55b2d94f5ea578ca
-French,utils (R files),Enter a frame number, or 0 to exit,307208,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=f95c948e8533972b
 French,utils (R files),file %s is not a binary package,307216,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=e433e00498c53e38
 French,utils (R files),package %s signature verified (%s %s),309924,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=af07a7725f6413f9
 German,base (C files),input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8,143040,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=fa6ea6222ca33e93
