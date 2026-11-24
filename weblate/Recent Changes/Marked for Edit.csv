@@ -6412,10 +6412,6 @@ English (United Kingdom),utils (R files),package %s successfully unpacked and %s
 English (United Kingdom),utils (R files),package %s signature verified (%s %s),309892,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=af07a7725f6413f9
 English (United Kingdom),utils (R files),value of option 'results' should be lowercase,314155,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=d30179b06699ee49
 English (United Kingdom),utils (R files),value of option 'strip.white' should be lowercase,314156,https://translate.rx.studio/translate/r-project/utils-r/en_GB/?checksum=c1bb6b97fed78121
-French,methods (R files),invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s),258507,https://translate.rx.studio/translate/r-project/methods-r/fr/?checksum=cec0c4408bb2134c
-French,parallel (R files),incompatible arguments,314216,https://translate.rx.studio/translate/r-project/parallel-r/fr/?checksum=32aa3090a4816666
-French,utils (R files),file %s is not a binary package,307216,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=e433e00498c53e38
-French,utils (R files),package %s signature verified (%s %s),309924,https://translate.rx.studio/translate/r-project/utils-r/fr/?checksum=af07a7725f6413f9
 German,base (C files),input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8,143040,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=fa6ea6222ca33e93
 German,base (C files),invalid 'scipen',271003,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=7ca8b90ff07a1c06
 German,base (C files),setting scipen=%g is out of range,271004,https://translate.rx.studio/translate/r-project/base-c/de/?checksum=f3965a0469811d5b
