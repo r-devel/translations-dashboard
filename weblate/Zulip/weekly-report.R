@@ -122,12 +122,12 @@ if (length(username)){
   report_text <- paste(c(paste0(format(datetime, "%Y-%m-%d %H:%M:%S UTC"), 
   ": Summary of the updates on Weblate in the last 7 days"), 
   if (length(name)){
-    c("*New Contributors*", knitr::kable(new_contributor), "\n")
+    c("*New Contributors*", knitr::kable(new_contributor))
   } else "",
   c("*Message updates*"),
-  knitr::kable(leaderboard), "\n",
-  knitr::kable(language_updates), "\n",
-  knitr::kable(component_updates)), collapse = "\n")
+  knitr::kable(leaderboard),
+  knitr::kable(language_updates),
+  knitr::kable(component_updates)), collapse = "\n\n")
   writeLines(report_text, "weekly-report.txt")
 } else {
   writeLines(paste0(Sys.Date(), ": No activity on Weblate in the last 7 days"),
