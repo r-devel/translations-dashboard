@@ -1,30 +1,30 @@
 "","S.no","Library","Component","Language","Total_words","Translated","Untranslated","Fuzzy"
-"1",1,"base (R GUI)","R","English",264,264,0,0
-"2",2,"base (R GUI)","R","Danish",264,263,0,1
-"3",3,"base (R GUI)","R","German",264,264,0,0
-"4",4,"base (R GUI)","R","Spanish",264,264,0,0
-"5",5,"base (R GUI)","R","Persian",264,256,0,8
-"6",6,"base (R GUI)","R","French",264,264,0,0
-"7",7,"base (R GUI)","R","Italian",264,264,0,0
-"8",8,"base (R GUI)","R","Japanese",264,262,0,2
-"9",9,"base (R GUI)","R","Korean",264,259,0,5
-"10",10,"base (R GUI)","R","Lithuanian",264,258,0,6
-"11",11,"base (R GUI)","R","Norwegian Nynorsk",264,256,0,8
-"12",12,"base (R GUI)","R","Polish",264,264,0,0
-"13",13,"base (R GUI)","R","Portuguese (Brazil)",264,256,0,8
-"14",14,"base (R GUI)","R","Russian",264,264,0,0
-"15",15,"base (R GUI)","R","Turkish",264,256,0,8
-"16",16,"base (R GUI)","R","Chinese (Simplified Han script)",264,264,0,0
-"17",17,"base (R GUI)","R","Chinese (Traditional Han script)",264,258,0,6
-"18",18,"base (R GUI)","R","Arabic",264,261,3,0
-"19",19,"base (R GUI)","R","Hindi",264,264,0,0
-"20",20,"base (R GUI)","R","Nepali",264,264,0,0
-"21",21,"base (R GUI)","R","Bengali",264,5,259,0
-"22",22,"base (R GUI)","R","Catalan",264,264,0,0
-"23",23,"base (R GUI)","R","Dutch",264,1,263,0
-"24",24,"base (R GUI)","R","Hungarian",264,235,15,14
-"25",25,"base (R GUI)","R","English (United Kingdom)",264,264,0,0
-"26",26,"base (R GUI)","R","Indonesian",264,43,221,0
+"1",1,"base (R GUI)","R","English",265,265,0,0
+"2",2,"base (R GUI)","R","Danish",265,263,1,1
+"3",3,"base (R GUI)","R","German",265,265,0,0
+"4",4,"base (R GUI)","R","Spanish",265,264,1,0
+"5",5,"base (R GUI)","R","Persian",265,256,1,8
+"6",6,"base (R GUI)","R","French",265,265,0,0
+"7",7,"base (R GUI)","R","Italian",265,264,1,0
+"8",8,"base (R GUI)","R","Japanese",265,262,1,2
+"9",9,"base (R GUI)","R","Korean",265,259,1,5
+"10",10,"base (R GUI)","R","Lithuanian",265,258,1,6
+"11",11,"base (R GUI)","R","Norwegian Nynorsk",265,256,1,8
+"12",12,"base (R GUI)","R","Polish",265,264,1,0
+"13",13,"base (R GUI)","R","Portuguese (Brazil)",265,256,1,8
+"14",14,"base (R GUI)","R","Russian",265,264,1,0
+"15",15,"base (R GUI)","R","Turkish",265,256,1,8
+"16",16,"base (R GUI)","R","Chinese (Simplified Han script)",265,264,1,0
+"17",17,"base (R GUI)","R","Chinese (Traditional Han script)",265,258,1,6
+"18",18,"base (R GUI)","R","Arabic",265,261,4,0
+"19",19,"base (R GUI)","R","Hindi",265,264,1,0
+"20",20,"base (R GUI)","R","Nepali",265,264,1,0
+"21",21,"base (R GUI)","R","Bengali",265,5,260,0
+"22",22,"base (R GUI)","R","Catalan",265,264,1,0
+"23",23,"base (R GUI)","R","Dutch",265,1,264,0
+"24",24,"base (R GUI)","R","Hungarian",265,235,16,14
+"25",25,"base (R GUI)","R","English (United Kingdom)",265,264,1,0
+"26",26,"base (R GUI)","R","Indonesian",265,43,222,0
 "27",27,"base (R GUI)","R","Czech",264,0,264,0
 "28",28,"base (R GUI)","R","Pangasinan",264,0,264,0
 "29",29,"base (R GUI)","R","Albanian",264,0,264,0
